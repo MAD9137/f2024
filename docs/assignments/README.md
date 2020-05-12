@@ -1,6 +1,6 @@
 # MAD9137 Deliverables
 
-![You can do it](/~@root/you-can-do-it.gif)
+![You can do it](/F2020/you-can-do-it.gif)
 
 ## Assignments
 
