@@ -14,13 +14,13 @@ footer: Authored by MAD&D Faculty ~ Copyright © 2020, Algonquin College of Appl
 ---
 
 <ContactCard 
-  name="Steve Griffith"
-  img-url="/steve-griffith.jpeg"
-  bio="Professor and Coordinator of the Mobile Application Design & Development program at Algonquin College"
+  name="Sebastian Lenczewski"
+  title="MAD&D Instructor"
+  img-url="../steve-griffith.jpeg"
+  bio="Coordinator of the Mobile Application Design & Development Program at Algonquin College."
   :details="[
-      { label: 'email', value: 'griffis@algonquincollge.com' }, 
-      { label: 'twitter', value: '@Prof3ssorSt3v3' }, 
-      { label: 'github', value: 'prof3ssorSt3v3' }, 
-      { label: 'office', value: 'J313c - by appointment' }
+      { label: 'email', value: 'lenczes@algonquincollege.com' }, 
+      { label: 'github', value: 'lenczes' }, 
+      { label: 'phone', value: '(613) 727-4723 x' }
     ]"
 />
