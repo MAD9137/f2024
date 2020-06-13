@@ -21,7 +21,7 @@ N/A
 
 ## During Class
 
-- Review coruse overview and epectations
+- Review course overview and expectations
 - Setup development environment (Xcode)
 
 ## Following Class
