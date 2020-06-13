@@ -34,7 +34,7 @@ module.exports = {
       },
       {
         text: 'Deliverables',
-        link: '/assignments/',
+        link: '/assessments/',
       },
       {
         text: 'Modules',
@@ -71,7 +71,7 @@ module.exports = {
         title: 'Deliverables',
         collapsable: true,
         sidebarDepth: 2,
-        children: ['/assignments/'],
+        children: ['/assessments/'],
       },
     ],
   },
