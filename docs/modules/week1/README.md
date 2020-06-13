@@ -1,14 +1,29 @@
-# Week
+# Week 1 Summary
 
-::: tip Agenda
-This week...
-:::
+## Learning Outcomes for this Week
 
-## Topic
+By the end of this week, students will:
 
-## TODO
+- Be introduced to Xcode
 
-::: tip TODO before next week
+## Assessments Assigned
 
-- Read all the notes for Week 2 and watch the videos. This will help you to answer quiz questions and prepare you for the lectures and the Hybrid exercises.
-  :::
+N/A
+
+## Assessments Due
+
+N/A
+
+## Prior to Class
+
+- Complete summer material
+- Review week 1 material
+
+## During Class
+
+- Review coruse overview and epectations
+- Setup development environment (Xcode)
+
+## Following Class
+
+- Review week 2 material

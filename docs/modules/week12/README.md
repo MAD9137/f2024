@@ -1,14 +1,33 @@
-# Week
+# Week 12 Summary
 
-::: tip Agenda
-This week...
-:::
+## Learning Outcomes for this Week
 
-## Topic
+By the end of this week, students will:
+- item 1
+- item 2
+- item 3 
 
-## TODO
+## Assessments Assigned
+[text](https://link)
 
-::: tip TODO before next week
+## Assessments Due
 
-- Read all the notes for Week 2 and watch the videos. This will help you to answer quiz questions and prepare you for the lectures and the Hybrid exercises.
-  :::
+[text](https://link)
+
+## Prior to Class
+
+- item 1
+- item 2
+- item 3 
+
+## During Class
+
+- item 1
+- item 2
+- item 3 
+
+## Following Class
+
+- item 1
+- item 2
+- item 3 

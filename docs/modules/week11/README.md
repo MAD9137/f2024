@@ -1,14 +1,41 @@
-# Week
+# Week 11 Summary
 
-::: tip Agenda
-This week...
-:::
+## Learning Outcomes for this Week
 
-## Topic
+By the end of this week, students will:
 
-## TODO
+- Make URL requests
+- Handle a response from URL request
+- Process and display JSON data
 
-::: tip TODO before next week
+## Assessments Assigned
 
-- Read all the notes for Week 2 and watch the videos. This will help you to answer quiz questions and prepare you for the lectures and the Hybrid exercises.
-  :::
+- [Assignment 4](/assessments/assignments/assignment-4.md)
+
+## Assessments Due
+
+- [Assignment 3](/assessments/assignments/assignment-3.md)
+- [Discussion 3](/assessments/participation/discussion-3.md)
+
+## Class Agenda
+
+### Class 1
+
+#### Lecture and Demonstration
+
+- Parsing JSON
+- Setup projects to make URL requests
+- SwiftUI (time permitting)
+
+Remaining time to work on Assignment 3
+
+### Class 2
+
+#### Lecture and Demonstration
+
+- URL requests
+- Request processing
+- Review of Assignment 4
+- SwiftUI (time permitting)
+
+Remaining time to work on Assignment 3

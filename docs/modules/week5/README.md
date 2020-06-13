@@ -1,14 +1,33 @@
-# Week
+# Week 5 Summary
 
-::: tip Agenda
-This week...
-:::
+## Learning Outcomes for this Week
 
-## Topic
+By the end of this week, students will:
 
-## TODO
+- Learn to create tables and populate with data
+- Learn to pass data between Views
+- Enable navigation with a navigation controller
 
-::: tip TODO before next week
+## Assessments Assigned
 
-- Read all the notes for Week 2 and watch the videos. This will help you to answer quiz questions and prepare you for the lectures and the Hybrid exercises.
-  :::
+[Assignment 2](/assessments/assignments/assignment-2.md)
+
+## Assessments Due
+
+[Assignment 1](/assessments/assignments/assignment-1.md)
+
+## Prior to Class
+
+- Continue working on [Assignment 1](/assessments/assignments/assignment-1.md)
+- Review material and watch videos for this week
+
+## During Class
+
+- Lecture and code demonstrations of:
+    - creating tables
+    - using segues to navigate to different views and pass data
+    - creating a navigation controller
+
+## Following Class
+
+- Begin working on [Assignment 2](/assessments/assignments/assignment-2.md)

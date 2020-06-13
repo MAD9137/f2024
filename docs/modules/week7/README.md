@@ -1,14 +1,33 @@
-# Week
+# Week 7 Summary
 
-::: tip Agenda
-This week...
-:::
+## Learning Outcomes for this Week
 
-## Topic
+By the end of this week, students will:
 
-## TODO
+- Understand the requirements for the [mid-term Project](/assessments/projects/mid-term.md)
+- Learn how to work with dates in iOS by implementing the Date class
+- Have begun to work on the mid-term project
 
-::: tip TODO before next week
+## Assessments Assigned
 
-- Read all the notes for Week 2 and watch the videos. This will help you to answer quiz questions and prepare you for the lectures and the Hybrid exercises.
-  :::
+[Mid-Term Project](/assessments/projects/mid-term.md)
+
+## Assessments Due
+
+[Discussion 2](/assessments/participation/discussion-2.md)
+
+## Prior to Class
+
+- Review this week's material
+- Continue working on [Discussion 2](/assessments/participation/discussion-2.md)
+
+## During Class
+
+- Demonstration and lecturing on working with dates
+- Review of [mid-term Project](/assessments/projects/mid-term.md)
+
+## Following Class
+
+- Continue working on [Discussion 2](/assessments/participation/discussion-2.md)
+- Begin working on [mid-term Project](/assessments/projects/mid-term.md)
+- Enjoy the mid-term break :)

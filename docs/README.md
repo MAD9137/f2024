@@ -1,26 +1,14 @@
 ---
 home: true
-heroImage: /mad-d-logo.png
+# heroImage: /hero.jpg
 actionText: Get Started →
-actionLink: /overview/
+actionLink: ./content/
 features:
-  - title: XCode
-    details: Learn how to design and build iOS native applications with XCode.
-  - title: Swift
-    details: Learn the programming language Swift for programming native iOS apps.
-  - title: SwiftUI
-    details: Learn how to use swiftUI and the design tools in XCode to storyboard and design your apps.
-footer: Authored by MAD&D Faculty ~ Copyright © 2020, Algonquin College of Applied Arts and Technology
----
-
-<ContactCard 
-  name="Sebastian Lenczewski"
-  title="MAD&D Instructor"
-  img-url="../steve-griffith.jpeg"
-  bio="Coordinator of the Mobile Application Design & Development Program at Algonquin College."
-  :details="[
-      { label: 'email', value: 'lenczes@algonquincollege.com' }, 
-      { label: 'github', value: 'lenczes' }, 
-      { label: 'phone', value: '(613) 727-4723 x' }
-    ]"
-/>
+  - title: Design iOS user interfaces leveraging best practices and recommended guidelines
+    details: Utilize the Apple human interface guidelines to produce pleasing user experiences. Implement responsive interface layouts and elements that adapt to various screen resolutions, orientation and sizes and identify the core interface elements available for use in iOS. 
+  - title: Produce applications for iPhone and iPad targeting iOS version 12
+    details: You'll learn main features and differences between various iOS devices and learn to use Apple's integrated development environment (Xcode) to create iOS applications.
+  - title: Apply various development techniques and design patterns in the creation of iOS applications
+    details: Learn the fundamentals of the Model-View-Controller pattern and how it is applied developing iOS applications. Communicate with REST APIs to request data and consume JSON data in responses and convert JSON data to Swift data types for consumption within an application.
+footer: Copyright © 2019
+--- 

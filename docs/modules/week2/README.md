@@ -1,14 +1,26 @@
-# Week
+# Week 2 Summary
 
-::: tip Agenda
-This week...
-:::
+## Assessments Assigned
 
-## Topic
+[Discussion 1](/assessments/participation/discussion-1.md)
 
-## TODO
+[Quiz 1](/assessments/participation/quiz-1.md)
 
-::: tip TODO before next week
+## Assessments Due
 
-- Read all the notes for Week 2 and watch the videos. This will help you to answer quiz questions and prepare you for the lectures and the Hybrid exercises.
-  :::
+N/A
+
+## Prior to Class
+
+- Review Week 2 material including videos
+- Ensure Xcode and simulators are installed and operating correctly
+
+## During Class
+
+- Begin to explore Swift data types & collections
+- Use playgrounds in Xcode
+
+## Following Class
+
+- Continue working towards completing [Discussion 1](/assessments/participation/discussion-1.md)
+- Continue working towards completing [Quiz 1](/assessments/participation/quiz-1.md)
