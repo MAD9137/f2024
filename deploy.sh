@@ -12,7 +12,7 @@ git add -A
 git commit -m 'course update'
 
 # REPLACE NEXT LINE with your own private repo link
-git push -f git@github.com:prof3ssorSt3v3/mad9137-f20.git master
+git push -f git@github.com:Sebsmad/mad9137-f20.git master
 
 # Upload the public github.io coursebook version
 # navigate into the build output directory
