@@ -52,7 +52,7 @@ module.exports = {
         sidebarDepth: 2,
         children: [
           '/modules/week1/',
-          // '/modules/week2/',
+          '/modules/week2/',
           // '/modules/week3/',
           // '/modules/week4/',
           // '/modules/week5/',
