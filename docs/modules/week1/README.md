@@ -23,6 +23,7 @@ N/A
 ## During Class
 
 - Review course overview and expectations
+<!-- - Setup development environment (Xcode) -->
 - [Introduction to iOS Mobile Development with Swift](./introduction.md)
 - [Developing with Apple](./developing-with-apple.md)
 - [What is Xcode?](./what-is-xcode.md)
