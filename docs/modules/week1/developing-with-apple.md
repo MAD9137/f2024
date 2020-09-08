@@ -18,3 +18,5 @@ The following video explains the process of signing up for a developer's account
 <!-- [The iOS Developer Program](https://www.lynda.com/Swift-tutorials/iOS-Developer-Program/466181/483033-4.html) -->
 
 [The Apple Developer Program](https://developer.apple.com)
+
+[Back to Week 1](https://mad9137.github.io/F2020/modules/week1/#during-class)

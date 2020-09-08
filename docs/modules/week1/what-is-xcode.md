@@ -28,3 +28,5 @@ Next you will want to follow these steps to download the iOS simulators:
 * It is suggested that you install everything available.
 
 **NOTE:** You may need to go back and keep checking both macOS, and Xcode for updates once you think you have installed everything from Xcode's download.
+
+[Back to Week 1](https://mad9137.github.io/F2020/modules/week1/#during-class)

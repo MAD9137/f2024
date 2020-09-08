@@ -19,3 +19,5 @@ Here are some videos to help acquaint yourself with Xcode before you continue:
 [Xcode preferences <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/ios-13-development-essential-training-1-fundamentals-ui-and-architecture/xcode-preferences?u=2199673)
 
 [Use the iOS Simulator <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/ios-13-development-essential-training-1-fundamentals-ui-and-architecture/use-the-ios-simulator?u=2199673)
+
+[Back to Week 1](https://mad9137.github.io/F2020/modules/week1/#during-class)
