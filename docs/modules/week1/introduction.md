@@ -6,7 +6,7 @@ The overall goal of this class is to impart a working knowledge of how to build 
 
 We will be using the Swift coding language in Xcode to develop iOS applications.
 
-**NOTE:**   **This course will be using the newest versions of macOS, Xcode and Swift.**
+**NOTE:**   **This course will be using the most current versions of macOS, Xcode and Swift available at the start of the semester.**
 
 ## Basic Requirements
 
@@ -36,6 +36,6 @@ In addition to the in-class lessons and the material posted on Brightspace, we w
 
 You should already have access to [Pluralsight](https://app.pluralsight.com) from the College.  If you cannot access Pluralsight, please contact your course coordinators.
 
-## LinkedIn Learning
+### LinkedIn Learning
 
 You should already have access to [LinkedIn Learning](https://www.linkedin.com/learning/) from the College.  If you cannot access LinkedIn Learning, please contact your course coordinators.
