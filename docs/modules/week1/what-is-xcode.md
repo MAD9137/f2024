@@ -4,14 +4,14 @@
 
 When it was first released back in 2003, Xcode greatly simplified development of applications over its predecessor *Project Builder*.  Xcode is free to download for Mac owners, and comes with the iOS SDK and an emulator for iOS development built in.  Xcode allows the creation of projects using C,  C++, Objective-C, the Swift coding language and more.  As stated before, you will be using the newest version of Xcode and Swift for development in this course.
 
-The following video gives you a brief introduction to Xcode:
-[Xcode 9 Essential Training - What is Xcode? <Badge text='Lynda'/>](https://www.lynda.com/Xcode-tutorials/What-Xcode/642476/706295-4.html)
+<!-- The following video gives you a brief introduction to Xcode:
+[Xcode 9 Essential Training - What is Xcode? <Badge text='Lynda'/>](https://www.lynda.com/Xcode-tutorials/What-Xcode/642476/706295-4.html) -->
 
 ## **Installing Xcode**
 
 You will need to install Xcode from the App Store on your Mac for this course.  If you still do not have Xcode installed, this video tutorial will help you with this process:
 
-[Programming for Non-Programmers: iOS 11 and Swift - Find and install Xcode <Badge text='Lynda'/>](https://www.lynda.com/iOS-tutorials/Find-install-Xcode/642473/705664-4.html)
+[Install Xcode and the iOS SDK <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/ios-13-development-essential-training-1-fundamentals-ui-and-architecture/install-xcode-and-the-ios-sdk?u=2199673)
 
 **NOTE:** Remember, if a new version of Xcode (and Swift) comes out during this semester and you choose to upgrade, you will be accepting the responsibility to learn any new syntax in Swift and Xcode layouts.  If you do not wish to update then make sure you have automatic updates turned off.  This is done by opening up the App Store on your laptop, select App Store -> Preferences and uncheck 'Install app updates'.
 
