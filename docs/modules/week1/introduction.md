@@ -40,4 +40,4 @@ You should already have access to [Pluralsight](https://app.pluralsight.com) fro
 
 You should already have access to [LinkedIn Learning](https://www.linkedin.com/learning/) from the College.  If you cannot access LinkedIn Learning, please contact your course coordinators.
 
-[Back to Week 1](https://mad9137.github.io/F2020/modules/week1/#during-class)
+[Back to Week 1](./index.md#during-class)
