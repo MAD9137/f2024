@@ -30,12 +30,12 @@ To develop for iOS [you will need to download Xcode](https://itunes.apple.com/ca
 
 ## External Resources
 
-In addition to the in-class lessons and the material posted on Brightspace, we will be using two external sites for videos, lessons, and interactive learning resources:  Pluralsight and Lynda.com.
+In addition to the in-class lessons and the material posted on Brightspace, we will be using two external sites for videos, lessons, and interactive learning resources:  Pluralsight and LinkedIn Learning.
 
 ### Pluralsight
 
 You should already have access to [Pluralsight](https://app.pluralsight.com) from the College.  If you cannot access Pluralsight, please contact your course coordinators.
 
-## Lynda.com
+## LinkedIn Learning
 
-You should already have access to [Lynda.com](https://www.lynda.com/) from the College.  If you cannot access Lynda.com, please contact your course coordinators.
+You should already have access to [LinkedIn Learning](https://www.linkedin.com/learning/) from the College.  If you cannot access LinkedIn Learning, please contact your course coordinators.
