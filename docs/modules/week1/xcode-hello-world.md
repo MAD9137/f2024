@@ -12,4 +12,4 @@ This is a screenshot of the application running in the simulator, with the Xcode
 The first time you run the iOS simulator, it may take a while to load.
 :::
 
-[Back to Week 1](https://mad9137.github.io/F2020/modules/week1/#during-class)
+[Back to Week 1](./index.md#during-class)

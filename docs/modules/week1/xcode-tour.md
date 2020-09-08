@@ -32,4 +32,4 @@ The following images highlight *some* of the more important areas and buttons of
 
  ![Library Layout](/F2020/assets/img/libraryDetails.png)
 
-[Back to Week 1](https://mad9137.github.io/F2020/modules/week1/#during-class)
+[Back to Week 1](./index.md#during-class)

@@ -19,4 +19,4 @@ The following video explains the process of signing up for a developer's account
 
 [The Apple Developer Program](https://developer.apple.com)
 
-[Back to Week 1](https://mad9137.github.io/F2020/modules/week1/#during-class)
+[Back to Week 1](./index.md#during-class)
