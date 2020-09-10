@@ -11,7 +11,7 @@ Students use the Swift language within the standard Mac OSX development environm
 [Download the course outline](/F2020/assets/downloads/2020-2021_mad9137.pdf)
 
 <!-- Course Schedule -->
-!!!include(docs/.vuepress/includes/course-schedule.md)!!!
+<!-- !!!include(docs/.vuepress/includes/course-schedule.md)!!! -->
 
 ## Course Content
 
@@ -25,7 +25,6 @@ Course communications, quizzes, discussions, deliverable submissions and grading
 
 <!-- Faculty Information -->
 
-[Faculty Information](../includes/faculty-information.md)
 <!-- !!!include(docs/.vuepress/includes/faculty-information.md)!!!
 <<< @/docs/.vuepress/includes/faculty-information.md -->
 
@@ -84,6 +83,6 @@ Plagiarism is defined as defined as presenting someone else’s work, in whole o
 
 Plagiarism, whether done deliberately or accidentally, is not allowed. The facilitation of plagiarism, that is, one student sharing his or her work with other students, is also not allowed. All parties caught plagiarizing will receive a **ZERO**.
 
-!!!include(docs/.vuepress/includes/links/plagiarism-page.md)!!!
+<!-- !!!include(docs/.vuepress/includes/links/plagiarism-page.md)!!! -->
 
-!!!include(docs/.vuepress/includes/links/plagiarism-policy.md)!!!
+<!-- !!!include(docs/.vuepress/includes/links/plagiarism-policy.md)!!! -->
