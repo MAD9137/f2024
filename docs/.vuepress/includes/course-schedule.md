@@ -2,6 +2,7 @@
 
 | Week Starting | Week #| Teaching | Assigned | Due |
 | --- |:---: | ---      | ---      | --- |
+
 <!-- | Sept 2 | 1 | Course Introduction | N/A | N/A |
 | Sept 9 | 2 | Introduction to Swift | [Discussion 1](/assessments/participation/discussion-1.md) <hr> [Quiz 1](/assessments/participation/quiz-1.md) | N/A |
 | Sept 16 | 3 | Swift Basics | [Assignment 1](/assessments/assignments/assignment-1.md)  | N/A |
