@@ -25,7 +25,7 @@ Course communications, quizzes, discussions, deliverable submissions and grading
 
 <!-- Faculty Information -->
 
-[Faculty Information](/F2020/../includes/faculty-information.md)
+[Faculty Information](../includes/faculty-information.md)
 <!-- !!!include(docs/.vuepress/includes/faculty-information.md)!!!
 <<< @/docs/.vuepress/includes/faculty-information.md -->
 
