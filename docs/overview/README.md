@@ -11,7 +11,7 @@ Students use the Swift language within the standard Mac OSX development environm
 [Download the course outline](/F2020/assets/downloads/2020-2021_mad9137.pdf)
 
 <!-- Course Schedule -->
-<!-- !!!include(docs/.vuepress/includes/course-schedule.md)!!! -->
+!!!include(docs/.vuepress/includes/course-schedule.md)!!!
 
 ## Course Content
 
@@ -25,8 +25,8 @@ Course communications, quizzes, discussions, deliverable submissions and grading
 
 <!-- Faculty Information -->
 
-<!-- !!!include(docs/.vuepress/includes/faculty-information.md)!!!
-<<< @/docs/.vuepress/includes/faculty-information.md -->
+!!!include(docs/.vuepress/includes/faculty-information.md)!!!
+<!-- <<< @/docs/.vuepress/includes/faculty-information.md -->
 
 ## Workload
 
