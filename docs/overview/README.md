@@ -39,13 +39,13 @@ include(docs/.vuepress/includes/faculty-information.md)
 
 Tuesday: 17:00 to 19:00
 
-Thursday: 18:00 to 20:00
+Thursday: 17:00 to 19:00
 
 ### **Section 310**
 
-Tuesday: 15:00 to 17:00
+Tuesday: 13:00 to 15:00
 
-Thursday: 16:00 to 18:00
+Thursday: 19:00 to 21:00
 
 ## Tools & Services
 
@@ -67,8 +67,8 @@ We will be using the following tools and services throughout the course
 
 | Days Late | Penalty | Accumulated Penalty |
 |:-------:|:----------:|:-----------------------:|
-| 1 | 30% |   30% |
-| 2 | 10% |   40% |
+| 1 | 30% | 30% |
+| 2 | 10% | 40% |
 | 3 | 10% | 50% |
 | 4 | 10% | 60% |
 | 5 | 10% | 70% |

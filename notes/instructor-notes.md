@@ -19,3 +19,14 @@ Notes about changes to make to the classroom delivery of the material
 Inside the .vuepress/config.js there is a base option. If this is set with the base url then we can use links like this:
 
 <img :src="$withBase('/foo.png')" alt="foo">
+
+
+## Dev Notes
+
+   ╭────────────────────────────────────────────────────────────────╮
+   │                                                                │
+   │      New patch version of npm available! 6.14.6 → 6.14.8       │
+   │   Changelog: https://github.com/npm/cli/releases/tag/v6.14.8   │
+   │               Run npm install -g npm to update!                │
+   │                                                                │
+   ╰────────────────────────────────────────────────────────────────╯
