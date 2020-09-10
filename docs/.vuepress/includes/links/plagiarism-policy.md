@@ -1,1 +1,1 @@
-[Algonquin College Plagiarism Policy](https://www.algonquincollege.com/ccol/info-page/plagiarism/)
+[Algonquin College Plagiarism Policy](https://www.algonquincollege.com/policies/files/2016/04/AA20.pdf)

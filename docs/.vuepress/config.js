@@ -49,7 +49,7 @@ module.exports = {
       {
         title: 'Content Modules',
         collapsable: true,
-        sidebarDepth: 3,
+        sidebarDepth: 2,
         children: [
           '/modules/week1/',
           // '/modules/week2/',
