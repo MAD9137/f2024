@@ -24,7 +24,8 @@ The official course Learning Management System is [Brightspace](https://brightsp
 Course communications, discussions, deliverable submissions and grading will occur in Brightspace.
 
 <!-- Faculty Information -->
-!!!include(docs/.vuepress/includes/faculty-information.md)!!!
+
+include(docs/.vuepress/includes/faculty-information.md)
 
 ## Workload
 

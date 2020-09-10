@@ -2,9 +2,9 @@
 
 ### Professor
 
-#### Justin Bennett
+#### Sebastian Lenczewski
 
-Email: <bennetj@algonquincollege.com><br>
+Email: <lenczes@algonquincollege.com><br>
 
 :::warning NOTE
 No office hours - please contact by email and I will endeavour to respond within 24hrs
