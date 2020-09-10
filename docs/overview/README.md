@@ -8,20 +8,20 @@ sidebar: auto
 
 Students use the Swift language within the standard Mac OSX development environment to create native applications for the iPhone and iPad. Working together in teams, students build and test applications. User interface requirements and building for a better user experience is stressed.
 
-[Download the course outline](/mad9137/assets/downloads/2019-2020_mad9137.pdf)
+[Download the course outline](/F2020/assets/downloads/2020-2021_mad9137.pdf)
 
 <!-- Course Schedule -->
 !!!include(docs/.vuepress/includes/course-schedule.md)!!!
 
 ## Course Content
 
-Content for iOS Development can be found on the official course website [https://papacharliepapa.github.io/mad9137/](https://papacharliepapa.github.io/mad9137/).
+Content for iOS Development can be found on the official course website [https://mad9137.github.io/F2020/](https://mad9137.github.io/F2020/).
 
 ## Brightspace
 
 The official course Learning Management System is [Brightspace](https://brightspace.algonquincollege.com/).
 
-Course communications, discussions, deliverable submissions and grading will occur in Brightspace.
+Course communications, quizzes, discussions, deliverable submissions and grading will occur in Brightspace.
 
 <!-- Faculty Information -->
 

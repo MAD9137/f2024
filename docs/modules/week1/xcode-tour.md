@@ -12,7 +12,9 @@ The following images highlight *some* of the more important areas and buttons of
 
 ![Basic Xcode Layout](/F2020/assets/img/BasicXcodeLayout.png)
 
-**NOTE**:  The inspector and the library areas make up a larger area called the *utility area*.
+:::warning NOTE
+The inspector and the library areas make up a larger area called the *utility area*.
+:::
 
 ### The toolbar area
 

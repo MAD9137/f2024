@@ -6,7 +6,9 @@ The overall goal of this class is to impart a working knowledge of how to build 
 
 We will be using the Swift coding language in Xcode to develop iOS applications.
 
-**NOTE:**   **This course will be using the most current versions of macOS, Xcode and Swift available at the start of the semester.**
+:::warning NOTE
+This course will be using the most current versions of macOS, Xcode and Swift available at the start of the semester.
+:::
 
 ## Basic Requirements
 
@@ -26,7 +28,9 @@ If your laptop has an older operating system, [click here to learn how to upgrad
 
 To develop for iOS [you will need to download Xcode](https://itunes.apple.com/ca/app/xcode/id497799835), an integrated development environment (IDE) similar to Microsoft's Visual Studios.  Xcode lets you write and compile C, C++, Objective-C and Swift code into applications that run on iOS, watchOS, tvOS and macOS.  As stated above you will be using the newest version of Xcode and Swift for development in this course.
 
-**NOTE:** **If a new version of Xcode (and Swift) comes out during this semester and you choose to upgrade, you will be accepting the responsibility to learn any new syntax in Swift, and any new Xcode layouts.  If you do not wish to update then make sure you have automatic updates turned off.  This is done by opening up the App Store on your laptop, select App Store -> Preferences and uncheck 'Install app updates'.**
+:::warning NOTE
+If a new version of Xcode (and Swift) comes out during this semester and you choose to upgrade, you will be accepting the responsibility to learn any new syntax in Swift, and any new Xcode layouts.  If you do not wish to update then make sure you have automatic updates turned off.  This is done by opening up the App Store on your laptop, select App Store -> Preferences and uncheck 'Install app updates'.
+:::
 
 ## External Resources
 
