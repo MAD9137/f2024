@@ -16,7 +16,9 @@ Some of the features of Swift include: inferred types, automatic memory manageme
 
 A **playground** is a "sandbox" environment built into Xcode that allows you to see the results of your code in real time.  We will be using Playgrounds to learn Swift.
 
-**Note**:  You can't develop an app in a playground — it is for testing only.
+:::warning NOTE
+You can't develop an app in a playground — it is for testing only.
+:::
 
 **Create a Playground?**
 
@@ -42,7 +44,9 @@ The next step is to give the new Playground a name and choose a location to save
 
 ![save playground](/F2020/assets/img/introducing_swift_4.png)
 
-**Note**: The previous steps will look different in older versions of the Xcode, where you are given the options to enter a Name and choose iOS as the Platform first, then choose the location.
+:::warning NOTE
+These steps might look slightly different in older versions of the Xcode.
+:::
 
 After you click to create your new Playground it will be opened and displayed in the Editor of Xcode.
 
