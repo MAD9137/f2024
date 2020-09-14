@@ -58,13 +58,29 @@ It is recommended that you learn a new coding language by typing the code yourse
 
 The following videos will help give you an understanding of what playgrounds are, and how they will be used to learn Swift coding basics:
 
-<!-- [Download Swift playground from swift.org](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.playground.zip) -->
+The following video will give you some history about the Swift programming language:
 
+[Swift retrospective](https://www.linkedin.com/learning/swift-5-essential-training/reviewing-the-exercise-files?u=2199673)
+
+The next video will show you how to create a Playground in Xcode:
 
 [Work with variables in a playground](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/work-with-variables-in-a-playground?u=2199673)
 
-[Prototype in a playground](https://www.linkedin.com/learning/xcode-10-essential-training/prototype-in-a-playground?u=2199673)
+:::warning NOTE
+Choosing the iOS platform will import UIKit instead of Cocoa library.  Either will be fine for learning Swift.
+:::
 
-[Commenting and logging](https://www.linkedin.com/learning/swift-5-essential-training/logging-and-commenting?u=2199673)
+The Swift 5 Essential Training series offers you downloadable exercise files.  The files are a series of Playgrounds that have indepth information about Swift.  The following video discusses these these files:
+
+[Reviewing the exercise files](https://www.linkedin.com/learning/swift-5-essential-training/reviewing-the-exercise-files?u=2199673)
+
+<!-- [Download Swift playground from swift.org](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.playground.zip) -->
+<!-- [Work with variables in a playground](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/work-with-variables-in-a-playground?u=2199673) -->
+
+<!--  -->
+
+<!-- [Commenting and logging](https://www.linkedin.com/learning/swift-5-essential-training/logging-and-commenting?u=2199673) -->
+
+[Reviewing the exercise files](https://www.linkedin.com/learning/swift-5-essential-training/reviewing-the-exercise-files?u=2199673)
 
 [Back to Week 2](./index.md#during-class)
