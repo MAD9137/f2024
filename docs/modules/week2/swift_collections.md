@@ -159,6 +159,10 @@ areaCode.1 = 416
 studentGrades.firstName = "Bob"
 ```
 
+For this week you should go through the first part of the following tutorial:
+[Tour Swift on swift.org](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html)
+
+
 The following videos show information about collections in Swift:
 
 [Swift 5 Essential Training - Arrays](https://www.linkedin.com/learning/swift-5-essential-training/swift-arrays?u=2199673)

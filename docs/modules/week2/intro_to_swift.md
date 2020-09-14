@@ -2,7 +2,9 @@
 title: Introducing Swift and Playgrounds
 ---
 
-## What is Swift?
+## Introducing Swift and Playgrounds
+
+### What is Swift?
 
 Swift is unique programming language developed by Apple. It draws upon many influences and comes with its own unique syntax, formatting best-practices, and ideologies. It introduces a lot of new concepts that were not present in Objective-C (Apple's previous programming language).
 
@@ -10,9 +12,7 @@ It is not simply a framework on top of, or a sub-set of Objective-C, but an enti
 
 Some of the features of Swift include: inferred types, automatic memory management, and expressive code.
 
-[Tour Swift on swift.org](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html)
-
-## What is a Playground?
+### What is a Playground?
 
 A **playground** is a "sandbox" environment built into Xcode that allows you to see the results of your code in real time.  We will be using Playgrounds to learn Swift.
 
@@ -20,7 +20,7 @@ A **playground** is a "sandbox" environment built into Xcode that allows you to 
 You can't develop an app in a playground — it is for testing only.
 :::
 
-**Create a Playground?**
+### How to Create a Playground?
 
 The Xcode interface gets updated from time to time.  If you would like to create a new Playground in the current version of Xcode You can choose one of three ways.  The first way is from the Xcode splash screen shown when you launch the Xcode application.
 
@@ -52,7 +52,7 @@ After you click to create your new Playground it will be opened and displayed in
 
 ![display playground](/F2020/assets/img/introducing_swift_5.png)
 
-## Coding along with the tutorials
+### Coding along with the tutorials
 
 It is recommended that you learn a new coding language by typing the code yourself.  As you follow with the video tutorials You will need to create a naming convention for your playgrounds and projects for this course.  Because we are using different video tutorials some videos will suggest names for your playgrounds and project, but you should follow your own standard to stay organized.
 
