@@ -17,8 +17,12 @@ N/A
 
 ## During Class
 
-- Begin to explore Swift data types & collections
 - Use playgrounds in Xcode
+- [Introducing Swift and Playgrounds](./intro_to_swift.md)
+- Begin to explore Swift data types & collections
+- [Swift Types](./swift_types.md)
+- [Swift Collections](./swift_collections.md)
+
 
 ## Following Class
 

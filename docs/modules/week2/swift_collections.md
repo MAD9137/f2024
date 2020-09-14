@@ -1,5 +1,5 @@
 ---
-title: Collections
+title: Swift Collections
 ---
 
 Swift comes equipped with the some interesting collections.

@@ -4,7 +4,7 @@ title: Introducing Swift and Playgrounds
 
 ## What is Swift?
 
-Swift is, among many things, a new programming language developed by Apple. It draws upon many influences and comes with its own unique syntax, formatting best-practices, and ideologies. It introduces a lot of new concepts that were not present in Objective-C (Apple's previous programming language).
+Swift is unique programming language developed by Apple. It draws upon many influences and comes with its own unique syntax, formatting best-practices, and ideologies. It introduces a lot of new concepts that were not present in Objective-C (Apple's previous programming language).
 
 It is not simply a framework on top of, or a sub-set of Objective-C, but an entirely new programming language created as Apple attempts to join the trend to move away from C-based languages for high-level development.
 
@@ -14,7 +14,7 @@ Some of the features of Swift include: inferred types, automatic memory manageme
 
 ## What is a Playground?
 
-A **playground** is a "sandbox" environment built into Xcode that allows you to see the results of your code in real time (without having to compile).  We will be using Playgrounds to learn Swift.
+A **playground** is a "sandbox" environment built into Xcode that allows you to see the results of your code in real time.  We will be using Playgrounds to learn Swift.
 
 **Note**:  You can't develop an app in a playground — it is for testing only.
 
@@ -54,9 +54,10 @@ It is recommended that you learn a new coding language by typing the code yourse
 
 The following videos will help give you an understanding of what playgrounds are, and how they will be used to learn Swift coding basics:
 
-[Download Swift playground from swift.org](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.playground.zip)
+<!-- [Download Swift playground from swift.org](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.playground.zip) -->
 
-[Work with variables in a playground](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/work-with-variables-in-a-playground?autoplay=true&u=2199673)
+
+[Work with variables in a playground](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/work-with-variables-in-a-playground?u=2199673)
 
 [Prototype in a playground](https://www.linkedin.com/learning/xcode-10-essential-training/prototype-in-a-playground?u=2199673)
 
