@@ -74,13 +74,13 @@ The Swift 5 Essential Training series offers you downloadable exercise files.  T
 
 [Reviewing the exercise files](https://www.linkedin.com/learning/swift-5-essential-training/reviewing-the-exercise-files?u=2199673)
 
+This last video shows the basics of using code comments, and how to log text to the debug console:
+
+[Logging and commenting](https://www.linkedin.com/learning/swift-5-essential-training/logging-and-commenting?u=2199673)
+
 <!-- [Download Swift playground from swift.org](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.playground.zip) -->
 <!-- [Work with variables in a playground](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/work-with-variables-in-a-playground?u=2199673) -->
 
-<!--  -->
-
 <!-- [Commenting and logging](https://www.linkedin.com/learning/swift-5-essential-training/logging-and-commenting?u=2199673) -->
-
-[Reviewing the exercise files](https://www.linkedin.com/learning/swift-5-essential-training/reviewing-the-exercise-files?u=2199673)
 
 [Back to Week 2](./index.md#during-class)
