@@ -167,3 +167,5 @@ let sixthString = "string 6" //inferred constant declaration
 [Apple Developer Docs - Swift Standard Library](https://developer.apple.com/documentation/swift/swift_standard_library)
 
 [Swift 5 Essential Training - Variables](https://www.linkedin.com/learning/swift-5-essential-training/the-quest-begins-variables?u=2199673)
+
+[Back to Week 2](./index.md#during-class)

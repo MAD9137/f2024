@@ -66,3 +66,5 @@ The following videos will help give you an understanding of what playgrounds are
 [Prototype in a playground](https://www.linkedin.com/learning/xcode-10-essential-training/prototype-in-a-playground?u=2199673)
 
 [Commenting and logging](https://www.linkedin.com/learning/swift-5-essential-training/logging-and-commenting?u=2199673)
+
+[Back to Week 2](./index.md#during-class)

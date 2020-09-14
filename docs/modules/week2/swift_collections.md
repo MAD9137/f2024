@@ -170,3 +170,5 @@ The following videos show information about collections in Swift:
 [Swift 5 Essential Training - Dictionaries](https://www.linkedin.com/learning/swift-5-essential-training/swift-dictionaries?u=2199673)
 
 [Swift 5 Essential Training - Tuples](https://www.linkedin.com/learning/swift-5-essential-training/swift-tuples?u=2199673)
+
+[Back to Week 2](./index.md#during-class)
