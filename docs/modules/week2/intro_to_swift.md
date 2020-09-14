@@ -22,31 +22,31 @@ A **playground** is a "sandbox" environment built into Xcode that allows you to 
 
 The Xcode interface gets updated from time to time.  If you would like to create a new Playground in the current version of Xcode You can choose one of three ways.  The first way is from the Xcode splash screen shown when you launch the Xcode application.
 
-![create a swift playground](/mad9137/assets/img/introducing_swift_1.png)
+![create a swift playground](/F2020/assets/img/introducing_swift_1.png)
 
 You can click the first option "Get started with a playground".
 
 The second way to create a new Playground is by the Xcode menu at the top of your screen.
 
-![alternate method to create playground](/mad9137/assets/img/introducing_swift_2.png)
+![alternate method to create playground](/F2020/assets/img/introducing_swift_2.png)
 
 The third option for creating a new Playground is the keyboard shortcut ⌥⇧⌘N.
 
 After that you will be prompted to choose a template.
 
-![alternate method to create playground](/mad9137/assets/img/introducing_swift_3.png)
+![alternate method to create playground](/F2020/assets/img/introducing_swift_3.png)
 
 We will be using a basic blank iOS template for our Playgrounds.
 
 The next step is to give the new Playground a name and choose a location to save the file.
 
-![save playground](/mad9137/assets/img/introducing_swift_4.png)
+![save playground](/F2020/assets/img/introducing_swift_4.png)
 
 **Note**: The previous steps will look different in older versions of the Xcode, where you are given the options to enter a Name and choose iOS as the Platform first, then choose the location.
 
 After you click to create your new Playground it will be opened and displayed in the Editor of Xcode.
 
-![display playground](/mad9137/assets/img/introducing_swift_5.png)
+![display playground](/F2020/assets/img/introducing_swift_5.png)
 
 ## Coding along with the tutorials
 
