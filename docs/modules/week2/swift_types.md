@@ -17,7 +17,7 @@ The main difference between value and reference data types is the way they are p
 So far in Swift you have seen how to create variables with the keyword **var** like this:
 
 ```swift
-var height: int = 20
+var height: Int = 20
 ```
 
 ...but what if you wanted to to create an immutable piece of data, like a const in JavaScript?
@@ -25,7 +25,7 @@ var height: int = 20
 Using the keyword **let** instead of var creates your variable with read-only access; once an initial value is set can not be changed. The following shows you an example of how to define a constant integer using let.
 
 ```swift
-let length: int = 60
+let length: Int = 60
 ```
 
 ## Types
@@ -89,13 +89,13 @@ var secondBool = false //inferred declaration
 We have seen how to create and set whole and floating point numbers like:
 
 ```swift
-var age: int = 20
+var age: Int = 20
 ```
 
 and
 
 ```swift
-var height: float = 211.5
+var height: Float = 211.5
 ```
 
 ...but if you had an integer variable representing a colour, it may be more advantageous to set it with a hexadecimal value. Setting an integer with a hexadecimal numeric literal value can be done like this:
@@ -151,7 +151,7 @@ Languages that use inference are called **loosely-typed languages**. Swift is, i
 The example "var users = 88" is actually considered a **short-hand form** for the explicit version of the same declaration, which looks like:
 
 ```swift
-var users:int = 88
+var users: Int = 88
 ```
 
 This short-hand can only be used initially when assigning a value to your variable as you create it.
@@ -159,7 +159,7 @@ This short-hand can only be used initially when assigning a value to your variab
 If you wanted to create a new variable but don't want to assign a value to it, you must assign the type like:
 
 ```swift
-var users:int
+var users: Int
 ```
 
 or the compiler will throw errors. These are called **optional variables**, and to use them you must also start checking if your optional value is equal to **nil** in your code before you access is using an if statement.
