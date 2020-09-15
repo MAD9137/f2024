@@ -186,8 +186,7 @@ The following videos descibe the difference between values versus references, an
 
 [Value vs Reference Types](https://www.linkedin.com/learning/swift-5-essential-training/value-vs-reference-types?u=2199673)
 
-
-
+For more information about Swift variables you can look at the Apple documentation here:
 
 [Apple Developer Docs - Swift Standard Library](https://developer.apple.com/documentation/swift/swift_standard_library)
 
