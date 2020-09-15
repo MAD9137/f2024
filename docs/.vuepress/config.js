@@ -79,8 +79,11 @@ module.exports = {
       {
         title: 'Deliverables',
         collapsable: true,
-        sidebarDepth: 2,
-        children: ['/assessments/'],
+        sidebarDepth: 1,
+        children: [
+          '/assessments/participation/discussion-1.md',
+          '/assessments/participation/quiz-1.md',
+        ],
       },
     ],
   },
