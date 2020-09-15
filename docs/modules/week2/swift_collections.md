@@ -121,10 +121,12 @@ var unionedSet: Set = thirdSet.union(secondSet)
 var subtractedSet: Set = thirdSet.subtracting(secondSet)
 
 // Modifying Sets
-firstSet.insert("Pepper")let ingredient = firstSet.remove("Salt")
+firstSet.insert("Pepper")
+let ingredient = firstSet.remove("Salt")
 // or the safer version of above
 let indexOfEggs = firstSet.index(of:"Egg")
 firstSet.remove(at:indexOfEggs!)
+
 secondSet.formUnion(thirdSet)
 ```
 
