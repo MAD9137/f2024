@@ -13,8 +13,8 @@ The most basic is an **array** which looks similar in syntax to most other codin
 ```swift
 // Initialize Arrays
 var firstArray: [Int] = [3, 5, 6, 7, 9, 12] //assign an array explicitly
-
 var secondArray = [1, 3, 9] //inferred declaration
+
 // All of the following methods will work to create an empty array
 var thirdArray: [Character] = []
 var fourthArray = [Bool]()
@@ -59,15 +59,14 @@ In addition to the standard array, there are **dictionaries** that use key-value
 ```swift
 // Initialize Dictionaries
 var firstDictionary: [String: Int] = ["apples": 5, "oranges": 2, "pears": 4] //assign a dictionary explictly
-
 var secondDictionary = ["day": 23.5, "night": 18.4] //inferred declaration
 
-// Both of the following methods will work to create an empty dictionaryvar thirdDictionary: [Int: String] = [:]
-
+// Both of the following methods will work to create an empty dictionary
+var thirdDictionary: [Int: String] = [:]
 var fourthDictionary = Dictionary<Int, String>()
+
 // Accessing Dictionaries
 firstDictionary.count
-
 thirdDictionary.isEmpty
 let keyArray = Array(firstDictionary.keys)
 let valueArray = Array(firstDictionary.values)
@@ -79,7 +78,7 @@ firstDictionary["oranges"] = nil
 print(firstDictionary)
 firstDictionary.removeAll()
 firstDictionary["kiwis"] = 26
-ßlet purchasedItem = firstDictionary.removeValue(forKey:"kiwis")
+let purchasedItem = firstDictionary.removeValue(forKey:"kiwis")
 ```
 
 [Apple Developer Docs - Dictionary](https://developer.apple.com/documentation/swift/dictionary)
@@ -123,6 +122,7 @@ var subtractedSet: Set = thirdSet.subtracting(secondSet)
 // Modifying Sets
 firstSet.insert("Pepper")
 let ingredient = firstSet.remove("Salt")
+
 // or the safer version of above
 let indexOfEggs = firstSet.index(of:"Egg")
 firstSet.remove(at:indexOfEggs!)
@@ -140,6 +140,8 @@ Tuples are similar to a spontaneously-defined structure of data. *They can hold 
 // Initialize Tuples
 var areaCode = ("Ottawa", 613)
 var inputValues: (Float, Int, Bool) = (5.5, 102, true)
+
+// Giving some of your Tuple values a name
 var studentGrades: (firstName: String, lastName: String, [Int])studentGrades = ("Jon", "Doe", [88, 98, 90])
 
 // Accessing Tuples
@@ -161,8 +163,13 @@ let (city, _) = areaCode
 areaCode.0 = "Toronto"
 areaCode.1 = 416
 
+// Changing a Tuple value by it name 
 studentGrades.firstName = "Bob"
 ```
+
+:::warning NOTE
+You get to choose what, if any values within a Touple gets a name. If any value does not have a name it must be accessed with the numerical index notation.
+:::
 
 For this week you should go through the first part of the following tutorial:
 
