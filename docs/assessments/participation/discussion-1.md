@@ -12,6 +12,6 @@ describe the feature/functionality/aspect you are sharing (2 marks)
 provide an example as to how it can be used (2 marks)
 provide a web link to a resource(s) that you found about your topic (1 mark)
 
-[Discussion 1 - Section 300](https://brightspace.algonquincollege.com/d2l/le/282607/discussions/topics/433428/View)
+[Discussion 1 - Section 300](https://brightspace.algonquincollege.com/d2l/home/282607)
 
-[Discussion 1 - Section 310](https://brightspace.algonquincollege.com/d2l/le/282608/discussions/topics/433431/View)
+[Discussion 1 - Section 310](https://brightspace.algonquincollege.com/d2l/home/282608)
