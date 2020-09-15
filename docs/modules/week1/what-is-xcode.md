@@ -1,3 +1,7 @@
+---
+title: What is Xcode
+---
+
 # What is Xcode
 
 [Xcode](https://en.wikipedia.org/wiki/Xcode)  is an integrated development environment (IDE), which is a powerful code editor with many development tools integrated within it.  It's a C-style compiler-based programming tool that lets you write your applications in C, Objective-C, and Swift.  You then run the compiler on your code and it makes a packaged executable.  The compiler interprets your code and translates into native machine code executable for the specific target operating system chosen.

@@ -1,3 +1,7 @@
+---
+title: Customizing Xcode
+---
+
 # Customizing Xcode
 
 ## Displaying line numbers

@@ -1,3 +1,7 @@
+---
+title: Hello World
+---
+
 # Hello World
 
 If you followed this week's instructions and have installed Xcode correctly, you should be able to run a simple 'Hello World' application.

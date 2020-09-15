@@ -1,3 +1,7 @@
+---
+title: Developing with Apple
+---
+
 # Developing with Apple
 
 ## Apple Developer Program & Developer Account

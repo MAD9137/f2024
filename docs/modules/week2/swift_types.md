@@ -2,9 +2,11 @@
 title: Swift Types
 ---
 
-## Value types and Reference types
+# Swift Types
 
 In Swift there are two main categories of data types: value types and reference types.
+
+## Value types and Reference types
 
 **Value types** are the predefined data structures provided by the language like ints, floats, chars, strings, bools, structs, arrays, dictionaries, tuples, enumerators and optionals. **Reference types** include classes, functions and function closures.
 

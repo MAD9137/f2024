@@ -2,6 +2,8 @@
 title: Swift Collections
 ---
 
+# Swift Collections
+
 Swift comes equipped with the some interesting collections.
 
 ## Arrays

@@ -1,3 +1,7 @@
+---
+title: Basic Tour of Xcode
+---
+
 # Basic Tour of Xcode
 
 The next videos give you a good look at the Xcode IDE, and creating a project:

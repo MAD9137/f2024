@@ -1,3 +1,7 @@
+---
+title: Course Introduction
+---
+
 # Course Introduction
 
 iOS is the operating system that Apple released in the summer of 2007 with the release of the iPhone Generation One.  It is a UNIX based operating system and was created using C, C++ and Objective-C.
