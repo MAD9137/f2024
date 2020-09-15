@@ -25,7 +25,8 @@ var sixthArray = Array<Double>()
 var anyArray: [Any] = [false, "a", "string", 1, 3.45]
 
 // Repeated value array initializer
-var namesArray = Array(repeating: "Name", count: 5)var scoresArray = [Int](repeating: 0, count: 10)
+var namesArray = Array(repeating: "Name", count: 5)
+var scoresArray = [Int](repeating: 0, count: 10)
 
 // Accessing Arrays
 firstArray.isEmpty
