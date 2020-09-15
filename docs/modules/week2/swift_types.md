@@ -114,11 +114,27 @@ Setting an integer with a octal numeric literal value can be done like this:
 var colorOct = 0o377
 ```
 
+The foloowing videos give more information about variable in Swift:
+
+[The quest begins: variables](https://www.linkedin.com/learning/swift-5-essential-training/the-quest-begins-variables?u=2199673)
+
+[Variables and constants](https://www.linkedin.com/learning/swift-5-essential-training/variables-and-constants?u=2199673)
+
+[Type safety and inference](https://www.linkedin.com/learning/swift-5-essential-training/type-safety-and-inference?u=2199673)
+
+[Swift operators](https://www.linkedin.com/learning/swift-5-essential-training/swift-operators?u=2199673)
+
+[Understanding strings](https://www.linkedin.com/learning/swift-5-essential-training/understanding-strings?u=2199673)
+
+[Working with strings](https://www.linkedin.com/learning/swift-5-essential-training/working-with-strings?u=2199673)
+
+[Type conversions](https://www.linkedin.com/learning/swift-5-essential-training/type-conversions?u=2199673)
+
+[Bools and logical operators](https://www.linkedin.com/learning/swift-5-essential-training/bools-and-logical-operators?u=2199673)
+
 ### Optional variable creation and deferred value assignment
 
 As you have seen, in Swift the keywords var and let can be used when creating a new variable. The variable's type can be set through inference (like in JavaScript) when you set a value to that variable.
-
-[Swift 5 Essential Training - Value vs Reference Types](https://www.linkedin.com/learning/swift-5-essential-training/value-vs-reference-types?u=2199673)
 
 You can make a new integer variable called 'users' like this:
 
@@ -164,8 +180,15 @@ fifthString = "string 5" //deferred constant value assignment
 let sixthString = "string 6" //inferred constant declaration
 ```
 
-[Apple Developer Docs - Swift Standard Library](https://developer.apple.com/documentation/swift/swift_standard_library)
+The following videos descibe the difference between values versus references, and creating optional values:
 
-[Swift 5 Essential Training - Variables](https://www.linkedin.com/learning/swift-5-essential-training/the-quest-begins-variables?u=2199673)
+[Introducing optionals](https://www.linkedin.com/learning/swift-5-essential-training/introducing-optionals?u=2199673)
+
+[Value vs Reference Types](https://www.linkedin.com/learning/swift-5-essential-training/value-vs-reference-types?u=2199673)
+
+
+
+
+[Apple Developer Docs - Swift Standard Library](https://developer.apple.com/documentation/swift/swift_standard_library)
 
 [Back to Week 2](./index.md#during-class)
