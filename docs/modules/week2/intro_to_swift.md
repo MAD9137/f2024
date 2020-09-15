@@ -60,7 +60,7 @@ The following videos will help give you an understanding of what playgrounds are
 
 The following video will give you some history about the Swift programming language:
 
-[Swift retrospective](https://www.linkedin.com/learning/swift-5-essential-training/reviewing-the-exercise-files?u=2199673)
+[Swift retrospective](https://www.linkedin.com/learning/swift-5-essential-training/swift-retrospective?u=2199673)
 
 The next video will show you how to create a Playground in Xcode:
 
