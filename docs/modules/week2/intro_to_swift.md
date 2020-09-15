@@ -62,8 +62,6 @@ It is recommended that you learn a new coding language by typing the code yourse
 
 The following videos will help give you an understanding of what playgrounds are, and how they will be used to learn Swift coding basics:
 
-The next video will show you how to create a Playground in Xcode:
-
 [Work with variables in a playground](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/work-with-variables-in-a-playground?u=2199673)
 
 :::warning NOTE
