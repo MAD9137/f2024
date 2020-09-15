@@ -162,15 +162,26 @@ studentGrades.firstName = "Bob"
 ```
 
 For this week you should go through the first part of the following tutorial:
+
 [Tour Swift on swift.org](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html)
 
 
 The following videos show information about collections in Swift:
 
-[Swift 5 Essential Training - Arrays](https://www.linkedin.com/learning/swift-5-essential-training/swift-arrays?u=2199673)
+[Gathering inventory with collections](https://www.linkedin.com/learning/swift-5-essential-training/gathering-inventory-with-collections?u=2199673)
 
-[Swift 5 Essential Training - Dictionaries](https://www.linkedin.com/learning/swift-5-essential-training/swift-dictionaries?u=2199673)
+[Swift Arrays](https://www.linkedin.com/learning/swift-5-essential-training/swift-arrays?u=2199673)
 
-[Swift 5 Essential Training - Tuples](https://www.linkedin.com/learning/swift-5-essential-training/swift-tuples?u=2199673)
+[Core array methods](https://www.linkedin.com/learning/swift-5-essential-training/core-array-methods?u=2199673)
+
+[Swift Dictionaries](https://www.linkedin.com/learning/swift-5-essential-training/swift-dictionaries?u=2199673)
+
+[Core dictionary methods](https://www.linkedin.com/learning/swift-5-essential-training/core-dictionary-methods?u=2199673)
+
+[Working with sets](https://www.linkedin.com/learning/swift-5-essential-training/working-with-sets?u=2199673)
+
+[Core set methods](https://www.linkedin.com/learning/swift-5-essential-training/core-set-methods?u=2199673)
+
+[Swift Tuples](https://www.linkedin.com/learning/swift-5-essential-training/swift-tuples?u=2199673)
 
 [Back to Week 2](./index.md#during-class)
