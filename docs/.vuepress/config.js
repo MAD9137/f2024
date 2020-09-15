@@ -81,6 +81,7 @@ module.exports = {
         collapsable: true,
         sidebarDepth: 1,
         children: [
+          '/assessments/participation/',
           '/assessments/participation/discussion-1.md',
           '/assessments/participation/quiz-1.md',
         ],
