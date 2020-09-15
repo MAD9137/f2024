@@ -8,9 +8,9 @@ Research some aspect of Swift that you find interesting, unique, or useful and s
 
 For marks, you must:
 
-describe the feature/functionality/aspect you are sharing (2 marks)
-provide an example as to how it can be used (2 marks)
-provide a web link to a resource(s) that you found about your topic (1 mark)
+-describe the feature/functionality/aspect you are sharing (2 marks)
+-provide an example as to how it can be used (2 marks)
+-provide a web link to a resource(s) that you found about your topic (1 mark)
 
 [Discussion 1 - Section 300](https://brightspace.algonquincollege.com/d2l/home/282607)
 
