@@ -14,6 +14,8 @@ The main difference between value and reference data types is the way they are p
 
 The following videos descibe the difference between values versus references, and creating optional values:
 
+[The quest begins: variables <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/the-quest-begins-variables?u=2199673)
+
 [Value vs Reference Types <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/value-vs-reference-types?u=2199673)
 
 ## Mutability with `var` and `let`
@@ -32,6 +34,8 @@ Using the keyword **let** instead of var creates your variable with read-only ac
 let length: Int = 60
 ```
 
+[Variables and constants <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/variables-and-constants?u=2199673)
+
 ## Types
 
 Data types are the building blocks of programming languages and Swift has all the common types one expects to see in a modern language; however, Swift was created in part to get away from its more complex C-style predecessors to make writing applications faster, easier and in a more expressive way. For instance, characters in Swift are stored as a set of unicode scalar values called **Extended Grapheme Clusters**.
@@ -39,6 +43,10 @@ Data types are the building blocks of programming languages and Swift has all th
 For an example of this, the unicode character for the letter “a” is "\u{61}” and can be combined into a scalar value like "\u{61}\u{302}" to give the character “â”. The root \u{61} and modifier \u{302} are combined to represent a single character—this differs from C with its ASCII character set—which leads to some interesting and expressive code.
 
 The following videos outline the similarities and differences between Objective-C and Swift data types, how Swift types are created and how they are accessed.
+
+[Type safety and inference <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/type-safety-and-inference?u=2199673)
+
+[Swift operators <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-operators?u=2199673)
 
 ### Strings
 
@@ -121,14 +129,6 @@ var colorOct = 0o377
 ```
 
 The foloowing videos give more information about variable in Swift:
-
-[The quest begins: variables <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/the-quest-begins-variables?u=2199673)
-
-[Variables and constants <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/variables-and-constants?u=2199673)
-
-[Type safety and inference <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/type-safety-and-inference?u=2199673)
-
-[Swift operators <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-operators?u=2199673)
 
 [Understanding strings <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/understanding-strings?u=2199673)
 
