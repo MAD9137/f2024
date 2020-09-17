@@ -219,3 +219,5 @@ The following videos show examples of creating and using functions, closures, an
 [Swift Fundamentals - Creating Functions <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=b8915e3c-4847-4fcf-937b-b6e13ba8755f)
 
 [Swift Fundamentals - Making Sense of Closures <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=9ee3067f-5457-4adc-a207-8df346115701)
+
+[Back to Week 3](./index.md#during-class)

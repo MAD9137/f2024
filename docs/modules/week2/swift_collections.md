@@ -6,6 +6,8 @@ title: Swift Collections
 
 Swift comes equipped with the some interesting collections.
 
+[Gathering inventory with collections <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/gathering-inventory-with-collections?u=2199673)
+
 ## Arrays
 
 The most basic is an **array** which looks similar in syntax to most other coding languages.
@@ -50,6 +52,10 @@ var secondCopiedArray = copiedArray + [45, 57]
 secondCopiedArray += [61, 69]
 ```
 
+[Swift Arrays <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-arrays?u=2199673)
+
+[Core array methods <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/core-array-methods?u=2199673)
+
 [Apple Developer Docs - Array](https://developer.apple.com/documentation/swift/array)
 
 ## Dictionaries
@@ -80,6 +86,10 @@ firstDictionary.removeAll()
 firstDictionary["kiwis"] = 26
 let purchasedItem = firstDictionary.removeValue(forKey:"kiwis")
 ```
+
+[Swift Dictionaries <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-dictionaries?u=2199673)
+
+[Core dictionary methods <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/core-dictionary-methods?u=2199673)
 
 [Apple Developer Docs - Dictionary](https://developer.apple.com/documentation/swift/dictionary)
 
@@ -130,6 +140,10 @@ firstSet.remove(at:indexOfEggs!)
 secondSet.formUnion(thirdSet)
 ```
 
+[Working with sets <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/working-with-sets?u=2199673)
+
+[Core set methods <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/core-set-methods?u=2199673)
+
 [Apple Developer Docs - Sets](https://developer.apple.com/documentation/swift/set)
 
 ## Tuples
@@ -170,27 +184,6 @@ studentGrades.firstName = "Bob"
 :::warning NOTE
 You get to choose what, if any values within a Touple gets a name. If any value does not have a name it must be accessed with the numerical index notation.
 :::
-
-For this week you should go through the first part of the following tutorial:
-
-[Tour Swift on swift.org](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html)
-
-
-The following videos show information about collections in Swift:
-
-[Gathering inventory with collections <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/gathering-inventory-with-collections?u=2199673)
-
-[Swift Arrays <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-arrays?u=2199673)
-
-[Core array methods <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/core-array-methods?u=2199673)
-
-[Swift Dictionaries <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-dictionaries?u=2199673)
-
-[Core dictionary methods <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/core-dictionary-methods?u=2199673)
-
-[Working with sets <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/working-with-sets?u=2199673)
-
-[Core set methods <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/core-set-methods?u=2199673)
 
 [Swift Tuples <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-tuples?u=2199673)
 

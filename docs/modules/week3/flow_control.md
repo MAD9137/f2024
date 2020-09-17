@@ -36,3 +36,5 @@ The following videos will explain how to use flow control statements in Swift:
 [Swift 5 Essential Training - The Switch Statement <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/the-switch-statement?u=2199673)
 
 [Swift Fundamentals - Controlling the Flow of Your Code <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=33af5c7f-ea65-48af-8978-3d2cd46b3388)
+
+[Back to Week 3](./index.md#during-class)

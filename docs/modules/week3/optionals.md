@@ -46,3 +46,5 @@ Another helpful use for a guard statement is to use the to make **get-only** var
 
 <!-- INSERT GET_ONLY SNIPPET -->
 <<< @/docs/.vuepress/includes/snippets/optionals/get-only.swift
+
+[Back to Week 3](./index.md#during-class)

@@ -247,3 +247,5 @@ The following shows you how to create and use classes in Swift:
 [Swift 5 Essential Training - Basic Classes <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/basic-swift-classes?u=2199673)
 
 [Swift Fundamentals - Using Classes and Objects <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=463e68d1-c028-4b08-a2a2-940bd785e157)
+
+[Back to Week 3](./index.md#during-class)

@@ -155,3 +155,9 @@ This video shows example of using protocols:
 [Swift 5 Essential Training - Introducing Protocols <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/introducing-protocols?u=2199673)
 
 [Swift Fundamentals - Introducing Protocols <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=095103af-48f6-455e-92e3-161c462b9bb5)
+
+The following link is to a great resources for the Swift coding language that covers what you have learned over the past twoo weeks:
+
+[Tour Swift on swift.org](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html)
+
+[Back to Week 3](./index.md#during-class)
