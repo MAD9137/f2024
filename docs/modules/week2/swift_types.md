@@ -134,7 +134,7 @@ The foloowing videos give more information about variable in Swift:
 
 [Bools and logical operators <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/bools-and-logical-operators?u=2199673)
 
-### Optional variable creation and deferred value assignment
+### Variable creation and deferred value assignment
 
 As you have seen, in Swift the keywords var and let can be used when creating a new variable. The variable's type can be set through inference (like in JavaScript) when you set a value to that variable.
 
@@ -144,7 +144,7 @@ You can make a new integer variable called 'users' like this:
 var users = 88
 ```
 
-This is inferring the type (an Int) based on the value it is being set to.
+As you have seen, this is inferring the type (an Int) based on the value it is being set to.
 
 Languages that only use inference are called **loosely-typed languages**. Swift is, in fact, a **strongly-typed language**, meaning the variable's type *must* be chosen when you create it.
 
@@ -154,7 +154,7 @@ The example "var users = 88" is actually considered a **short-hand form** for th
 var users: Int = 88
 ```
 
-This short-hand can **only** be used when initially assigning a value to your variable as you create it.
+Using the short-hand can **only** be used when initially assigning a value to your variable as you create it.
 
 If you wanted to create a new variable but don't want to assign a value to it, you must assign the type like:
 
@@ -165,17 +165,11 @@ var users: Int
 The following shows you examples of the different ways you can define a variable:
 
 ```swift
-var firstString: String = "string 1" //assign a string explicitly
-var thirdString = "string 2" //inferred string declaration
+var firstString: String //deferred declaration of a string
+firstString = "string 1" //deferred value assignment
 
-var secondString: String //deferred declaration of a string
-secondString = "string 3" //deferred value assignment
-
-let fourthString: String = "string 4" //assign a constant string explicitly
-let sixthString = "string 5" //inferred constant string declaration
-
-let fifthString: String //deferred declaration of a constant string
-fifthString = "string 6" //deferred constant value assignment
+let secondString: String //deferred declaration of a constant string
+secondString = "string 2" //deferred constant value assignment
 ```
 
 The following videos descibe the difference between values versus references, and creating optional values:
