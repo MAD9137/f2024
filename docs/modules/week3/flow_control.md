@@ -1,4 +1,4 @@
-# Control Flow
+# Flow Control
 
 Swift has all of the expected **flow control** statements ( **if**, **while**, **for** and **switch** ) that one expects. However, each has its own unique Swift way of writing them. There are creative differences in the syntax for each control statement, and instead of do-while and for-each loops Swift has an equivalent **repeat-while** and **for-in** loop statement.
 

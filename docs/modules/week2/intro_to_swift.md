@@ -14,7 +14,7 @@ Some of the features of Swift include: inferred types, automatic memory manageme
 
 The following video will give you some history about the Swift programming language:
 
-[Swift retrospective](https://www.linkedin.com/learning/swift-5-essential-training/swift-retrospective?u=2199673)
+[Swift retrospective <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-retrospective?u=2199673)
 
 ### What is a Playground?
 
@@ -62,7 +62,7 @@ It is recommended that you learn a new coding language by typing the code yourse
 
 The following videos will help give you an understanding of what playgrounds are, and how they will be used to learn Swift coding basics:
 
-[Work with variables in a playground](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/work-with-variables-in-a-playground?u=2199673)
+[Work with variables in a playground <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/work-with-variables-in-a-playground?u=2199673)
 
 :::warning NOTE
 Choosing the iOS platform will import UIKit instead of Cocoa library.  Either will be fine for learning Swift.
@@ -70,11 +70,11 @@ Choosing the iOS platform will import UIKit instead of Cocoa library.  Either wi
 
 The Swift 5 Essential Training series offers you downloadable exercise files.  The files are a series of Playgrounds that have indepth information about Swift.  The following video discusses these these files:
 
-[Reviewing the exercise files](https://www.linkedin.com/learning/swift-5-essential-training/reviewing-the-exercise-files?u=2199673)
+[Reviewing the exercise files <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/reviewing-the-exercise-files?u=2199673)
 
 This last video shows the basics of using code comments, and how to log text to the debug console:
 
-[Logging and commenting](https://www.linkedin.com/learning/swift-5-essential-training/logging-and-commenting?u=2199673)
+[Logging and commenting <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/logging-and-commenting?u=2199673)
 
 <!-- [Download Swift playground from swift.org](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.playground.zip) -->
 <!-- [Work with variables in a playground](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/work-with-variables-in-a-playground?u=2199673) -->

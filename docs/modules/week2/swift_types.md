@@ -118,21 +118,21 @@ var colorOct = 0o377
 
 The foloowing videos give more information about variable in Swift:
 
-[The quest begins: variables](https://www.linkedin.com/learning/swift-5-essential-training/the-quest-begins-variables?u=2199673)
+[The quest begins: variables <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/the-quest-begins-variables?u=2199673)
 
-[Variables and constants](https://www.linkedin.com/learning/swift-5-essential-training/variables-and-constants?u=2199673)
+[Variables and constants <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/variables-and-constants?u=2199673)
 
-[Type safety and inference](https://www.linkedin.com/learning/swift-5-essential-training/type-safety-and-inference?u=2199673)
+[Type safety and inference <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/type-safety-and-inference?u=2199673)
 
-[Swift operators](https://www.linkedin.com/learning/swift-5-essential-training/swift-operators?u=2199673)
+[Swift operators <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-operators?u=2199673)
 
-[Understanding strings](https://www.linkedin.com/learning/swift-5-essential-training/understanding-strings?u=2199673)
+[Understanding strings <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/understanding-strings?u=2199673)
 
-[Working with strings](https://www.linkedin.com/learning/swift-5-essential-training/working-with-strings?u=2199673)
+[Working with strings <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/working-with-strings?u=2199673)
 
-[Type conversions](https://www.linkedin.com/learning/swift-5-essential-training/type-conversions?u=2199673)
+[Type conversions <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/type-conversions?u=2199673)
 
-[Bools and logical operators](https://www.linkedin.com/learning/swift-5-essential-training/bools-and-logical-operators?u=2199673)
+[Bools and logical operators <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/bools-and-logical-operators?u=2199673)
 
 ### Optional variable creation and deferred value assignment
 
@@ -144,9 +144,9 @@ You can make a new integer variable called 'users' like this:
 var users = 88
 ```
 
-which seems to be inferring the type (an int) based on the value it is being set to.
+This is inferring the type (an Int) based on the value it is being set to.
 
-Languages that use inference are called **loosely-typed languages**. Swift is, in fact, a **strongly-typed language**, meaning the variable's type *must* be chosen when you create it.
+Languages that only use inference are called **loosely-typed languages**. Swift is, in fact, a **strongly-typed language**, meaning the variable's type *must* be chosen when you create it.
 
 The example "var users = 88" is actually considered a **short-hand form** for the explicit version of the same declaration, which looks like:
 
@@ -154,7 +154,7 @@ The example "var users = 88" is actually considered a **short-hand form** for th
 var users: Int = 88
 ```
 
-This short-hand can only be used initially when assigning a value to your variable as you create it.
+This short-hand can **only** be used when initially assigning a value to your variable as you create it.
 
 If you wanted to create a new variable but don't want to assign a value to it, you must assign the type like:
 
@@ -162,31 +162,25 @@ If you wanted to create a new variable but don't want to assign a value to it, y
 var users: Int
 ```
 
-or the compiler will throw errors. These are called **optional variables**, and to use them you must also start checking if your optional value is equal to **nil** in your code before you access is using an if statement.
-
 The following shows you examples of the different ways you can define a variable:
 
 ```swift
 var firstString: String = "string 1" //assign a string explicitly
+var thirdString = "string 2" //inferred string declaration
 
-var secondString: String //deferred declaration
-secondString = "string 2" //deferred value assignment
-
-var thirdString = "string 3" //inferred declaration
+var secondString: String //deferred declaration of a string
+secondString = "string 3" //deferred value assignment
 
 let fourthString: String = "string 4" //assign a constant string explicitly
+let sixthString = "string 5" //inferred constant string declaration
 
-let fifthString: String //deferred constant declaration
-fifthString = "string 5" //deferred constant value assignment
-
-let sixthString = "string 6" //inferred constant declaration
+let fifthString: String //deferred declaration of a constant string
+fifthString = "string 6" //deferred constant value assignment
 ```
 
 The following videos descibe the difference between values versus references, and creating optional values:
 
-[Introducing optionals](https://www.linkedin.com/learning/swift-5-essential-training/introducing-optionals?u=2199673)
-
-[Value vs Reference Types](https://www.linkedin.com/learning/swift-5-essential-training/value-vs-reference-types?u=2199673)
+[Value vs Reference Types <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/value-vs-reference-types?u=2199673)
 
 For more information about Swift variables you can look at the Apple documentation here:
 

@@ -11,6 +11,8 @@ In the example below you can see how to validate if an optional is set to nil, o
 <!-- INSERT OPTIONALS SNIPPET -->
 <<< @/docs/.vuepress/includes/snippets/optionals/optionals.swift
 
+[Introducing optionals](https://www.linkedin.com/learning/swift-5-essential-training/introducing-optionals?u=2199673)
+
 [Swift Fundamentals - Optionals, an Introduction <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=987e8f42-09a6-4ad0-b313-93f26ab082f2)
 
 [Swift Fundamentals - Unwrapping Optionals <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=5ca834db-075b-4290-9f87-1610b838df6f)
