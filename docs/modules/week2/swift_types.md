@@ -12,6 +12,10 @@ In Swift there are two main categories of data types: value types and reference 
 
 The main difference between value and reference data types is the way they are passed around in memory. When a value type is passed in to a function as a parameter, it is actually duplicated in memory and the duplicate is what is manipulated within the function; when the function ends, the copy is deleted. Reference types are handled differently, and pass a reference (pointer to the original object) around directly. *This means the original object passed in to a function is changed when the function manipulates the passed-in value.*
 
+The following videos descibe the difference between values versus references, and creating optional values:
+
+[Value vs Reference Types <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/value-vs-reference-types?u=2199673)
+
 ## Mutability with `var` and `let`
 
 So far in Swift you have seen how to create variables with the keyword **var** like this:
@@ -171,10 +175,6 @@ firstString = "string 1" //deferred value assignment
 let secondString: String //deferred declaration of a constant string
 secondString = "string 2" //deferred constant value assignment
 ```
-
-The following videos descibe the difference between values versus references, and creating optional values:
-
-[Value vs Reference Types <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/value-vs-reference-types?u=2199673)
 
 For more information about Swift variables you can look at the Apple documentation here:
 
