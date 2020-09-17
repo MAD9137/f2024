@@ -17,11 +17,11 @@ In the example below you can see how to validate if an optional is set to nil, o
 
 [Swift Fundamentals - Unwrapping Optionals <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=5ca834db-075b-4290-9f87-1610b838df6f)
 
-[Swift 5 Essential Training - Unwrapping Optionals <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/unwrapping-optionals?u=2199673)
+[Swift 5 Essential Training - Unwrapping Optionals <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/unwrapping-optionals?u=2199673)
 
-[Programming for Non-Programmers: Swift Optionals <Badge text="Lynda"/>](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/optionals?u=2199673)
+[Programming for Non-Programmers: Swift Optionals  <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/optionals?u=2199673)
 
-[Swift 5 Essential Training - Chaining Optionals <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/chaining-optionals?u=2199673)
+[Swift 5 Essential Training - Chaining Optionals  <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/chaining-optionals?u=2199673)
 
 ## Guard Statements
 
@@ -36,9 +36,9 @@ The code below demonstrates how to use a guard statement to prevent code from ru
 <!-- INSERT GUARDS SNIPPET -->
 <<< @/docs/.vuepress/includes/snippets/optionals/guards.swift
 
-[Swift 5 Essential Training - The Guard Statement <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/the-guard-statement?u=2199673)
+[Swift 5 Essential Training - The Guard Statement <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/the-guard-statement?u=2199673)
 
-[Programming for Non-Programmers: Guard Statements <Badge text="Lynda"/>](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/guard-statements?u=2199673)
+[Programming for Non-Programmers: Guard Statements <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/guard-statements?u=2199673)
 
 ### Get-Only Variables
 
