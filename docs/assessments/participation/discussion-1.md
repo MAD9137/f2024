@@ -12,6 +12,8 @@ For marks, you must:
 -provide an example as to how it can be used (2 marks)
 -provide a web link to a resource(s) that you found about your topic (1 mark)
 
+Due by: Sept. 25, 11:59pm
+
 [Discussion 1 - Section 300](https://brightspace.algonquincollege.com/d2l/home/282607)
 
 [Discussion 1 - Section 310](https://brightspace.algonquincollege.com/d2l/home/282608)

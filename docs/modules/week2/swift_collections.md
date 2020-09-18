@@ -156,7 +156,8 @@ var areaCode = ("Ottawa", 613)
 var inputValues: (Float, Int, Bool) = (5.5, 102, true)
 
 // Giving some of your Tuple values a name
-var studentGrades: (firstName: String, lastName: String, [Int])studentGrades = ("Jon", "Doe", [88, 98, 90])
+var studentGrades: (firstName: String, lastName: String, [Int])
+studentGrades = ("Jon", "Doe", [88, 98, 90])
 
 // Accessing Tuples
 let studentFirstName = studentGrades.0
