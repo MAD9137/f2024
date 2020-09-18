@@ -1,4 +1,12 @@
-# Quiz 3
+# Quiz 3 - Server Requests
+
+Quiz will be released November 30.
+
+Due by: Dec. 11, 11:59pm
+
+[Quiz 1 - Section 300](https://brightspace.algonquincollege.com/d2l/home/282607)
+
+[Quiz 1 - Section 310](https://brightspace.algonquincollege.com/d2l/home/282608)
 
 :::warning
 Under Construction

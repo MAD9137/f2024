@@ -1,7 +1,9 @@
-# Quiz 2
+# Quiz 2 - iOS Development Fundamentals
 
-Quiz will be released October 29 and due November 12
+Quiz will be released October 29.
 
-[Quiz 2 - Section 300](https://brightspace.algonquincollege.com/d2l/lms/quizzing/user/quizzes_list.d2l?ou=196083)
+Due by: Nov. 12, 11:59pm
 
-[Quiz 2 - Section 310](https://brightspace.algonquincollege.com/d2l/lms/quizzing/user/quizzes_list.d2l?ou=196084)
+[Quiz 1 - Section 300](https://brightspace.algonquincollege.com/d2l/home/282607)
+
+[Quiz 1 - Section 310](https://brightspace.algonquincollege.com/d2l/home/282608)

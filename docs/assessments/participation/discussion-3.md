@@ -1,4 +1,4 @@
-# Discussion 3
+# Discussion 3 - Apple Guidelines
 
 This discussion requires you to use Apple's Human Interface Guidelines.  You will:
 
@@ -9,6 +9,8 @@ This discussion requires you to use Apple's Human Interface Guidelines.  You wil
 Make sure you do not post about the same rule/guideline as someone else, so be sure to review others' posts before submitting your own.
 :::
 
-[Discussion 3 - Section 300](https://brightspace.algonquincollege.com/d2l/le/196083/discussions/List)
+Due by: Nov. 27, 11:59pm
 
-[Discussion 3 - Section 310](https://brightspace.algonquincollege.com/d2l/le/196084/discussions/List)
+[Section 300](https://brightspace.algonquincollege.com/d2l/home/282607)
+
+[Section 310](https://brightspace.algonquincollege.com/d2l/home/282608)

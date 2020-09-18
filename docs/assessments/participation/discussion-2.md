@@ -1,4 +1,4 @@
-# Discussion 2
+# Discussion 2 - iOS development with UIKit
 
 As you are learning the fundamentals of iOS development, you quickly begin to understand how vast the UIKit framework really is: it contains the definition and functionality for all the UI classes (UIView, UIButton, UILabel, etc.).
 
@@ -21,6 +21,8 @@ Marks are given for the following tasks:
 - Give a link to the Apple Developer web page describing the topic (1pt.)
 - Provide feedback to another student on their post (1pt.)
 
-[Discussion 2 - Section 300](https://brightspace.algonquincollege.com/d2l/le/196083/discussions/List)
+Due by: Oct. 09, 11:59pm
 
-[Discussion 2 - Section 310](https://brightspace.algonquincollege.com/d2l/le/196084/discussions/List)
+[Section 300](https://brightspace.algonquincollege.com/d2l/home/282607)
+
+[Section 310](https://brightspace.algonquincollege.com/d2l/home/282608)
