@@ -1,4 +1,4 @@
-# Quiz 1
+# Quiz 1 - Introduction to Swift
 
 Quiz 1 will be released September 14.
 

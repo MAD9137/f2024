@@ -1,4 +1,4 @@
-# Discussion 1
+# Discussion 1 - Swift Information
 
 ## Forum Topic
 
