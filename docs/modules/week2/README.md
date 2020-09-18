@@ -6,6 +6,14 @@
 
 [Quiz 1](/assessments/participation/quiz-1.md)
 
+## Learning Outcomes for this Week
+
+By the end of this week, students will:
+
+- Be introduced to coding in Swift Playgrounds
+- Learn the different data types in Swift
+- Explore the different data collections in Swift
+
 ## Assessments Due
 
 N/A
