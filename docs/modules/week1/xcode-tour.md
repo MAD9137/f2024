@@ -10,13 +10,13 @@ The next videos give you a good look at the Xcode IDE, and creating a project:
 
 [Navigate the Xcode interface <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/ios-13-development-essential-training-1-fundamentals-ui-and-architecture/navigate-the-xcode-interface?u=2199673)
 
-## The main areas within Xcode
+## The Main Areas Within Xcode
 
 The following images highlight *some* of the more important areas and buttons of the Xcode interface.
 
 ![Basic Xcode Layout](/F2020/assets/img/XcodeBasicLayout.png)
 
-### The toolbar area
+### The Toolbar Area
 
 ![Toolbar Layout](/F2020/assets/img/XcodeToolbarLeftDetails.png)
 
@@ -28,21 +28,21 @@ The following images highlight *some* of the more important areas and buttons of
 If you do not see the toolbar area in Xcode, go to *View-> Show Toolbar (⌥⌘T).*
 :::
 
-### The navigator area
+### The Navigator Area
 
 ![Navigator Area](/F2020/assets/img/XcodeNavigatorDetails.png)
 
-### The inspector area
+### The Inspector Area
 
 ![Inspector Layout](/F2020/assets/img/XcodeInspectorDetails.png)
 
-### The library area
+### The Library Area
 
 ![Library Layout](/F2020/assets/img/XcodeLibraryCodeDetails.png)
 
 ![Library Layout](/F2020/assets/img/XcodeLibraryStoryboardDetails.png)
 
-### The Jump Bar in the Editor area
+### The Jump Bar in The Editor Area
 
 ![Inspector Layout](/F2020/assets/img/XcodeJumpBarDetails.png)
 
