@@ -16,26 +16,34 @@ The following images highlight *some* of the more important areas and buttons of
 
 ![Basic Xcode Layout](/F2020/assets/img/XcodeBasicLayout.png)
 
-:::warning NOTE
-The inspector and the library areas make up a larger area called the *utility area*.
-:::
-
 ### The toolbar area
 
- ![Toolbar Layout](/F2020/assets/img/toolbarDetails.png)
+![Toolbar Layout](/F2020/assets/img/XcodeToolbarLeftDetails.png)
 
- If you do not see the toolbar area in Xcode, go to *View-> Show Toolbar (⌥⌘T).*
+![Toolbar Layout](/F2020/assets/img/XcodeToolbarMiddleDetails.png)
+
+![Toolbar Layout](/F2020/assets/img/XcodeToolbarRightDetails.png)
+
+:::warning NOTE
+If you do not see the toolbar area in Xcode, go to *View-> Show Toolbar (⌥⌘T).*
+:::
 
 ### The navigator area
 
- ![Navigator Area](/F2020/assets/img/navigatorDetails.png)
+![Navigator Area](/F2020/assets/img/XcodeNavigatorDetails.png)
 
 ### The inspector area
 
-  ![Inspector Layout](/F2020/assets/img/inspectorDetails.png)
+![Inspector Layout](/F2020/assets/img/XcodeInspectorDetails.png)
 
 ### The library area
 
- ![Library Layout](/F2020/assets/img/libraryDetails.png)
+![Library Layout](/F2020/assets/img/XcodeLibraryCodeDetails.png)
+
+![Library Layout](/F2020/assets/img/XcodeLibraryStoryboardDetails.png)
+
+### The Jump Bar in the Editor area
+
+![Inspector Layout](/F2020/assets/img/XcodeJumpBarDetails.png)
 
 [Back to Week 1](./index.md#during-class)
