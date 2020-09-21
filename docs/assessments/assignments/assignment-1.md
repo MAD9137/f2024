@@ -8,7 +8,7 @@ In this assignment you will be creating a simple iOS project with a textView to 
 
 ### Step 1
 
-Begin by [downloading this iOS project](/F2020/assets/downloads/F18_Assignment_01_Start.zip) to start with.  This has a textView object in the main view that is connected to an outlet in your viewController class.  This project will be used to create your assignment, and shows you an example of where to output your messages in the viewController’s viewDidLoad() method.  This is where you will Testing the Classes.
+Begin by [downloading this iOS project](/F2020/assets/downloads/Assignment_01_Start.zip) to start with.  This has a textView object in the main view that is connected to an outlet in your viewController class.  This project will be used to create your assignment, and shows you an example of where to output your messages in the viewController’s viewDidLoad() method.  This is where you will Testing the Classes.
 
 ### Step 2
 
