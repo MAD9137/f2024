@@ -10,7 +10,7 @@ By default, Xcode does not display line numbers.
 
 To turn on this functionality, go to *Xcode-> Preferences*, and open the **Text Editing** tab.
 
-![Xcode Preferences](/F2020/assets/img/text-editing.png)
+![Xcode Preferences](/F2020/assets/img/XcodePreferencesTextEditing.png)
 
 Check the box for “Line numbers", and close the window.
 

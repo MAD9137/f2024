@@ -8,7 +8,7 @@ If you followed this week's instructions and have installed Xcode correctly, you
 
 This is a screenshot of the application running in the simulator, with the Xcode project in the background:
 
-![Hello World App](/F2020/assets/img/HelloWorld.png)
+![Hello World App](/F2020/assets/img/XcodeHelloWorld.png)
 
 **To run the application:** [Download the HelloWorld project here](/F2020/assets/downloads/HelloWorld.zip), unzip it and double-click on the `.xcodeproj` file to open it in Xcode.  From the toolbar, press the run/play button.
 
