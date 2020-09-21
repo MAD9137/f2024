@@ -14,7 +14,7 @@ The next videos give you a good look at the Xcode IDE, and creating a project:
 
 The following images highlight *some* of the more important areas and buttons of the Xcode interface.
 
-![Basic Xcode Layout](/F2020/assets/img/BasicXcodeLayout.png)
+![Basic Xcode Layout](/F2020/assets/img/XcodeBasicLayout.png)
 
 :::warning NOTE
 The inspector and the library areas make up a larger area called the *utility area*.
