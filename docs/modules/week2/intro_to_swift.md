@@ -21,7 +21,7 @@ The following video will give you some history about the Swift programming langu
 A **playground** is a "sandbox" environment built into Xcode that allows you to see the results of your code in real time.  We will be using Playgrounds to learn Swift.
 
 :::warning NOTE
-You can't develop an app in a playground — it is for testing only.
+You can't develop a full application in a playground — it is for testing only.
 :::
 
 ### How to Create a Playground?
