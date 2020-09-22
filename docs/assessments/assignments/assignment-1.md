@@ -39,8 +39,8 @@ func setDate(formatedDateString: String){
 
 Create the Schedule class in the Schedule.swift file
 
-* Add a variable called eventArray of type Event array
-* Add a get-only Int called eventCount, use a guard statement to check if isEmpty is false on the array, else return 0. If the guard passes return the array’s count value.
+* Add an **empty** Event array variable called eventArray
+* Add a **get-only** Int called eventCount, use a guard statement to check if isEmpty is false on the array, else return 0. If the guard passes return the array’s count value.
 * Create an addNewEvent function that takes in 3 String parameters called title, description and dateString. Append a new Event object to the array using these values within this function.
 * Create a function called outputAllEvents that takes no arguments, and returns a string. Use a guard to check if the isEmpty is false on the array, else return an error message. If the guard passes, then loop through the eventArray array concatenating the String data returned from each event’s getInfo function to a new formatted string, and return that string
 
