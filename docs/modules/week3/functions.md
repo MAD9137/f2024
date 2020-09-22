@@ -76,7 +76,8 @@ func outputUserName(name: String = "Jon Doe") -> String{
     return ("Hello \(name)");
 }
 
-outputUserName()outputUserName(name: "Jane Doe")
+outputUserName()
+outputUserName(name: "Jane Doe")
 ```
 
 ```swift
