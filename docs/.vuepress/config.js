@@ -61,7 +61,7 @@ module.exports = {
         children: [
           '/modules/week1/',
           '/modules/week2/',
-          // '/modules/week3/',
+          '/modules/week3/',
           // '/modules/week4/',
           // '/modules/week5/',
           // '/modules/week6/',
@@ -84,6 +84,7 @@ module.exports = {
           '/assessments/participation/',
           '/assessments/participation/discussion-1.md',
           '/assessments/participation/quiz-1.md',
+          '/assessments/assignments/assignment-1.md',
         ],
       },
     ],
