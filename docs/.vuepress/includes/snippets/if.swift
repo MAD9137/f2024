@@ -11,6 +11,7 @@ if height > 100 && height < 150 {
 }
 else if height >= 150 {
     print ("over suggested height")
-} else {
+} 
+else {
     print ("under min height")
 }
