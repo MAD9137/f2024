@@ -1,12 +1,33 @@
 # Optionals and Guard Statements
 
-## Binding of Optionals
+## Optionals
 
 Optional variables and constants are created by ending their definitions with a ? (question mark) symbol. This allows you to leave the variable or constant set to nil and set its value at a later time.
 
-Previously, in the lesson entitled More about Swift Types, was the information on how to create optional values.
+The following is an example of creaing an option String.
+```swift
+var userName: String? = "Jon Doe"
+```
 
-In the example below you can see how to validate if an optional is set to nil, or set to a valid value.
+When you want to access the value within an optional variable you must "unwrap" the optional.  This is done when you use the optional variable by adding an ! after the nvariable name like so.
+```swift
+print(userName!)
+```
+
+:::warning WARNING
+  Trying to unwrap and use an optional variable that is still set to nil will cause your application to crash!
+:::
+
+You should never try to use optional variables without first checking if there is a valid value set first.  The following example will generate an error in your code.
+The following is an example of creaing an option String.
+```swift
+var userEmail: String?
+print(userEmail!)
+```
+
+## Binding of Optionals
+
+There a a few ways to vlidate if an optional have been set with a value before you use it.  The first way is using what is called Optiona-Binding.  In the example below you can see how to validate if an optional is set to nil, or set to a valid value by binding it to a new constant (let) variable created within an if-statement.
 
 <!-- INSERT OPTIONALS SNIPPET -->
 <<< @/docs/.vuepress/includes/snippets/optionals/optionals.swift
