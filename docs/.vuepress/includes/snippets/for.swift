@@ -25,7 +25,7 @@ for c in stride(from: 0, to: 100, by: 10) {
 
 // For-In loops let you iterate through an array like this
 var loopArray = [3, 5, 8, 13, 19, 26]
-for (v) in loopArray {
+for v in loopArray {
     print (v)
 }
 

@@ -1,5 +1,5 @@
 // Create an optional variable
-var myNum: Int? = 25  // Uncomment to set optional
+var myNum: Int? = //25  // Uncomment to set optional
 
 /* Make a Get-Only variable that returns a 'safe' value for the above
 optional if it is nil, otherwise return the unwrapped optional value */

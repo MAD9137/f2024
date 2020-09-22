@@ -45,6 +45,6 @@ The code below demonstrates how to use a guard statement to prevent code from ru
 Another helpful use for a guard statement is to use the to make **get-only** variables.  This is where you create a variable to safely access another optional variable safely without  the need to worry if it has been set or not.  By creating the additional "safe" get-only variable you can predetermine what value gets returned when the original value is still nil.
 
 <!-- INSERT GET_ONLY SNIPPET -->
-<!-- <<< @/docs/.vuepress/includes/snippets/optionals/get-only.swift -->
+<<< @/docs/.vuepress/includes/snippets/optionals/get-only.swift
 
 [Back to Week 3](./index.md#during-class)
