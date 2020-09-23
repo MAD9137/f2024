@@ -22,6 +22,7 @@ You should never try to use optional variables without first checking if there i
 The following is an example of creaing an option String.
 ```swift
 var userEmail: String?
+
 print(userEmail!)
 ```
 

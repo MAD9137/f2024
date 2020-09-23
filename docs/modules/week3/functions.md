@@ -72,8 +72,8 @@ addTwoDoublesAndDivide(1.1, 2.2, 3.3)
 // DEFAULT FUNCTION PARAMETERS
 // Defining a function with default parameter values
 
-func outputUserName(name: String = "Jon Doe") -> String{
-    return ("Hello \(name)");
+func outputUserName(name: String = "Jon Doe"){
+    print("Hello \(name)");
 }
 
 outputUserName()
@@ -115,30 +115,6 @@ resetPosition(&x, &y)
 print("resetPosition has set the position to: \(x), \(y)")
 ```
 
-```swift
-/*
- PASSING A FUNCTION INTO A FUNTION AS A PARAMETER
-
- Below we create a parameter in our restart function called resetterFunc that will have
- the resetPosition function passed in.  It is a function type, and must be declared with
- the same input parameters (inout Double, inout Double) and return type which is empty in
- this case ->()
- */
-func restart(resetterFunc: (inout Double, inout Double)->(), positionX: inout Double, positionY: inout Double){    if positionX != 0.0 || positionY != 0.0 {
-    resetterFunc(&positionX, &positionY)
-    }
-}
-
-// Set x and y to test values
-x = 9.9; y = 4.5
-print("Set test position to: \(x), \(y)")
-
-// Pass function resetPosition, along with the values by reference to the function like this
-restart(resetterFunc: resetPosition, positionX: &x, positionY: &y )
-print("restart set the position to: \(x), \(y)")
-
-```
-
 ## Function Return Values
 
 A function can return a value at the end of it execution to pass data to the code that called it.  The different options for passing data out of a function are outlined below.
@@ -154,23 +130,89 @@ let result = addInt(10, 20)
 ```
 
 ```swift
+// RETURNING A TOUPLE FROM A FUNCTION
+// Define the return touple after the -> with the data types you want
+func getMidPoint() -> (xOutput: Double, yOutput: Double) {
+    return (10.0, 10.0)
+}
+var midPoint = getMidPoint()
+
+// You can access the tuple results numerically
+midPoint.0 += 1.0midPoint.1 -= 1.0
+
+// And you can access the values by the return value labels
+x = midPoint.xOutput
+y = midPoint.yOutput
+```
+
+
+## A Function as a Variable Type
+Functions can be used as a variable type, and can be passed into functions as a parameter, as well as returned out of functions as a rturn value.  We will look at creating variables to hold functions, passing functions in as parameter, and returning functions as a return value from a function for functions we have seen above in this lesson in the next few examples.
+
+```swift
 // USING A FUNCTION TYPE
-// Using a "function type" to create a copy of the function above, and use it
-let addTwoIntsObj: (Int, Int) -> Int = addInt
-addTwoIntsObj(7, 9)
-
 // Even when creating a function type for the most basic of functions requires an
-// empty parameter, and return type to be declared
+// empty parameter, and return type to be declared.  The structure must match that
+// of the function you want to be held by the variable.  The following will hold 
+// the outputPi function from the start of this lesson.
+let printPi: () -> () = outputPi
 
-let printPi: () -> () = outputPiprintPi()
+printPi()
+
+
+// Using a more complex "function type" to create a copy of the addInt function 
+// from above, and use it
+let addTwoIntsObj: (Int, Int) -> Int = addInt
+
+addTwoIntsObj(7, 9)
+```
+
+```swift
+// PASSING A FUNCTION INTO A FUNTION AS A PARAMETER
+// The following will pass the original outputPi function into another function as a 
+// parameter.
+func describeMathConst(piPrinter: ()->() ) {
+    print("The constant for pi is:", separator: "", terminator: " ")
+    piPrinter()
+}
+
+describeMathConst (piPrinter: outputPi)
+
+// Below we create a parameter in our restart function called resetterFunc that will have
+// the resetPosition function passed in.  It is a function type, and must be declared with
+// the same input parameters (inout Double, inout Double) and return type which is empty in
+// this case ->()
+ 
+func restart(resetterFunc: (inout Double, inout Double)->(), positionX: inout Double, positionY: inout Double) {    
+    if positionX != 0.0 || positionY != 0.0 {
+        resetterFunc(&positionX, &positionY)
+    }
+}
+
+// Set x and y to test values
+x = 9.9; y = 4.5
+print("Set test position to: \(x), \(y)")
+
+// Pass function resetPosition, along with the values by reference to the function like this
+restart(resetterFunc: resetPosition, positionX: &x, positionY: &y )
+print("restart set the position to: \(x), \(y)")
+
 ```
 
 ```swift
 // RETURNING A FUNCTION TYPE OUT OF A FUNCTION
 // The return value after the initial -> must be formatted with the same
-// input parameters (inout Double, inout Double) and return type,
-// which is empty in this case ->()
+// input parameters 
+func getMathConst() -> () -> () {
+    return outputPi
+}
 
+var circleMathConstant = getMathConst()
+circleMathConst()
+
+// Returning a more complex function, like the resetPosition function 
+// would need input parameters (inout Double, inout Double) and the same 
+// return type, which is empty in this case ->()
 func getResetterFunction() -> (inout Double, inout Double) -> (){
     return resetPosition
 }
@@ -184,23 +226,6 @@ var myResetterFunc = getResetterFunction()
 // Pass the values by reference to the returned function type like this
 myResetterFunc(&x, &y)
 print("The getResetterFunction is used to set the x and y back to: \(x), \(y) with the functionality returned")
-```
-
-```swift
-// RETURNING A TOUPLE FROM A FUNCTION
-// Define the return touple after the -> with the data types you want
-
-func getMidPoint() -> (xOutput: Double, yOutput: Double) {
-    return (10.0, 10.0)
-}
-var midPoint = getMidPoint()
-
-// You can access the tuple results numerically
-midPoint.0 += 1.0midPoint.1 -= 1.0
-
-// And you can access the values by the return value labels
-x = midPoint.xOutput
-y = midPoint.yOutput
 ```
 
 ## Closures
