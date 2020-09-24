@@ -2,7 +2,9 @@
 
 ## Optionals
 
-Optional variables and constants are created by ending their definitions with a ? (question mark) symbol. This allows you to leave the variable or constant set to nil and set its value at a later time.
+Optionals are special kinds of variables that can be created when you what to hold a priece of data that might, or might not ever be set. You would use optional variables when you want to store a value that is always required, but might become available.  Optional variables (var and let) are created by ending the type definitions with a ? (question mark) symbol. 
+
+This allows you to leave the variable or constant unused (set to a value of nil), and allows you to choose to set its value or not.  An situation when you might want to use an optional is if you would like to give the option to set a user's middle-name.  Not everyone has a middle-name so some users would be leave that value unset.
 
 The following is an example of creaing an option String.
 ```swift
@@ -33,17 +35,17 @@ There a a few ways to vlidate if an optional have been set with a value before y
 <!-- INSERT OPTIONALS SNIPPET -->
 <<< @/docs/.vuepress/includes/snippets/optionals/optionals.swift
 
-[Introducing optionals](https://www.linkedin.com/learning/swift-5-essential-training/introducing-optionals?u=2199673)
+<!-- [Introducing optionals](https://www.linkedin.com/learning/swift-5-essential-training/introducing-optionals?u=2199673) -->
 
 [Swift Fundamentals - Optionals, an Introduction <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=987e8f42-09a6-4ad0-b313-93f26ab082f2)
 
 [Swift Fundamentals - Unwrapping Optionals <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=5ca834db-075b-4290-9f87-1610b838df6f)
 
-[Swift 5 Essential Training - Unwrapping Optionals <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/unwrapping-optionals?u=2199673)
+<!-- [Swift 5 Essential Training - Unwrapping Optionals <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/unwrapping-optionals?u=2199673) -->
 
-[Programming for Non-Programmers: Swift Optionals  <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/optionals?u=2199673)
+<!-- [Programming for Non-Programmers: Swift Optionals  <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/optionals?u=2199673) -->
 
-[Swift 5 Essential Training - Chaining Optionals  <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/chaining-optionals?u=2199673)
+<!-- [Swift 5 Essential Training - Chaining Optionals  <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/chaining-optionals?u=2199673) -->
 
 ## Guard Statements
 
@@ -58,9 +60,9 @@ The code below demonstrates how to use a guard statement to prevent code from ru
 <!-- INSERT GUARDS SNIPPET -->
 <<< @/docs/.vuepress/includes/snippets/optionals/guards.swift
 
-[Swift 5 Essential Training - The Guard Statement <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/the-guard-statement?u=2199673)
+<!-- [Swift 5 Essential Training - The Guard Statement <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/the-guard-statement?u=2199673) -->
 
-[Programming for Non-Programmers: Guard Statements <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/guard-statements?u=2199673)
+<!-- [Programming for Non-Programmers: Guard Statements <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/guard-statements?u=2199673) -->
 
 ### Get-Only Variables
 
