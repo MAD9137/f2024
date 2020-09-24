@@ -6,17 +6,17 @@ Swift has all of the expected **flow control** statements ( **if**, **while**, *
 
 ### If & If-Else Statements
 
-If and If-Else statements in Swift look quite similar to the way they are written in other languages.
+If and If-Else statements in Swift look quite similar to the way they are written in other languages.  The following shows a simple if statement and a more complex one.
 
 <!-- INSERT IF and IF-ELSE SNIPPET -->
 <<< @/docs/.vuepress/includes/snippets/if.swift
 
 ### Switch Statements
 
-If and If-Else statements in Swift look quite similar to the way they are written in other languages.
+Switch statements are similar to other languages, but there are some unique differences that you should note.  Swift switch statements are exhaustive, meaning it **must** handle all possible values for a given variable.  This really means you must include a default clause at the end.  The next difference is that each case clause is treated as its own block of code, and must contain some executable code (comments are not enough).  This means you do not need to add a break statement at the end of each case statement.  This also means that there is no automatic "fall-through" from one case to the next.  If you wish to have multiple case statements all fall-through to execute one block of code you must use one case statement that lists all the possible values that should run the same block of code.
 
-<!-- INSERT IF and IF-ELSE SNIPPET -->
-<<< @/docs/.vuepress/includes/snippets/if.swift
+<!-- INSERT IF and SWITCH SNIPPET -->
+<<< @/docs/.vuepress/includes/snippets/switch.swift
 
 
 ## Logic Loops
