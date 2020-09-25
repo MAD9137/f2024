@@ -37,10 +37,11 @@ print("Struct showing '\(myLocation.description)' at 'north:\(myLocation.coords.
 ```
 
 The following video shows more information of creating and using structures:
-
-[Swift 5 Essential Training - Basic Structs <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/basic-swift-structs?u=2199673)
+<!-- [Swift 5 Essential Training - Basic Structs <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/basic-swift-structs?u=2199673) -->
 
 [Swift Fundamentals - Defining and Using Structs <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=d3aaa70d-81e8-413a-8d6c-b0562a79684a)
+
+[Swift Fundamentals - Revisiting Classes and Structs <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=bbafbe3e-831d-4f0e-88d1-7f2d3235755e)
 
 ## Enumerators
 
@@ -87,8 +88,7 @@ totalCost.rawValue
 ```
 
 The next videos show you how to use Enumeration in Swift:
-
-[Swift 5 Essential Training - Swift Enumerations <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-enumerations?u=2199673)
+<!-- [Swift 5 Essential Training - Swift Enumerations <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-enumerations?u=2199673) -->
 
 [Swift Fundamentals - Using Enumerations <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=c56e267b-5cbc-4571-bd5c-2b53bb14fa4e)
 
@@ -151,8 +151,7 @@ print("User '\(myProtocolClass.myName)' is setting a new id value. Old value was
 ```
 
 This video shows example of using protocols:
-
-[Swift 5 Essential Training - Introducing Protocols <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/introducing-protocols?u=2199673)
+<!-- [Swift 5 Essential Training - Introducing Protocols <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/introducing-protocols?u=2199673) -->
 
 [Swift Fundamentals - Introducing Protocols <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=095103af-48f6-455e-92e3-161c462b9bb5)
 

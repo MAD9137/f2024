@@ -268,8 +268,15 @@ messager = nil
 
 The following shows you how to create and use classes in Swift:
 
-[Swift 5 Essential Training - Basic Classes <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/basic-swift-classes?u=2199673)
+[Swift Fundamentals - Defining Classes <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=463e68d1-c028-4b08-a2a2-940bd785e157)
 
-[Swift Fundamentals - Using Classes and Objects <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=463e68d1-c028-4b08-a2a2-940bd785e157)
+[Swift Fundamentals - Adding Initializers <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=9ac87a37-527b-4227-80e3-7059d2a72a9f)
 
+[Swift Fundamentals - Implementing Inheritance and Overriding Methods <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=133cdb91-1338-48ff-ad13-21e16187d053)
+
+[Swift Fundamentals - Adding Functionality with Extensions <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=041b6699-1c10-421e-91ec-b488daaae873)
+
+[Swift Fundamentals - Using Computed Properties <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=c9dc3b17-72c3-4ad0-aee7-12e3f3060755)
+
+<!-- [Swift 5 Essential Training - Basic Classes <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/basic-swift-classes?u=2199673) -->
 [Back to Week 3](./index.md#during-class)
