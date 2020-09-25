@@ -47,6 +47,10 @@ let exampleClothes1: ClothingProduct = ClothingProduct(brand: "Polo", cost: 45.9
 let exampleClothes2: ClothingProduct = ClothingProduct(brand: "North Face", cost: 125.99, quantity: 25)
 ```
 
+:::tip TIP
+Each code example of creating classes in this lessonwill end with an example of how to instantiate (make an object) from the class.
+:::
+
 ## Class Inheritance
 
 You can have one class inherite (copy) all of the variables and functionality from another exisitng class.  This is done when you want to take all of the functionalift from that "parent" class and add to it.  The following is a very basic example of class inheritance.
@@ -62,6 +66,11 @@ class ChildClass: ParentClass {
     // Extend class with your code here
     var userName: String?
 }
+
+var inheritedObject: ChildClass = ChildClass()
+
+inheritedObject.userId = 7
+inheritedObject.userName = "Steve"
 ```
 
 :::warning NOTE
