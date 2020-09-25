@@ -36,4 +36,4 @@ You will want to only use Xcode to modify files, folders and assets for your pro
 
 This next video will walk you through the steps needed to create an iOS project in Xcode:
 
-[Creating an iOS Project in Xcode <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=6cb38e78-1745-4aa6-aecf-3ce1659a4e98)
+[iOS 11 Fundamentals - Creating an iOS Project in Xcode <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=6cb38e78-1745-4aa6-aecf-3ce1659a4e98)

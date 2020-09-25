@@ -1,13 +1,5 @@
 # Week 4 Summary
 
-In this section of the course you will be learning the fundamentals of iOS application development in Xcode: building your first iOS application.
-
-The lessons during the next two weeks (Weeks 4 & 5) will contain information about the fundamentals of an iOS project, laying out your interface, and writing code to interact with user interface elements.
-
-Watch the first video that explains what you need to get started:
-
-[iOS 11 Fundamentals - Course Overview <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=1ad87359-dba3-4eef-b205-28a81ab39156)
-
 ## Learning Outcomes for this Week
 
 By the end of this week, students will:
@@ -32,6 +24,7 @@ By the end of this week, students will:
 ## During Class
 
 - Create iOS projects and learn about project folders and files
+- [Introduction to iOS Development](./intro-ios-development.md)
 - [Creating iOS projects in Xcode](./create-ios-project.md)
 - [iOS Project Structure](./ios-project-structure.md)
 - Exploration of iOS interface elements and behaviour
