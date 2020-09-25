@@ -11,10 +11,8 @@ Swift is unique programming language developed by Apple. It draws upon many infl
 It is not simply a framework on top of, or a sub-set of Objective-C, but an entirely new programming language created as Apple attempts to join the trend to move away from C-based languages for high-level development.
 
 Some of the features of Swift include: inferred types, automatic memory management, and expressive code.
-
-The following video will give you some history about the Swift programming language:
-
-[Swift retrospective <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-retrospective?u=2199673)
+<!-- The following video will give you some history about the Swift programming language: -->
+<!-- [Swift retrospective <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-retrospective?u=2199673) -->
 
 ### What is a Playground?
 
@@ -60,21 +58,25 @@ After you click to create your new Playground it will be opened and displayed in
 
 It is recommended that you learn a new coding language by typing the code yourself.  As you follow with the video tutorials You will need to create a naming convention for your playgrounds and projects for this course.  Because we are using different video tutorials some videos will suggest names for your playgrounds and project, but you should follow your own standard to stay organized.
 
-The following videos will help give you an understanding of what playgrounds are, and how they will be used to learn Swift coding basics:
-
-[Work with variables in a playground <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/work-with-variables-in-a-playground?u=2199673)
-
 :::warning NOTE
-Choosing the iOS platform will import UIKit instead of Cocoa library.  Either will be fine for learning Swift.
+Choosing the iOS platform will import UIKit instead of Cocoa library.  Either will be fine for learning Swift, but you should get in the habit of always choosing iOS right away.
 :::
 
-The Swift 5 Essential Training series offers you downloadable exercise files.  The files are a series of Playgrounds that have indepth information about Swift.  The following video discusses these these files:
+The following videos offer a great introduction to the Swift programing language:
 
-[Reviewing the exercise files <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/reviewing-the-exercise-files?u=2199673)
+[Swift Fundamentals - Reasons to Learn Swift <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=24882d73-2007-4390-a124-6d3b560a614d)
 
-This last video shows the basics of using code comments, and how to log text to the debug console:
+[Swift Fundamentals - The Basic Structure of Swift <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=abf3091a-d025-45c1-a4c7-312936c3f3ff)
 
-[Logging and commenting <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/logging-and-commenting?u=2199673)
+[Swift Fundamentals - Writing and Running Swift in a Playground <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=fdc5dcc9-85e0-4280-a92d-ce9441ce7773)
+
+<!-- The Swift 5 Essential Training series offers you downloadable exercise files.  The files are a series of Playgrounds that have indepth information about Swift.  The following video discusses these these files: -->
+
+<!-- [Reviewing the exercise files <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/reviewing-the-exercise-files?u=2199673) -->
+
+<!-- This last video shows the basics of using code comments, and how to log text to the debug console: -->
+
+<!-- [Logging and commenting <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/logging-and-commenting?u=2199673) -->
 
 <!-- [Download Swift playground from swift.org](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.playground.zip) -->
 <!-- [Work with variables in a playground](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/work-with-variables-in-a-playground?u=2199673) -->

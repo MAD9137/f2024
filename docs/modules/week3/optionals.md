@@ -35,10 +35,10 @@ There a a few ways to vlidate if an optional have been set with a value before y
 <!-- INSERT OPTIONALS SNIPPET -->
 <<< @/docs/.vuepress/includes/snippets/optionals/optionals.swift
 
-<!-- [Introducing optionals](https://www.linkedin.com/learning/swift-5-essential-training/introducing-optionals?u=2199673) -->
-[Swift Fundamentals - Optionals, an Introduction <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=987e8f42-09a6-4ad0-b313-93f26ab082f2)
+[Swift Fundamentals - Optionals - An Introduction <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=987e8f42-09a6-4ad0-b313-93f26ab082f2)
 
-[Swift Fundamentals - Unwrapping Optionals <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=5ca834db-075b-4290-9f87-1610b838df6f)
+[Swift Fundamentals - Unwrapping Your Optionals <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=5ca834db-075b-4290-9f87-1610b838df6f)
+<!-- [Introducing optionals](https://www.linkedin.com/learning/swift-5-essential-training/introducing-optionals?u=2199673) -->
 <!-- [Swift 5 Essential Training - Unwrapping Optionals <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/unwrapping-optionals?u=2199673) -->
 <!-- [Programming for Non-Programmers: Swift Optionals  <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/optionals?u=2199673) -->
 <!-- [Swift 5 Essential Training - Chaining Optionals  <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/chaining-optionals?u=2199673) -->

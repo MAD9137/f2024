@@ -4,9 +4,8 @@ title: Swift Collections
 
 # Swift Collections
 
-Swift comes equipped with the some interesting collections.
-
-[Gathering inventory with collections <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/gathering-inventory-with-collections?u=2199673)
+Swift comes equipped with collections you might already be familiar, and some that might be new for you.
+<!-- [Gathering inventory with collections <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/gathering-inventory-with-collections?u=2199673) -->
 
 ## Arrays
 
@@ -51,10 +50,10 @@ copiedArray.insert(32, at: 1)
 var secondCopiedArray = copiedArray + [45, 57]
 secondCopiedArray += [61, 69]
 ```
+<!-- [Swift Arrays <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-arrays?u=2199673) -->
+<!-- [Core array methods <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/core-array-methods?u=2199673) -->
 
-[Swift Arrays <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-arrays?u=2199673)
-
-[Core array methods <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/core-array-methods?u=2199673)
+[Swift Fundamentals - Creating and Using Arrays <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=106b7818-9c87-4b74-a816-d6507c5bac2a)
 
 [Apple Developer Docs - Array](https://developer.apple.com/documentation/swift/array)
 
@@ -86,10 +85,10 @@ firstDictionary.removeAll()
 firstDictionary["kiwis"] = 26
 let purchasedItem = firstDictionary.removeValue(forKey:"kiwis")
 ```
+<!-- [Swift Dictionaries <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-dictionaries?u=2199673) -->
+<!-- [Core dictionary methods <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/core-dictionary-methods?u=2199673) -->
 
-[Swift Dictionaries <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-dictionaries?u=2199673)
-
-[Core dictionary methods <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/core-dictionary-methods?u=2199673)
+[Swift Fundamentals - Working with Dictionaries <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=dc5c5d05-b044-4d6d-887d-ec14df9b5124)
 
 [Apple Developer Docs - Dictionary](https://developer.apple.com/documentation/swift/dictionary)
 
@@ -185,7 +184,8 @@ studentGrades.firstName = "Bob"
 :::warning NOTE
 You get to choose what, if any values within a Touple gets a name. If any value does not have a name it must be accessed with the numerical index notation.
 :::
+<!-- [Swift Tuples <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-tuples?u=2199673) -->
 
-[Swift Tuples <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/swift-tuples?u=2199673)
+[Swift Fundamentals - Creating and Decomposing Tuples <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=4aaf7333-6241-41cd-acdf-974891094f4e)
 
 [Back to Week 2](./index.md#during-class)
