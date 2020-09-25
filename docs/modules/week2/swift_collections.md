@@ -139,9 +139,11 @@ firstSet.remove(at:indexOfEggs!)
 secondSet.formUnion(thirdSet)
 ```
 
-[Working with sets <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/working-with-sets?u=2199673)
+<!-- [Working with sets <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/working-with-sets?u=2199673) -->
 
-[Core set methods <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/core-set-methods?u=2199673)
+<!-- [Core set methods <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/core-set-methods?u=2199673) -->
+
+[Swift in Depth - Sets <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=2973b9e2-26f1-4d08-8af0-643354bf75ae)
 
 [Apple Developer Docs - Sets](https://developer.apple.com/documentation/swift/set)
 
