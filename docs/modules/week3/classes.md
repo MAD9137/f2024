@@ -53,7 +53,7 @@ Each code example of creating classes in this lessonwill end with an example of 
 
 ## Class Inheritance
 
-You can have one class inherite (copy) all of the variables and functionality from another exisitng class.  This is done when you want to take all of the functionalift from that "parent" class and add to it.  The following is a very basic example of class inheritance.
+You can have one class inherit (copy) all of the variables and functionality from another existing class.  This is done when you want to take all of the functionality from that "parent" class and add to it.  The following is a very basic example of class inheritance.
 
 ```swift
 // BASIC CLASS INHERITANCE
@@ -74,7 +74,7 @@ inheritedObject.userName = "Steve"
 ```
 
 :::warning NOTE
-A class can only inherite from one other class.  More examples of inheritance are illustrated below.
+A class can only inherit from one other class.  More examples of inheritance are illustrated below.
 :::
 
 ## Class Convenience, and Failable Initializers
