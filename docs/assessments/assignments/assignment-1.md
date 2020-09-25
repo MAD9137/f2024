@@ -100,3 +100,14 @@ Due by: Oct. 02, 11:59pm
 [Assignment 1 - Section 300](https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folders_list.d2l?ou=196083&isprv=0)
 
 [Assignment 1 - Section 310](https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folders_list.d2l?ou=196084&isprv=0)
+
+<!-- Notes for the future 
+    
+    Things to change:
+    -make event Title a non-optional variable, it must always be set
+    -rename Event's description variable to about
+    -change GetInfo function to output info using a calculated property for theß description value from CostomStringConvertable protocol
+
+    Things to add:
+    -make Event inherit from CostomStringConvertable protocol
+-->

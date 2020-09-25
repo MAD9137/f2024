@@ -56,7 +56,7 @@ The code below demonstrates how to use a guard statement to prevent code from ru
 <!-- INSERT GUARDS SNIPPET -->
 <<< @/docs/.vuepress/includes/snippets/optionals/guards.swift
 
-[Swift Fundamentals - Usinf Guard and Defer <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=3a45767e-366c-4152-8ee9-98d10593e8d1)
+[Swift Fundamentals - Using Guard and Defer <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=3a45767e-366c-4152-8ee9-98d10593e8d1)
 <!-- [Swift 5 Essential Training - The Guard Statement <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/swift-5-essential-training/the-guard-statement?u=2199673) -->
 <!-- [Programming for Non-Programmers: Guard Statements <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/programming-for-non-programmers-ios-12-and-swift-5/guard-statements?u=2199673) -->
 
