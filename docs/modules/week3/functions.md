@@ -228,6 +228,18 @@ myResetterFunc(&x, &y)
 print("The getResetterFunction is used to set the x and y back to: \(x), \(y) with the functionality returned")
 ```
 
+[Swift Fundamentals - Defining and Calling Functions <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=b8915e3c-4847-4fcf-937b-b6e13ba8755f)
+
+[Swift Fundamentals - Returning Values <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=f0a42113-df64-4d35-9018-ae6c102f625b)
+
+[Swift Fundamentals - Introducing Function Types <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=6e09f031-ce74-4990-ba47-1e05498336ea)
+
+[Swift Fundamentals - Correctly Ignoring Return Values <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=a47686a1-c47e-4cb6-bb91-48e3911e1697)
+
+[Swift Fundamentals - Customizing Argument Labels <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=02280fdc-2c3c-4d08-8b39-597454776b99)
+
+[Swift Fundamentals - Naming Functions in Swift <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=f21113b3-9517-460b-b335-18b0ac1c4bed)
+
 ## Closures
 
 Closures are blocks of code that can be written inline, or stored as a variable.  They are the same as the block of code that are written within a function (including the curley brackets), that are written inline.  They are most often used when you want to pass some functionality into another function that requires a function type as a parameter.
@@ -235,17 +247,15 @@ Closures are blocks of code that can be written inline, or stored as a variable.
 The iOS lybrary has a few features that require functions to be passed as a parameter, requiring you to pass it a block of functional code, that you can write directly in the function call, or define a variable equal to a code closure that can be passed into the closure parameter of the function.
 
 The following videos show examples of creating and using functions, closures, and aliasing:
-
 <!-- [Swift 5 Essential Training - Basic Functions <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/basic-functions?u=2199673) -->
-
 <!-- [Swift 5 Essential Training - Complex Functions <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/complex-functions?u=2199673) -->
-
 <!-- [Swift 5 Essential Training - Understanding Closures <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/understanding-closures?u=2199673) -->
-
 <!-- [Swift 5 Essential Training - Type Aliasing <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/type-aliasing?u=2199673) -->
 
-[Swift Fundamentals - Defining and Calling Functions <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=b8915e3c-4847-4fcf-937b-b6e13ba8755f)
+[Swift Fundamentals - Making Sense of Closures: Why You Use Them <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=9ee3067f-5457-4adc-a207-8df346115701)
 
-[Swift Fundamentals - Making Sense of Closures <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=9ee3067f-5457-4adc-a207-8df346115701)
+[Swift Fundamentals - Exploring Closure Scenarios: What They Are, and Where You Use Them <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=f3238bc3-8026-4bc4-8910-85e9b9994d93)
+
+[Swift Fundamentals - Making Sense of Closures: Why You Use Them <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=6d8b6ff6-0206-463e-96ea-98bb20b91062)
 
 [Back to Week 3](./index.md#during-class)
