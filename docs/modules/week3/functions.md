@@ -230,19 +230,21 @@ print("The getResetterFunction is used to set the x and y back to: \(x), \(y) wi
 
 ## Closures
 
-Closures are blocks of code that can be written inline, or stored as a variable.  You will see some functions have closures as a parameter, requiring you to pass it a block of functional code, that you can write directly in the function call, or define a variable equal to a code closure that can be passed into the closure parameter of the function.
+Closures are blocks of code that can be written inline, or stored as a variable.  They are the same as the block of code that are written within a function (including the curley brackets), that are written inline.  They are most often used when you want to pass some functionality into another function that requires a function type as a parameter.
+
+The iOS lybrary has a few features that require functions to be passed as a parameter, requiring you to pass it a block of functional code, that you can write directly in the function call, or define a variable equal to a code closure that can be passed into the closure parameter of the function.
 
 The following videos show examples of creating and using functions, closures, and aliasing:
 
-[Swift 5 Essential Training - Basic Functions <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/basic-functions?u=2199673)
+<!-- [Swift 5 Essential Training - Basic Functions <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/basic-functions?u=2199673) -->
 
-[Swift 5 Essential Training - Complex Functions <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/complex-functions?u=2199673)
+<!-- [Swift 5 Essential Training - Complex Functions <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/complex-functions?u=2199673) -->
 
-[Swift 5 Essential Training - Understanding Closures <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/understanding-closures?u=2199673)
+<!-- [Swift 5 Essential Training - Understanding Closures <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/understanding-closures?u=2199673) -->
 
-[Swift 5 Essential Training - Type Aliasing <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/type-aliasing?u=2199673)
+<!-- [Swift 5 Essential Training - Type Aliasing <Badge text="Lynda"/>](https://www.linkedin.com/learning/swift-5-essential-training/type-aliasing?u=2199673) -->
 
-[Swift Fundamentals - Creating Functions <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=b8915e3c-4847-4fcf-937b-b6e13ba8755f)
+[Swift Fundamentals - Defining and Calling Functions <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=b8915e3c-4847-4fcf-937b-b6e13ba8755f)
 
 [Swift Fundamentals - Making Sense of Closures <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=9ee3067f-5457-4adc-a207-8df346115701)
 

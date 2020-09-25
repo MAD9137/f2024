@@ -45,7 +45,13 @@ let exampleClothes1: ClothingProduct = ClothingProduct(brand: "Polo", cost: 45.9
 // And the next line shows how to create instances of the ClothingProduct class using
 // the convenience init method
 let exampleClothes2: ClothingProduct = ClothingProduct(brand: "North Face", cost: 125.99, quantity: 25)
+```
 
+## Class Inheritance
+
+You can have one class inherite (copy) all of the variables and functionality from another exisitng class.  This is done when you want to take all of the functionalift from that "parent" class and add to it.  The following is a very basic example of class inheritance.
+
+```swift
 // BASIC CLASS INHERITANCE
 class ParentClass {
     // Your code here
@@ -57,6 +63,10 @@ class ChildClass: ParentClass {
     var userName: String?
 }
 ```
+
+:::warning NOTE
+A class can only inherite from one other class.  More examples of inheritance are illustrated below.
+:::
 
 ## Class Convenience, and Failable Initializers
 
@@ -97,10 +107,9 @@ class Hat: ClothingProduct {
     }
 
    // A failable convinience initializer method is defined with the ? after the word init
-   //    
    convenience init?(brand: String, cost: Float, description: String?) {
         self.init(brand: brand, cost: cost) // Call the base init and pass in brand and cost
-        guard let safeDescription = description, safeDescription.isEmpty == false            else {
+        guard let safeDescription = description, safeDescription.isEmpty == false else {
                 return nil
         }
         self.description = safeDescription
@@ -189,8 +198,13 @@ var examplePants1: Pants = Pants(brand: "Levis", cost: 39.99, waist: 34, inseam:
 examplePants1.measurements
 
 // Check the getter function for the get-only properties
-examplePants1.waistInMetricexamplePants1.inseamInMetric // Test the convenience initializer
-methodexamplePants1.colour = "Black" // Test the putOnSale instanc
+examplePants1.waistInMetric
+examplePants1.inseamInMetric
+
+// Test the property-observer
+methodexamplePants1.colour = "Black" 
+
+// Test the putOnSale function
 methodexamplePants1.putOnSale(percentOff: -25)  // Outputs the error
 messageexamplePants1.putOnSale(percentOff: 35)
 ```
