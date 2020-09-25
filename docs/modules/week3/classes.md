@@ -98,7 +98,7 @@ class Hat: ClothingProduct {
 
    // A failable convinience initializer method is defined with the ? after the word init
    //    
-   convenience init?(brand: String, cost: Float, description: String? {
+   convenience init?(brand: String, cost: Float, description: String?) {
         self.init(brand: brand, cost: cost) // Call the base init and pass in brand and cost
         guard let safeDescription = description, safeDescription.isEmpty == false            else {
                 return nil
