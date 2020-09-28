@@ -29,8 +29,8 @@ By the end of this week, students will:
 - [iOS Project Structure](./ios-project-structure.md)
 - Exploration of iOS interface elements and behaviour
 - [Creating a new View and ViewController class](./view-controller.md)
-- [Connecting UI Outlets](./ui-outlet.md)
-- [Creating Actions connected to UI objects](./actions.md)
+- [Connecting Outlets to UI objects](./ui-outlet.md)
+- [Creating Actions connected to UI objects](./ui-actions.md)
 - [Hiding Keyboards with First-Responders](./hide-with-first-resp.md)
 - [Hiding Keyboards with Delegation](./hide-with-deligation.md)
 
