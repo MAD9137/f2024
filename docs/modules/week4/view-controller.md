@@ -22,32 +22,32 @@ Start by creating a new file in your project folder of type "Cocoa Touch Class",
 
 Do this by right-clicking  (control+click) on the project folder in the Project Navigator, and selecting "New File".
 
-![Add a ViewController Class](/mad9137/assets/img/AddViews_1.png)
+![Add a ViewController Class](/F2020/assets/img/AddViews_1.png)
 
 Choose a new “Cocoa Touch Class" file, and click the Next button in the bottom-right of the menu.
 
-![Create a new Cocoa Touch Class](/mad9137/assets/img/AddViews_2.png)
+![Create a new Cocoa Touch Class](/F2020/assets/img/AddViews_2.png)
 
 Give your new class a name in the first field, select "UIViewController" in the second field as the class you wish to inherit from.  Make sure the language is set to "Swift", and click Next.
 
-![Assign a class name](/mad9137/assets/img/AddViews_3.png)
+![Assign a class name](/F2020/assets/img/AddViews_3.png)
 
 Then, choose the location you wish to save the swift file to and click Create.
 
-![choose a location in the filesystem](/mad9137/assets/img/AddViews_4.png)
+![choose a location in the filesystem](/F2020/assets/img/AddViews_4.png)
 
 ## Modifying the Main.storyboard
 
 After creating the viewController class, you need to add the view to your storyboard and set the choose the new class file to control it.  Start by finding the View Controller object in the Object Library in the lower right of Xcode.
 
-![Modify main.storyboard](/mad9137/assets/img/AddViews_5.png)
+![Modify main.storyboard](/F2020/assets/img/AddViews_5.png)
 
 You can then add the View Controller object by dragging it in from the Object Library, and dropping it into your in your Main.storyboard layout beside the existing view.
 
-![Add the ViewController to the storyboard](/mad9137/assets/img/AddViews_6.png)
+![Add the ViewController to the storyboard](/F2020/assets/img/AddViews_6.png)
 
 Now you must associate this view object with the class file you created.  This is done by selecting the new view you just dropped in the storyboard, going to the Identity Inspector in the upper-right of Xcode and, under the first heading "Custom Class", choose your custom class name from the Class field.
 
-![Associate the ViewController with the object](/mad9137/assets/img/AddViews_7.png)
+![Associate the ViewController with the object](/F2020/assets/img/AddViews_7.png)
 
 You are now ready to create a layout for this new view, and write the code to control the logic in the new viewController file.
