@@ -4,12 +4,12 @@ In iOS development, you will be using Swift to react to input and manipulate vie
 
 ## Connecting a UI Outlet
 
-First, select the Main.storyboard from the project folder, and select the view you want to make the connection to.  Open the **Assistant Editor** so you see the Swift code form the viewController file beside the storyboard you are editing displayed in the editor area of Xcode at the same time.  
+First, select the Main.storyboard from the project folder.  Then, in the storyboard select the view you want to connect to your code.  Now open a second view in the editor and select the corrisponding viewController code file to be displayed beside the storyboard.
 
 :::tip
-The button to open the Assistant Editor is the two interlocking circles in the top right of the toolbar area.
+The button to open a second view in the editor is found in the Jump Bar at the top of the Editor Area.
 
-![Assistant Editor Icon](/F2020/assets/img/assistant-editor.png)
+![Assistant Editor Icon](/F2020/assets/img/XcodeJumpBarDetails.png)
 :::
 
 After dragging the UI object you want from the Object Library into your view, you need to connect the UI object to the viewController class for that view.  You make the connection by holding the Control key on your keyboard while you click ( **control+click** ) and holding your mouse button down, then dragging it to the top area inside your viewController class definition and releasing your mouse button wherever the blue horizontal line appears.  The blue line only appears in appropriate places to place the Outlet, and should show a small tool-tip labeling it with “Insert Outlet or Outlet Collection.”
