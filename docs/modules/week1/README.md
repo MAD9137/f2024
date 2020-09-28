@@ -28,7 +28,7 @@ N/A
 - [Developing with Apple](./developing-with-apple.md)
 - [What is Xcode?](./what-is-xcode.md)
 - [Basic tour of Xcode](./xcode-tour.md)
-- [Customizing Xcode](./xcode-customize.md)
+<!-- - [Customizing Xcode](./xcode-customize.md) -->
 - ['Hello World' app](./xcode-hello-world.md)
 
 ## Following Class
