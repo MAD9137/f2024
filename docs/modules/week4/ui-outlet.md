@@ -35,7 +35,7 @@ The outletName will be replaced by whatever you called your outlet name, and the
 Once the outlet is properly connected, the code within the viewController class can access and change the properties of the object connected to this outlet.  In the example of a UILabel, the text property can update the text that the label displays like this:
 
 ```swift
-OutletName.text = “Outlets & Actions”
+OutletName.text = “Hello World”
 ```
 
 ![Outlets](/F2020/assets/img/Outlets_3.png)
