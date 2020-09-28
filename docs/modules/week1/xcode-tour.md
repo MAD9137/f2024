@@ -6,10 +6,10 @@ title: Basic Tour of Xcode
 
 The next videos give you a good look at the Xcode IDE, and creating a project:
 
-[Create an Xcode project <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/ios-13-development-essential-training-1-fundamentals-ui-and-architecture/create-an-xcode-project?u=2199673)
+[iOS 11 Fundamentals - The Basics of Xcode <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=cdf4b2a9-f713-477e-bd87-6efd90a65ea7)
 
-[Navigate the Xcode interface <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/ios-13-development-essential-training-1-fundamentals-ui-and-architecture/navigate-the-xcode-interface?u=2199673)
-
+<!-- [Create an Xcode project <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/ios-13-development-essential-training-1-fundamentals-ui-and-architecture/create-an-xcode-project?u=2199673) -->
+<!-- [Navigate the Xcode interface <Badge text='Linkedin Learning'/>](https://www.linkedin.com/learning/ios-13-development-essential-training-1-fundamentals-ui-and-architecture/navigate-the-xcode-interface?u=2199673) -->
 ## The Main Areas Within Xcode
 
 The following images highlight *some* of the more important areas and buttons of the Xcode interface.
