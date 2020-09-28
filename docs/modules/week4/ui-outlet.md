@@ -11,7 +11,7 @@ The Add Editor button is used to display a second display in the editor, and is 
 ![Assistant Editor Icon](/F2020/assets/img/XcodeJumpBarDetails.png)
 :::
 
-After dragging the UI object you want from the Object Library into your view, you need to connect the UI object to the viewController class for that view.  You make the connection by holding the Control key on your keyboard while you click ( **control+click** ) and holding your mouse button down, then dragging it to the top area inside your viewController class definition and releasing your mouse button wherever the blue horizontal line appears.  The blue line only appears in appropriate places to place the Outlet, and should show a small tool-tip labeling it with “Insert Outlet or Outlet Collection.”
+After dragging the UI object you want from the Object Library into your view (in this case a Label), you need to connect the UI object to the specific viewController class for that view.  You make the connection by holding the Control key on your keyboard while you **control+click** and holding your mouse button down, then dragging it to the top area inside your viewController class definition and releasing your mouse button wherever the blue horizontal line appears.  The blue line only appears in appropriate places to place the Outlet, and should show a small tool-tip labeling it with “Insert Outlet or Outlet Collection.”
 
 :::tip
 You can change the alignment of the two displays in the editor; showing them left to right, or above and below.  This is done by selecting the View -> Change Editor Orientation from the top menu in Xcode.
