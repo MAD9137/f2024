@@ -43,8 +43,6 @@ If you do not see the toolbar area in Xcode, go to *View-> Show Toolbar (⌥⌘T
 
 ![Inspector Layout](/F2020/assets/img/XcodeJumpBarDetails.png)
 
-[Back to Week 1](./index.md#during-class)
-
 
 # Customizing Xcode
 
