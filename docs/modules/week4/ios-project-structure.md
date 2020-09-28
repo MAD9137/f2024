@@ -1,7 +1,7 @@
 
 # iOS Project Structure
 
-Before continuing, it might be a good idea to refer back to the lesson showing a [Basic tour of Xcode](/content/week-1/xcode-tour.md) if you are still unsure about the names of all the different terms related to the Xcode IDE.
+Before continuing, it might be a good idea to refer back to the lesson showing a [Basic tour of Xcode](/modules/week-1/xcode-tour.md) if you are still unsure about the names of all the different terms related to the Xcode IDE.
 
 We will start by examining what is in an empty Single View Application.
 
