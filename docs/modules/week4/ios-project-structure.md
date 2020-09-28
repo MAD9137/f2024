@@ -41,6 +41,6 @@ Apple has created the **UIKit** portion of the iOS development framework that de
 
 The following videos describe the structure of an Xcode project, differences between views and view controller files, as well as an understanding of what the UIKit is and what it contains:
 
-[Creating an iOS Project in Xcode <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=6cb38e78-1745-4aa6-aecf-3ce1659a4e98)
+[iOS 11 Fundamentals - Creating an iOS Project in Xcode <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=6cb38e78-1745-4aa6-aecf-3ce1659a4e98)
 
-[Working with iOS Projects <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=33f81d66-9093-4dbd-af6e-5cfdfedd9157)
+[iOS 11 Fundamentals - Working with Xcode Projects <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=33f81d66-9093-4dbd-af6e-5cfdfedd9157)
