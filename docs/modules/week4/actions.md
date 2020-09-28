@@ -16,7 +16,7 @@ After you control+click and drag from your UI object to your viewController clas
 
 Enter the name you would like to use for the Action in the name field.  Make sure the type is the same type of UI class as the object you are connecting it to (i.e. UIButton), and then click the Connect button.
 
-![Configure the action](/F2020/assets/img/actions_2.png)
+![Configure the action](/F2020/assets/img/actions_3.png)
 
 When an action is successfully created, it will generate a block of code similar to this:
 
