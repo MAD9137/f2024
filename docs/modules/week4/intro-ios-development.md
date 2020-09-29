@@ -9,3 +9,5 @@ This first video explains what you need to get started:
 [iOS 11 Fundamentals - Course Overview <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=1ad87359-dba3-4eef-b205-28a81ab39156)
 
 [iOS 11 Fundamentals - What You Need <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=0556ef20-c15c-4e70-9988-735dd67422ca)
+
+[Back to Week 4](./index.md#during-class)

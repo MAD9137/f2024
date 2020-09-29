@@ -37,3 +37,5 @@ Now, when you click in the textField in your application, you will be able to cl
 The following video describes using how to use delegation to hide the keyboard:
 
 [iOS 12 Development Essential Training - Dismiss the keyboard with delegation <Badge text="LinkedIn Learning"/>](https://www.linkedin.com/learning/ios-12-development-essential-training-1-fundamentals-ui-and-architecture/dismiss-the-keyboard-with-delegation?u=2199673)
+
+[Back to Week 4](./index.md#during-class)

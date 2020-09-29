@@ -30,3 +30,4 @@ The following videos describe using resignFirstResponder, and endEditing to hide
 
 [iOS 12 Development Essential Training - First Responder <Badge text="LinkedIn Learning"/>](https://www.linkedin.com/learning/ios-12-development-essential-training-1-fundamentals-ui-and-architecture/first-responders?u=2199673)
 
+[Back to Week 4](./index.md#during-class)

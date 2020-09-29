@@ -82,3 +82,5 @@ The next set of videos illustrates how to create an action, and gives you an ove
 [iOS 11 Fundamentals - Connecting View Objects with Actions and Outlets <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=2d72054e-b63c-49de-9443-8cd7eef75770)
 
 [iOS 11 Fundamentals - Creating and Troubleshooting Actions and Outlets <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=2fd8c1a7-e9a6-4102-b823-be47bf94a47a)
+
+[Back to Week 4](./index.md#during-class)

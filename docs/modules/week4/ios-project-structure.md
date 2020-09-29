@@ -47,3 +47,4 @@ The following videos describe an idea for a project that the author will build t
 
 [iOS 11 Fundamentals - The Basics of Xcode <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=cdf4b2a9-f713-477e-bd87-6efd90a65ea7)
 
+[Back to Week 4](./index.md#during-class)

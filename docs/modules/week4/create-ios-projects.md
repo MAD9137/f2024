@@ -40,3 +40,4 @@ This next videos will introduce some key iOS development ideas, and walk you thr
 
 [iOS 11 Fundamentals - How to Learn iOS <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=3f089e04-d313-433a-8add-dedc0b4a3b0a)
 
+[Back to Week 4](./index.md#during-class)

@@ -67,3 +67,4 @@ The following videos describe the Model View Controller design pattern in iOS, a
 
 [iOS 11 Fundamentals - Model View Controller (MVC) in iOS <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=4030977d-ce29-4d3e-a504-62496eab27ae)
 
+[Back to Week 4](./index.md#during-class)
