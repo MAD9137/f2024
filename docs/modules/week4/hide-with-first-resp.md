@@ -11,15 +11,15 @@ To test these options, add a textField, a textView, and a button to a view of yo
 
 ![Dismiss Keyboard](/F2020/assets/img/KeyResponder_1.png)
 
-![Dismiss Keyboard](/F2020/assets/img/KeyResponder_2.png)
-
 Then, connect the textField and textView to outlets, and your button to an action in your viewController class.
 
-![Dismiss Keyboard](/F2020/assets/img/KeyResponder_3.png)
+![Dismiss Keyboard](/F2020/assets/img/KeyResponder_2.png)
 
 You can see below how to call the ``view.endEditing(true)`` method in the ``touchesBegan`` method.  You can also see the ``resignFirstResponder()`` function is called on both the textField and textView within the action attached to the button.
 
-![Dismiss Keyboard](/F2020/assets/img/KeyResponder_4.png)
+![Dismiss Keyboard](/F2020/assets/img/KeyResponder_3.png)
+
+The ``touchesBegan`` method is a function built in to the viewController class that is exicuted when the user begins to touch the view itself.  This does **not** get fired when a sub-view is touched like a button, label or textView.
 
 The following videos describe using ``resignFirstResponder()``, and ``endEditing`` to hide the keyboard:
 
