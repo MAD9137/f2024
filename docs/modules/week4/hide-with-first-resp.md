@@ -1,6 +1,6 @@
 # Hiding Keyboards with First-Responders
 
-When a user clicks in a text field or view, the iOS virtual keyboard will come up at the bottom of the screen.  In iOS development, there is no automatic system for hiding the keyboard—the keyboard view just sits there once it has been summoned.  The reason is that the developer must decide how, and when, to hide the keyboard.
+When a user clicks in a textField or textView, the iOS virtual keyboard will come up at the bottom of the screen.  In iOS development, there is no automatic functionality for hiding the keyboard — the keyboard view just sits there once it has been summoned.  The reason is that the developer must decide how, and when, to hide the keyboard.
 
 ## Resigning a First-Responder
 
@@ -9,17 +9,17 @@ Another option to hide the keyboard when the user taps on the background is to c
 
 To test these options, add a textField, a textView, and a button to a view of your application.
 
-![Dismiss Keyboard](/mad9137/assets/img/KeyResponder_1.png)
+![Dismiss Keyboard](/F2020/assets/img/KeyResponder_1.png)
 
-![Dismiss Keyboard](/mad9137/assets/img/KeyResponder_2.png)
+![Dismiss Keyboard](/F2020/assets/img/KeyResponder_2.png)
 
 Then, connect the textField and textView to outlets, and your button to an action in your viewController class.
 
-![Dismiss Keyboard](/mad9137/assets/img/KeyResponder_3.png)
+![Dismiss Keyboard](/F2020/assets/img/KeyResponder_3.png)
 
 You can see below how to call the ``view.endEditing(true)`` method in the ``touchesBegan`` method.  You can also see the ``resignFirstResponder()`` function is called on both the textField and textView within the action attached to the button.
 
-![Dismiss Keyboard](/mad9137/assets/img/KeyResponder_4.png)
+![Dismiss Keyboard](/F2020/assets/img/KeyResponder_4.png)
 
 The following videos describe using ``resignFirstResponder()``, and ``endEditing`` to hide the keyboard:
 
