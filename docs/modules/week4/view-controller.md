@@ -38,7 +38,12 @@ Then, choose the location you wish to save the swift file to and click Create.
 
 ## Modifying the Main.storyboard
 
-After creating the viewController class, you need to add the view to your storyboard and set the choose the new class file to control it.  Start by finding the View Controller object in the Object Library in the lower right of Xcode.
+After creating the viewController class, you need to add the view to your storyboard and set the choose the new class file to control it.  Start by finding the View Controller object in the Object Library of Xcode.
+
+:::tip
+The icon to open the library is in the upper right corner of Xcode in the toolbar, and looks like this.  
+![Assistant Editor Icon](/F2020/assets/img/XcodeToolbarLibraryButton.png)
+:::
 
 ![Modify main.storyboard](/F2020/assets/img/AddViews_5.png)
 
