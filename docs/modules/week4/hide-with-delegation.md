@@ -4,8 +4,8 @@ Another option for hiding a textField's keyboard is to have the keyboard hide wh
 
 If you want to have the keyboard hide when the return key is pressed, a few things need to be set up.  The first step is setting the viewController to be the delegate for the textField, and understanding how delegation works.
 
-:::tip
-There are no equivalent delegate functions for textViews as they allow multiple lines of text, making the 'Return' key unusable for hiding the textView's keyboard.
+:::warning NOTE
+There are no equivalent delegate functions for textViews as they allow multiple lines of text when the return key is pressed.  This makes the 'Return' key unusable for hiding the textView's keyboard.
 :::
 
 ## Make a Class the Delegate for Another
@@ -14,15 +14,15 @@ A **delegate** is something that receives events on behalf of, and performs func
 
 Looking at the previous lesson's code, we had the following:
 
-![Hide keyboard with delegate](/mad9137/assets/img/KeyDelegate_1.png)
+![Hide keyboard with delegate](/F2020/assets/img/KeyDelegate_1.png)
 
 First you must set your viewController to implement a **UITextFieldDelegate** protocol.
 
-![Hide keyboard with delegate](/mad9137/assets/img/KeyDelegate_2.png)
+![Hide keyboard with delegate](/F2020/assets/img/KeyDelegate_2.png)
 
 That will tell your ViewController that it is going to be a delegate for a UITextField, but it does not specify which one.  You must manually set the textField's delegate to the viewController.
 
-![Hide keyboard with delegate](/mad9137/assets/img/KeyDelegate_3.png)
+![Hide keyboard with delegate](/F2020/assets/img/KeyDelegate_3.png)
 
 :::tip
 Remember that within a viewController class, the 'self' variable refers to the viewController itself.
@@ -30,7 +30,7 @@ Remember that within a viewController class, the 'self' variable refers to the v
 
 This gives the viewController class implemented a series of methods that can perform actions when the user interacts with the textField.  By implementing the **textFieldShouldReturn** method in your viewController class, you code what happens when the 'Return' key is pressed on the iOS keyboard.  This can be used to hide the keyboard by calling the textField's resignFirstResponder() method to hide the keyboard.
 
-![Hide keyboard with delegate](/mad9137/assets/img/KeyDelegate_4.png)
+![Hide keyboard with delegate](/F2020/assets/img/KeyDelegate_4.png)
 
 Now, when you click in the textField in your application, you will be able to click the 'Return' key to hide the keyboard.
 
