@@ -1,16 +1,14 @@
 # Discussion 2 - iOS development with UIKit
 
-As you are learning the fundamentals of iOS development, you quickly begin to understand how vast the UIKit framework really is: it contains the definition and functionality for all the UI classes (UIView, UIButton, UILabel, etc.).
+As you are learning the fundamentals of iOS development, you quickly begin to understand how vast the UIKit framework is: it contains the definition and functionality for all the UI classes (UIView, UIButton, UILabel, etc.).
 
-For this discussion, you will need to find, research and post information about something you find interesting about the different iOS user interface objects, one of the UIKit framework classes, or any other iOS-related framework (such as Swift, Foundation).
+For this discussion, you will need to find, research and post information about something you find interesting about the different iOS user interface objects, one of the UIKit framework classes, or any other iOS-related framework (such as Foundation).
 
 You can choose to highlight something you like (or dislike) about some aspect of a framework developed by Apple for iOS development.
 
 The following resources can be used to help you get started:
 
 [UIKit](https://developer.apple.com/documentation/uikit)
-
-[swift](https://developer.apple.com/documentation/swift)
 
 [Foundation](https://developer.apple.com/documentation/foundation)
 
