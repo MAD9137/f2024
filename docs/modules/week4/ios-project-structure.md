@@ -39,6 +39,11 @@ The basic UI elements of an app refer to the button, text areas, and images. In 
 
 Apple has created the **UIKit** portion of the iOS development framework that defines all of the classes and code for these elements. This week you will be starting to lay out basic UI elements to build an iOS application.
 
-The following videos describe the structure of an Xcode project, differences between views and view controller files, as well as an understanding of what the UIKit is and what it contains:
+The following videos describe an idea for a project that the author will build through the tutorials.  They also describe the structure of an Xcode project, and the basic layout of Xcode (the basics of Xcode video will be a repeat from week 1 just to refresh your memory):
+
+[iOS 11 Fundamentals - The Night Porter Scenario <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=33f81d66-9093-4dbd-af6e-5cfdfedd9157)
 
 [iOS 11 Fundamentals - Working with Xcode Projects <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=33f81d66-9093-4dbd-af6e-5cfdfedd9157)
+
+[iOS 11 Fundamentals - The Basics of Xcode <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=cdf4b2a9-f713-477e-bd87-6efd90a65ea7)
+

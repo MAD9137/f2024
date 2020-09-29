@@ -34,6 +34,9 @@ You are now ready to code.
 You should only use Xcode to modify the folders, files and assets for your project.  Do not manually edit the content through the macOS Finder.
 :::
 
-This next video will walk you through the steps needed to create an iOS project in Xcode:
+This next videos will introduce some key iOS development ideas, and walk you through the steps to create your first iOS project in Xcode:
 
 [iOS 11 Fundamentals - Creating an iOS Project in Xcode <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=6cb38e78-1745-4aa6-aecf-3ce1659a4e98)
+
+[iOS 11 Fundamentals - How to Learn iOS <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=3f089e04-d313-433a-8add-dedc0b4a3b0a)
+
