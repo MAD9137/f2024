@@ -31,7 +31,7 @@ By the end of this week, students will:
 - [Connecting Outlets and Actions to UI objects](./ui-outlets-actions.md)
 - [Creating a new View and ViewController class](./view-controller.md)
 - [Hiding Keyboards with First-Responders](./hide-with-first-resp.md)
-- [Hiding Keyboards with Delegation](./hide-with-deligation.md)
+- [Hiding Keyboards with Delegation](./hide-with-delegation.md)
 
 ## Following Class
 
