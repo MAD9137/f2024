@@ -31,7 +31,7 @@ You will see a Finder dialog where you must choose where to save a project folde
 You are now ready to code.
 
 :::tip
-You will want to only use Xcode to modify files, folders and assets for your project, instead of manually through the Finder in your OS.
+You should only use Xcode to modify the folders, files and assets for your project.  Do not manually edit the content through the mocOS Finder.
 :::
 
 This next video will walk you through the steps needed to create an iOS project in Xcode:
