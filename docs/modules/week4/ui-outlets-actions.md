@@ -4,6 +4,8 @@ In iOS development, you will be using Swift to react to input and manipulate vie
 
 ## How to Connect an Outlet to a UI Object
 
+To allow your viewController class to access and manipulate the UI objects you add to this view, you must setup a connection from each UI object, to your viewController class.  This is done using a special type of variable in your viewController class called an **Outlet**.  Modifying an outlet will let you change the parameters and values of the specific UI object the outlet is connected to.
+
 First, select the Main.storyboard from the project folder.  Then, in the storyboard select the view you want to connect to your code.  Now open a second view in the editor and select the corrisponding viewController code file to be displayed beside the storyboard.
 
 :::tip
@@ -75,15 +77,8 @@ The next set of videos illustrates how to create an action, and gives you an ove
 
 [iOS 11 Fundamentals - Adding Simple Functionality <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=82e34173-616a-4523-84b0-d8d84a2b87f9)
 
-[iOS 11 Fundamentals - Using the UIKit Framework <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=9ba4c837-c2ef-4057-a549-54fa1aad1e01)
+[iOS 11 Fundamentals - Accessing Subviews and Downcasting in Swift <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=c213fbf2-b9c4-4b69-a340-439a407b6c07)
 
-[iOS 11 Fundamentals - Defining Views and View Hierarchies <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=374906c0-1695-4bf2-aa0f-94699ab89145)
+[iOS 11 Fundamentals - Connecting View Objects with Actions and Outlets <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=2d72054e-b63c-49de-9443-8cd7eef75770)
 
-
-
-
-[Accessing Subviews and Downcasting in Swift <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=c213fbf2-b9c4-4b69-a340-439a407b6c07)
-
-[Connecting View Objects with Actions and Outlets <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=2d72054e-b63c-49de-9443-8cd7eef75770)
-
-[Creating and Troubleshooting Actions and Outlets <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=2fd8c1a7-e9a6-4102-b823-be47bf94a47a)
+[iOS 11 Fundamentals - Creating and Troubleshooting Actions and Outlets <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=2fd8c1a7-e9a6-4102-b823-be47bf94a47a)

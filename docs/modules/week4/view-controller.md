@@ -8,8 +8,6 @@ To interact with and manipulate a view, you need to create a class that inherits
 The ViewController.swift file is automatically created in the project folder of a Single View App, and has already been associated with the view.
 :::
 
-To allow your viewController class to access and manipulate the UI objects you add to this view, you must setup a connection from each UI object, to your viewController class.  This is done using a special type of variable in your viewController class called an **Outlet**.  Modifying an outlet will let you change the parameters and values of the specific UI object the outlet is connected to.
-
 ## Adding a ViewController Class
 
 When you need to add a second view to your application, you will also need to create a second viewController class to control it.  When you add an additional view to your application, you should first add the new viewController file to your project files with some custom name, then add the new view to the storyboard.  The last thing you need to do is to associate your new viewController file with the new view.
@@ -56,3 +54,16 @@ Now you must associate this view object with the class file you created.  This i
 ![Associate the ViewController with the object](/F2020/assets/img/AddViews_7.png)
 
 You are now ready to create a layout for this new view, and write the code to control the logic in the new viewController file.
+
+The following videos describe the Model View Controller design pattern in iOS, and goes into further details about views and sub-views:
+
+[iOS 11 Fundamentals - Introduction <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=0b663f3f-7e1e-49c0-8cd8-2788dde017ac)
+
+[iOS 11 Fundamentals - Using the UIKit Framework <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=9ba4c837-c2ef-4057-a549-54fa1aad1e01)
+
+[iOS 11 Fundamentals - What Does "Kit" Mean in Apple Development <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=2bf0187f-0663-4e39-b458-8ad002240f5a)
+
+[iOS 11 Fundamentals - Defining Views and View Hierarchies <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=374906c0-1695-4bf2-aa0f-94699ab89145)
+
+[iOS 11 Fundamentals - Model View Controller (MVC) in iOS <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=4030977d-ce29-4d3e-a504-62496eab27ae)
+
