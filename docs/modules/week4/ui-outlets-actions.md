@@ -15,11 +15,11 @@ The Add Editor button is used to display a second display in the editor, and is 
 
 After dragging the UI object you want from the Object Library into your view (in this case a Label), you need to connect the UI object to the specific viewController class for that view.  You make the connection by holding the Control key on your keyboard while you **control+click** and holding your mouse button down, then dragging it to the top area inside your viewController class definition and releasing your mouse button wherever the blue horizontal line appears.  The blue line only appears in appropriate places to place the Outlet, and should show a small tool-tip labeling it with “Insert Outlet or Outlet Collection.”
 
+![Outlets](/F2020/assets/img/Outlets_1.png)
+
 :::tip
 You can change the alignment of the two displays in the editor; showing them left to right, or above and below.  This is done by selecting the View -> Change Editor Orientation from the top menu in Xcode.
 :::
-
-![Outlets](/F2020/assets/img/Outlets_1.png)
 
 After you control+click and drag from your storyboard UI object to your viewController class, a small pop-up menu will be displayed.  Enter the name you would like to use for the Outlet in the name field.  Make sure the connection type is set to Outlet, and the type is the same type of UI class as the object you are connecting it to, and then click the Connect button.
 
@@ -28,7 +28,7 @@ After you control+click and drag from your storyboard UI object to your viewCont
 In the viewController class you will now have a line of code added that looks similar to this.
 
 ```swift
-@IBOutlet weak var outletName: UILabel!
+@IBOutlet weak var yourNewOutlet: UILabel!
 ```
 
 The outletName will be replaced by whatever you called your outlet name, and the UILabel would be whatever type of object you connected to your code.  A graphical circle with a dot in it appears to the left of the line of code above when connected correctly.
@@ -36,7 +36,7 @@ The outletName will be replaced by whatever you called your outlet name, and the
 Once the outlet is properly connected, the code within the viewController class can access and change the properties of the object connected to this outlet.  In the example of a UILabel, the text property can update the text that the label displays like this:
 
 ```swift
-outletName.text = “Hello World”
+yourNewOutlet.text = “Hello World”
 ```
 
 ![Outlets](/F2020/assets/img/Outlets_3.png)
@@ -61,7 +61,7 @@ After you control+click and drag from your UI object to your viewController clas
 When an action is successfully created, it will generate a block of code similar to this:
 
 ```swift
-@IBAction func myButtonAction(_ sender: Any) {
+@IBAction func yourNewAction(_ sender: Any) {
     // Code here runs when button pressed
 }
 ```
