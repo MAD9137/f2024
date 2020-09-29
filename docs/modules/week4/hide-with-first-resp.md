@@ -23,11 +23,10 @@ You can see below how to call the ``view.endEditing(true)`` method in the ``touc
 ![Dismiss Keyboard](/F2020/assets/img/KeyResponder_3.png)
 
 :::warning NOTE
-The ``touchesBegan`` method is a function built in to the viewController class that is exicuted when the user begins to touch the view itself.  This does **not** get fired when a sub-view is touched like a button, label or textView.
+The ``touchesBegan()`` method is a function built in to the viewController class that is exicuted when the user begins to touch the view itself.  This does **not** get fired when a sub-view is touched like a button, label or textView.
 :::
 
 The following videos describe using resignFirstResponder, and endEditing to hide the keyboard:
 
-[Dismiss the Keyboard with First Responder <Badge text="Lynda"/>](https://www.linkedin.com/learning/ios-12-development-essential-training-1-fundamentals-ui-and-architecture/first-responders?u=2199673)
+[iOS 12 Development Essential Training - First Responder <Badge text="LinkedIn Learning"/>](https://www.linkedin.com/learning/ios-12-development-essential-training-1-fundamentals-ui-and-architecture/first-responders?u=2199673)
 
-[Building Your First iOS App - First Responders <Badge text="Lynda"/>](https://www.linkedin.com/learning/building-your-first-ios-app/first-responders?u=2199673)
