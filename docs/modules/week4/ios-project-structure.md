@@ -31,7 +31,7 @@ Do not mix up the Main.storyboard and the LaunchScreen.storyboard.
 
 So, what is a view in comparison to a viewController? Well, the **view** is the blank canvas that is in the storyboard. That view has all of its logic written in the ViewController.swift file seen in the project navigator. When speaking of the view in your iOS application, you are referring to the graphical layout in the editor area when editing your Storyboard.
 
-When describing the **ViewController,** it is the code that controls a specific view. When you want to add a new view, you will add the view to the Storyboard, and then create a new viewController file to define the code for that new view.
+When describing the **ViewController**, it is the code that controls a specific view. When you want to add a new view, you will add the view to the Storyboard, and then create a new viewController file to define the code for that new view.
 
 ## Subviews, and the UIKit
 
