@@ -25,7 +25,7 @@ By the end of this week, students will:
 
 - Create iOS projects and learn about project folders and files
 - [Introduction to iOS Development](./intro-ios-development.md)
-- [Creating iOS projects in Xcode](./create-ios-project.md)
+- [Creating iOS projects in Xcode](./create-ios-projects.md)
 - [iOS Project Structure](./ios-project-structure.md)
 - Exploration of iOS interface elements and behaviour
 - [Connecting Outlets and Actions to UI objects](./ui-outlets-actions.md)
