@@ -10,7 +10,7 @@ By the end of this week, students will:
 
 ## Assessments Assigned
 
--[Assignment 2](/assessments/assignments/assignment-2.md)
+- [Assignment 2](/assessments/assignments/assignment-2.md)
 
 ## Assessments Due
 
