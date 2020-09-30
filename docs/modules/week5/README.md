@@ -10,24 +10,29 @@ By the end of this week, students will:
 
 ## Assessments Assigned
 
-[Assignment 2](/assessments/assignments/assignment-2.md)
+-[Assignment 2](/assessments/assignments/assignment-2.md)
 
 ## Assessments Due
 
-[Assignment 1](/assessments/assignments/assignment-1.md)
+- [Discussion 2](/assessments/participation/discussion-2.md)
 
 ## Prior to Class
 
-- Continue working on [Assignment 1](/assessments/assignments/assignment-1.md)
+- Continue working on [Discussion 2](/assessments/participation/discussion-2.md)
 - Review material and watch videos for this week
 
 ## During Class
 
 - Lecture and code demonstrations of:
     - creating tables
+    - [Create Table Views](./create-table.md)
+    - [Customizing TableViewCells](./customize-table.md)
+    - [A Custom Class for TableViewCell Information](./custom-table-class.md)
     - using segues to navigate to different views and pass data
+    - [Segues and Passing Data](./segue.md)
     - creating a navigation controller
-
+    - [Navigating with a Navigation Controller](./navigation-controller.md)
+    
 ## Following Class
 
 - Begin working on [Assignment 2](/assessments/assignments/assignment-2.md)

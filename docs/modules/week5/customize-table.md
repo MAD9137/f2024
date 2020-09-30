@@ -24,7 +24,7 @@ newCell.textLabel?.text = “Test Student”
 
 You can see the optional chaining using the question mark (?) to safely access the cell's textLabel.  You can also see the application running in the simulator displaying the cell's content.
 
-![Table View](/mad9137/assets/img/TableViews_11B.png)
+![Table View](/F2020/assets/img/TableViews_11B.png)
 
 :::tip
 The number of the current cell being created is found in the indexPath.row value, which is automatically passed into this function for you.
@@ -32,19 +32,19 @@ The number of the current cell being created is found in the indexPath.row value
 
 ## Using Images in your iOS project
 
-For this example, you will see how to edit the cell's image, but to do this you will need to import an image into our project.  You can start by  [downloading this zip file](/mad9137/assets/downloads/ImageAssets.zip) containing test images to work with.  After unzipping the images to a folder on your computer, you will open your project that you built in the previous lesson.
+For this example, you will see how to edit the cell's image, but to do this you will need to import an image into our project.  You can start by  [downloading this zip file](/F2020/assets/downloads/ImageAssets.zip) containing test images to work with.  After unzipping the images to a folder on your computer, you will open your project that you built in the previous lesson.
 
 In your Project Navigator, select your Assets.xcassets file: it will display all the assets currently in this project.  Currently, the empty AppIcon is the only thing in your list of assets.  Click the plus (+) icon at the bottom of the assets list and choose the Import option.
 
-![Edit Cells](/mad9137/assets/img/EditCell_1.png)
+![Edit Cells](/F2020/assets/img/EditCell_1.png)
 
 Navigate to the folder you just uncompressed the images to and select the default-pic-100.png and click open.
 
-![Edit Cells](/mad9137/assets/img/EditCell_2.png)
+![Edit Cells](/F2020/assets/img/EditCell_2.png)
 
 You will now see the image added to your assets folder, and will be able to access it in your code.
 
-![Edit Cells](/mad9137/assets/img/EditCell_3.png)
+![Edit Cells](/F2020/assets/img/EditCell_3.png)
 
 Then, in your tableView(tableView, cellForRowAt indexPath) function, after you modify the textLabel's text you can add the following line of code to set the image.
 
@@ -74,7 +74,7 @@ The tableView(tableView, cellForRowAtIndexPath) function has a parameter passed 
 
 The image below shows a modified tableViewController file from the previous lesson.  Added to the class was an array of strings called namesArray with a bunch of test names in it.  This is an example of the data model that will be used to populate the tableViewCells with custom data.
 
-![Edit Cells](/mad9137/assets/img/EditCell_4.png)
+![Edit Cells](/F2020/assets/img/EditCell_4.png)
 
 :::tip
 The `namesArray.count` is returned from the tableView(tableView, numberOfRowsInSection) function telling the tableView how many cells to make.

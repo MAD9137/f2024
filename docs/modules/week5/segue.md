@@ -8,47 +8,47 @@ When navigating from one view to another, you may want to have some data passed 
 
 Let's look at an example where we have two views we want to connect with a segue and pass the value of the slider from the first view to the second to have it displayed in the text label.
 
-![Segues](/mad9137/assets/img/SeguePassData_1.png)
+![Segues](/F2020/assets/img/SeguePassData_1.png)
 
 Start in the storyboard by holding Control+click and dragging from the top viewController of the first view with the blue line to the background of the second view (so the whole second view highlights blue) and let go of the mouse button.
 
-![Segues](/mad9137/assets/img/SeguePassData_2.png)
+![Segues](/F2020/assets/img/SeguePassData_2.png)
 
 A small menu will pop up, letting you choose what type of manual segue you want to create.  Select the Show option.
 
-![Segues](/mad9137/assets/img/SeguePassData_3.png)
+![Segues](/F2020/assets/img/SeguePassData_3.png)
 
 The segue that connects the first view to the second looks like an arrow with a round symbol on it showing that it is a Show segue.  Click on the segue to select it and go to your Attributes Inspector.  Under the heading Storyboard Segue, you must give a name in the identifier field so it can be accessed in the viewController classes.
 
-![Segues](/mad9137/assets/img/SeguePassData_4.png)
+![Segues](/F2020/assets/img/SeguePassData_4.png)
 
 ## Trigger a Segue in Code
 
 The first viewController has an outlet connected to the UISlider object, and an action hooked up to the button in the view.
 
-![Segues](/mad9137/assets/img/SeguePassData_5.png)
+![Segues](/F2020/assets/img/SeguePassData_5.png)
 
 Now that the first and second viewController are connected by a segue, and that segue has a segue identifier, it is possible to trigger the segue in code.  Using the function performSegueWithIdentifier() and passing it a string with the segue identifier and "self" as the sender, the segue to transition from the first view to the second when executed.
 
-![Segues](/mad9137/assets/img/SeguePassData_6.png)
+![Segues](/F2020/assets/img/SeguePassData_6.png)
 
 ## Unwinding the Segue in the second viewController
 
 The second viewController class starts by having an outlet hooked up to the text label, and an action attached to the button within the second view.  It also has a float variable called sentFloat that will be set in the first view later.  This float has a default value because it is not an optional.
 
-![Segues](/mad9137/assets/img/SeguePassData_7.png)
+![Segues](/F2020/assets/img/SeguePassData_7.png)
 
 Adding some code in the viewDidLoad function sets the text label to show whatever the value of sentFloat is when the second view finishes loading.
 
 Adding a call to the function **dismiss(animated: true, completion: nil)** in the button action will cause the segue to unwind transitioning the user back to the first view.
 
-![Segues](/mad9137/assets/img/SeguePassData_8.png)
+![Segues](/F2020/assets/img/SeguePassData_8.png)
 
 ## Setting properties of the second ViewController class in the first
 
 Going back to edit the first viewController class, you will see the next two lines added to an overridden function called prepareForSegue().  This function is triggered during a segue transition, just before switching focus from the first view tho the second.  In it we get a reference to the second viewController, and then we set its properties before the segue continues.
 
-![Segues](/mad9137/assets/img/SeguePassData_9.png)
+![Segues](/F2020/assets/img/SeguePassData_9.png)
 
 The first line of code looks like this:
 

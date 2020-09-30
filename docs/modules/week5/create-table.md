@@ -1,4 +1,4 @@
-# Table View
+# Create Table Views
 
 The **tableView** object lets you make a list of similar information (at whatever length is needed), letting the user scroll vertically up and down to view all the items in the tableView.  Each row of information in the tableView is actually stored within an object called a **TableViewCell**.  
 
@@ -6,27 +6,27 @@ The **tableView** object lets you make a list of similar information (at whateve
 
 Let’s look at how to create a tableView in an existing Single View Application.  Start by deleting the original view and viewController.swift file, then look for the yellow Table View Controller object in the Object Library.
 
-![Table View](/mad9137/assets/img/TableViews_01.png)
+![Table View](/F2020/assets/img/TableViews_01.png)
 
 After dragging the Table View Controller to the storyboard, for this example we need to make sure we set it to be the initial view controller by selecting the new tableView and checking on '**Is Initial View Controller**' in the Attributes Inspector on the right side of Xcode.
 
-![Table View](/mad9137/assets/img/TableViews_02.png)
+![Table View](/F2020/assets/img/TableViews_02.png)
 
 For the next step, we need to make a new Cocoa Touch class that is a subclass of the **UITableViewController** class.  We must make this new file in the project folder so we can select it to control the tableView.
 
-![Table View](/mad9137/assets/img/TableViews_03.png)
+![Table View](/F2020/assets/img/TableViews_03.png)
 
 Start by right-clicking on the project folder and select *New File..*., then select the file type to be **Cocoa Touch Class**.  Click *Next* and give your new tableViewController class an appropriate name.  Make sure you select subclass of **UITableViewController**, and that the language is Swift, and click the *Next* button.  Choose a location to save your new file and click the *Create* button when done.
 
-![Table View](/mad9137/assets/img/TableViews_04.png)
+![Table View](/F2020/assets/img/TableViews_04.png)
 
 Make sure your file imports the UIKit, and looks similar to this:
 
-![Table View](/mad9137/assets/img/TableViews_05.png)
+![Table View](/F2020/assets/img/TableViews_05.png)
 
 Next, you must go back to the storyboard and tell the Table View Controller object to use your new tableViewController class.  In the storyboard, select your Table View Controller object, and open the **Identity Inspector** on the right side of Xcode.  Under the Custom Class heading, choose the name of your new UITableViewController file in the Class drop-down selection.
 
-![Table View](/mad9137/assets/img/TableViews_06.png)
+![Table View](/F2020/assets/img/TableViews_06.png)
 
 ## Setting the Reuse Identifier of the TableViewCell
 
@@ -34,7 +34,7 @@ Each row in a TableView is called a cell, which has its own class to control it 
 
 For now, you only need to give a name to the Identifier parameter of the Table View Cell prototype, so the prototype can be reference it in code.  To do this, you must select the box at the top of your tableView labeled "Prototype Cells' and give the identifier a name in the Attributes Inspector.  You will know you have selected the prototype cell sub-view in the editor when you see the heading labeled "Table View Cell" in the Attributes Inspector.  You will be using the Reuse Identifier in your code to tell the tableViewController class to use your unique tableViewCell.
 
-![Table View](/mad9137/assets/img/TableViews_07.png)
+![Table View](/F2020/assets/img/TableViews_07.png)
 
 ## Modifying the TableViewController class
 
@@ -42,17 +42,17 @@ Next, you will need to add only 2 things in code to get your TableViewController
 
 First, you will override the function **numberOfRowsInSection** to return the total number of cells the table will create.  The second is the tableView function **cellForRowAtIndexPath** which requires us to make a new table cell object and return it from the function.  This is where we specify the tableViewCell Identifier that we created.
 
-![Table View](/mad9137/assets/img/TableViews_08.png)
+![Table View](/F2020/assets/img/TableViews_08.png)
 
 That will create the desired number of cells (clones of the Cell Prototype), and initialize them when you launch your application. If you run the application now, you should see the table filled with empty cells.  You can swipe and down to scroll through the cells, and try adding more cells to see what this looks like.
 
 If you want to only see the number of cells you created instead of a continuous list of cells, you must change the style setting of your Table View in the story board.  To do this you click and highlight the Table View object itself.  Then, in the Attributes Inspector, you will see the Style option that you need to change from *Plain* from *Grouped*.
 
-![Table View](/mad9137/assets/img/TableViews_09.png)
+![Table View](/F2020/assets/img/TableViews_09.png)
 
 The application should now display the tableView with the selected number of cells shown.
 
-![Table View](/mad9137/assets/img/TableViews_10.png)
+![Table View](/F2020/assets/img/TableViews_10.png)
 
 ## Using a TableView in a regular ViewController
 
