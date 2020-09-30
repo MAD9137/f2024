@@ -46,7 +46,7 @@ Running the application shows the text of the UILabel that was updated in the vi
 
 ## Connect Actions to UI Objects
 
-An **IBAction** is a function you create in your viewController class that will run when the user interacts with a chosen UI object.  This is a special class method , and will be triggered every time UI objects like buttons are pressed.  To connect a UI object to an action, you must create the associations manually.  
+An **IBAction** is a function you create in your viewController class that will run when the user interacts with a chosen UI object.  This is a special class method, and will be triggered every time UI objects like buttons are pressed.  To connect a UI object to an action, you must create the associations manually.  
 
 Actions can be made by holding control on the keyboard while clicking on the UI object in the storyboard and dragging down into your viewController class code.  You must drag down into the area *between* the other methods (e.g. under the viewDidLoad function).
 
