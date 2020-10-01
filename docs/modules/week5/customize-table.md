@@ -52,16 +52,16 @@ Then, in your tableView(tableView, cellForRowAt indexPath) function, after you m
 newCell.imageView?.image = UIImage(named: "default-pic-100")
 ```
 
-There are a variety of ways to set a UIImage object in Swift. You can also just start typing the name of your image file to add an Image Literal.
+There are a variety of ways to set a UIImage object in Swift. You can use what is called an Image Literal.  When you start typing Image the tool tip will show you an option for **Image Literal** that you can choose.
 
 ```swift
-default-pic-100
+Image Literal
 ```
 
-When you select the image literal of your image, it transforms your image file name into a small icon of your image right in xCode's editor.  If you ever comment it out, you will see the markup for an image literal looks like this:
+When you select Image Literal from the tool tip the text "Limage Literal" will be replaced with a small icon in your code.  By double-clicking on this icon a dialog pop-up windo will show you a list of thubnails of all the images in your Assets folder.  Selecting the image you want will change the small icon in your code into a small icon of your chosen image right in xCode's editor.  If you ever comment it out, you will see the markup for an image literal looks like this:
 
 ```swift
-#imageLiteral(resourceName: "default-pic-100")
+// #imageLiteral(resourceName: "default-pic-100")
 ```
 
 ## Using Arrays to hold TableViewCell content
