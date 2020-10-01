@@ -32,7 +32,7 @@ Next, you must go back to the storyboard and tell the Table View Controller obje
 
 Each row in a TableView is called a cell, which has its own class to control it called **UITableViewCell**.  The Table View Controller object  comes with the Table View Cell prototype added to it: it is the white horizontal space at the top of the Table View Controller object.  Modifying the TableViewCell prototype will set the look and style for all of the cells in the table.
 
-For now, you only need to give a name to the Identifier parameter of the Table View Cell prototype, so the prototype can be reference it in code.  To do this, you must select the box at the top of your tableView labeled "Prototype Cells' and give the identifier a name in the Attributes Inspector.  You will know you have selected the prototype cell sub-view in the editor when you see the heading labeled "Table View Cell" in the Attributes Inspector.  You will be using the Reuse Identifier in your code to tell the tableViewController class to use your unique tableViewCell.
+For now, you only need to give a name to the Identifier parameter of the Table View Cell prototype, so the prototype can be reference it in code.  To do this, you must select the box at the top of your tableView just under the label **Prototype Cells** and give the identifier a name in the Attributes Inspector.  You will know you have selected the prototype cell sub-view in the editor when you see the heading labeled "Table View Cell" in the Attributes Inspector.  The Reuse Identifier is used in the tableViewController class to identify your unique tableViewCell when making new copies of the cell in the table.
 
 ![Table View](/F2020/assets/img/TableViews_07.png)
 

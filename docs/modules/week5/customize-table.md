@@ -2,7 +2,7 @@
 
 The TableView class has functions built in to help create and manage the TableViewCells (reminder: cells are the rows in your table).  The TableView will only ever create enough Cell objects to fill the height of the TableView, plus a few more.  The Cell objects get recycled as you scroll through the TableView (when the table has more Cells than the TableView can display at one time on screen).  Each Cell that scrolls off the top of the screen has its contents removed, and is reused as the next cell brought on the bottom the screen with new data displayed in it.
 
-When you want to add different information into each cell of a TableView, you must do it when the cells are being created in the **tableView(tableView, cellForRowAtIndexPath)->UITableViewCell** function.  This function gets called once for each cell that gets created.  It gets a copy of the specific cell so you can customize it.  At the end of this function, you are required to return your modified UITableViewCell object as the return type indicates.
+When you want to add different information into each cell of a TableView, you must do it when the cells are being created in the `tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell` function.  This function gets called once for each cell that gets created.  Each time this function is called, it creates a copy of the default cell (the cell with the unique identifyer) allowing you to add customized information into each cell.  At the end of this function, you are required to return your modified UITableViewCell object as the return type indicates.
 
 ## Customizing TableViewCells Labels
 
@@ -24,7 +24,7 @@ newCell.textLabel?.text = “Test Student”
 
 You can see the optional chaining using the question mark (?) to safely access the cell's textLabel.  You can also see the application running in the simulator displaying the cell's content.
 
-![Table View](/F2020/assets/img/TableViews_11B.png)
+![Table View](/F2020/assets/img/EditCell_1.png)
 
 :::tip
 The number of the current cell being created is found in the indexPath.row value, which is automatically passed into this function for you.
@@ -36,15 +36,15 @@ For this example, you will see how to edit the cell's image, but to do this you 
 
 In your Project Navigator, select your Assets.xcassets file: it will display all the assets currently in this project.  Currently, the empty AppIcon is the only thing in your list of assets.  Click the plus (+) icon at the bottom of the assets list and choose the Import option.
 
-![Edit Cells](/F2020/assets/img/EditCell_1.png)
+![Edit Cells](/F2020/assets/img/EditCell_2.png)
 
 Navigate to the folder you just uncompressed the images to and select the default-pic-100.png and click open.
 
-![Edit Cells](/F2020/assets/img/EditCell_2.png)
+![Edit Cells](/F2020/assets/img/EditCell_3.png)
 
 You will now see the image added to your assets folder, and will be able to access it in your code.
 
-![Edit Cells](/F2020/assets/img/EditCell_3.png)
+![Edit Cells](/F2020/assets/img/EditCell_4.png)
 
 Then, in your tableView(tableView, cellForRowAt indexPath) function, after you modify the textLabel's text you can add the following line of code to set the image.
 
@@ -74,7 +74,7 @@ The tableView(tableView, cellForRowAtIndexPath) function has a parameter passed 
 
 The image below shows a modified tableViewController file from the previous lesson.  Added to the class was an array of strings called namesArray with a bunch of test names in it.  This is an example of the data model that will be used to populate the tableViewCells with custom data.
 
-![Edit Cells](/F2020/assets/img/EditCell_4.png)
+![Edit Cells](/F2020/assets/img/EditCell_5.png)
 
 :::tip
 The `namesArray.count` is returned from the tableView(tableView, numberOfRowsInSection) function telling the tableView how many cells to make.
