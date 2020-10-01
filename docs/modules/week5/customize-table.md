@@ -6,7 +6,7 @@ When you want to add different information into each cell of a TableView, you mu
 
 ## Customizing TableViewCells Labels
 
-Each TableViewCell object already contains some UI objects that can set to display information.  The most commonly used is the textLabel to add some text to each cell in the table.  To access and change the cell's properties, you must first create a variable that will equal the specific UITableViewCell object we currently want to edit.  You do this by calling a function from your TableView object called dequeueReusableCell().  The parameters passed to this function control what cell is currently being manipulated.
+Each TableViewCell object already contains some UI objects that can set to display information.  The most commonly used is the textLabel to add some text to each cell in the table.  To access and change the cell's properties, you must first create a variable that will equal the specific UITableViewCell object we currently want to edit.  You do this by calling a function from your TableView object called `dequeueReusableCell()`.  The parameters passed to this function control what cell is currently being manipulated.
 
 ```swift
 let newCell = tableView.dequeueReusableCell(withIdentifier: "MyTableCell", for: indexPath)
@@ -70,7 +70,7 @@ The most common way of adding different information into each cell of a tableVie
 
 This means you use the array's count to define the number of rows in the tableView when you override the tableView(tableView, numberOfRowsInSection).  As you learned in the previous lesson, this function is called to set the number of tableViewCell objects, and you want to set this equal to the number of elements in your array.
 
-The tableView(tableView, cellForRowAtIndexPath) function has a parameter passed in called indexPath that tells this function which row of the table the cell is being created for.  Calling the indexPath.row gives you an integer value that is a 0-based index referring to what cell is being created at that time.  This can be used to access the array element you need for the current table cell you are on.
+The `tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell` function has a parameter passed in called indexPath that tells this function which row of the table the cell is being created for.  Calling the indexPath.row gives you an integer value that is a 0-based index referring to what cell is being created at that time.  This can be used to access the array element you need for the current table cell you are on.
 
 The image below shows a modified tableViewController file from the previous lesson.  Added to the class was an array of strings called namesArray with a bunch of test names in it.  This is an example of the data model that will be used to populate the tableViewCells with custom data.
 
@@ -80,7 +80,7 @@ The image below shows a modified tableViewController file from the previous less
 Notic the `namesArray.count` is now being returned from the `tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int` function telling the tableView how many cells to make.  This makes one cell for each element in the array.
 :::
 
-Now, in the `tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell` function the namesArray[indexPath.row] gets the correct piece of data for the current cell being created and sets the textLabel?.text with it using optional chaining.  You can also see how to set the cell's image to a new UIImage with the name of the file you imported into your Assets.xcassets folder simply by referencing the file's name (without the extension).  Now, when the app is run in the iOS simulator, you can see the 7 names from the array are in their own cell of the tableView.
+Now, in the `tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell` function the namesArray[indexPath.row] gets the correct piece of data for the current cell being created and sets the `textLabel?.text` with it using optional chaining.  You can also see how to set the cell's image to a new UIImage with the name of the file you imported into your Assets.xcassets folder simply by referencing the file's name (without the extension).  Now, when the app is run in the iOS simulator, you can see the 6 names from the array are in their own cell of the tableView.
 
 The following videos show more options for modifying TableViewCell objects to design its style to fit your application.  These videos continue from last lesson building onto the TableView that was added into a normal ViewController.  You will see how to manually add a custom TableViewCell object into a TableView to be used as the Prototype Cell, adding images, and choosing accessory icons to table cells.
 
