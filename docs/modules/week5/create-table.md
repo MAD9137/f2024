@@ -40,17 +40,17 @@ For now, you only need to give a name to the Identifier parameter of the Table V
 
 Now, you will need to add 3 things in code to get your TableViewController working.  You will need to override 3 of the function of the TableViewController class to tell it how many sections in the table, how many cells to create per section, and what information should go in each cell.
 
-First, you will override the function `numberOfSections` and return how many sections to add (1 is good for now).  Next you will override two `tableView` fuctions, one with a parameter  called **numberOfRowsInSection** to return the total number of cells the table will create.  The second is the tableView function **cellForRowAtIndexPath** which requires us to make a new table cell object and return it from the function.  This is where we specify the tableViewCell Identifier that we created.
+First, you will override the function `numberOfSections` and return how many sections to add (1 is good for now).  Next you will override two `tableView` fuctions, one with a parameter called **numberOfRowsInSection** to return the total number of cells the in each section of the table (for now we will just return 5).  The second `tableView` function has a parameter called **cellForRowAt indexPath** which requires us to make a new table cell object and return it from the function.  This is where we specify the tableViewCell Identifier that we created.
 
 ![Table View](/F2020/assets/img/TableViews_08.png)
 
 That will create the desired number of cells (clones of the Cell Prototype), and initialize them when you launch your application. If you run the application now, you should see the table filled with empty cells.  You can swipe and down to scroll through the cells, and try adding more cells to see what this looks like.
 
-If you want to only see the number of cells you created instead of a continuous list of cells, you must change the style setting of your Table View in the story board.  To do this you click and highlight the Table View object itself.  Then, in the Attributes Inspector, you will see the Style option that you need to change from *Plain* from *Grouped*.
+If you want the table to display only the number of cells you created (instead of a continuous list of cells), you must change the style setting of your Table View in the story board.  To do this you click and highlight the Table View object itself - then, in the Attributes Inspector, change the Style option from *Plain* from *Grouped*.
 
 ![Table View](/F2020/assets/img/TableViews_09.png)
 
-The application should now display the tableView with the selected number of cells shown.
+The application should now display the Table View with the selected number of cells created.
 
 ![Table View](/F2020/assets/img/TableViews_10.png)
 
