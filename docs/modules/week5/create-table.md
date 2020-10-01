@@ -4,11 +4,11 @@ The **tableView** object lets you make a list of similar information (at whateve
 
 ## Creating and Connecting a TableViewController
 
-Let’s look at how to create a tableView in an existing Single View Application.  Start by deleting the original view and viewController.swift file, then look for the yellow Table View Controller object in the Object Library.
+Let’s look at how to create a tableView in an existing Single View Application.  Start by **deleting** the original viewController from the storyboard, and viewController.swift file in the project navigator.  Then locate the yellow Table View Controller object in the Object Library and add it to the storyboard.
 
 ![Table View](/F2020/assets/img/TableViews_01.png)
 
-After dragging the Table View Controller to the storyboard, for this example we need to make sure we set it to be the initial view controller by selecting the new tableView and checking on '**Is Initial View Controller**' in the Attributes Inspector on the right side of Xcode.
+After dragging the Table View Controller to the storyboard, we need to make sure we set it to be the initial view controller for this project.  This is done by selecting the new tableView and checking on '**Is Initial View Controller**' in the Attributes Inspector on the right side of Xcode.
 
 ![Table View](/F2020/assets/img/TableViews_02.png)
 
@@ -38,9 +38,9 @@ For now, you only need to give a name to the Identifier parameter of the Table V
 
 ## Modifying the TableViewController class
 
-Next, you will need to add only 2 things in code to get your TableViewController working, so we delete everything in the class except what is shown in the image below.  You will need to override some of the function of the TableViewController class to tell it how many cells to create, and what information should go in each cell.
+Now, you will need to add 3 things in code to get your TableViewController working.  You will need to override 3 of the function of the TableViewController class to tell it how many sections in the table, how many cells to create per section, and what information should go in each cell.
 
-First, you will override the function **numberOfRowsInSection** to return the total number of cells the table will create.  The second is the tableView function **cellForRowAtIndexPath** which requires us to make a new table cell object and return it from the function.  This is where we specify the tableViewCell Identifier that we created.
+First, you will override the function `numberOfSections` and return how many sections to add (1 is good for now).  Next you will override two `tableView` fuctions, one with a parameter  called **numberOfRowsInSection** to return the total number of cells the table will create.  The second is the tableView function **cellForRowAtIndexPath** which requires us to make a new table cell object and return it from the function.  This is where we specify the tableViewCell Identifier that we created.
 
 ![Table View](/F2020/assets/img/TableViews_08.png)
 
