@@ -27,7 +27,7 @@ By the end of this week, students will:
     - creating tables
     - [Create Table Views](./create-table.md)
     - [Customizing TableViewCells](./customize-table.md)
-    - [A Custom Class for TableViewCell Information](./custom-table-class.md)
+    - [A Custom Struct for TableViewCell Information](./custom-table-cell.md)
     - using segues to navigate to different views and pass data
     - [Segues and Passing Data](./segue.md)
     - creating a navigation controller
