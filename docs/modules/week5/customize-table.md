@@ -77,7 +77,7 @@ The image below shows a modified tableViewController file from the previous less
 ![Edit Cells](/F2020/assets/img/EditCell_5.png)
 
 :::tip
-The `namesArray.count` is returned from the `tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int` function telling the tableView how many cells to make.
+Notic the `namesArray.count` is now being returned from the `tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int` function telling the tableView how many cells to make.  This makes one cell for each element in the array.
 :::
 
 Now, in the `tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell` function the namesArray[indexPath.row] gets the correct piece of data for the current cell being created and sets the textLabel?.text with it using optional chaining.  You can also see how to set the cell's image to a new UIImage with the name of the file you imported into your Assets.xcassets folder simply by referencing the file's name (without the extension).  Now, when the app is run in the iOS simulator, you can see the 7 names from the array are in their own cell of the tableView.
