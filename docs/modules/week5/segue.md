@@ -53,7 +53,7 @@ Going back to edit the first viewController class, you will see the next two lin
 The first line of code looks like this:
 
 ```swift
-let nextView = segue.destination as! SecondViewController
+let nextViewController = segue.destination as! DisplayViewController
 ```
 
 This gets a reference to the second viewController object that this segue points to with its **destination** property.  This property gives you a reference to a basic UIViewController class so we need to explicitly convert (cast it) it to our SecondViewController type to tell it exactly what type of class it is, and what properties we expect it to contain.  
@@ -61,7 +61,7 @@ This gets a reference to the second viewController object that this segue points
 The next line of code actually sets the **sentFloat** property of our SecondViewController class using the value from the slider:
 
 ```swift
-nextView.sentFloat = mySlider.value
+nextViewController.sentFloat = mySlider.value
 ```
 
 Now the slider's value from the first view is passed to the sentFloat property of the second viewController during the segue.  When the segue is done the second view now shows the value passed from the first viewController.
