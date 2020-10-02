@@ -61,7 +61,7 @@ This gets a reference to the second viewController object that this segue points
 The next line of code actually sets the **sentFloat** property of our SecondViewController class using the value from the slider:
 
 ```swift
-NextView.sentFloat = mySlider.value
+nextView.sentFloat = mySlider.value
 ```
 
 Now the slider's value from the first view is passed to the sentFloat property of the second viewController during the segue.  When the segue is done the second view now shows the value passed from the first viewController.
