@@ -81,7 +81,7 @@ navigationController?.popToRootViewController(animated: true)
 
 In the last lesson, you used the IndexPath.row value passed into the tableView(tableView, cellForRowAt indexPath) function to access each array object and get information for each cell in the tableView.  When using a TableView where you have your Prototype Cell connected to segue to another view and you want to pass information about that specific cell the user tapped, you will need the identify what cell was tapped as you prepare to segue to the next view.
 
-In your `prepare(for segue, sender)` function you can get the number of the cell that that was tapped to triggered the segue using the following code:
+In your `override func prepare(for segue: UIStoryboardSegue, sender: Any?)` function you can get the number of the cell that was tapped to triggered the segue using the following code:
 
 ```swift
 let indexPathRow = tableView.indexPathForSelectedRow?.row
