@@ -9,7 +9,9 @@ Yet another commonly used way to control navigation from one view to another is 
 
 ## Embedding a NavigationController in a View
 
-A NavigationController embedded in a view can manage navigation to additional views connected by segues, and back to the initial view the navigationController is embedded in.  To learn how to use a NavigationController, we will continue from last lesson's example project.  The following image shows the project's storyboard with the existing tableView and a second basic viewController added to the storyboard.  This new view has a label displaying “Second View”, as well as a new viewController class called SecondViewController that has been setup to control this new view.
+To learn how to use a NavigationController, we will continue from the tableView example project built in this weeks lessons.  A NavigationController embedded in a view can manage navigation to additional views connected by a segue, and back to the initial view the navigationController is embedded in.  
+
+The following image shows the project's storyboard with the existing tableView and a new second basic viewController added to the storyboard.  This new viewController has a label displaying the text “Second View”.  It also has a new viewController class called SecondViewController that has been setup to control this new view.
 
 ![Navigation Controller](/F2020/assets/img/NavController_1.png)
 
