@@ -87,7 +87,7 @@ In your `override func prepare(for segue: UIStoryboardSegue, sender: Any?)` func
 let indexPathRow = tableView.indexPathForSelectedRow?.row
 ```
 
-This gets the currently selected tableViewCell's row number, which can be used to as an index for getting that cell's data from an array like this:
+This gets the currently selected tableViewCell's row number as an Int, which can be used to as an index for getting that cell's data from an array like this:
 
 ```swift
 let currentUser = userArray[indexPathRow]
