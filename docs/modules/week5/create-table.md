@@ -30,11 +30,11 @@ The UITableViewController class has many useful functions commented out that are
 
 To finish setting up, you must go back to the storyboard and tell the TableViewController object to use your new tableViewController class.  In the storyboard, select your Table View Controller object, and open the **Identity Inspector** on the right side of Xcode.  Under the Custom Class heading, choose the name of your new UITableViewController file in the Class drop-down selection.
 
+![Table View](/F2020/assets/img/TableViews_06.png)
+
 :::warning
 If you can not find your new UITableViewController class in the drop-down list, you might have created your Cocoa Touch Class as a sub-class of a diferent UI-class.  If it is not inheriting from the UITableViewController class you should delete the file from your project and create it again.
 :::
-
-![Table View](/F2020/assets/img/TableViews_06.png)
 
 ## Setting the Reuse Identifier of the TableViewCell
 
