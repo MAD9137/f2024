@@ -12,17 +12,21 @@ After dragging the Table View Controller to the storyboard, we need to make sure
 
 ![Table View](/F2020/assets/img/TableViews_02.png)
 
-For the next step, we need to make a new Cocoa Touch class that is a subclass of the **UITableViewController** class.  We must make this new file in the project folder so we can select it to control the tableView.
+After that, we need to make a new Cocoa Touch class that is a subclass of the **UITableViewController** class so it can control the tableViewController.
 
 ![Table View](/F2020/assets/img/TableViews_03.png)
 
-Start by right-clicking on the project folder and select *New File..*., then select the file type to be **Cocoa Touch Class**.  Click *Next* and give your new tableViewController class an appropriate name.  Make sure you select subclass of **UITableViewController**, and that the language is Swift, and click the *Next* button.  Choose a location to save your new file and click the *Create* button when done.
+Start by right-clicking on the project folder and select *New File...*, then select the file type to be **Cocoa Touch Class**.  Click *Next* and give your new tableViewController class an appropriate name.  Make sure you select subclass of **UITableViewController**, and that the language is Swift, and click the *Next* button.  Choose a location to save your new file and click the *Create* button when done.
 
 ![Table View](/F2020/assets/img/TableViews_04.png)
 
-Make sure your file imports the UIKit, and looks similar to this:
+Verify that you have created this properly by ensuring that your class is importing the UIKit, and looks similar to this:
 
 ![Table View](/F2020/assets/img/TableViews_05.png)
+
+:::note
+    The UITableViewController class has many useful functions commented out that are commonly used for setting up and modifying tableViews.  We will use some of these in this lesson so do not remove them.
+:::
 
 Next, you must go back to the storyboard and tell the Table View Controller object to use your new tableViewController class.  In the storyboard, select your Table View Controller object, and open the **Identity Inspector** on the right side of Xcode.  Under the Custom Class heading, choose the name of your new UITableViewController file in the Class drop-down selection.
 
