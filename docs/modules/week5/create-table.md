@@ -8,7 +8,7 @@ This lesson will demonstrate how to replace a viewController with a tableViewCon
 
 ![Table View](/F2020/assets/img/TableViews_01.png)
 
-After dragging the Table View Controller to the storyboard, we need to make sure we set it to be the initial view controller for this project.  This is done by selecting the new tableView and checking on "**Is Initial View Controller**" in the Attributes Inspector on the right side of Xcode.
+After dragging the Table View Controller to the storyboard, we need to make sure we set it to be the initial view controller for this project.  This is done by selecting the new tableView and checking on '**Is Initial View Controller**' in the Attributes Inspector on the right side of Xcode.
 
 ![Table View](/F2020/assets/img/TableViews_02.png)
 
@@ -16,7 +16,7 @@ After that, we need to make a new Cocoa Touch class that is a subclass of the **
 
 ![Table View](/F2020/assets/img/TableViews_03.png)
 
-Start by right-clicking on the project folder and select *New File...*, then select the file type to be **Cocoa Touch Class**.  Click *Next* and give your new tableViewController class an appropriate name.  Make sure you select subclass of **UITableViewController**, and that the language is Swift, and click the *Next* button.  Choose a location to save your new file and click the *Create* button when done.
+Start by right-clicking on the project folder and select _New File..._, then select the file type to be **Cocoa Touch Class**.  Click _Next_ and give your new tableViewController class an appropriate name.  Make sure you select subclass of **UITableViewController**, and that the language is Swift, and click the _Next_ button.  Choose a location to save your new file and click the _Create_ button when done.
 
 ![Table View](/F2020/assets/img/TableViews_04.png)
 
