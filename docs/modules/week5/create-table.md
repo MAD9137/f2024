@@ -8,7 +8,7 @@ This lesson will demonstrate how to replace a viewController with a tableViewCon
 
 ![Table View](/F2020/assets/img/TableViews_01.png)
 
-After dragging the Table View Controller to the storyboard, we need to make sure we set it to be the initial view controller for this project.  This is done by selecting the new tableView and checking on '**Is Initial View Controller**' in the Attributes Inspector on the right side of Xcode.
+After dragging the Table View Controller to the storyboard, we need to make sure we set it to be the initial view controller for this project.  This is done by selecting the new tableView and checking on "**Is Initial View Controller**" in the Attributes Inspector on the right side of Xcode.
 
 ![Table View](/F2020/assets/img/TableViews_02.png)
 
