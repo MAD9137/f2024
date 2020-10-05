@@ -24,7 +24,7 @@ Verify that you have created this properly by ensuring that your class is import
 
 ![Table View](/F2020/assets/img/TableViews_05.png)
 
-:::note
+:::tip NOTE
     The UITableViewController class has many useful functions commented out that are commonly used for setting up and modifying tableViews.  We will use some of these in this lesson so do not remove them.
 :::
 
