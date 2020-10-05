@@ -38,21 +38,25 @@ To finish setting up, you must go back to the storyboard and tell the TableViewC
 
 ## Setting the Reuse Identifier of the TableViewCell
 
-Each row in a TableView is called a cell, which has its own class to control it called **UITableViewCell**.  The Table View Controller object  comes with the Table View Cell prototype added to it: it is the white horizontal space at the top of the Table View Controller object.  Modifying the TableViewCell prototype will set the look and style for all of the cells in the table.
+Each row in a TableView is called a cell, which has its own class to control it called **UITableViewCell**.  The Table View Controller object comes with the Table View Cell prototype added to it: it is the white horizontal space at the top of the Table View Controller object.  The prototype cell is duplicated for each cell in the tableView.  By default, this prototype cell uses a generic UITableViewCell class, and by modifying the tableViewCell prototype you can set the look and style for all of the cells in the table.
 
-For now, you only need to give a name to the Identifier parameter of the Table View Cell prototype, so the prototype can be reference it in code.  To do this, you must select the box at the top of your tableView just under the label **Prototype Cells** and give the identifier a name in the Attributes Inspector.  You will know you have selected the prototype cell sub-view in the editor when you see the heading labeled "Table View Cell" in the Attributes Inspector.  The Reuse Identifier is used in the tableViewController class to identify your unique tableViewCell when making new copies of the cell in the table.
+For now, you only need to give a name to the Identifier parameter of the Table View Cell prototype, so this prototype cell can be reference within the code of your tableViewController class.  
+
+To do this, you must select the box at the top of your tableView just under the label **Prototype Cells** and give the identifier a name in the Attributes Inspector.  You will know you have selected the prototype cell in the editor when you see the heading labeled "Table View Cell" in the Attributes Inspector.
 
 ![Table View](/F2020/assets/img/TableViews_07.png)
 
 ## Modifying the TableViewController class
 
-Now, you will need to add 3 things in code to get your TableViewController working.  You will need to override 3 of the function of the TableViewController class to tell it how many sections in the table, how many cells to create per section, and what information should go in each cell.
+Now, you will need to add 3 things in code to get your TableViewController working.  You will override 3 of the function of the TableViewController class to tell it how many sections are going to be in the table, how many cells to create per section, and what information should go in each cell.
 
-First, you will override the function `numberOfSections` and return how many sections to add (1 is good for now).  Next you will override two `tableView` fuctions, one with a parameter called **numberOfRowsInSection** to return the total number of cells the in each section of the table (for now we will just return 5).  The second `tableView` function has a parameter called **cellForRowAt indexPath** which requires us to make a new table cell object and return it from the function.  This is where we specify the tableViewCell Identifier that we created.
+First, override the function `numberOfSections(in tableView: UITableView)` and return an integer for how many sections to add (1 is good for now).  
+
+Next you will override two different `tableView` fuctions, one with a parameter called **numberOfRowsInSection** to return the total number of cells the in each section of the table (for now we will just return 5).  The second `tableView` function has a parameter called **cellForRowAt indexPath** which requires us to make a new table cell object and return it from the function.  This is where we specify the tableViewCell Identifier that we created.
 
 ![Table View](/F2020/assets/img/TableViews_08.png)
 
-That will create the desired number of cells (clones of the Cell Prototype), and initialize them when you launch your application. If you run the application now, you should see the table filled with empty cells.  You can swipe and down to scroll through the cells, and try adding more cells to see what this looks like.
+That will create the desired number of cells (clones of the Prototype Cell), and initialize them when you launch your application. If you run the application now, you should see the table filled with empty cells.  You can swipe and down to scroll through the cells, and try adding more cells to see what this looks like.
 
 If you want the table to display only the number of cells you created (instead of a continuous list of cells), you must change the style setting of your Table View in the story board.  To do this you click and highlight the Table View object itself - then, in the Attributes Inspector, change the Style option from *Plain* from *Grouped*.
 
@@ -64,7 +68,9 @@ The application should now display the Table View with the selected number of ce
 
 ## Using a TableView in a regular ViewController
 
-So far, the table examples have used a TableViewController added to storyboard and a new UITableViewController class added to the project to control it; however, you also have the option to place a small TableView object in an existing ViewController that can be sized to take up only a portion of the view.
+So far, the tableView example used a TableViewController added to storyboard and a new tableViewController class added to the project to control it.  This class inherits from the UITableViewConttroller class and needed certain functions in the master class to be be overridden to initialize the tableView.
+
+However, it is possible to place a TableView object in an existing regular ViewController that can be sized to take up any portion of the available view.
 
 This is done by having the UIViewController also inherit from the **UITableViewDataSource**, and **UITableViewDelegate** protocols. These protocols add to a UIViewController class the same functionality found in the UITableViewController for managing a TableView.  The videos below show how to add a TableView into an existing ViewController and write the functionality for it in the ViewController.
 
