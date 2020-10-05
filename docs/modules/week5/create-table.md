@@ -1,10 +1,10 @@
 # Create Table Views
 
-The **tableView** object lets you make a list of similar information (at whatever length is needed), letting the user scroll vertically up and down to view all the items in the tableView.  Each row of information in the tableView is actually stored within an object called a **TableViewCell**.  
+The **tableView** object lets you make a list of similar information (at whatever length is needed), letting the user scroll vertically up and down to view all the items in the tableView.  Each row of information in the tableView is stored within an object called a **TableViewCell**.  
 
 ## Creating and Connecting a TableViewController
 
-Let’s look at how to create a tableView in an existing Single View Application.  Start by **deleting** the original viewController from the storyboard, and viewController.swift file in the project navigator.  Then locate the yellow Table View Controller object in the Object Library and add it to the storyboard.
+This lesson will demonstrate how to replace a viewController with a tableViewController within an existing Single View Application.  Start by creating a new Single View Application, and then **delete** the original viewController from the storyboard, and the viewController.swift file in the project navigator.  Then locate the yellow Table View Controller object in the Object Library and add it to the storyboard.
 
 ![Table View](/F2020/assets/img/TableViews_01.png)
 
