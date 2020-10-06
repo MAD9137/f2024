@@ -4,9 +4,11 @@ There are many ways to navigate from one view to another in an iOS application, 
 
 You can use a button action to trigger a segue hooked up between an initial view and the second view of your application.  Then, to get back to the first view, the second view could use its own button to tell the segue to unwind and go back to initial view.
 
+Another way is to have the current view's code trigger the segue within the logic instead of waiting for the user to interact with the interface.  The second view still needs its own code to unwinds segue back to initial view.  In this case, it is the logic in your two viewController classes that would trigger the segue instead of the users interaction with a button.
+
 ## Connecting Views with a Segue
 
-Let's look at an example where we have two views we want to connect with a segue and pass the value of the slider from the first view to the second to have it displayed in the text label.
+Let's look at an example where we have two views we want to connect with a segue and pass the value of the slider from the first view to the second to have it displayed in the text label.  In this case the segue will be triggered by a button in the first view, and will be unwound when the button in the second view is pressed.
 
 ![Segues](/F2020/assets/img/SeguePassData_1.png)
 

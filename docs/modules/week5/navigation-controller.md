@@ -1,11 +1,5 @@
 # Navigating with a Navigation Controller
 
-There are many ways to navigate from one view to another in an iOS application, but the basic principles are always the same: the initial view of the application will have a connection (called a Segue object) that connects it to the second (destination) view.  If something in your application tells the Segue object to perform the segue, it transitions (with an animation) from the first view to the second.  When the user wishes to transition from the second view back to the first, the segue can be 'unwound' to transition back to the first view again.
-
-You can use a button action to trigger a segue hooked up between an initial view and the second view of your application.  Then, to get back to the first view, the second view could use its own button to tell the segue to unwind and go back to initial view.
-
-Another way is to have the current view's code trigger the segue to show the second view.  The second view still needs its own code to unwinds segue back to initial view.  In this case, it is the logic in your two viewController classes that would trigger the segue instead of the users interaction with a button.
-
 Yet another commonly used way to control navigation from one view to another is to embed a **NavigationController** in the main view of your application.  A NavigationController embedded in a view can manage navigation to additional views connected by segues, and back to the initial view that contains the NavigationController.
 
 ## Embedding a NavigationController in a View
