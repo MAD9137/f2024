@@ -24,6 +24,11 @@ Nothing this week
 ## During Class
 
 - Demonstration and lecture on week 6 material
+- [Import Swift Files](./import-swift-files.md)
+- [Pass Data Back](./pass-data.md)
+- [Scroll Views](./scroll-view.md)
+- [Table Views 1](./table-wiew-1.md)
+- [Table Views 2](./table-wiew-2.md)
 - Lab time to work on Assignment 2
 
 ## Following Class
