@@ -1,8 +1,8 @@
 # Segues and Passing Data
 
-## Passing data from one view to the next through a segue
+There are many ways to navigate from one view to another in an iOS application, but the basic principles are always the same: the initial view of the application will have a connection (called a Segue object) that connects it to the second (destination) view.  If something in your application tells the Segue object to perform the segue, it transitions (with an animation) from the first view to the second.  When the user wishes to transition from the second view back to the first, the segue can be 'unwound' to transition back to the first view again.
 
-When navigating from one view to another, you may want to have some data passed from the first viewController to the second.  This is possible by accessing the second viewController object from within the code of the first, just before the application segues to the next view.  It is at this point you can set variables in the second viewController class just before changing views.
+You can use a button action to trigger a segue hooked up between an initial view and the second view of your application.  Then, to get back to the first view, the second view could use its own button to tell the segue to unwind and go back to initial view.
 
 ## Connecting Views with a Segue
 
@@ -44,9 +44,11 @@ Adding a call to the function **dismiss(animated: true, completion: nil)** in th
 
 ![Segues](/F2020/assets/img/SeguePassData_8.png)
 
-## Setting properties of the second ViewController class in the first
+## Passing data from one view to the next through a segue
 
-Going back to edit the first viewController class, you will see the next two lines added to an overridden function called prepareForSegue().  This function is triggered during a segue transition, just before switching focus from the first view tho the second.  In it we get a reference to the second viewController, and then we set its properties before the segue continues.
+When navigating from one view to another, you may want to have some data passed from the first viewController to the second.  This is possible by accessing the second viewController object from within the code of the first, just before the application segues to the next view.  It is at this point you can set variables in the second viewController class just before changing views.
+
+To set the property of the second ViewController class in the first you will go back to edit the first viewController class.  Below, you will see the next two lines added to an overridden function called prepareForSegue().  This function is triggered during a segue transition, just before switching focus from the first view tho the second.  In it we get a reference to the second viewController, and then we set its properties before the segue continues.
 
 ![Segues](/F2020/assets/img/SeguePassData_9.png)
 

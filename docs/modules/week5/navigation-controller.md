@@ -1,10 +1,11 @@
 # Navigating with a Navigation Controller
 
-There are many ways to hook up one view to another in an iOS application, but the basic principles are always the same: the initial view of the application will have a Segue object that connects it to the second view.  If something in your application tells the Segue object to perform the segue, it transitions (with an animation) from the first view to the second.  When the second view is done, the segue can be 'unwound' to transition back to the first view again.
+There are many ways to navigate from one view to another in an iOS application, but the basic principles are always the same: the initial view of the application will have a connection (called a Segue object) that connects it to the second (destination) view.  If something in your application tells the Segue object to perform the segue, it transitions (with an animation) from the first view to the second.  When the user wishes to transition from the second view back to the first, the segue can be 'unwound' to transition back to the first view again.
 
-You can use a button action to trigger a segue hooked up between the current view and the second view of your application.  Then, to get back to the first view, the second view could use its own button to tell the segue to unwind and go back to initial view.
+You can use a button action to trigger a segue hooked up between an initial view and the second view of your application.  Then, to get back to the first view, the second view could use its own button to tell the segue to unwind and go back to initial view.
 
 Another way is to have the current view's code trigger the segue to show the second view.  The second view still needs its own code to unwinds segue back to initial view.  In this case, it is the logic in your two viewController classes that would trigger the segue instead of the users interaction with a button.
+
 Yet another commonly used way to control navigation from one view to another is to embed a **NavigationController** in the main view of your application.  A NavigationController embedded in a view can manage navigation to additional views connected by segues, and back to the initial view that contains the NavigationController.
 
 ## Embedding a NavigationController in a View
@@ -25,7 +26,7 @@ Just to review, in your existing custom tableViewController class in the sample 
 
 The idea here is that you want to have each cell in the table be a clickable button that will navigate to the next view.  We want the NavigationController to add and manage the interface to let us navigate to the next view and back.
 
-## Embed NavigationController in View
+## Embed a NavigationController in View
 
 Start by selecting the view in the storyboard you want as the initial root view for the navigation - in this case the tableView.  Then, click on the Editor menu at the top and selection Embed In -> Navigation Controller.
 
@@ -33,7 +34,7 @@ Start by selecting the view in the storyboard you want as the initial root view 
 
 You will see a few things change in your storyboard, the first of which is that the new navigationController has been added, looking like an entirely new view that is grey with the words "Navigation Controller" written on it.
 
-If the original view had previously been set to the initial view, the navigationController will instead be set to the initial view of the application.  You can also see the navigationController is connected to the tableView by an arrow with a symbol on it.  This is called a **segue** and will navigate to the first view of the tableView when the application loads the navigationController.
+If the original view had previously been set to the initial view, the navigationController will instead be set to the initial view of the application.  You can also see the navigationController is connected to the tableView by an arrow with a symbol on it.  This is called a **Segue** and will navigate to the first view of the tableView when the application loads the navigationController.
 
 ## Connecting a Segue
 
@@ -59,7 +60,7 @@ Now, when you run the application the will see the tableView has a grey horizont
 
 ![Navigation Controller](/F2020/assets/img/NavController_8.png)
 
-Each cell in the tableView will now work like a button letting you click on it and segue to the second view.
+Each cell in the tableView will now work as a button letting the user click on it and segue to the second view.
 
 The second view will also show the grey navigationController bar that has persisted at the top, now with a Back button in it created by the navigation. This button has been created by the navigationController, and pressing it tells the navigationController to unwind the segue back to the previous view.
 
