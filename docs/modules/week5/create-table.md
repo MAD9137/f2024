@@ -33,7 +33,7 @@ To finish setting up, you must go back to the storyboard and tell the TableViewC
 ![Table View](/F2020/assets/img/TableViews_06.png)
 
 :::warning
-If you can not find your new UITableViewController class in the drop-down list, you might have created your Cocoa Touch Class as a sub-class of a diferent UI-class.  If it is not inheriting from the UITableViewController class you should delete the file from your project and create it again.
+If you can not find your new UITableViewController class in the drop-down list, you might have created your Cocoa Touch Class as a sub-class of a different UI-class.  If it is not inheriting from the UITableViewController class you should delete the file from your project and create it again.
 :::
 
 ## Setting the Reuse Identifier of the TableViewCell
@@ -52,7 +52,7 @@ Now, you will need to add 3 things in code to get your TableViewController worki
 
 First, override the function `numberOfSections(in tableView: UITableView)` and return an integer for how many sections to add (1 is good for now).  
 
-Next you will override two different `tableView` fuctions, one with a parameter called **numberOfRowsInSection** to return the total number of cells the in each section of the table (for now we will just return 5).  The second `tableView` function has a parameter called **cellForRowAt indexPath** which requires us to make a new table cell object and return it from the function.  This is where we specify the tableViewCell Identifier that we created.
+Next you will override two different `tableView` functions, one with a parameter called **numberOfRowsInSection** to return the total number of cells the in each section of the table (for now we will just return 5).  The second `tableView` function has a parameter called **cellForRowAt indexPath** which requires us to make a new table cell object and return it from the function.  This is where we specify the tableViewCell Identifier that we created.
 
 ![Table View](/F2020/assets/img/TableViews_08.png)
 
@@ -68,7 +68,7 @@ The application should now display the Table View with the selected number of ce
 
 ## Using a TableView in a regular ViewController
 
-So far, the tableView example used a TableViewController added to storyboard and a new tableViewController class added to the project to control it.  This class inherits from the UITableViewConttroller class and needed certain functions in the master class to be be overridden to initialize the tableView.
+So far, the tableView example used a TableViewController added to storyboard and a new tableViewController class added to the project to control it.  This class inherits from the UITableViewController class and needed certain functions in the master class to be be overridden to initialize the tableView.
 
 However, it is possible to place a TableView object in an existing regular ViewController that can be sized to take up any portion of the available view.
 
