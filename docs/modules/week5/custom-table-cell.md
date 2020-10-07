@@ -49,3 +49,5 @@ First, select the tableView and open the Size Inspector on the right of Xcode.
 Then, make sure the Automatic box is unchecked beside the **Row Height** value and type in the exact number of pixels you want for each row's height. You can now see the application running in the iOS simulator with the custom image size in the table cells.
 
 ![Custom Cell](/F2020/assets/img/CustomizeCell_7.png)
+
+[Back to Week 5](./index.md#during-class)

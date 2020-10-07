@@ -99,3 +99,5 @@ The following videos give you more knowledge about navigating between multiple v
 [iOS 11 Fundamentals - Creating a Tabbed Application <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=63f9a169-beac-4224-8915-439359659d84)
 
 [iOS 11 Fundamentals - Creating iOS Apps with Multiple Screens Summary <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=18de4f3f-2c73-49cd-859a-de794d8e636a)
+
+[Back to Week 5](./index.md#during-class)

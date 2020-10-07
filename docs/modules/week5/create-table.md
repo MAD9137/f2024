@@ -85,3 +85,5 @@ This is done by having the UIViewController also inherit from the **UITableViewD
 [iOS 11 Fundamentals - Implementing iOS Table View Delegate Behavior <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=d8d12602-ba30-4b09-9920-af887475b452)
 
 [iOS 11 Fundamentals - Creating and Configuring iOS Tables Summary <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=f70bb870-0fd3-44ef-bd97-5de8ebde4e30)
+
+[Back to Week 5](./index.md#during-class)

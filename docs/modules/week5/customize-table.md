@@ -97,3 +97,5 @@ The following videos show more options for modifying TableViewCell objects to de
 [iOS 11 Fundamentals - Switching iOS Table View Cell Styles <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=e2bebd32-6127-4961-98cb-58bca9d34886)
 
 [iOS 11 Fundamentals - Configuring iOS Table View Cell Styles <Badge text="Pluralsight"/>](https://app.pluralsight.com/course-player?clipId=cc976b5a-aefc-425d-a167-b99b2ddc976c)
+
+[Back to Week 5](./index.md#during-class)
