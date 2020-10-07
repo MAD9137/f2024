@@ -32,7 +32,7 @@ The first viewController has an outlet connected to the UISlider object, and an 
 
 ![Segues](/F2020/assets/img/SeguePassData_5.png)
 
-Now that the first and second viewController are connected by a segue, and that segue has a segue identifier, it is possible to trigger the segue in code.  Using the function performSegueWithIdentifier() and passing it a string with the segue identifier and "self" as the sender, the segue to transition from the first view to the second when executed.
+Now that the first and second viewController are connected by a segue, and that segue has a segue identifier, it is possible to trigger the segue in code.  Using the function `performSegue(withIdentifier: String, sender: Any?)` and passing it a string with the segue identifier and `self` as the sender, the segue to transition from the first view to the second when executed.
 
 ![Segues](/F2020/assets/img/SeguePassData_6.png)
 
@@ -52,7 +52,7 @@ Adding a call to the function **dismiss(animated: true, completion: nil)** in th
 
 When navigating from one view to another, you may want to have some data passed from the first viewController to the second.  This is possible by accessing the second viewController object from within the code of the first, just before the application segues to the next view.  It is at this point you can set variables in the second viewController class just before changing views.
 
-To set the property of the second ViewController class in the first you will go back to edit the first viewController class.  Below, you will see the next two lines added to an overridden function called prepareForSegue().  This function is triggered during a segue transition, just before switching focus from the first view tho the second.  In it we get a reference to the second viewController, and then we set its properties before the segue continues.
+To set the property of the second ViewController class in the first you will go back to edit the first viewController class.  Below, you will see the next two lines added to an overridden function called `prepare(forSegue: UIStoryboardSegue, sender: Any?)`.  This function is triggered during a segue transition, just before switching focus from the first view tho the second.  In it we get a reference to the second viewController, and then we set its properties before the segue continues.
 
 ![Segues](/F2020/assets/img/SeguePassData_9.png)
 
