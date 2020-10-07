@@ -74,7 +74,7 @@ The most common use for a TableView is to display the data stored in an array or
 
 You can then use the count of the array elements to define the number of rows in the TableView when you override the `tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int`.  As you learned in the previous lesson, this function is called to set the number of tableViewCell objects, and you want to set this equal to the number of elements in your array.
 
-The `tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell` function has a parameter passed in called indexPath that tells this function which row of the table the cell is being created for.  Calling the indexPath.row gives you an integer value that's a 0-based index reference to the cell is being setup at that moment.  This can be used to access the array element needed for the associated tableCell.
+The `tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell` function has a parameter passed in called indexPath that tells this function which row of the table the cell is being created for.  The value of indexPath.row gives you an integer value out of the IndexPath object that's a 0-based index reference to the cell that is being setup at that moment.  This can be used to access the array element needed for the associated tableCell.
 
 The image below shows a modified tableViewController file from the previous example.  Added to the class was an array of strings called namesArray with some example names in it.  This example data will be used to populate the tableViewCells with custom data.
 
