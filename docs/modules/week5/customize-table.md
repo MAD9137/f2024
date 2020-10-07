@@ -50,7 +50,7 @@ You will now see the image added to your assets folder, and will be able to acce
 
 ![Edit Cells](/F2020/assets/img/EditCell_4.png)
 
-Then, in your tableView(tableView, cellForRowAt indexPath) function, after you modify the textLabel's text you can add the following line of code to set the image.
+Then, in your `tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath)` function, after you modify the textLabel's text you can add the following line of code to set the image.
 
 ```swift
 newCell.imageView?.image = UIImage(named: "default-pic-100")
