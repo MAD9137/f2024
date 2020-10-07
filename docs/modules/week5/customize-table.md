@@ -50,7 +50,7 @@ You will now see the image added to your assets folder, and will be able to acce
 
 ![Edit Cells](/F2020/assets/img/EditCell_4.png)
 
-Then, in your `tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath)` function, after you modify the textLabel's text you can add the following line of code to set the image.
+Then, in your `tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell` function, after you modify the textLabel's text you can add the following line of code to set the image.
 
 ```swift
 newCell.imageView?.image = UIImage(named: "default-pic-100")
@@ -72,7 +72,7 @@ When you select Image Literal from the tool tip the text "Image Literal" will be
 
 The most common use for a TableView is to display the data stored in an array or dictionary.  Each piece of data in the array or dictionary will hold the information for a single cell.
 
-You can then use the count of the array elements to define the number of rows in the TableView when you override the tableView(tableView, numberOfRowsInSection).  As you learned in the previous lesson, this function is called to set the number of tableViewCell objects, and you want to set this equal to the number of elements in your array.
+You can then use the count of the array elements to define the number of rows in the TableView when you override the `tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int`.  As you learned in the previous lesson, this function is called to set the number of tableViewCell objects, and you want to set this equal to the number of elements in your array.
 
 The `tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell` function has a parameter passed in called indexPath that tells this function which row of the table the cell is being created for.  Calling the indexPath.row gives you an integer value that's a 0-based index reference to the cell is being setup at that moment.  This can be used to access the array element needed for the associated tableCell.
 
