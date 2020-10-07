@@ -24,9 +24,9 @@ Nothing this week
 ## During Class
 
 - Demonstration and lecture on week 6 material
-- [Pass Data Back](./pass-data.md)
-- [Table Views 1](./table-views-1.md)
-- [Table Views 2](./table-views-2.md)
+- [Passing Data Back to A View Controller](./pass-data.md)
+- [More About Table Views](./more-table-views-1.md)
+- [More About TableViewCells](./more-table-view-cells.md)
 - [Scroll Views](./scroll-view.md)
 - [Import Swift Files](./import-swift-files.md)
 - Lab time to work on Assignment 2
