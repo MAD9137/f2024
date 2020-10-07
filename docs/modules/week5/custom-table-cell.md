@@ -1,6 +1,6 @@
 # A Custom Struct for TableViewCell Information
 
-Often, you will have multiple pieces of data you want to display in a tableViewCell.  For example, you might want a unique title and image to be display in the cell's imageView and textLabel.  This could be done by using an number of technologies like a dictionary, or an array of tuples, structs, or class objects.  
+Often, you will have multiple pieces of unique data you want to display in each tableViewCell.  For example, you might want a unique title and image to be display in the cell's imageView and textLabel.  This could be done by using an number of technologies like a dictionary, or an array of tuples, structs, or class objects.  
 
 The best practice is to make a unique object (struct or class) that holds all the pieces of information for each cell - then make an array of those objects.  This example with demonstrate how to make an array of simple Struct objects that holds all the properties for each cell.
 
