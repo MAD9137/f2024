@@ -42,7 +42,7 @@ In your Project Navigator, select your Assets.xcassets file: it will display all
 
 ![Edit Cells](/F2020/assets/img/EditCell_2.png)
 
-Navigate to the folder you just uncompressed the images to and select the __default-pic-100.png__ and click open.
+Navigate to the folder you just uncompressed the images to and select the _default-pic-100.png_ and click open.
 
 ![Edit Cells](/F2020/assets/img/EditCell_3.png)
 
