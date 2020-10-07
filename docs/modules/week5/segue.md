@@ -44,7 +44,7 @@ The second viewController class starts by having an outlet hooked up to the text
 
 Adding some code in the viewDidLoad function sets the text label to show whatever the value of sentFloat is when the second view finishes loading.
 
-Adding a call to the function **dismiss(animated: true, completion: nil)** in the button action will cause the segue to unwind transitioning the user back to the first view.
+Adding a call to the function `dismiss(animated: true, completion: nil)` in the button action will cause the segue to unwind transitioning the user back to the first view.
 
 ![Segues](/F2020/assets/img/SeguePassData_8.png)
 
