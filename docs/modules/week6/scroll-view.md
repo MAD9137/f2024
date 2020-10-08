@@ -61,7 +61,7 @@ view.addSubview(myScrollView)
 The other thing you will need to do is tell the scroll view how big the content size is.  This should be done in another function you can override called `viewWillLayoutSubviews` and can be set like so:
 
 ``` swift
-myScrollView.contentSize = CGSize(width: 400, height: 1000)
+myScrollView.contentSize = CGSize(width: 374, height: 1000)
 ```
 
 You must enter the width and height values for the overall size of the content area.  In this case, it's using 400 and 1000.  The width of 400 is the width of an iPhone 6s Plus screen in portrait mode.  This means the extra content will be scrolled through vertically.
@@ -71,5 +71,6 @@ You must enter the width and height values for the overall size of the content a
 If your scroll view is not the correct size at this point, you may need to manually set its overall dimensions and position within the main view.  This is done by setting the scroll view's centre and bound size.  In the example above we want to set it to the full size of the parent view which is set like this.
 
 ``` swift
-myScrollView.center = view.centermyScrollView.bounds = view.bounds
+myScrollView.center = view.center
+myScrollView.bounds = view.bounds
 ```
