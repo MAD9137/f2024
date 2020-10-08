@@ -56,6 +56,10 @@ Now, in your main TableViewController file, each time you dequeue a tableViewCel
 
 ![UITableViewCells](/F2020/assets/img/MoreAboutCells_13.png)
 
+:::warning NOTE
+When using your own custom UITableViewCell class you must cast the cell returned from the `tableView.dequeueReusableCell(withIdentifyer: String, for: IndexPath)` function using `as? YourTableViewCell` class name.  This creates an optional copy of the dequeued cell so you must also unwrap the cell when you return it from the tableView function.
+:::
+
 ## Changing the Cell Height
 
 When you run your application at this point you will see that the height of your cells has not changed. This is because we have only set the height in the storyboard.  We must set the height in code to tell the tableView to change the height of all the cells it will create.  This is done with another tableView function you must add to your tableViewController class.  This function is called `tableView(tableView, heightForRowAt indexPath)->CGFloat`.
