@@ -6,9 +6,19 @@ Notes about changes to be made in the future to the course.
 
 A collection of notes about changes to be made to the deliverables for next year.
 
+- Make Title and Description non-optional (ie they are required and thus the base init method takes these 2 parameters)
+
+## Quiz Notes
+
+A collection of notes about changes to make to any quiz questions for next year.
+
+## Discussion Notes
+
+A collection of notes about changes to make to the graded discussions for next year.
+
 ## Content Notes
 
-A collection of notes about changes to make the curriculum for next year.
+A collection of notes about changes to make to the curriculum for next year.
 
 ## Classroom Notes
 

@@ -1,5 +1,9 @@
 # Importing Swift Files
 
+:::warning
+**THere is a potential to loose a lot of marks on any project that you do not copy required files into correctly!**  If you only making references to your other files, your project WILL NOT work correctly when you submit it.
+:::
+
 When you want to reuse a code file you have created in a different project, you will need to make sure to properly add the file to your new project.  You can drag in the file from another folder into the project folder within the Project Navigator of your new project in Xcode and drop them into your project folder.  Or another way is to right-click on your new project folder in the Project Navigator within Xcode and select **Add Files to "your project name"...**
 
 ![Add Swift Files to a Project](/F2020/assets/img/AddFiles_1.png)
