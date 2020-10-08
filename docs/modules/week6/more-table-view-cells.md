@@ -2,17 +2,15 @@
 
 If you want to design a custom layout for tableViewCells, there are a few steps involved.  You need to add custom `UITableViewCell` class and tell the tableViews Prototype Cell to use this custom class.  Then, you need to create your layout in the storyboard within your Prototype Cell and connect the different UI elements to your custom tableViewCell class using IBOutlets as usual.
 
-The last thing to do is to make sure you cast your dequeued cells as your custom class type when your are creating the cells and, if you are using a custom height to your cells, you must override the default height in code, too.
+The last thing to do is to make sure you cast your dequeued cells as your custom `UITableViewCell` class type when your are creating the cells and, if you want to use a custom height to your cells, you can override the default height in code, too.
 
 ## Create a Custom UITableViewCell Class
 
-Look at the example below.
+Below is an example of a simple project with a TableViewController as the only view within it.
 
 ![UITableViewCells](/F2020/assets/img/MoreAboutCells_01.png)
 
-This simple project has a TableViewController as the only view within it.  If we want to edit the style of the cell to use our own custom layout, we must go through a few steps.  
-
-First, we select the TableView (Not TableViewController) and open the Size Inspector on the right to increase the cell height in the storyboard.  In the Size Inspector uncheck 'Automatic' and enter in a custom Row Height value.
+To edit the style of the cell to use a custom layout you must first select the TableView (Not TableViewController) and open the Size Inspector on the right to increase the cell height in the storyboard.  In the Size Inspector uncheck 'Automatic' and enter in a custom Row Height value.
 
 ![UITableViewCells](/F2020/assets/img/MoreAboutCells_02.png)
 
@@ -28,7 +26,7 @@ Choose a new Cocoa Touch Class.
 
 ![UITableViewCells](/F2020/assets/img/MoreAboutCells_04.png)
 
-Select the new class to be a Subclass of UITableViewCell.  Give it a name and save it in your project folder.
+Select the new class to be a Subclass of **UITableViewCell**.  Give it a name and save it in your project folder.
 
 ![UITableViewCells](/F2020/assets/img/MoreAboutCells_05.png)
 
@@ -42,30 +40,36 @@ Now, in your storyboard you can add UI elements to the Prototype Cell by simply 
 
 ![UITableViewCells](/F2020/assets/img/MoreAboutCells_07.png)
 
-You can add what ever you want, but remember that adding UI (such as buttons and switches) can complicate the functionality of your tableViewCells.
+You can add what ever UI elements you want within reason, but remember that adding interactive UI objects (such as buttons, switches, etc.) can complicate the functionality of your tableViewCells.
 
 ![UITableViewCells](/F2020/assets/img/MoreAboutCells_08.png)
 
-Next, you open the Assistant Editor so you can see your custom tableViewClass beside your storyboard.
+Next, open the an additional screen in the Editor so you can see your custom tableViewController class beside your storyboard.
 
 ![UITableViewCells](/F2020/assets/img/MoreAboutCells_09.png)
 
-All you need to do in your custom class is make your IBOutlets, and each cell will gain the same layout from the Prototype Cell.
+All you need to do in your custom class is make your IBOutlets, and each cell will gain the same layout from this customized Prototype Cell.
 
 ![UITableViewCells](/F2020/assets/img/MoreAboutCells_10.png)
 
-Now, in your main TableViewController file, each time you dequeue a tableViewCell it will have the outlet properties you connected into your custom class.  The cell must have these new properties set to display your information.
+Now, in your main TableViewController file, each time you dequeue a tableViewCell it will have the outlet properties you connected into your custom class.  The cell must have these new property values set to display your information.
 
 ![UITableViewCells](/F2020/assets/img/MoreAboutCells_11.png)
 
 :::warning NOTE
 When using your own custom UITableViewCell class you must cast the cell returned from the `tableView.dequeueReusableCell(withIdentifyer: String, for: IndexPath)` function using `as? YourTableViewCell` class name.  This creates an optional copy of the dequeued cell so you must also unwrap the cell when you return it from the tableView function.
+
+You must also use the IBOutlet variable names from your custom TableViewCell when setting up each cell.
 :::
 
-## Changing the Cell Height
+## Changing the Cell Height in Code
 
-When you run your application at this point you will see that the height of your cells has not changed. This is because we have only set the height in the storyboard.  We must set the height in code to tell the tableView to change the height of all the cells it will create.  This is done with another tableView function you must add to your tableViewController class.  This function is called `tableView(tableView, heightForRowAt indexPath)->CGFloat`.
+At this point the application will run and show your custom TableViewCell layout with your chosen cell height.  If you select your TableView object, and in the Size Inspector turn the Cell Height back to Automatic the prototype cell will shrink back down in the storyboard.  When the application is run, the tableView will automatically choose a hight automatically based on the contents of each cell.  This can be useful if your content can very in size.
+
+But, if you wish to set the cell heights programmatically you can set the height of each cell when they are being created.  You could use this to set some cells to one height and others to a different height.  
+
+This is done with another tableView function you must add to your tableViewController class.  This function is called `tableView(tableView, heightForRowAt indexPath)->CGFloat`.
 
 ![UITableViewCells](/F2020/assets/img/MoreAboutCells_12.png)
 
-This function requires you to return a float that sets the cell height - in this case, 150 was used for the cell height in the storyboard at the beginning.  When we return 150 from this function and run the application again, the cells will display at the correct height.
+This function requires you to return a float that sets the cell height - in this case, 150 was used for the cell height in the storyboard at the beginning.  When we return 175 from this function and run the application again, the cells will all display at this new height.
