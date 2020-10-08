@@ -6,7 +6,7 @@ With a scroll view, you must define the size of the overall scroll view within t
 
 ## Adding a Scroll Sub-View
 
-To add a scroll view to your project, you first find the Scroll View object in the Object Library in the bottom right of Xcode.
+To add a scroll view to your viewController, first find the Scroll View object in the Object Library within Xcode.
 
 ![Using the Scroll View](/F2020/assets/img/ScrollViews_01.png)
 
@@ -18,15 +18,13 @@ Now, stretch the scroll view to the size you would like.  The example (shown bel
 
 ![Using the Scroll View](/F2020/assets/img/ScrollViews_03.png)
 
-Next, in the Document Outline area in Xcode, drag the scroll view outside of the main View Controller hierarchy - keeping it within the View Controller scene but keeping it outside of the main view in the storyboard - so we can edit the full area.
+Next, in the Document Outline area in Xcode, drag the scroll view outside of the main View Controller hierarchy - keeping it within the View Controller scene but keeping it outside of the main view in the storyboard - so we can edit the full area.I  f we don't do this step, the borders of the main view will cut off the rest of the scroll view, making it impossible to lay out content.
+
+![Using the Scroll View](/F2020/assets/img/ScrollViews_04.png)
 
 ::: tip
 We will have to add the scroll view back in the view for it to render.  We will do this in code later in the lesson.
 :::
-
-If we don't do this step, the borders of the main view will cut off the rest of the scroll view, making it hard to lay out content.
-
-![Using the Scroll View](/F2020/assets/img/ScrollViews_04.png)
 
 Now, the scroll view is sitting outside the main view in the storyboard, letting you edit it much easier.  When you select that scroll view in the storyboard and go to the Size Inspector on the right in Xcode, you can define the overall size of the content area.
 
@@ -36,7 +34,7 @@ Now you can add the UI objects to this scroll view as you would in a normal view
 
 ![Using the Scroll View](/F2020/assets/img/ScrollViews_06.png)
 
-After the layout is done, go to the Size Inspector on the right in Xcode with the scroll view selected, and set the size of the view back to its default.  Even though you see the content get cut off it is still there and accessible.
+After the layout is done, go to the Size Inspector on the right in Xcode with the scroll view selected, and set the size of the view back to its default.  Even though you see the content get cut off, it is still there and accessible.
 
 ![Using the Scroll View](/F2020/assets/img/ScrollViews_07.png)
 
@@ -52,25 +50,25 @@ This pops up a dialog that lets you enter the name of the Outlet you are creatin
 
 ![Using the Scroll View](/F2020/assets/img/ScrollViews_09.png)
 
-Now that the viewController class has an Outlet connecting the scroll view, it must be added as a sub-view to be rendered i(we removed it earlier by dragging it out of the main view several steps ago to help lay out the content).  You can do this in the `viewDidLoad` function using the following code:
+Now that the viewController class has an Outlet connecting the scroll view, it must be added as a sub-view to be rendered i(we removed it earlier by dragging it out of the main view several steps ago to help lay out the content).  You can do this in the `viewDidLoad()` function using the following code:
 
 ``` swift
 view.addSubview(myScrollView)
 ```
 
-The other thing you will need to do is tell the scroll view how big the content size is.  This should be done in another function you can override called `viewWillLayoutSubviews` and can be set like so:
+The other thing you will need to do is tell the scroll view how big the content size is.  This should be done in another function you can override called `viewWillLayoutSubviews()` and can be set like so:
 
 ``` swift
 myScrollView.contentSize = CGSize(width: 374, height: 1000)
 ```
 
-You must enter the width and height values for the overall size of the content area.  In this case, it's using 400 and 1000.  The width of 400 is the width of an iPhone 6s Plus screen in portrait mode.  This means the extra content will be scrolled through vertically.
+You must enter the width and height values for the overall size of the scrollView's content area.  In this case, it's using 374 and 1000.  This means the extra content will need to be scrolled through vertically.
 
-![Using the Scroll View](/F2020/assets/img/ScrollViews_10.png)
-
-If your scroll view is not the correct size at this point, you may need to manually set its overall dimensions and position within the main view.  This is done by setting the scroll view's centre and bound size.  In the example above we want to set it to the full size of the parent view which is set like this.
+You may also want to manually set its overall dimensions and position within the main view.  This is done by setting the scroll view's centre and bound size.  In the example above we want to set it to the full size of the parent view which is set like this.
 
 ``` swift
 myScrollView.center = view.center
 myScrollView.bounds = view.bounds
 ```
+
+![Using the Scroll View](/F2020/assets/img/ScrollViews_10.png)
