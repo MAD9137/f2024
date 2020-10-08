@@ -10,13 +10,11 @@ Look at the example below.
 
 ![UITableViewCells](/F2020/assets/img/MoreAboutCells_01.png)
 
-This application is a 2-view application with a tableView as the first, and a regular view as the second.  It is connected with a segue from the Prototype Cell to the second view, and has a NavigationController embedded to control navigation.  If we want to edit the style of the cell to use our own custom layout, we must go through a few steps.  First, we select the Prototype Cell and open the Size Inspector on the right to increase the cell height in the storyboard.
+This simple project has a TableViewController as the only view within it.  If we want to edit the style of the cell to use our own custom layout, we must go through a few steps.  
+
+First, we select the TableView (Not TableViewController) and open the Size Inspector on the right to increase the cell height in the storyboard.  In the Size Inspector uncheck 'Automatic' and enter in a custom Row Height value.
 
 ![UITableViewCells](/F2020/assets/img/MoreAboutCells_02.png)
-
-You can click on 'Custom' and enter in the Row Height in the inspector, or just drag the bottom edge of the Prototype Cell down in the storyboard to change the height.
-
-![UITableViewCells](/F2020/assets/img/MoreAboutCells_03.png)
 
 ::: tip
 This step only sets the height in the storyboard.  This same height value needs to be set in code later.
@@ -24,9 +22,13 @@ This step only sets the height in the storyboard.  This same height value needs 
 
 Next, a new custom class file must be added to the project.
 
+![UITableViewCells](/F2020/assets/img/MoreAboutCells_03.png)
+
+Choose a new Cocoa Touch Class.
+
 ![UITableViewCells](/F2020/assets/img/MoreAboutCells_04.png)
 
-Choose a new Cocoa Touch Class and select the new class to be a Subclass of UITableViewCell.  Give it a name and save it in your project folder.
+Select the new class to be a Subclass of UITableViewCell.  Give it a name and save it in your project folder.
 
 ![UITableViewCells](/F2020/assets/img/MoreAboutCells_05.png)
 
