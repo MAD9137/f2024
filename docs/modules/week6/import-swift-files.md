@@ -23,5 +23,5 @@ You must make sure that you **checked on** the option to 'Copy items if needed',
 Copying the files into the new project makes sure that the files are local to your new project.  If you do not copy the files - and simply link them - you can run into trouble if the original files are moved or misplaced as that would break the link, and your project would fail to run.
 
 :::warning
-**Again, if you do not select _Copy items if needed_, your project WILL NOT work correctly when you submit it!**
+**Again, if you do not select _Copy items if needed_, your project WILL NOT work correctly when you submit it.  There will be no extensions for projects that are missing files!**
 :::
