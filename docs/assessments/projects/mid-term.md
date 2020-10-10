@@ -29,7 +29,7 @@ In this view, there will also be a “Bar Button Item” from your Object Librar
 
 This tableView also must allow the user to swipe left on a cell to delete that cell. This feature is described further in the Application Logic section below.
 
-![First View](/mad9137/assets/img/Midterm_2.png)
+![First View](/F2020/assets/img/Midterm_2.png)
 
 ### Second View
 
@@ -37,7 +37,7 @@ The second view will be a regular viewController, and will have a textField, a t
 
 When a name is entered correctly, this button’s action will take the title and description from the textField and textView, and the date object from the datePicker and use these to create a new Event object. Then, the action will pass the event back to the first viewController using delegation in order to have it added to the Schedule object, and to update the tableView. Finally, at the end of the action you will need to navigate back to the first view by dismissing the segue programmatically.
 
-![Second View](/mad9137/assets/img/Midterm_3.png)
+![Second View](/F2020/assets/img/Midterm_3.png)
 
 ### Third View
 
@@ -45,7 +45,7 @@ Clicking on a cell in the tableView within the first view will segue to the thir
 
 The navigationController will automatically generate the back buttons that lead back to the main tableViewController from the second and third views.
 
-![Third View](/mad9137/assets/img/Midterm_4.png)
+![Third View](/F2020/assets/img/Midterm_4.png)
 
 ### Application Logic
 
