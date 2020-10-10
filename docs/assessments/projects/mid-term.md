@@ -17,7 +17,7 @@ The third view will display title, date, and description information for an exis
 
 Your project should reflect  the following layout:
 
-![Mid-term Project Structure and Layout](/mad9137/assets/img/Midterm_1.png)
+![Mid-term Project Structure and Layout](/F2020/assets/img/Midterm_1.png)
 
 This application will have a similar layout to your assignment 2 with an initial tableView called ScheduleTableViewController connected to two other basic views. The ‘New’ button on the nav bar of the main view will connect to the NewEventViewController, and the prototype cell in the table will be connected to the EventInfoViewController.
 
