@@ -26,7 +26,6 @@ By the end of this week, students will:
 - Demonstration and lecturing on working with Date objects
 - [The Date Class](./date-class.md)
 - [DatePicker Objects](./date-picker.md)
-- 
 - Review of [mid-term Project](/assessments/projects/mid-term.md)
 
 ## Following Class
