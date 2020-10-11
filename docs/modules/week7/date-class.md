@@ -105,15 +105,15 @@ If you want to get a string with the date and time from your Date object, you do
 
 ```swift
 // When you want the time as a text string you can use this
-print(“Curret time is: \(date5!.description)”)
+print("Curret time is: \(date5!.description)")
 // Or simply
-print(“Curret time is: \(date5!)”)
+print("Curret time is: \(date5!)")
 
 // But you will see that the .description always gives you a value referring to UTC
 // What you need to do is to get the date formatted by using the DateFormatter class
 let thisDate = DateFormatter.localizedString(from: date5!, dateStyle: DateFormatter.Style.short, timeStyle: DateFormatter.Style.short)
 
-print(“Curret time is: \(thisDate)”)
+print("Curret time is: \(thisDate)")
 ```
 
 The built-in formatting options that are stored in the Style enumerator are full, long, medium, short and none.
