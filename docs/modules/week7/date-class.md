@@ -86,10 +86,10 @@ var components = DateComponents()
 components.timeZone = TimeZone.ReferenceType.local
 
 // Set the individual date and time properties of the date component
-components.year = 2018
-components.month = 4
-components.day = 23
-components.hour = 21
+components.year = 2022
+components.month = 7
+components.day = 21
+components.hour = 12
 components.minute = 55
 
 // Create a calendar from devices current calendar
