@@ -16,6 +16,10 @@ In order to use the Date class, you must import the foundation classes at the to
 import Foundation
 ```
 
+:::tip NOTE
+The UIKit library also imports the Foundation library.  If your class imports the UIKit library you do NOT need to import the Foundation library as well.
+:::
+
 The definition Apple gives for the Date class is that it: “provides methods for comparing dates, calculating the time interval between two dates, and creating a new date from a time interval relative to another date.”  This class lets you create individual date objects that each hold a specific date.
 
 ## Creating Date objects with the base initializer
