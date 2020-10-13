@@ -18,7 +18,7 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     let cell = sender as? UITableViewCell
 
     // Create a variable to hold the selected cell's indexPath
-    let cellIndexPath = tableView.indexPath(for: sender as! UITableViewCell)
+    let cellIndexPath = tableView.indexPath(for: cell)
 
     // Create variables to hold the section and row of the selected cell
     let selectedCellSection = cellIndexPath.section
