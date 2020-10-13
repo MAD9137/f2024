@@ -14,12 +14,12 @@ Nothing this week
 
 ## Assessments Due
 
-- Continue working on Assignment 2
+- Continue working on [Assignment 2](/assessments/assignments/assignment-2.md)
 
 ## Prior to Class
 
 - Study week 6 material
-- Continue working on Assignment 2
+- Continue working on [Assignment 2](/assessments/assignments/assignment-2.md)
 
 ## During Class
 
@@ -29,9 +29,9 @@ Nothing this week
 - [More About TableViewCells](./more-table-view-cells.md)
 - [Scroll Views](./scroll-view.md)
 - [Import Swift Files](./import-swift-files.md)
-- Lab time to work on Assignment 2
+- Lab time to work on [Assignment 2](/assessments/assignments/assignment-2.md)
 
 ## Following Class
 
-- Continue working on Assignment 2
 - Review week 7 material
+- Review Midterm project
