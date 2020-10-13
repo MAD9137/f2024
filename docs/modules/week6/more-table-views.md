@@ -57,7 +57,7 @@ This will call a series of function that initialize the table setting the number
 
 ## Deleting items from a tableView
 
-TableViews have the ability to allow the user to swipe left on a tableViewCell object to reveal a 'Delete' button.  This button allows the user to delete the cell (and the data related to it) when clicked.  To use this functionality you must define an override function in code.  This function is written in, and commented out in, all new TableViewControllers by default.  To use it, simply uncomment the function that looks like this:
+TableViews have the ability to allow the user to swipe left on a tableViewCell object to reveal a 'Delete' button.  This button allows the user to delete the cell (and the data related to it) when clicked.  To use this functionality you must define an override function in code.  This function is written in, and commented out in, all new TableViewControllers by default.  To use it, add the following function (or simply uncomment the function that looks like this if you have started with a TableViewController class):
 
 ``` swift
 override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
@@ -86,7 +86,11 @@ The next line of code in the 'if' statement is a call to a method within the tab
 tableView.deleteRows(at: [indexPath], with: .fade)
 ```
 
-This will remove the tableViewCell object from the tableView and recreate the list of cells in the tableView using the current elements in your array.  If you do not successfully remove the array element before the deleteRows() method is called your table view will have errors.
+Doing this will delete the array element associated with the cell, and will remove the tableViewCell object from the tableView.  It will then recreate the list of cells in the tableView using the current elements in your array.  
+
+:::warning NOTE
+If you do not successfully remove the array element before the deleteRows() method is called your table view will have errors.
+:::
 
 ## Adding multiple Sections to a tableView
 
