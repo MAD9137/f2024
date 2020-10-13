@@ -14,12 +14,11 @@ By the end of this week, students will:
 
 ## Assessments Due
 
-[Discussion 2](/assessments/participation/discussion-2.md)
+Nothing this week
 
 ## Prior to Class
 
 - Review this week's material
-- Continue working on [Discussion 2](/assessments/participation/discussion-2.md)
 
 ## During Class
 
@@ -30,6 +29,5 @@ By the end of this week, students will:
 
 ## Following Class
 
-- Continue working on [Discussion 2](/assessments/participation/discussion-2.md)
-- Begin working on [mid-term Project](/assessments/projects/mid-term.md)
+- Begin working on [Mid-Term Project](/assessments/projects/mid-term.md)
 - Enjoy the mid-term break :)

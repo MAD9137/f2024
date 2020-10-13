@@ -14,11 +14,11 @@ Nothing this week
 
 ## Assessments Due
 
-- Continue working on [Assignment 2](/assessments/assignments/assignment-2.md)
+- [Assignment 2](/assessments/assignments/assignment-2.md)
 
 ## Prior to Class
 
-- Study week 6 material
+- Review week 6 material
 - Continue working on [Assignment 2](/assessments/assignments/assignment-2.md)
 
 ## During Class
