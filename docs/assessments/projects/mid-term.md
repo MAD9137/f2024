@@ -6,62 +6,87 @@ For your midterm project, you will create an iOS application that lets users kee
 
 In this application you will **import** and reuse the two class files you created in Assignment 1 (`Event.swift`, and `Schedule.swift`), and will be using the knowledge you gained from Assignment 2.
 
-## Description
+## Overview
 
-For this project, you will be creating an event schedule application that lets users create and maintain a list of special events.
+For this project, you will be creating an event schedule application that lets users fully manage (create, view and delete) a list of special events.
 
-**This application will have 3 different views**, the first being a TableViewController with a NavigationController embedded in it, and it will display a list of event titles from each Event object added to the schedule. This first view will have a ‘New’ button added to the navController bar at the top; when this button is pressed the app will segue to the second view.
-The second view will be a regular view that has a textField, textView, datePicker and a button that allows the user to enter information about a new event. Clicking the button will add this information entered into a new Event object that will be passed back to the first view which will then be added to the Schedule object’s eventArray.
+**This application will have 3 different views**, the first being a TableViewController that will display TableViewCells with event titles and dates from each Event object added to the schedule.  This first view will have a NavigationController embedded in it to manage navigation to other views.  This first view will also have a BarButtonItem added to the NavigationController bar in the top-right labeled "New".
 
-The third view will display title, date, and description information for an existing Event that the user selects. The application will segue to the third view when the user clicks on a cell in the tableView from the first view. When your first view prepares to segue to the third view, it will pass the Event object related to that cell along to the third view. The third view will have an optional Event variable to hold the object passed from the first view, and Labels to display the event’s title and date information and a textView to display the event’s description.
+When the "New" button is pressed the app will segue to the second view.  When a cell containing event info is pressed in the TableViewController the app will segue to the third view.
 
-Your project should reflect  the following layout:
+The second view will be a regular ViewController that has a textField, textView, datePicker and a button labeled "Create New Event" that allows the user to enter information about a new event. Clicking this button will create a new Event object with the title, description and date information, and then passed the object back to the first view to be added to the Schedule’s eventArray.  This button should only work **if and only if** the event title and description contains text.
+
+The third view will have 2 labels and a textView to display the title, description and date information for an Event object it receives from the first view. The application will segue to the third view when the user clicks on a TableViewCell from the first view.  The first view will pass the correct Event when it prepares to segue to the third view. The third view will have an optional Event variable to hold the object passed from the first view, and will update the labels and textView in the viewDidLoad function.  
+
+Your project should have the following layout:
 
 ![Mid-term Project Structure and Layout](/F2020/assets/img/Midterm_1.png)
 
-This application will have a similar layout to your assignment 2 with an initial tableView called ScheduleTableViewController connected to two other basic views. The ‘New’ button on the nav bar of the main view will connect to the NewEventViewController, and the prototype cell in the table will be connected to the EventInfoViewController.
+The first view should be called ScheduleTableViewController, the second named NewEventViewController and the third, EventInfoViewController.
+
+## Application Details
 
 ### First View
 
-The initial view will display a tableViewController with a navigationController embedded at the top of it. The tableViewController will be used to display a list of all the event names stored in a Schedule object’s eventArray.
+The initial view will be a TableViewController with a NavigationController embedded in it. The TableViewCells will display a list of all the Event names and dates stored in a Schedule object’s eventArray.
 
-In this view, there will also be a “Bar Button Item” from your Object Library added to the right hand side of the navigationController, labeled “New”. A segue connecting the first view directly to the second view will be executed in an action when the “New” button is clicked. Clicking on a tableViewCell will segue to the third view passing the associated Event object to the third view.
+In this view, there will also be a BarButtonItem (a special type of button that can be added to a navigation controller) added to the right hand side of the navigationController atop of the TableViewController labeled “New”. 
 
-This tableView also must allow the user to swipe left on a cell to delete that cell. This feature is described further in the Application Logic section below.
+A segue connecting the first view directly to the second view will be executed in an action when the “New” button is clicked. Clicking on a tableViewCell will trigger a different segue connected to the third view, and will pass the associated Event object to the third view.
+
+This TableViewController must also allow the user to swipe left on a cell to delete that cell. This feature is described further in the Application Logic section below.
 
 ![First View](/F2020/assets/img/Midterm_2.png)
 
 ### Second View
 
-The second view will be a regular viewController, and will have a textField, a textView, a datePicker and a regular button added to it. The user will be able to enter a title for a new event in the textField, a description of the event in the textView, and select a date for the new event with the datePicker. The button should be labeled “Create New Event” and should be connected to an action. The button action should only execute its code if the user has entered a title for the event.
+The second view will be a regular ViewController, and will have a textField, a textView, a datePicker and a regular button added to it. The user will be able to enter a title for a new event in the textField, a description of the event in the textView, and select a date for the event with the datePicker.
 
-When a name is entered correctly, this button’s action will take the title and description from the textField and textView, and the date object from the datePicker and use these to create a new Event object. Then, the action will pass the event back to the first viewController using delegation in order to have it added to the Schedule object, and to update the tableView. Finally, at the end of the action you will need to navigate back to the first view by dismissing the segue programmatically.
+The button should be labeled “Create New Event” and should be connected to an action. The button's action should only execute its code **if** the user has entered a title and description for the event.
+
+When some text has been entered in, this button’s action will take the title and description from the textField and textView, and the date object from the datePicker and use these to create a new Event object. Then it will pass the new Event object back to the first TableViewController using delegation so it can be added to the Schedule's array so the tableView can be updated. Finally, at the end of the action you will need to navigate back to the first view by unwinding the segue programmatically.
+
+The navigationController will automatically generate a back button that leads back to the main TableViewController from the second view, canceling the creation of a new event.
 
 ![Second View](/F2020/assets/img/Midterm_3.png)
 
 ### Third View
 
-Clicking on a cell in the tableView within the first view will segue to the third view of the application, passing the selected Event object to an optional Event object in the third viewController class through the first function’s **prepare(for segue)** function. The third view will be a basic viewController that will have Labels displaying that event’s information.
+Clicking on a TableViewCell within the table will pass the correct Event object to the third view before segueing to the third view of the application. The third view will be a basic ViewController that will have and optional Event object that will be set from the first view, and will have Labels to display that event’s information.
 
-The navigationController will automatically generate the back buttons that lead back to the main tableViewController from the second and third views.
+The navigationController will automatically generate the back button that leads back to the main TableViewController from the third view.
 
 ![Third View](/F2020/assets/img/Midterm_4.png)
 
-### Application Logic
+## Logic Details
 
-There are some modifications you will need to make to your Event and Schedule class, as well as creating a new file with an `EventPassingDelegate `protocol in it.
+### Delegate Protocol
 
-In your `Event` class, in addition to your base init method and your convenience init, you will need to add an additional `convenience init` method that takes 2 string for title and description and a Date object for the date. The self.date value in the Event class will be set by the date parameter passed into this init. This new convenience initializer will allow you to initialize a new Event by pass the datePicker’s .date value to the init method directly.
+You will also need to creating a new file with an **EventPassingDelegate** protocol in it that will define a function that will be used to pass the new Event object form the second view back to the first so it can be added to the array and reload the tableView.
 
-Next, in your Schedule class you will overload the `addNewEvent` method. The overloaded method will take in one parameter of type Event - this will allow you to pass in an Event object and append it directly to the eventArray.
+### Event Class
+
+There are some modifications you will need to make to your Event class.  Your **Event** class will need an additional `convenience init` method that will take a **String** fo the title, a **String** for the description and a **Date** object for the date. The date variable in the Event class will be directly set by the date parameter passed into this init method. This additional convenience initializer will allow you to initialize a new Event by directly passing the datePicker’s .date value to the Event's new init method.
+
+### Schedule Class
+
+Next, there are some modifications you will need to make to your **Schedule** class.  In your Schedule class you will add a second `addNewEvent` method. The overloaded method will take in just a single parameter of type Event - this will allow you to pass in an Event object and append it directly to the eventArray.
+
+### ViewController Classes
 
 All of your viewController classes should be given clear and descriptive names like ScheduleTableViewController, NewEventViewController and EventInfoViewController.
 
-In the `ScheduleTableViewController`, you will create a variable of your Schedule type and initialize the object so it is ready to store new Event objects.
+Within the **ScheduleTableViewController** class, you will create a variable of type Schedule, and initialize the object right away so it is ready to be used.
 
-After successfully creating a new Event object in the NewEventViewController, it will be passed back to the ScheduleTableViewController. The Schedule will add the new Event passed to the first view within your Event passing delegate protocol function you create. This delegate function must also update the tableView after a new event is added by calling the main tableView’s `reloadData()` method.
+You will also include some code that gives the user the ability to delete cells, and their associated event array elements from the schedule. This is done by including the the `tableView` function with `commit editingStyle, forRowAt indexPath` parameters, and deleting the correct object from the eventArray in your schedule.
 
-You will also include some code that gives the user the ability to delete events from the schedule. This is done by including the the tableView function with `commit editingStyle, forRowAt indexPath` parameters, and deleting the correct object from the eventArray in your schedule.
+The **ScheduleTableViewController** class will need to inherit from your new **EventPassingDelegate** protocol, and will set itself to be the delegate of the NewEventViewController class when it prepares to segue to the second view.  
+
+The **ScheduleTableViewController** class will also need to declare the event passing delegate function as defined in your protocol that passes the Event parameter to the Schedule,s `addNewEvent` function. This delegate function must also update the tableView after a new event is added by calling the main tableView’s `reloadData()` method.
+
+The **NewEventViewController** will need a variable called **delegate** that is an optional **EventPassingDelegate** type.  Once an Event object is successfully created in this view, it will be passed back to the delegate's function to be be passed back to the first view before unwinding the segue. 
+
+The EventInfoViewController needs an optional Event object that will be set in the `prepare(for segue: UIStoryboardSegue, sender: Any?)` method from the **ScheduleTableViewController**.  The labels, and textView will be set within the `viewDidLoad()` method using the information stored in the Event object.
 
 ## Requirements and Rubric
 
