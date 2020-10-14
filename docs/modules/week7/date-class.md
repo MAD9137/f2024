@@ -121,3 +121,5 @@ The built-in formatting options that are stored in the Style enumerator are full
 ::: tip
 A full reference for the Date class can be found here: [https://developer.apple.com/documentation/foundation/date](https://developer.apple.com/documentation/foundation/date)
 :::
+
+[Back to Week 7](./index.md#during-class)

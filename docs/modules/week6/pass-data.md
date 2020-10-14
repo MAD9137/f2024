@@ -53,3 +53,5 @@ Lastly, you need your second view's button action to call the `passNumberBack` m
 Now, when you run the application you will be able to click the button in the first view to transition to the second.  In the second, you can move the slider to any position and click the “Save New Number” button.  This will pass the float value back to the first view's delegate function which sets the textLabel in the first view before dismissing the second view.  Now, your first view has the value passed from the second.
 
 ![Passing data back to a view controller](/F2020/assets/img/PassDataBack_10.png)
+
+[Back to Week 6](./index.md#during-class)

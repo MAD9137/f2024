@@ -10,7 +10,7 @@ In this application you will **import** and reuse the two class files you create
 
 For this project, you will be creating an event schedule application that lets users fully manage (create, view and delete) a list of special events.
 
-**This application will have 3 different views**, the first being a TableViewController that will display TableViewCells with event titles and dates from each Event object added to the schedule.  This first view will have a NavigationController embedded in it to manage navigation to other views.  This first view will also have a BarButtonItem added to the NavigationController bar in the top-right labeled "New".
+**This application will have 3 different views**, the first being a TableViewController that will contain TableViewCells that display each events title and date from each Event object added to the schedule.  This first view will have a NavigationController embedded in it to manage navigation to other views.  This first view will also have a BarButtonItem added to the NavigationController bar in the top-right labeled "New".
 
 When the "New" button is pressed the app will segue to the second view.  When a cell containing event info is pressed in the TableViewController the app will segue to the third view.
 
@@ -28,7 +28,7 @@ The first view should be called ScheduleTableViewController, the second named Ne
 
 ### First View
 
-The initial view will be a TableViewController with a NavigationController embedded in it. The TableViewCells will display a list of all the Event names and dates stored in a Schedule object’s eventArray.
+The initial view will be a TableViewController with a NavigationController embedded in it. The TableViewCells will display the Event titles and dates stored in a Schedule object’s eventArray.
 
 In this view, there will also be a BarButtonItem (a special type of button that can be added to a navigation controller) added to the right hand side of the navigationController atop of the TableViewController labeled “New”. 
 
@@ -90,84 +90,90 @@ The EventInfoViewController needs an optional Event object that will be set in t
 
 ## Requirements and Rubric
 
-### Setup Storyboard Layout and Needed Class Files (19pt)
+### **STORYBOARD SETUP (33pt)**
+### Setup Storyboard Layout and Needed Class Files (21pt)
 
-* Add Event.swift and Schedule.swift files to the project folder (2pt)
-* Create a Protocol.swift class file (1pt)
-* Create a tableView with a navigation controller embedded in for the initial view (2pt)
-* Add a new tableViewController class file in your project folder (1pt)
-* Set the tableView in your storyboard to use the new ScheduleTableViewController (1pt)
-* Add 2 more views to your storyboard (2pt)
-* Add 2 new viewController class files to the project folder (2pt)
-* Set the second view to use the NewEventViewController (1pt)
-* Set the third view to use the EventInfoViewController (1pt)
-* Add Bar Button Item in upper right of Navigation Bar in tableViewController labeled ‘New’ (1pt)
-* Add textField, textView, datePicker and button labeled ‘Create’ to second view (4pt)
-* Add Labels to third view to display event information (1pt)
+* Add Event.swift and Schedule.swift files to the project folder **(2pt)**
+* Create a Protocol.swift class file **(1pt)**
+* Create a new UITableViewController class file called ScheduleTableViewController **(1pt)**
+* Create a ViewController class file called NewEventViewController **(1pt)**
+* Create a ViewController class file called EventInfoViewController **(1pt)**
 
-### Make Storyboard Connections for Outlets, Actions and Segues (11pt)
+* Add a TableViewController with a NavigationController embedded in it as the initial view of the application **(2pt)**
+* Add 2 ViewController objects to your storyboard **(2pt)**
+
+* Set the TableViewController to use the new ScheduleTableViewController class in your storyboard **(1pt)**
+* Set the first ViewController to use the NewEventViewController class **(1pt)**
+* Set the second ViewController to use the EventInfoViewController class **(1pt)**
+
+* Add a BarButtonItem in upper right of NavigationController bar within your TableViewController labeled ‘New’ **(1pt)**
+* Add textField, textView, datePicker and button labeled ‘Create New Event’ to second view **(4pt)**
+* Add 2 Labels and TextView to third view to display event information **(3pt)**
+
+### Make Storyboard Connections for Outlets, Actions and Segues (12pt)
 
 #### First View
 
-* Connect tableView to an outlet in the ScheduleTableViewController (1pt)
-* Connect ‘New’ button to an action in the ScheduleTableViewController (1pt)
-* Connect a segue called “ShowNewEvent” from the ScheduleTableViewController to the NewEventViewController (2pt)
-* Connect a segue called “ShowEventInfo” from the tableViewCell prototype to the EventInfoViewController (2pt)
+* Connect ‘New’ button to an action in the ScheduleTableViewController **(1pt)**
+* Connect a segue called “ShowNewEvent” from the ScheduleTableViewController to the NewEventViewController **(2pt)**
+* Connect a segue called “ShowEventInfo” from the tableViewCell prototype to the EventInfoViewController **(2pt)**
 
 #### Second View
 
-* Connect textField, textView and datePicker to outlets in the NewEventViewController (3pt)
-* Connect ‘Create’ buttons to an action in the NewEventViewController (1pt)
+* Connect textField, textView and datePicker to outlets in the NewEventViewController **(3pt)**
+* Connect ‘Create’ buttons to an action in the NewEventViewController **(1pt)**
 
 #### Third View
 
-* Connect textFields to outlets in the EventInfoViewController (1pt)
+* Connect textFields and textView to outlets in the EventInfoViewController **(3pt)**
 
+### **SWIFT CODING (57pt)**
 ### Coding in Protocol, Event, Schedule swift files (10pt)
 
-* Write a protocol that defines a function that lets an Event object be passed in as a parameter (2pt)
-* In the Event class add a new base init, and the 2 convenience init methods (6pt)
-* in the Schedule class add an overloaded addNewEvent function with an Event parameter (2pt)
+* Write a protocol that defines a function takes an Event object as a parameter **(2pt)**
+* In the Event class add a new base init, and the 2 convenience init methods **(6pt)**
+* in the Schedule class add an overloaded addNewEvent function with an Event parameter **(2pt)**
 
 ### Coding in EventInfoViewController (5pt)
 
-* Add an uninitialized optional Event property in this class (1pt)
-* In the viewDidLoad function if the optional Event object is set, display its info in the Labels (4pt)
+* Add an uninitialized optional Event property in this class **(1pt)**
+* In the viewDidLoad function, if the optional Event object is set, display its info in the Labels and TextView **(4pt)**
 
-### Coding in NewEventViewController (13pt)
+### Coding in NewEventViewController (14pt)
 
-* Add an uninitialized optional delegate property of your protocol type in this class (1pt)
-* Inside the button’s action, if the textField’s text property is not equal to an empty string, then create a new event from the users input. Then pass the Event to the delegate’s function before unwinding the segue (7pt)
-* Add dismissing the textView’s, and textField’s keyboard in the button’s action (2pt)
-* Add dismissing the textView’s, and textField’s keyboard in the touchesBegan function (3pt)
+* Add an uninitialized optional delegate property of your protocol type in this class **(1pt)**
+* Inside the button’s action, if the textField and textView’s text properties are not equal to an empty string, then create a new event from the users input. Then pass the Event to the delegate’s function before unwinding the segue **(8pt)**
+* Add dismissing the textView’s, and textField’s keyboard in the button’s action **(2pt)**
+* Add dismissing the textView’s, and textField’s keyboard in the touchesBegan function **(3pt)**
 
 ### Coding in ScheduleTableViewController (8pt)
 
-* Make this class inherit from your delegate protocol (1pt)
-* Add a Schedule property in this class and initialize it right away (1pt)
-* In the viewDidLoad function add an initial Event to the Schedule with test data (1pt)
-* In the “New’ button action perform the segue with the correct identifier to show the NewEventViewController (2pt)
-* Write the delegate function to add the Event passed to it into the Schedule, and then call the reloadData method from your tableView (3pt)
+* Make this class inherit from your delegate protocol **(1pt)**
+* Add a Schedule property in this class and initialize it **(1pt)**
+* In the viewDidLoad function add an initial Event to the Schedule with test data **(1pt)**
+* In the “New’ button action perform the segue with the correct identifier to show the NewEventViewController **(2pt)**
+* Write the delegate function to add the Event parameter to the Schedule, and then call the `reloadData` method from your tableView **(3pt)**
 
-### Coding tableView functions in ScheduleTableViewController (9pt)
+### Coding tableView functions in ScheduleTableViewController (10pt)
 
-* Override the tableView’s **numberOfRowsInSection** function (1pt)
-* Override the tableView’s **cellForRowAt indexPath** function (1pt)
-* In the **numberOfRowsInSection** function return the event count from your Schedule object (1pt)
-* In the **cellForRowAt indexPath** function dequeue a tableViewCell using the prototype cell’s identifier, accessing your Schedule’s array at the current indexPath, and displaying the event’s title in the cell’s Label before returning it (4pt)
-* Use the tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath){} function to delete the array element corresponding to the current indexPath when a cell is deleted from the table (2pt)
+* Override the tableView’s **numberOfRowsInSection** function **(1pt)**
+* Override the tableView’s **cellForRowAt indexPath** function **(1pt)**
+* In the **numberOfRowsInSection** function return the event count from your Schedule object **(1pt)**
+* In the **cellForRowAt indexPath** function dequeue a tableViewCell using the prototype cell’s identifier, accessing your Schedule’s array at the current indexPath, and displaying the event’s title and date in the cell’s Label before returning it **(5pt)**
+* Use the tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath){} function to delete the array element corresponding to the current indexPath when a cell is deleted from the table **(2pt)**
 
 ### Coding prepareForSegue function in ScheduleTableViewController (10pt)
 
-* Override the viewController’s prepareForSegue function (1pt)
-* If the segue is going to the new event view, get a copy of the next viewController and set its delegate to the initial tableViewController class (3pt)
-* If the segue is going to the event info view, get a copy of the next viewController. Then guard against the sender as a UITableViewCell, and also guarding against the indexPath being retrieved from the tableView.indexPathForCell passing it the cell. If the guard is passed set the next viewController’s Event object to the correct event in your Schedule’s array (6pt)
+* Override the viewController’s prepareForSegue function **(1pt)**
+* If the segue is going to the NewEventViewController, get a copy of the next viewController and set its delegate to the tableViewController class **(3pt)**
+* If the segue is going to the EventInfoViewController, get a copy of the next viewController. Safely get a reference to the selected UITableViewCell, and the indexPath for the current cell. If the cell and indexPath references are successfully referenced, set the EventInfoViewController’s Event object to the selected event in your Schedule’s array **(6pt)**
 
-**Proper Constraints on UI objects (10pt)**
-**Code is clear and well-commented (10pt)**
-**Application runs without errors (5pt)**
+### **QUALITY CONTROL (25pt)**
+* Proper Constraints on UI objects **(10pt)**
+* Code is clear and well-commented **(10pt)**
+* Application runs without errors **(5pt)** 
 
-**Total (110pt)**
+**Total (115pt)**
 
 ## Submission
 
@@ -175,7 +181,7 @@ Submit a .zip file of your assignment through Brightspace.
 
 Use the following naming convention for submissions:
 
-`username_assignment-title.zip` or for example  `benn0057_mid-term.zip`
+`username_assignment-title.zip` or for example  `lenc0001_mid-term.zip`
 
 [Section 300](https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folders_list.d2l?ou=196083&isprv=0)
 

@@ -73,3 +73,5 @@ This is done with another tableView function you must add to your tableViewContr
 ![UITableViewCells](/F2020/assets/img/MoreAboutCells_12.png)
 
 This function requires you to return a float that sets the cell height - in this case, 150 was used for the cell height in the storyboard at the beginning.  When we return 175 from this function and run the application again, the cells will all display at this new height.
+
+[Back to Week 6](./index.md#during-class)

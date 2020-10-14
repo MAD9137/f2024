@@ -53,11 +53,9 @@ By default it is set to *Any*, which is what you select when you are not concern
 The next image shows code in the new action that will update the label with some unique text.  The simulator shows the result of changing the date in the datePicker, and the updated label.
 
 ![Select DatePicker](/F2020/assets/img/DatePicker_10.png)
-
-The videos listed below show more information about datePicker objects:
-
-<!-- [iOS 11 Development Essential Training: Design a User Interface - The date picker control](https://www.lynda.com/iOS-tutorials/date-picker-control/597992/667996-4.html)
-
+<!-- The videos listed below show more information about datePicker objects:
+[iOS 11 Development Essential Training: Design a User Interface - The date picker control](https://www.lynda.com/iOS-tutorials/date-picker-control/597992/667996-4.html)
 [iOS 11 Development Essential Training: Design a User Interface - Handle the value changed event](https://www.lynda.com/iOS-tutorials/Handle-value-changed-event/597992/667997-4.html)
-
 [iOS 11 Development Essential Training: Design a User Interface - Finish the date picker app](https://www.lynda.com/iOS-tutorials/Finish-date-picker-app/597992/667998-4.html) -->
+
+[Back to Week 7](./index.md#during-class)

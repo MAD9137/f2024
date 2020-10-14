@@ -165,3 +165,5 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 :::  tip
 You will need to add the same switch/case logic in the prepare(for segue, sender) and in the code for deleting and adding new cells to the table if you use more than one section.
 :::
+
+[Back to Week 6](./index.md#during-class)

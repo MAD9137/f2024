@@ -59,3 +59,5 @@ By investigating, we found that the application was crashing on line 25 when the
 To learn how to use break-points to debug code errors in your iOS application, watch the following video:
 
 [iOS 10 App Development Essentials 4: Application Architecture - How to use the debugger](https://www.lynda.com/Swift-tutorials/How-use-debugger/518765/550163-4.html)
+
+[Back to Week 8](./index.md#during-class)

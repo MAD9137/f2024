@@ -72,3 +72,5 @@ myScrollView.bounds = view.bounds
 ```
 
 ![Using the Scroll View](/F2020/assets/img/ScrollViews_10.png)
+
+[Back to Week 6](./index.md#during-class)

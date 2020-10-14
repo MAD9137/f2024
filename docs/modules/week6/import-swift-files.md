@@ -25,3 +25,5 @@ Copying the files into the new project makes sure that the files are local to yo
 :::warning
 **Again, if you do not select _Copy items if needed_, your project WILL NOT work correctly when you submit it.  There will be no extensions for projects that are missing files!**
 :::
+
+[Back to Week 6](./index.md#during-class)
