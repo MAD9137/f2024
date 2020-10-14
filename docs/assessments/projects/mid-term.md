@@ -4,7 +4,7 @@
 
 For your midterm project, you will create an iOS application that lets users keep a schedule of events and their details.
 
-In this application you will **import** and reuse the two class files you created in Assignment 1 (`Event.swift`, and `Schedule.swift`), and will be using the knowledge you gained from Assignment 2.
+In this application you will **import** and reuse the two class files you developed in the first two assignments (`Event.swift`, and `Schedule.swift`), and will be building on the knowledge you utilized in Assignment 2.
 
 ## Overview
 
