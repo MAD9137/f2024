@@ -85,3 +85,5 @@ If your application is missing or has a misspelled identifier, it will only cras
 The following video shows how to investigate using the Connections inspector:
 
 [iOS 11 Development Essential Training: Troubleshoot UI-to-code connections](https://www.lynda.com/iOS-tutorials/Troubleshoot-UI-code-connections/597993/666709-4.html)
+
+[Back to Week 8](./index.md#during-class)

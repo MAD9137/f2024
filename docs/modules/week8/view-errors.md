@@ -51,3 +51,5 @@ Moving the right control inwards will start to hide UI objects from the front to
 The following video describes how to debug the subviews of your application using the Debug View Hierarchy:
 
 [iOS 10 App Development Essentials 4: Application Architecture - Debugging view hierarchies](https://www.lynda.com/Swift-tutorials/Debugging-view-hierarchies/518765/550162-4.html)
+
+[Back to Week 8](./index.md#during-class)

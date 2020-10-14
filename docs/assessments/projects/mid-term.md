@@ -98,14 +98,11 @@ The EventInfoViewController needs an optional Event object that will be set in t
 * Create a new UITableViewController class file called ScheduleTableViewController **(1pt)**
 * Create a ViewController class file called NewEventViewController **(1pt)**
 * Create a ViewController class file called EventInfoViewController **(1pt)**
-
 * Add a TableViewController with a NavigationController embedded in it as the initial view of the application **(2pt)**
 * Add 2 ViewController objects to your storyboard **(2pt)**
-
 * Set the TableViewController to use the new ScheduleTableViewController class in your storyboard **(1pt)**
 * Set the first ViewController to use the NewEventViewController class **(1pt)**
 * Set the second ViewController to use the EventInfoViewController class **(1pt)**
-
 * Add a BarButtonItem in upper right of NavigationController bar within your TableViewController labeled ‘New’ **(1pt)**
 * Add textField, textView, datePicker and button labeled ‘Create New Event’ to second view **(4pt)**
 * Add 2 Labels and TextView to third view to display event information **(3pt)**

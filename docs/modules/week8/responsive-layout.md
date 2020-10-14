@@ -139,3 +139,5 @@ The following videos will show you the fundamentals for setting up constraints f
 [Change a Layout with Device Orientation](https://www.linkedin.com/learning/ios-12-development-essential-training-1-fundamentals-ui-and-architecture/change-a-layout-with-device-orientation?autoplay=true&collection=urn%3Ali%3AlearningCollection%3A6564627569109463040&u=2199673)
 
 [Arrange Multiple UI Objects with Auto Layout](https://www.linkedin.com/learning/ios-12-development-essential-training-1-fundamentals-ui-and-architecture/arrange-multiple-ui-objects-with-auto-layout?autoplay=true&collection=urn%3Ali%3AlearningCollection%3A6564627569109463040&u=2199673)
+
+[Back to Week 8](./index.md#during-class)
