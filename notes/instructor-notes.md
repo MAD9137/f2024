@@ -6,7 +6,9 @@ Notes about changes to be made in the future to the course.
 
 A collection of notes about changes to be made to the deliverables for next year.
 
-- Make Title and Description non-optional (ie they are required and thus the base init method takes these 2 parameters)
+- Assignment 1 : Make Title and Description non-optional (ie they are required and thus the base init method takes these 2 parameters)
+
+- Assignment 1 : Add makes for Event base init method!!?
 
 ## Quiz Notes
 
