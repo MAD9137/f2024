@@ -4,7 +4,7 @@
 
 By the end of this week, students will:
 
-- Understand the requirements for the [mid-term Project](/assessments/projects/mid-term.md)
+- Understand the requirements for the [Mid-Term Project](/assessments/projects/mid-term.md)
 - Learn how to work with dates in iOS by implementing the Date class
 - Have begun to work on the mid-term project
 
