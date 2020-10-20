@@ -171,7 +171,7 @@ The EventInfoViewController needs an optional Event object that will be set in t
 * Code is well written with clear commenting **(20pt)**
 * Application runs without errors **(5pt)** 
 
-**Total (125pt)**
+## **Total (125pt)**
 
 ## Submission
 
