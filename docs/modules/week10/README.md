@@ -11,29 +11,24 @@ By the end of this week, students will:
 
 ## Assessments Assigned
 
-[Discussion 3](/assessments/participation/discussion-3.md)
+- [Discussion 3](/assessments/participation/discussion-3.md)
 
 ## Assessments Due
 
-[Quiz 2](/assessments/participation/quiz-2.md)
+- [Assignment 3](/assessments/assignments/assignment-3.md)
 
-## Class Agenda
+## Prior to Class
 
-### Class 1
+- Review this week's material
+- Continue working on [Quiz 2](/assessments/participation/quiz-2.md)
 
-#### Lecture and Demonstration
+## During Class
 
-- Creating and modifying UI objects programmatically
-- Introduction to SwiftUI
-
-Remaining time for lab work/assignments
-
-### Class 2
-
-#### Lecture and Demonstration
-
+- Creating and modifying UI objects and constraints programmatically
 - Using UserDefaults to persist application and user data
 - Review Apple Human Interface Guidelines
-- More SwiftUI
 
-Remaining time for lab work/assignments
+## Following Class
+
+- Review week 11 material
+- Continue working on [Discussion 3](/assessments/participation/discussion-3.md)

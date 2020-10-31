@@ -22,12 +22,13 @@ By the end of this week, students will:
 
 ## During Class
 
-- Demonstration and lecturing on working with Date objects
-- [The Date Class](./date-class.md)
-- [DatePicker Objects](./date-picker.md)
+- Lecturing and demonstration of working with Date objects
+    - [The Date Class](./date-class.md)
+    - [DatePicker Objects](./date-picker.md)
 - Review of [Mid-Term Project](/assessments/projects/mid-term.md)
 
 ## Following Class
 
-- Begin working on [Mid-Term Project](/assessments/projects/mid-term.md)
+- Review week 8 material
+- Continue working on [Mid-Term Project](/assessments/projects/mid-term.md)
 - Enjoy the mid-term break :)

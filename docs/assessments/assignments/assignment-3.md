@@ -7,7 +7,7 @@ If you are unfamiliar with the concept of a pick-a-path story, this is a story t
 
 ## (Optional) Story Content
 
-Here is some sample content that you can use for your pick-a-path story if you don’t have time to come up with your own: [Optional StoryContent.doc](/mad9137/assets/downloads/OptionalStoryContent.doc)
+Here is some sample content that you can use for your pick-a-path story if you don’t have time to come up with your own: [Optional StoryContent.doc](/F2020/assets/downloads/OptionalStoryContent.doc)
 
 ## Requirements
 

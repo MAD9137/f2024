@@ -17,17 +17,25 @@ By the end of this week, students will:
 
 ## Prior to Class
 
-- Review this week's videos and references
+- Review this week's material
 - Continue working on [Quiz 2](/assessments/participation/quiz-2.md)
 
 ## During Class
 
 - Lecture and demonstration of adaptive layouts
-- Work to complete current active assignments
+    - [Responsive UI layout](./responsive-layout.md)
+- Examine debugging technics
+    - [Debugging UI Connection Errors](./ui-errors.md)
+    - [Debugging View Layout Errors](./view-errors.md)
+    - [Debugging Code Errors](./code-errors.md)
+- Learn about timer objects and delaying code execution
+    - [Delay Code Execution](./delay-code.md)
+    - [Timer Loops and CADisplayLink Loops](./timer-loops.md)
 
 ## Following Class
 
-- Work to complete [Assignment 3](/assessments/assignments/assignment-3.md)
+- Review week 10 material
+- Continue working on [Assignment 3](/assessments/assignments/assignment-3.md)
 
 ## References
 

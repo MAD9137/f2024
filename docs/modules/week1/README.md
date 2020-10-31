@@ -18,18 +18,18 @@ N/A
 ## Prior to Class
 
 - Complete summer material
-- Review week 1 material
+- Review this week's material
 
 ## During Class
 
 - Review course overview and expectations
 <!-- - Setup development environment (Xcode) -->
-- [Introduction to iOS Mobile Development with Swift](./introduction.md)
-- [Developing with Apple](./developing-with-apple.md)
-- [What is Xcode?](./what-is-xcode.md)
-- [Basic tour of Xcode](./xcode-tour.md)
+    - [Introduction to iOS Mobile Development with Swift](./introduction.md)
+    - [Developing with Apple](./developing-with-apple.md)
+    - [What is Xcode?](./what-is-xcode.md)
+    - [Basic tour of Xcode](./xcode-tour.md)
 <!-- - [Customizing Xcode](./xcode-customize.md) -->
-- ['Hello World' app](./xcode-hello-world.md)
+    - ['Hello World' app](./xcode-hello-world.md)
 
 ## Following Class
 

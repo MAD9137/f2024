@@ -18,13 +18,12 @@ By the end of this week, students will:
 
 ## Prior to Class
 
+- Review this week's material
 - Continue working on [Discussion 2](/assessments/participation/discussion-2.md)
-- Review material and watch videos for this week
 
 ## During Class
 
-- Lecture and code demonstrations of:
-    - creating tables
+- Lecture and code demonstrations of creating tables
     - [Create Table Views](./create-table.md)
     - [Customizing TableViewCells](./customize-table.md)
     - [A Custom Struct for TableViewCell Information](./custom-table-cell.md)
@@ -35,4 +34,5 @@ By the end of this week, students will:
     
 ## Following Class
 
-- Begin working on [Assignment 2](/assessments/assignments/assignment-2.md)
+- Review week 6 material
+- Continue working on [Assignment 2](/assessments/assignments/assignment-2.md)

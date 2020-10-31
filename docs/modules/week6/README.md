@@ -18,17 +18,17 @@ Nothing this week
 
 ## Prior to Class
 
-- Review week 6 material
+- Review this week's material
 - Continue working on [Assignment 2](/assessments/assignments/assignment-2.md)
 
 ## During Class
 
 - Demonstration and lecture on week 6 material
-- [Passing Data Back to A View Controller](./pass-data.md)
-- [More About Table Views](./more-table-views.md)
-- [More About TableViewCells](./more-table-view-cells.md)
-- [Scroll Views](./scroll-view.md)
-- [Import Swift Files](./import-swift-files.md)
+    - [Passing Data Back to A View Controller](./pass-data.md)
+    - [More About Table Views](./more-table-views.md)
+    - [More About TableViewCells](./more-table-view-cells.md)
+    - [Scroll Views](./scroll-view.md)
+    - [Import Swift Files](./import-swift-files.md)
 - Lab time to work on [Assignment 2](/assessments/assignments/assignment-2.md)
 
 ## Following Class

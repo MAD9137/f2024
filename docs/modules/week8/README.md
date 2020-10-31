@@ -17,20 +17,21 @@ By the end of this week, students will:
 
 ## Prior to Class
 
-- Continue working towards completing the [Mid-Term Project](/assessments/projects/mid-term.md)
-- Review this week's videos and references
+- Review this week's material
+- Continue working on [Mid-Term Project](/assessments/projects/mid-term.md)
 
 ## During Class
 
 - Lecture and demonstration of adaptive layouts and debugging techniques
-- [Responsive UI layout](./responsive-layout.md)
-- [Debugging UI Connection Errors](./ui-errors.md)
-- [Debugging View Layout Errors](./view-errors.md)
-- [Debugging Code Errors](./code-errors.md)
+    - [Responsive UI layout](./responsive-layout.md)
+    - [Debugging UI Connection Errors](./ui-errors.md)
+    - [Debugging View Layout Errors](./view-errors.md)
+    - [Debugging Code Errors](./code-errors.md)
 
 ## Following Class
 
-- [Quiz 2](/assessments/participation/quiz-2.md)
+- Review week 9 material
+- Continue working on [Quiz 2](/assessments/participation/quiz-2.md)
 
 ## References
 
