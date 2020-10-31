@@ -22,12 +22,11 @@ By the end of this week, students will:
 
 ## During Class
 
-- Lecture and demonstration of adaptive layouts
-    - [Responsive UI layout](./responsive-layout.md)
-- Examine debugging technics
-    - [Debugging UI Connection Errors](./ui-errors.md)
-    - [Debugging View Layout Errors](./view-errors.md)
-    - [Debugging Code Errors](./code-errors.md)
+- Lecture and demonstration defining size-class constraints and fonts
+    - [Constraints for Different Size Classes](./size-class-constraints.md)
+    - [Fonts for Different Size Classes](./size-class-fonts.md)
+- Examine the Image and Camera Picker objects
+    - [Image and Camera Picker](./image-picker.md)
 - Learn about timer objects and delaying code execution
     - [Delay Code Execution](./delay-code.md)
     - [Timer Loops and CADisplayLink Loops](./timer-loops.md)
