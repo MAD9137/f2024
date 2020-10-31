@@ -9,11 +9,11 @@ By the end of this week, students will:
 
 ## Assessments Assigned
 
-[Assignment 3](/assessments/assignments/assignment-3.md)
+- [Quiz 2](/assessments/participation/quiz-2.md)
 
 ## Assessments Due
 
-[Mid-Term Project](/assessments/projects/mid-term.md)
+- [Mid-Term Project](/assessments/projects/mid-term.md)
 
 ## Prior to Class
 
@@ -22,12 +22,15 @@ By the end of this week, students will:
 
 ## During Class
 
-- Lecture and demonstration of adaptive layouts
-- Work to complete current active assignments
+- Lecture and demonstration of adaptive layouts and debugging techniques
+- [Responsive UI layout](./responsive-layout.md)
+- [Debugging UI Connection Errors](./ui-errors.md)
+- [Debugging View Layout Errors](./view-errors.md)
+- [Debugging Code Errors](./code-errors.md)
 
 ## Following Class
 
-- Work to complete [Assignment 3](/assessments/assignments/assignment-3.md)
+- [Quiz 2](/assessments/participation/quiz-2.md)
 
 ## References
 

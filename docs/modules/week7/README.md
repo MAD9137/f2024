@@ -10,11 +10,11 @@ By the end of this week, students will:
 
 ## Assessments Assigned
 
-[Mid-Term Project](/assessments/projects/mid-term.md)
+- [Mid-Term Project](/assessments/projects/mid-term.md)
 
 ## Assessments Due
 
-Nothing this week
+- Nothing this week
 
 ## Prior to Class
 

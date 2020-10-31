@@ -34,4 +34,4 @@ Nothing this week
 ## Following Class
 
 - Review week 7 material
-- Review Midterm project
+- Review Mid-Term Project

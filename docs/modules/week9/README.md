@@ -9,16 +9,16 @@ By the end of this week, students will:
 
 ## Assessments Assigned
 
-[Assignment 3](/assessments/assignments/assignment-3.md)
+- [Assignment 3](/assessments/assignments/assignment-3.md)
 
 ## Assessments Due
 
-[Mid-Term Project](/assessments/projects/mid-term.md)
+- [Quiz 2](/assessments/participation/quiz-2.md)
 
 ## Prior to Class
 
-- Continue working towards completing the [Mid-Term Project](/assessments/projects/mid-term.md)
 - Review this week's videos and references
+- Continue working on [Quiz 2](/assessments/participation/quiz-2.md)
 
 ## During Class
 
