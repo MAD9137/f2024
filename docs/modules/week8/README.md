@@ -22,8 +22,9 @@ By the end of this week, students will:
 
 ## During Class
 
-- Lecture and demonstration of adaptive layouts and debugging techniques
+- Lecture and demonstration of adaptive layouts
     - [Responsive UI layout](./responsive-layout.md)
+- Examine different debugging techniques
     - [Debugging UI Connection Errors](./ui-errors.md)
     - [Debugging View Layout Errors](./view-errors.md)
     - [Debugging Code Errors](./code-errors.md)
