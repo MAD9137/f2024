@@ -22,8 +22,6 @@ It is possible to create, style and place new UI objects programmatically within
 
 There is, however, a way to debug the view hierarchy once the application is launched and running in the simulator.
 
-![View Layout Error](/F2020/assets/img/LayoutError_2.png)
-
 Once you launch your application and it is running in the simulator, you need to go back in Xcode (do not stop the application) and open the Debug View Hierarchy by clicking the icon (shown above) at the bottom of the editor area.  This lets you get an in-depth view of all the UI elements currently in your view, and how they're ordered while your application is running.
 
 ![View Layout Error](/F2020/assets/img/LayoutError_3.png)

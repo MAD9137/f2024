@@ -17,7 +17,7 @@ In this simple example the error might seem obvious, but when you have many swif
 You should always look for helpful information printed in the console (or in the red pop-ups in your code) to look for suggestions of how to fix the bug.  This example has a red error message on line 25 of the code in the editor that says:
 
 ```swift
-Thread 1: Fatal Error: remainder of or division by zero
+Thread 1: Fatal Error: Division by zero
 ```
 
 This means somewhere in the code the this function's second parameter is being set to a value of 0.  To verify this you can open the Variables View beside the console at the bottom right hand corner of Xcode in the image above.
