@@ -63,7 +63,7 @@ If you are missing Segue identifiers or tableView Prototype Cell identifiers tha
 If you are missing a segue identifier or it is spelled incorrectly and you try to call performSegue(withIdentifier: "myIdentifier", sender: sender), your application will crash.  When your application crashes due to the mistyped segue identifier, you will see an error message with a reason that looks something like:
 
 ```swift
-Receiver (<MyProject.MyTableViewController: 0x7ff542d089d0>) has no segue with identifier 'showSecondViev'
+Receiver (<MyProject.MyTableViewController: 0x7ff542d089d0>) has no segue with identifier 'showSecondVieww'
 ```
 
 This tells you that you missed naming your segue, or there is a spelling mismatch between your code and the segue identifier in the storyboard.
