@@ -17,7 +17,7 @@ This application will be built off of a **Single-View Application**. This applic
 
 Below you can see a basic diagram of how the user will navigate through the 3 views in your application:
 ￼
-![Assignment 3](/mad9137/assets/img/A3_01_views.gif)
+![Assignment 3](/F2020/assets/img/A3_01_views.gif)
 
 …and the image below shows how the views, and UI should be laid out in your storyboard, and connected with segues. Adding the Navigation
 
@@ -26,7 +26,7 @@ Below you can see a basic diagram of how the user will navigate through the 3 vi
 A Navigation Controller is added by selecting your first view (before connecting your segues), and going to the menu to Editor->Embed In->Navigation Controller
 :::
 
-![Assignment 3](/mad9137/assets/img/A3_02_layout.png)
+![Assignment 3](/F2020/assets/img/A3_02_layout.png)
 
 You will connect a segue from view 1 to view 2 and call it’s identifier “showPageB”, and from view2 to view3 wit a segue identifier called “showPageC”. These segues will be triggered in code.
 
@@ -57,7 +57,7 @@ An A-B Tree is a type of ‘node’ collection used in computer science. This ty
 
 The following diagram shows a visual representation of how the page objects will be connected together:
 
-![Assignment 3](/mad9137/assets/img/A3_03_pageobjects.gif)
+![Assignment 3](/F2020/assets/img/A3_03_pageobjects.gif)
 ￼
 
 Start in your viewController.swift file and make 8 Page objects in your viewController class. Called the first 7 ‘page1’ to ‘page7’, initialized like this var page1: Page? = Page(). Call the 8th object ‘currentPage’ and initialize it the same way as the other 7.
