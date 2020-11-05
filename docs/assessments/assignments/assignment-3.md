@@ -61,16 +61,18 @@ The following diagram shows a visual representation of how the page objects will
 
 Start in your viewController.swift file and make 8 Page objects in your viewController class. Called the first 7 ‘page1’ to ‘page7’, initialized like this var page1: Page? = Page(). Call the 8th object ‘currentPage’ and initialize it the same way as the other 7.
 
-Next, in your viewDidLoad function you will need to set the values of the 7 page objects like page1?.pageNumber = 1 and page1?.pageText = “the text on the first page of the story”. This will be repeated for all seven pages.
+Next, in your viewDidLoad function you will need to set the values of the 7 page objects like `page1?.pageNumber = 1` and `page1?.pageText = “the text on the first page of the story”`. This will be repeated for all seven pages.
 
 Then, you will need to manually make the connections between the ‘nodes’ of the A-B tree by setting:
 
-* page1?.pageChoiceA = page2
-* page1?.pageChoiceB = page3
-* page2?.pageChoiceA = page4
-* page2?.pageChoiceB = page5
-* page3?.pageChoiceA = page6
-* page3?.pageChoiceB = page7
+```swift
+page1?.pageChoiceA = page2
+page1?.pageChoiceB = page3
+page2?.pageChoiceA = page4
+page2?.pageChoiceB = page5
+page3?.pageChoiceA = page6
+page3?.pageChoiceB = page7
+```
 
 This sets page1 as the ‘root’ Page object of the tree, which will hold the content for the first view of the application. Then Page object 2 and 3 will hold the content for the second view of the application, and the objects page4, page5, page6 and page7 hold the content that can be displayed in the third view.
 
