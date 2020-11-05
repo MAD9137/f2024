@@ -59,7 +59,7 @@ The following diagram shows a visual representation of how the page objects will
 
 ![Assignment 3](/F2020/assets/img/A3_03_pageobjects.png)
 
-Start in your viewController.swift file and make 8 Page objects in your viewController class. Called the first 7 ‘page1’ to ‘page7’, initialized like this var page1: Page? = Page(). Call the 8th object ‘currentPage’ and initialize it the same way as the other 7.
+Start in your viewController.swift file and make 8 Page objects in your viewController class. Called the first 7 ‘page1’ to ‘page7’, initialized like this `var page1: Page? = Page()`. Call the 8th object ‘currentPage’ and initialize it the same way as the other 7.
 
 Next, in your viewDidLoad function you will need to set the values of the 7 page objects like `page1?.pageNumber = 1` and `page1?.pageText = “the text on the first page of the story”`. This will be repeated for all seven pages.
 
