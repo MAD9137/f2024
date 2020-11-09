@@ -89,7 +89,7 @@ The **NewEventViewController** will need a variable called **delegate** that is 
 The EventInfoViewController needs an optional Event object that will be set in the `prepare(for segue: UIStoryboardSegue, sender: Any?)` method from the **ScheduleTableViewController**.  The labels, and textView will be set within the `viewDidLoad()` method using the information stored in the Event object.
 
 
-## Requirements and Rubric
+## Marks Rubric
 
 ### **STORYBOARD SETUP (33pt)**
 ### Setup Storyboard Layout and Needed Class Files (21pt)
@@ -171,7 +171,7 @@ The EventInfoViewController needs an optional Event object that will be set in t
 * Code is well written with clear commenting **(20pt)**
 * Application runs without errors **(5pt)** 
 
-## **Total (125pt)**
+### Total (125pt)
 
 ## Submission
 

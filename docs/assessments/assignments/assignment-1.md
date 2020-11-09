@@ -54,7 +54,7 @@ Testing the classes in the viewController.swift file
 * Output the eventCount value again by concatenating it to the textViewOutput.text String
 * Last call the outputAllEvents function concatenating it’s return text to the textViewOutput.text String
 
-## Marks
+## Marks Rubric
 
 ### CREATE EVENT CLASS (15)
 
@@ -85,7 +85,7 @@ Testing the classes in the viewController.swift file
 * Clear and comprehensible commenting 4.0
 * Code runs with no errors 4.0
 
-Total: 45.0
+### Total: 45.0
 
 ## Submission
 

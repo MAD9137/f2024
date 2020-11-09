@@ -111,7 +111,7 @@ For this step you will have to do three things, first assure your application ru
 
 The last part of the marks come from making unique content for this application. This includes writing your own story, add images, add an additional view and more pages to the A-B tree to make the story longer… etc. The amount of content you add will give you a better mark.
 
-## Detailed Tasks & Marks
+## Marks Rubric
 
 ### 1. Create the views, and viewController files (4pt TOTAL)
 

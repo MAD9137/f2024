@@ -86,6 +86,7 @@ module.exports = {
           '/assessments/assignments/assignment-1.md',
           '/assessments/participation/discussion-2.md',
           '/assessments/assignments/assignment-2.md',
+          '/assessments/projects/mid-term.md',
         ],
       },
     ],
