@@ -113,57 +113,59 @@ The last part of the marks come from making unique content for this application.
 
 ## Marks Rubric
 
-### 1. Create the views, and viewController files (4pt TOTAL)
+### Create the views, and viewController files (4pt)
 
-- 1pt - Create a Single View application project
-- 1pt - Add 2 more views
-- 2pt - Add 2 new ViewController files and assign them to the new views
+* Create a Single View application project (1pt)
+* Add 2 more views (1pt)
+* Add 2 new ViewController files and assign them to the new views (2pt)
 
-### 2. Make a class called “Page” to hold all the info about a single page in the story (6pt TOTAL)
+### Make a class called “Page” to hold all the info about a single page in the story (6pt)
 
-- 1pt - make file with correct name
-- 5pt - make a class with the four properties
+* make file with correct name (1pt)
+* make a class with the four properties (5pt)
 
-### 3. In the first viewController, make an A/B tree structure using Page objects that hold your story (10pt TOTAL)
+### In the first viewController, make an A/B tree structure using Page objects that hold your story (10pt)
 
-- 7pt - set page numbers and text for 7 Page objects
-- 3pt - set links between Pages objects to connect 
+* set page numbers and text for 7 Page objects (7pt)
+* set links between Pages objects to connect (3pt)
 
-### 4. Add navigation controller to first view, and connect the views with segue (5pt TOTAL)
+### Add navigation controller to first view, and connect the views with segue (5pt)
 
-* 1pt - adding Nav Controller on to first view
-* 4pt - connect the three views with 2 ‘push’ type segues, and give the segues identifier names
+* adding Nav Controller on to first view (1pt)
+* connect the three views with 2 ‘push’ type segues, and give the segues identifier names (4pt)
 
-### 5. Layout the GUI (18pt TOTAL)
+### Layout the GUI (18pt)
 
-* 3pt - add a TextView to each view
-* 2pt - add a Nav Item to the top of the 2nd and 3rd view
-* 5pt - add 2 Bar Button Items to the Nav Bar in the 1stand 2nd view, and 1 to the upper left of the Nav Bar in the 3rd view
-* 3pt - add outlets and actions to the 2 Bar Buttons, and an outlet for the text-view in the 1st viewController
-* 3pt - add outlets and actions to the 2 Bar Buttons, and an outlet for the text-view in the 2nd viewController
-* 2pt - add an action to the Bar Button, and an outlet to the textView in the 3rd viewController
+* add a TextView to each view (3pt)
+* add a Nav Item to the top of the 2nd and 3rd view (2pt)
+* add 2 Bar Button Items to the Nav Bar in the 1st and 2nd view, and 1 to the upper left of the Nav Bar in the 3rd view (5pt)
+* add outlets and actions to the 2 Bar Buttons, and an outlet for the text-view in the 1st viewController (3pt)
+* add outlets and actions to the 2 Bar Buttons, and an outlet for the text-view in the 2nd viewController (3pt)
+* add an action to the Bar Button, and an outlet to the textView in the 3rd viewController (2pt)
 
-### 6. Update each view’s GUI in the **viewWillAppear**function for that view (10pt TOTAL)
+### Update each view’s GUI in the **viewWillAppear**function for that view (10pt)
 
-* 3pt - display the current pageNumber value in the navItem’s title for each view
-* 3pt - display the pageText in the textView for each view
-* 4pt - display the pageNumber for the pageChoiceA and pageChoiceB in the barButtonItem’s title text
+* display the current pageNumber value in the navItem’s title for each view (3pt)
+* display the pageText in the textView for each view (3pt)
+* display the pageNumber for the pageChoiceA and pageChoiceB in the barButtonItem’s title text (4pt)
 
-### 7. Based on what button is pressed, pass the appropriate Page object to the next view within the **prepare(for Segue, sender)**function (12pt TOTAL)
+### Pass the Appropriate Page Object (12pt)
+* Based on what button is pressed, pass the appropriate Page object to the next view within the **prepare(for Segue, sender)**function (12pt)
 
-* 8pt - call the appropriate segue, and pass the correct ‘sender’ value within the **performSegue**function in each button action
-* 4pt - check which button was pressed and pass the correct Page object to the next view within the prepare function in the 1stand 2nd view
+* call the appropriate segue, and pass the correct ‘sender’ value within the **performSegue**function in each button action (8pt)
+* check which button was pressed and pass the correct Page object to the next view within the prepare function in the 1stand 2nd view (4pt)
 
-### 8. The button action within the 3rd view must call the popToRootViewController function to return to the first view (1pt TOTAL)
+### Restart Button (1pt)
+* The button action within the 3rd view must call the popToRootViewController function to return to the first view (1pt)
 
-### 9. Customize your application (20pt TOTAL)
+### Customize your application (20pt)
 
-* 1pt - application runs without errors
-* 3pt - code is well commented with clear details
-* 6pt - add constraints to all UI elements
-* 10pt - custom content added to project
+* application runs without errors (1pt)
+* code is well commented with clear details (3pt)
+* add constraints to all UI elements (6pt)
+* custom content added to project (10pt)
 
-**(86pt GRAND TOTAL)**
+### Total: 86pt
 
 ## Submission
 
