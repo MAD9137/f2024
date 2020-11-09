@@ -45,7 +45,7 @@ Then, locate this constraint in the Size Inspector and double-click on it to ope
 
 This will show you the parameters for that specific Equal Heights constraint in the Size Inspector on the right.
 
-![Constraints](/F2020/assets/img/SizeClassConstraints_06png)
+![Constraints](/F2020/assets/img/SizeClassConstraints_06.png)
 
 You need to set the multiplier to 0.45 from 1.  This sets the top view to be a little bit less than half the height of the Superview.
 
