@@ -9,34 +9,34 @@ Clicking on any of the cells in table will transition the user to a second view 
 ## Marks Rubric
 
 ### Setup (2pt)
-* Create a new iOS Single View Application project in Xcode. (1pt)
-* Import the Event, and Schedule class from your first assignment into your project folder. (1pt)
+* Create a new iOS Single View Application project in Xcode. **(1pt)**
+* Import the Event, and Schedule class from your first assignment into your project folder. **(1pt)**
 
 ### Storyboard (16pt)
-* Create a TableViewController and set it as the initial view of the application. (2pt)
-* Add a new swift file for a custom UITableViewController class. (1pt)
-* Set the custom class for your TableViewController. (1pt)
-* Embed a NavigationController in the TableViewController. (1pt)
-* Connect the Prototype Cell in the TableView to the regular ViewController with a Segue. (1pt)
-* In the second ViewController add 2 Labels and a TextView object. (3pt)
-* Connect the Labels and TextView to IBOutlets. (3pt)
-* Edit the TextView Attributes to turn Editable off, and Phone Number, Link and Address on. (4pt)
+* Create a TableViewController and set it as the initial view of the application. **(2pt)**
+* Add a new swift file for a custom UITableViewController class. **(1pt)**
+* Set the custom class for your TableViewController. **(1pt)**
+* Embed a NavigationController in the TableViewController. **(1pt)**
+* Connect the Prototype Cell in the TableView to the regular ViewController with a Segue. **(1pt)**
+* In the second ViewController add 2 Labels and a TextView object. **(3pt)**
+* Connect the Labels and TextView to IBOutlets. **(3pt)**
+* Edit the TextView Attributes to turn Editable off, and Phone Number, Link and Address on. **(4pt)**
 
 ### Schedule - TableViewController (11pt)
-* Create a (non-optional) Schedule object to use in your tableViewController class. (1pt)
-* Add at least 3 default test events to the schedule using the addNewEvent() function. (3pt)
-* Use the eventArray count in the schedule object to set the number of rows for the table. (1pt)
-* Set each TableViewCell label text to the title of one of the events from the schedule. (2pt)
-* When the user taps on a cell in the table the application must pass the corresponding event object to the destination viewController’s Event property. (4pt)
+* Create a (non-optional) Schedule object to use in your tableViewController class. **(1pt)**
+* Add at least 3 default test events to the schedule using the addNewEvent() function. **(3pt)**
+* Use the eventArray count in the schedule object to set the number of rows for the table. **(1pt)**
+* Set each TableViewCell label text to the title of one of the events from the schedule. **(2pt)**
+* When the user taps on a cell in the table the application must pass the corresponding event object to the destination viewController’s Event property. **(4pt)**
 
 ### Event Info - ViewController (4pt)
-* Create an optional Event property in this class to hold the data passed from the tableView. (1pt)
-* In the viewDidLoad() function set the title and date labels, and the description textView to the data stored within the optional Event object. (3pt)
+* Create an optional Event property in this class to hold the data passed from the tableView. **(1pt)**
+* In the viewDidLoad() function set the title and date labels, and the description textView to the data stored within the optional Event object. **(3pt)**
 
 ### Project (5pt)
-* Clear and descriptive naming of variable, functions and identifiers (2pt)
-* Well commented code describing all main functionality (2pt)
-* Project compiles and runs without errors (1pt)
+* Clear and descriptive naming of variable, functions and identifiers **(2pt)**
+* Well commented code describing all main functionality **(2pt)**
+* Project compiles and runs without errors **(1pt)**
 
 ### Total: 38pt
 
