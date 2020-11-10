@@ -43,6 +43,10 @@ Then, locate this constraint in the Size Inspector and **double-click** on it to
 
 ![Constraints](/F2020/assets/img/SizeClassConstraints_05.png)
 
+::: tip
+You can also open the parameters the constraints by clicking on each constraint in the Document Outline.  You can see the location of the constraints in the Document Outline in the left side of the Editor in the image below.
+:::
+
 This will show you the parameters for that specific Equal Heights constraint in the Size Inspector on the right.
 
 ![Constraints](/F2020/assets/img/SizeClassConstraints_06.png)
@@ -69,7 +73,7 @@ This finishes the constraints for this layout in portrait mode.  However, if you
 
 ## Adding a Layout for a Different Size Class
 
-To add constraints for a different Size Class, start by switching to that view in the storyboard within the editor.  Then, at the bottom of the editor, click on the button called **Vary for Traits**.  This will show a pop-up dialog that lets you choose to modify the layout based on the the height (or width) change being detected.  For the iPhone 8, the Size Class in portrait mode is (wC hR), while in landscape it is (wC hC), so the height is what changes and, therefore, needs to be selected.  After selecting, you simply click outside the dialog to close it.
+To add constraints for a different Size Class, start by switching to that view in the storyboard within the editor.  Then, at the bottom of the editor, click on the button called **Vary for Traits** (circled in the image above).  This will show a pop-up dialog that lets you choose to modify the layout based on the the height (or width) change being detected.  For the iPhone 8, the Size Class in portrait mode is (wC hR), while in landscape it is (wC hC), so the height is what changes and, therefore, needs to be selected.  After selecting, you simply click outside the dialog to close it.
 
 ![Constraints](/F2020/assets/img/SizeClassConstraints_12.png)
 
@@ -77,13 +81,21 @@ You will see the bottom bar has turned blue, indicating you are currently editin
 
 ![Constraints](/F2020/assets/img/SizeClassConstraints_13.png)
 
-In this mode you can **uninstall the constraints** related to portrait mode.  To uninstall the constraints for each UI object, select each constraint in the Size Inspector and press **delete**.  You will see that the constraint does not disappear, instead it gets greyed out and is re-ordered at the bottom.
+In this mode you can **uninstall the constraints** related to portrait mode.  To uninstall the constraints for each UI object, select each constraint in the Size Inspector and press **delete** button on your keyboard.  You will see that the constraint does not disappear, instead it gets greyed out and is re-ordered at the bottom.
 
 ![Constraints](/F2020/assets/img/SizeClassConstraints_14.png)
+
+::: tip
+You can also uninstall a constraint by opening the Attributes Inspector after clicking on each constraint in the Document Outline.  You will see a check box at the bottom of each constraint indicating if it is installed for the different size classes you have setup.
+:::
 
 You need to uninstall all of the constraints for each of the views we want to rearrange in the layout.
 
 ![Constraints](/F2020/assets/img/SizeClassConstraints_15.png)
+
+:::warning NOTE
+You will only see the greyed out 'uninstalled' constraint when you are viewing **All** constraints, instead of just of This Size Class constraints.  You can see this option circled in the image above.
+:::
 
 Next, you can rearrange and resize the views in the landscape layout.  This is when the blue view from the top can be placed on the left, and the red view to the right.
 
