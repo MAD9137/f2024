@@ -12,7 +12,9 @@ The three things you need to do in order to use a UIImagePickerController is a f
 
 3. Write the functions for when the user has selected an image successfully, and when the user cancels out from picking an image.
 
-**Note**: The Info.plist file contains settings that define how your application works.  In this situation we need to add privacy permissions to allow your application to try and access the Photo Library and Camera on the device.
+:::tip NOTE
+The Info.plist file contains settings that define how your application works.  In this situation we need to add privacy permissions to allow your application to try and access the Photo Library and Camera on the device.
+:::
 
 In this example we will have a simple UIImage object display whatever image the user selects.  We will also have 2 buttons, one for selecting an image from the Photo Library, and the other for taking a picture with the camera.  You can see the basic setup of this application in the following picture.
 
@@ -52,7 +54,7 @@ Next thing that must be done is to have your viewController inherit form the UIN
 
 ![Image and Camera Picker](/F2020/assets/img/ImagePicker_8.png)
 
-::: tip
+:::warning
 Both are required for either the camera, or the photo library to be used.
 :::
 

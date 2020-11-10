@@ -43,7 +43,7 @@ Then, locate this constraint in the Size Inspector and **double-click** on it to
 
 ![Constraints](/F2020/assets/img/SizeClassConstraints_05.png)
 
-::: tip
+:::tip NOTE
 You can also open the parameters the constraints by clicking on each constraint in the Document Outline.  You can see the location of the constraints in the Document Outline in the left side of the Editor in the image below.
 :::
 
@@ -85,7 +85,7 @@ In this mode you can **uninstall the constraints** related to portrait mode.  To
 
 ![Constraints](/F2020/assets/img/SizeClassConstraints_14.png)
 
-::: tip
+:::tip NOTE
 You can also uninstall a constraint by opening the Attributes Inspector after clicking on each constraint in the Document Outline.  You will see a check box at the bottom of each constraint indicating if it is installed for the different size classes you have setup.
 :::
 
@@ -93,7 +93,7 @@ You need to uninstall all of the constraints for each of the views we want to re
 
 ![Constraints](/F2020/assets/img/SizeClassConstraints_15.png)
 
-:::warning NOTE
+:::warning
 You will only see the greyed out 'uninstalled' constraint when you are viewing **All** constraints, instead of just of This Size Class constraints.  You can see this option circled in the image above.
 :::
 
@@ -125,7 +125,7 @@ The red view on the right needs its width set to the left blue view's width.
 
 ![Constraints](/F2020/assets/img/SizeClassConstraints_22.png)
 
-This sets the both views width to 0.45 times the width of the main view, and will finish the setup of the additional layout.
+This sets the both views width to the same width Multiplyer of the main view, and will finish the setup of the additional layout.
 
 ![Constraints](/F2020/assets/img/SizeClassConstraints_23.png)
 
