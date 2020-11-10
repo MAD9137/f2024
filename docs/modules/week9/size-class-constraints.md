@@ -125,7 +125,7 @@ The red view on the right needs its width set to the left blue view's width.
 
 ![Constraints](/F2020/assets/img/SizeClassConstraints_22.png)
 
-This sets the both views width to the same width Multiplyer of the main view, and will finish the setup of the additional layout.
+This sets the both views width to the same width Multiplier of the main view, and will finish the setup of the additional layout.
 
 ![Constraints](/F2020/assets/img/SizeClassConstraints_23.png)
 
