@@ -14,7 +14,7 @@ The three things you need to do in order to use a UIImagePickerController is a f
 
 **Note**: The Info.plist file contains settings that define how your application works.  In this situation we need to add privacy permissions to allow your application to try and access the Photo Library and Camera on the device.
 
-In this example we will have a simple UIImage object display what the user selects.  We will also have 2 buttons, one for selecting an image from the Photo Library, and the other for taking a picture with the camera.  You can see the basic setup of this application in the following picture.
+In this example we will have a simple UIImage object display whatever image the user selects.  We will also have 2 buttons, one for selecting an image from the Photo Library, and the other for taking a picture with the camera.  You can see the basic setup of this application in the following picture.
 
 ![Image and Camera Picker](/F2020/assets/img/ImagePicker_1.png)
 
@@ -66,6 +66,5 @@ The last thing is writing the protocol functions for the the user cancels out of
 
 If the user has successfully selected an image, the image will be returned to your application in a key:value paired variable called 'info'.  You must cast the info[UIImagePickerControllerOriginalImage] as? UIImage to use the image.  And again, you must dismiss the library or camera.
 
-You can [download the example application here](/F2020/assets/downloads/ImagePicker.zip)
-
+You can [download the example application here](/F2020/assets/downloads/ImageCameraPicker.zip)
 [Back to Week 9](./index.md#during-class)
