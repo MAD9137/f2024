@@ -27,9 +27,9 @@ By the end of this week, students will:
     - [Fonts for Different Size Classes](./size-class-fonts.md)
 - Examine the Image and Camera Picker objects
     - [Image and Camera Picker](./image-picker.md)
-- Learn about timer objects and delaying code execution
+<!-- - Learn about timer objects and delaying code execution
     - [Delay Code Execution](./delay-code.md)
-    - [Timer Loops and CADisplayLink Loops](./timer-loops.md)
+    - [Timer Loops and CADisplayLink Loops](./timer-loops.md) -->
 
 ## Following Class
 
