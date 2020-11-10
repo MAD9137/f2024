@@ -36,11 +36,11 @@ The second and third view will need a Navigation Item added to them. This adds t
 
 ### Outlet and Action connections
 
-You will create two more viewController files for the second, and third view. In your viewController files for all three views you will create an **outlet**connection for the NavItem so you can set the title property to show the current page number, and an outlet for the textView to display the page text.
+You will create two more viewController files for the second, and third view. In your viewController files for all three views you will create an **outlet** connection for the NavItem so you can set the title property to show the current page number, and an outlet for the textView to display the page text.
 
-In your viewController files for view 1 and view 2 you will also create **outlet**connection for the two Bar Button Items to display the next page numbers options (ie. on page one, the buttons will display ‘page 2’ and ‘page 3’).
+In your viewController files for view 1 and view 2 you will also create **outlet** connection for the two Bar Button Items to display the next page numbers options (ie. on page one, the buttons will display ‘page 2’ and ‘page 3’).
 
-You will also need to create and action for both Bar Button Items in the first two views, and the one button in the third. The actions for the first two views will be called pageButtonA, and pageButtonB used to select what page to show in the next view. The action in the third view should be called restartButton which will be used to start the application back on the first page.
+You will also need to create an **action** for both Bar Button Items in the first two views, and the one button in the third. The actions for the first two views will be called pageButtonA, and pageButtonB used to select what page to show in the next view. The action in the third view should be called restartButton which will be used to start the application back on the first page.
 
 ### The Page Class
 
