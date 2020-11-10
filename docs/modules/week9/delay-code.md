@@ -81,3 +81,5 @@ The last bit of code needed to make this example work is the selector function, 
 When the scheduled date is reached the selector method will run, letting you execute some code in it when triggered.
 
 You can download an example project that shows you how to delay code execution using these techniques.
+
+[Back to Week 9](./index.md#during-class)

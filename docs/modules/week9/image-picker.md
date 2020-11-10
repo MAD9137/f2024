@@ -66,4 +66,6 @@ The last thing is writing the protocol functions for the the user cancels out of
 
 If the user has successfully selected an image, the image will be returned to your application in a key:value paired variable called 'info'.  You must cast the info[UIImagePickerControllerOriginalImage] as? UIImage to use the image.  And again, you must dismiss the library or camera.
 
-You can [download the example application here](/F2020/assets/downloads/ImagePicker.zip).
+You can [download the example application here](/F2020/assets/downloads/ImagePicker.zip)
+
+[Back to Week 9](./index.md#during-class)

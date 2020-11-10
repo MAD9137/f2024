@@ -10,16 +10,16 @@ Size Classes are a way of arbitrarily describing the size of a screen - namely t
 
 For all iOS devices, the Sizes Class defines the height and width as being **Compact** or **Regular** sized.  These are arbitrary units of measures that define a general amount of size for width and height *regardless* of screen size or pixel density.  The iPhone 8 in portrait orientation has a Size Class of (wC hR) or "width = Compact, height = Regular", in fact all of the models of iPhones in portrait mode have a Size Class of (wC hR).
 
-All iPhone models before iPhone 8 Plus displayed in landscape orientation has a Size Class of (wC hC), whereas the iPhone 8 Plus has (wR hC).  All iPads have (wR hR) in both portrait and landscape orientation.  The following table shows the current list of iOS devices in both orientations and their associated Size Class values.
+All iPhone models before iPhone 8 Plus displayed in landscape orientation has a Size Class of (wC hC), whereas the iPhone 8 Plus has (wR hC).  All iPads have (wR hR) in both portrait and landscape orientation.  The following table shows some of the current iOS devices in both orientations and their associated Size Class values.
 
-|**Device**| **Orientation**| **Width**| **Height** |
-| --- | :---: | :---:      | :---:      |
-   iPad |  Portrait | R|  R
-   iPad | Landscape | R |  R
-   iPhone | Portrait | C | R
-  iPhone | Landscape | C | C
-  iPhone 8 Plus | Portrait |  C | R
-  iPhone 8 Plus | Landscape | R |  C
+|**Device**     | **Orientation**| **Width**| **Height** |
+| ---           | :---:          | :---:    | :---:      |
+| iPad          | Portrait       | R        | R          |
+| iPad          | Landscape      | R        | R          |
+| iPhone        | Portrait       | C        | R          |
+| iPhone        | Landscape      | C        | C          |
+| iPhone 8 Plus | Portrait       | C        | R          |
+| iPhone 8 Plus | Landscape      | R        | C          |
 
 ## Installing/Uninstalling Constraints for different Size Classes
 
@@ -134,3 +134,5 @@ To end editing the additional constraints, you must click the **Done Varying** b
 ![Constraints](/F2020/assets/img/SizeClassConstraints_24.png)
 
 This turns the bottom bar grey again and shows the device and orientation options once again.  Now the layout looks correct in both portrait and landscape mode.
+
+[Back to Week 9](./index.md#during-class)

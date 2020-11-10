@@ -63,3 +63,5 @@ Now this application's font will adapt to different Size Classes and in differen
 The next video describes how to add font variations based on size classes:
 
 [iOS 11 Development Essential Training - Font sizes with size classes](https://www.lynda.com/iOS-tutorials/Font-sizes-size-classes/597991/674018-4.html)
+
+[Back to Week 9](./index.md#during-class)
