@@ -25,9 +25,13 @@ By the end of this week, students will:
 ## During Class
 
 - Creating and modifying UI objects and constraints programmatically
+    - [Creating UI From code](./ui-from-code.md)
+    - [Manipulating UI In Code](./manipulating-ui-in-code.md)
+    - [Swift UI](./swiftui-1.md)
 - Using UserDefaults to persist application and user data
+    - [Persistent Data with UserDefaults](./persistent-data.md)
 - Review Apple Human Interface Guidelines
-    - [Apple HIG](./apple-hig.md)
+    - [Apple Human Interface Guidelines](./apple-hig.md)
 ## Following Class
 
 - Review week 11 material
