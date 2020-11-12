@@ -27,7 +27,7 @@ By the end of this week, students will:
 - Creating and modifying UI objects and constraints programmatically
     - [Creating UI From code](./ui-from-code.md)
     - [Manipulating UI In Code](./manipulating-ui-in-code.md)
-    - [Swift UI](./swiftui-1.md)
+    - [SwiftUI](./swiftui-1.md)
 - Using UserDefaults to persist application and user data
     - [Persistent Data with UserDefaults](./persistent-data.md)
 - Review Apple Human Interface Guidelines
