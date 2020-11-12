@@ -10,7 +10,7 @@ By the end of this week, students will:
 
 ## Assessments Assigned
 
-Nothing this week
+- Nothing this week
 
 ## Assessments Due
 

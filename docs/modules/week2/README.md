@@ -16,7 +16,7 @@ By the end of this week, students will:
 
 ## Assessments Due
 
-N/A
+- Nothing this week
 
 ## Prior to Class
 

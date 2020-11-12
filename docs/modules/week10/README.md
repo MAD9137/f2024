@@ -20,14 +20,14 @@ By the end of this week, students will:
 ## Prior to Class
 
 - Review this week's material
-- Continue working on [Quiz 2](/assessments/participation/quiz-2.md)
+- Continue working on [Assignment 3](/assessments/assignments/assignment-3.md)
 
 ## During Class
 
 - Creating and modifying UI objects and constraints programmatically
 - Using UserDefaults to persist application and user data
 - Review Apple Human Interface Guidelines
-
+    - [Apple HIG](./apple-hig.md)
 ## Following Class
 
 - Review week 11 material

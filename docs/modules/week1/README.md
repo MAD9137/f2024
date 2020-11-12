@@ -9,11 +9,11 @@ By the end of this week, students will:
 
 ## Assessments Assigned
 
-N/A
+- Nothing this week
 
 ## Assessments Due
 
-N/A
+- Nothing this week
 
 ## Prior to Class
 
