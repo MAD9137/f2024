@@ -3,31 +3,25 @@
 ## Learning Outcomes for this Week
 
 By the end of this week, students will:
-- item 1
-- item 2
-- item 3 
+- Finish the final project
 
 ## Assessments Assigned
-[text](https://link)
+
+- Nothing this week
 
 ## Assessments Due
 
-[text](https://link)
+- [Final Project](/assessments/projects/final.md)
 
 ## Prior to Class
 
-- item 1
-- item 2
-- item 3 
+- Review this week's material
+- Continue working on [Final Project](/assessments/projects/final.md)
 
 ## During Class
 
-- item 1
-- item 2
-- item 3 
+- Continue working on [Final Project](/assessments/projects/final.md) 
 
 ## Following Class
 
-- item 1
-- item 2
-- item 3 
+- No more class

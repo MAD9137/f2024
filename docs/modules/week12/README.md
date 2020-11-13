@@ -4,17 +4,18 @@
 
 By the end of this week, students will:
 
-- Make URL requests
-- Handle a response from URL request
-- Process and display JSON data
+- Setup and customize Collection Views, and Alert Controllers
+- Display maps with MapKit
+- Create looping functionality with Timers
 
 ## Assessments Assigned
 
-- [Quiz 3](/assessments/participation/quiz-3.md)
+- [Final Project](/assessments/projects/final.md)
 
 ## Assessments Due
 
 - [Assignment 4](/assessments/assignments/assignment-4.md)
+- [Quiz 3](/assessments/participation/quiz-3.md)
 
 ## Prior to Class
 
@@ -23,16 +24,14 @@ By the end of this week, students will:
 
 ## During Class
 
-- Using Collection Views
-    - [Using Collection Views](./collection-view.md)
-- More UIKit Features
-    - [AlertController pop-ups](./alert-controller.md)
-    - [Embedding a map with MapKit](./embedding-mapkit.md)
-- More UIKit Features
+- Advanced URL Requests
+    - [Basic HTTP Access Authentication](./http-authentication.md)
+    - [URL Request to RESTful API](./restful-request.md)
+- Delaying and looping functionality
     - [Delay Code Execution](./delay-code.md)
     - [Timer Loops and CADisplayLink Loops](./timer-loops.md)
 
 ## Following Class
 
-- Review week 11 material
-- Continue working on [Assignment 4](/assessments/assignments/assignment-4.md)
+- Review week 13 material
+- Continue working on [Final Project](/assessments/projects/final.md)

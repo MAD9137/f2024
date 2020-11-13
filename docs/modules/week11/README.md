@@ -12,6 +12,7 @@ By the end of this week, students will:
 ## Assessments Assigned
 
 - [Assignment 4](/assessments/assignments/assignment-4.md)
+- [Quiz 3](/assessments/participation/quiz-3.md)
 
 ## Assessments Due
 
@@ -26,15 +27,14 @@ By the end of this week, students will:
 
 - Using JSON in Swift
     - [Parsing JSON](./parsing-json.md)
+    - [Convert Swift Data to JSON](./swift-to-json.md)
 - Making URL Requests
     - [Setup Projects To Make a URL Request](./setup-url-request.md)
     - [Simple URL Request](./simple-url-request.md)
     - [URL Request Parsing JSON](./request-parsing.md)
-- Advanced URL Requests
-    - [Basic HTTP Access Authentication](./http-authentication.md)
-    - [URL Request to RESTful API](./restful-request.md)
 
 ## Following Class
 
-- Review week 11 material
+- Review week 12 material
 - Continue working on [Assignment 4](/assessments/assignments/assignment-4.md)
+- Continue working on [Quiz 3](/assessments/participation/quiz-3.md)
