@@ -32,6 +32,7 @@ By the end of this week, students will:
     - [Persistent Data with UserDefaults](./persistent-data.md)
 - Review Apple Human Interface Guidelines
     - [Apple Human Interface Guidelines](./apple-hig.md)
+    
 ## Following Class
 
 - Review week 11 material

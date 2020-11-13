@@ -4,9 +4,10 @@
 
 By the end of this week, students will:
 
-- Make URL requests
-- Handle a response from URL request
 - Process and display JSON data
+- Make URL requests and handle the response
+- Use authentication to make a URL request
+- Make a URL request using a RESTful IPA
 
 ## Assessments Assigned
 
@@ -14,28 +15,26 @@ By the end of this week, students will:
 
 ## Assessments Due
 
-- [Assignment 3](/assessments/assignments/assignment-3.md)
 - [Discussion 3](/assessments/participation/discussion-3.md)
 
-## Class Agenda
+## Prior to Class
 
-### Class 1
+- Review this week's material
+- Continue working on [Discussion 3](/assessments/participation/discussion-3.md)
 
-#### Lecture and Demonstration
+## During Class
 
-- Parsing JSON
-- Setup projects to make URL requests
-- SwiftUI (time permitting)
+- Using JSON in Swift
+    - [Parsing JSON](./parsing-json.md)
+- Making URL Requests
+    - [Setup Projects To Make a URL Request](./setup-url-request.md)
+    - [Simple URL Request](./simple-url-request.md)
+    - [URL Request Parsing JSON](./request-parsing.md)
+- Advanced URL Requests
+    - [Basic HTTP Access Authentication](./http-authentication.md)
+    - [URL Request to RESTful API](./restful-request.md)
 
-Remaining time to work on Assignment 3
+## Following Class
 
-### Class 2
-
-#### Lecture and Demonstration
-
-- URL requests
-- Request processing
-- Review of Assignment 4
-- SwiftUI (time permitting)
-
-Remaining time to work on Assignment 3
+- Review week 11 material
+- Continue working on [Assignment 4](/assessments/assignments/assignment-4.md)
