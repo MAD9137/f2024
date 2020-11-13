@@ -24,4 +24,4 @@ By the end of this week, students will:
 
 ## Following Class
 
-- No more class
+- Merry Christmas and happy new-year :)
