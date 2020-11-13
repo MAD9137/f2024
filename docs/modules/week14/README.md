@@ -24,4 +24,4 @@ By the end of this week, students will:
 
 ## Following Class
 
-- Merry Christmas and happy new-year :)
+- have a merry Christmas, and a happy new-year :)
