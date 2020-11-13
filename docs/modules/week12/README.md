@@ -20,6 +20,7 @@ By the end of this week, students will:
 ## Prior to Class
 
 - Review this week's material
+- Continue working on [Assignment 4](/assessments/assignments/assignment-4.md)
 - Continue working on [Quiz 3](/assessments/participation/quiz-3.md)
 
 ## During Class
