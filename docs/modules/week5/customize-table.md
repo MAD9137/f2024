@@ -36,7 +36,7 @@ The number of the current cell being created is found in the indexPath.row value
 
 ## Using Images in your iOS project
 
-For this example, you will see how to edit the cell's image, but to do this you will need to import an image into our project.  You can start by  [downloading this zip file](/F2020/assets/downloads/ImageAssets.zip) containing test images to work with.  After unzipping the images to a folder on your computer, you will need to open the project you built in the previous lesson.
+For this example, you will see how to edit the cell's image, but to do this you will need to import an image into our project.  You can start by [downloading this zip file](/F2020/assets/downloads/ImageAssets.zip) containing test images to work with.  After unzipping the images to a folder on your computer, you will need to open the project you built in the previous lesson.
 
 In your Project Navigator, select your Assets.xcassets file: it will display all the assets currently in this project.  Currently, the empty AppIcon is the only thing in your list of assets.  Click the plus (+) icon at the bottom of the assets list and choose the Import option.
 
