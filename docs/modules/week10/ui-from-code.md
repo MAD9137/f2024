@@ -79,10 +79,10 @@ Second, define a CGRect to hold the UI object's frame (position and size), and c
 
 ```swift
 // Define the new txtField size and positioning with a rect
-let txtFieldFrame = CGRect(x: 25, y: 280, width: 330, height: 40)
+let textFieldFrame = CGRect(x: 25, y: 280, width: 330, height: 40)
 
 // Create txtFieldobject
-newTextField = UITextField(frame: txtFieldFrame)
+newTextField = UITextField(frame: textFieldFrame)
 ```
 
 Next, add the new UI object to the main view of the application.
