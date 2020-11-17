@@ -116,4 +116,4 @@ These control events can be found in the UIControlEvents struct.
 
 Now the button will trigger the myButtonAction function when the user has released their finger inside the button.
 
-You can  [download an example project here](/mad9137/assets/downloads/UIUpdatingCode.zip) that builds on the previous lesson's project on creating UI in code.  This example incorporates the information on manipulating UI in code learned in this lesson.
+You can  [download an example project here](/F2020/assets/downloads/UIUpdatingCode.zip) that builds on the previous lesson's project on creating UI in code.  This example incorporates the information on manipulating UI in code learned in this lesson.
