@@ -188,4 +188,4 @@ newButton.backgroundColor = UIColor.grey
 
 Now when the application runs, you should see a button below the textField.  There is no action attached to it, but we will see how to do add one in the next lesson.
 
-You can [download a working copy of this code here](/mad9137/assets/downloads/UIFromCode.zip).  In this project the code to create each UI object has been written into its own function.  Then, each function is called in the viewDidLoad() function.
+You can [download a working copy of this code here](/F2020/assets/downloads/UIFromCode.zip).  In this project the code to create each UI object has been written into its own function.  Then, each function is called in the viewDidLoad() function.
