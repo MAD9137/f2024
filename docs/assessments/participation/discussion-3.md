@@ -2,7 +2,7 @@
 
 This discussion requires you to use Apple's Human Interface Guidelines.  You will:
 
-- post a summary (in your own words) of one rule/guideline* from Apple's guidelines with a link to the location in the HIG (3 marks); AND
+- post a summary (in your own words) of one rule/guideline from Apple's guidelines with a link to the location in the HIG (3 marks); AND
 - write a meaningful reply to two other people's posts (1 mark for each reply).
 
 ::: tip
