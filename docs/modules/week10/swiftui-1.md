@@ -1,9 +1,5 @@
 # SwiftUI
 
-:::warning
-This material is not included as part of the official course material
-:::
-
 ## Introduction
 
 SwiftUI is the latest user interface framework designed to work on all Apple devices.  SwiftUI uses a declarative syntax that describes 'what' a user interface should do.
@@ -12,7 +8,9 @@ SwiftUI offers developers a faster, simpler and easier workflow over storyboards
 
 ## Create a SwiftUI Project
 
-In this lesson, we'll create a SwiftUI project and look at creating a single view.
+The following video tutorial series walks you through building your first iPhone app using SwiftUI.  You will build a ToDo application while learning the fundamentals of using SwiftUI along the way.  The total time for this course is approximately 90 minutes.
+
+[Build Your First SwiftUI App in Under 90mins <Badge text="Pluralsight"/>](https://app.pluralsight.com/library/courses/build-first-swiftui-app/table-of-contents)
 
 ## Resources
 
