@@ -12,7 +12,7 @@ The following video tutorial series walks you through building your first iPhone
 
 You learn about the basic structure of a SwiftUI application, and the use of View objects, the basic building block of a SwiftUI application.  You will get an understanding of how to design a layout using Spacers, VStacks and HStacks.  You will learn how to create basic shapes, Text Views, and Buttons; and you will see how to customize them using modifiers.
 
-You will also learn how to create Lists to display arrays of customized data, and build navigation into your app.
+You will also learn how to create Lists to display arrays of customized data, build navigation, add input controls and how data flows through a SwiftUI app into your app.
 
 The total time for this course is approximately 90 minutes.
 
