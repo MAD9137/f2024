@@ -59,7 +59,7 @@ self.view.addSubview(newTextView)
 And lastly you can edit the text, colour and other properties of the new UI object.
 
 ```swift
-/// Setup TextView text, and style
+// Setup TextView text, and style
 newTextView.text = "This is some text."
 newTextView.textColor = UIColor(red: 0.9, green: 0.8, blue: 0.8, alpha: 1.0)
 newTextView.backgroundColor = UIColor.darkGray
