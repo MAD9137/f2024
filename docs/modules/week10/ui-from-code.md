@@ -23,11 +23,11 @@ All UI objects in iOS are visually **placed** and **sized** by its Frame.  The F
 
 Below you can see a diagram of a Frame:
 
-![Frame](/mad9137/assets/img/CodedUI-Frame.png)
+![Frame](/F2020/assets/img/CodedUI-Frame.png)
 
 And here you can see the corresponding values for a CGRect:
 
-![Frame](/mad9137/assets/img/CodedUI-CGRect.png)
+![Frame](/F2020/assets/img/CodedUI-CGRect.png)
 
 Let's look at some examples of how to add a user interface to a view by creating a UITextView, UITextField, UIImage, and UIButton in code.
 
