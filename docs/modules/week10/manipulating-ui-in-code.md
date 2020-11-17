@@ -83,7 +83,10 @@ Some of the changes can be ‘animated’ using the **UIView.animate()** functio
 You do this by setting the new position, size or alpha to its new value inside a code block that you pass to the animate function. Looking at the imageView example above, if you wanted the image to slide down on the screen by 100 pixels in the y-direction you would set its position like this:
 
 ```swift
-UIView.animate(withDuration: 0.5, animations: {     self.myImageView.frame.origin = CGPoint(x: 20, y: 135)})
+UIView.animate(withDuration: 0.5, animations: {
+    self.myImageView.frame.origin = CGPoint(x: 20, y: 135)
+    }
+)
 ```
 
 :::tip
@@ -101,7 +104,9 @@ When you create a UIButton you will want to have an action associated with it. Y
 You can do this for your button in code by first creating a new function in your viewController class to be used as the action for that button, like so:
 
 ```swift
-@IBAction func myButtonAction(_ sender: Any) {     print(“Button pressed”)}
+@IBAction func myButtonAction(_ sender: Any) {
+     print(“Button pressed”)
+}
 ```
 
 You may want the action to be triggered when the button detected a touchUpInside, touchDown, touchDragOutside, touchDragInside, or one of the other interactions a user can have with that button. You set your action, with the desired controlEvent event like this:
@@ -116,4 +121,4 @@ These control events can be found in the UIControlEvents struct.
 
 Now the button will trigger the myButtonAction function when the user has released their finger inside the button.
 
-You can  [download an example project here](/F2020/assets/downloads/UIUpdatingCode.zip) that builds on the previous lesson's project on creating UI in code.  This example incorporates the information on manipulating UI in code learned in this lesson.
+You can  [download an example project here](/F2020/assets/downloads/UIUpdateFromCode.zip) that builds on the previous lesson's project on creating UI in code.  This example incorporates the information on manipulating UI in code learned in this lesson.
