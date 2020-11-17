@@ -102,7 +102,8 @@ newTextField.placeholder = "This is placeholder text."
 newTextField.font = UIFont(name: newTextField.font!.fontName, size: 14)
 
 // Setup TextField text and background colors
-newTextField.backgroundColor = UIColor(red: 0.5, green: 0.8, blue: 0.5, alpha: 1.0)newTextField.textColor = UIColor.black
+newTextField.backgroundColor = UIColor(red: 0.5, green: 0.8, blue: 0.5, alpha: 1.0)
+newTextField.textColor = UIColor.black
 
 // Setup TextField border style
 newTextField.layer.cornerRadius = 18
