@@ -4,10 +4,11 @@
 
 By the end of this week, students will:
 
+- Learn to create Collection Views
 - Create interface objects programmatically
 - Configure and edit interface objects
 - Save configuration data in persistent storage
-- Explore SwiftUI (informational only: not part of official curriculum)
+- Explore SwiftUI
 
 ## Assessments Assigned
 
