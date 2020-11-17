@@ -43,7 +43,7 @@ Second, you need to define a CGRect that will hold the parameters for the UI obj
 
 ```swift
 // Define the new TextView size and positioning with a rectlet
-textViewFrame = CGRect(x: 20, y: 340, width: 340, height: 1600)
+let textViewFrame = CGRect(x: 20, y: 340, width: 340, height: 1600)
 
 // Create TextViewobject
 newTextView = UITextView(frame: textViewFrame)
@@ -116,7 +116,7 @@ newTextField.layer.sublayerTransform = CATransform3DMakeTranslation(10, 0, 0)
 newTextField.isSecureTextEntry = false
 ```
 
-When the application is run there will be a textField vertically centred in the view.
+When the application is run there will be a textField vertically centered in the view.
 
 ## Create a UIImageView in code
 
