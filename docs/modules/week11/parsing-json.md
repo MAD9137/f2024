@@ -89,7 +89,8 @@ let jsonObj = jsonObject {
             let id = jsonDictionaryRow["studentID"] as? Int
             let name = jsonDictionaryRow["studentName"] as? String
             let age = jsonDictionaryRow["studentAge"] as? Int
-            let grade = jsonDictionaryRow["studentGrade"] as? Double      // Do something with the current dictionary values
+            let grade = jsonDictionaryRow["studentGrade"] as? Double      
+            // Use the current dictionary values before for loop repeats
         }
     }
 }
@@ -97,7 +98,7 @@ let jsonObj = jsonObject {
 
 The structure of this code is dependent on the format of the information nested within the JSON data you started with. You always begin by looking at the structure of the JSON you are getting, as it will dictate what structure of object you will create in Swift to hold the JSON data, and what type of logic you will need to access the values.
 
-  [Click here to download an example project](/mad9137/assets/downloads/ParsingJSON.zip) that parses a string of properly formatted JSON into an object in Swift, and outputs the values to a textView.
+  [Click here to download an example project](/F2020/assets/downloads/ParsingJSON.zip) that parses a string of properly formatted JSON into an object in Swift, and outputs the values to a textView.
 
-  [Click here for the legacy version](/mad9137/assets/downloads/legacyParsingJSON.zip)
+  [Click here for the legacy version](/F2020/assets/downloads/legacyParsingJSON.zip)
   

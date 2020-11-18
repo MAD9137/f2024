@@ -23,6 +23,7 @@ A collection of notes about changes to make to the graded discussions for next y
 A collection of notes about changes to make to the curriculum for next year.
 - Move lesson from Week 6 to Week 5 about Copying Files into Project
 - In Week 5 or 6 add a lesson on using a Tab Bar Controller
+- Week 10 is missing the lesson on adding constraints in code
 
 ## Classroom Notes
 

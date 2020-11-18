@@ -76,7 +76,7 @@ page3?.pageChoiceB = page7
 
 This sets page1 as the ‘root’ Page object of the tree, which will hold the content for the first view of the application. Then Page object 2 and 3 will hold the content for the second view of the application, and the objects page4, page5, page6 and page7 hold the content that can be displayed in the third view.
 
-The last step in the first viewController viewDidLoad function is to set the currentPage object like this: currentPage = page1.
+The last step in the first viewController viewDidLoad function is to set the currentPage object like this: `currentPage = page1`.
 Now within the initial viewController you can access the collection of pages using the currentPage object.
 
 ### Choosing what Page object to pass
