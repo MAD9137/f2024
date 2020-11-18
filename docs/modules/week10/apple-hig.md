@@ -7,3 +7,5 @@ The [Apple Design resource](https://developer.apple.com/design/), is the main li
 This guide outlines all of the rules should be followed when developing applications for devices that use iOS. This includes topics like choosing the size of buttons, how close buttons should be to each other, and what feedback the user should receive in order to conform to Apple's standards. This information has been meticulously researched by Apple and will help you build well structured, easy-to-use applications, regardless of the scope of the project.
 
 You should start to get familiar with Apple's Human Interface Guidelines, weather you intend to develop for Apple devices in the future or not.  It does not matter if you work on the code, or the design side this yet another useful resource to add to your toolbox.
+
+[Back to Week 10](./index.md#during-class)

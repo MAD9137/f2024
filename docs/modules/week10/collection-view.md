@@ -159,3 +159,5 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 ```
 
 The value retrieved from the `collectionView.indexPathsForSelectedItems` value is an array so you must access the first element in order to get the current selected cell.  This will allow you to correctly identify what array element to pass to the next ViewController so it's info can be properly displayed.
+
+[Back to Week 10](./index.md#during-class)

@@ -98,7 +98,8 @@ let jsonObj = jsonObject {
 
 The structure of this code is dependent on the format of the information nested within the JSON data you started with. You always begin by looking at the structure of the JSON you are getting, as it will dictate what structure of object you will create in Swift to hold the JSON data, and what type of logic you will need to access the values.
 
-  [Click here to download an example project](/F2020/assets/downloads/ParsingJSON.zip) that parses a string of properly formatted JSON into an object in Swift, and outputs the values to a textView.
+[Click here to download an example project](/F2020/assets/downloads/ParsingJSON.zip) that parses a string of properly formatted JSON into an object in Swift, and outputs the values to a textView.
 
-  [Click here for the legacy version](/F2020/assets/downloads/legacyParsingJSON.zip)
-  
+[Click here for the legacy version](/F2020/assets/downloads/legacyParsingJSON.zip)
+
+[Back to Week 11](./index.md#during-class)

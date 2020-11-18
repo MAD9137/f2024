@@ -45,3 +45,5 @@ Make sure to save your changes to your info.plist file before testing your appli
 :::
 
 You can [download the application here](/F2020/assets/downloads/SetupURLRequest.zip) [or the legacy version here](/F2020/assets/downloads/legacySetupURLRequest.zip), and is already setup to access the school server.  [You can also download the server script here](/F2020/assets/downloads/SetupURLRequestServer.zip) if you want to setup the server script on your own system.  If you do, you will need to copy the server code into your htdocs (or www in WAMP) folder, and change the URL in the Xcode project to match the folder structure on your local server.
+
+[Back to Week 11](./index.md#during-class)

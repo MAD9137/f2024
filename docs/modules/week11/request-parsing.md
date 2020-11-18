@@ -19,3 +19,5 @@ This is the structure of dictionary in the server's JSON data response.  Next, y
 Within the response string conversion, there is do/catch block of logic to convert the Data object into a Dictionary of the type we defined above.
 
 You can [download a copy of this project here](/F2020/assets/downloads/URLRequestParsingJSON.zip) or the [legacy version here](/F2020/assets/downloads/legacyURLRequestParsingJSON.zip).  You can [download a copy of the php server script here](/F2020/assets/downloads/URLRequestParsingJSONServer.zip).
+
+[Back to Week 11](./index.md#during-class)
