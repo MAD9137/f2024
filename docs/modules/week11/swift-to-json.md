@@ -2,7 +2,7 @@
 
 If you have variables in your Swift code that you need to turn into a string of JSON data there a few steps needed to accomplish this.  You must create a new dictionary in your code, add the different variable values to the dictionary, convert the dictionary to a data object, and convert the data to a string of text.
 
-Create the Dictionary
+## Create the Dictionary
 
 For this example lets assume you have a project with the following outlets created:
 
@@ -31,7 +31,7 @@ exerciseDictionary["duration"] = mySlider.value
 exerciseDictionary["date"] = myDatePicker.date.description
 ```
 
-Convert the Dictionary
+## Convert the Dictionary
 
 Now that you have all of your data in one place you need to covert it to JSON serialized data, and then convert that data to a utf8 encoded string.  Below you can see how this is done:
 
