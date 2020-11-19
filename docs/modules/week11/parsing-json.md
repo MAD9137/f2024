@@ -6,7 +6,7 @@ JSON lets you easily define variables, data structures, arrays and dictionaries 
 
 ## Define The Storage Object
 
-Swift offers you a class called **JSONSerialization** that lets you take JSON data in a string and convert it into variable data within your Swift code. Let's look at the following JSON data, stored in a simple string, and see how we can convert it to use in Swift.
+Swift offers you a class called **JSONSerialization** that lets you take JSON data in a string and convert it into variable data within your Swift code. Let's look at the following JSON data, stored in a string called `myJSONData` within the code of this example, and see how we can convert it to use in Swift.
 
 ``` json
 {
@@ -50,10 +50,12 @@ var jsonObject: [String:[[String:Any]]]?
 ```
 
 ::: tip
- This will need to be defined as an optional, likely at the top of your class so it can be set later.
+ This will need to be defined as an optional variable, likely at the top of your class so it can be set later.  
 :::
 
-This object would need to look different depending on how the JSON data was packed.
+This object will need to be defined in a unique shape that matches the shape of the JSON data. This example starts with a single key-value pair using a **String** as the key ("students") with the value of an array `"students" : [...]`.  Each of the 4 array elements in this case is a dictionary with the keys being **String**, and the values being different types (in Swift terms the values are of type **Any**).
+
+In this specific case this requires us to make a variable to hold the converted data that looks like `[String:[[String:Any]]]`; if the JSON data were packed differently we would need to use a different shape of object to hold the converted data.
 
 ## Parse JSON Data
 
@@ -99,7 +101,5 @@ let jsonObj = jsonObject {
 The structure of this code is dependent on the format of the information nested within the JSON data you started with. You always begin by looking at the structure of the JSON you are getting, as it will dictate what structure of object you will create in Swift to hold the JSON data, and what type of logic you will need to access the values.
 
 [Click here to download an example project](/F2020/assets/downloads/ParsingJSON.zip) that parses a string of properly formatted JSON into an object in Swift, and outputs the values to a textView.
-
-[Click here for the legacy version](/F2020/assets/downloads/legacyParsingJSON.zip)
 
 [Back to Week 11](./index.md#during-class)
