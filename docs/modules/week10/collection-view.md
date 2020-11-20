@@ -60,16 +60,22 @@ Depending on the design, you will probably want to increase the size of the cell
 You can also change the shape of the cell by simply selecting the cell, and dragging the anchors on the bottom, right and corner.  This will change the size to Custom automatically.
 :::
 
-You can start to populate the cell with the needed UI objects as needed by dragging them from the library into the cell.  In this example we have added an ImageView and two labels.
+The size you have set here (180 x 180) is not going to be the final size of the cells, but will be big enough to help you layout the UI objects in the collectionViewCell.  You will be changing the size of the cells in code programmatically so we need to tell the collectionView to not automatically estimate the size the cells for us.
+
+To do this we need to click on the collection itself (**not** the collectionViewController), open the size inspector and then set the Estimate Size value to "None" (from "Automatic").
 
 ![Collection View](/F2020/assets/img/CollectionView_11.png)
 
-Now you are ready to connect these UI objects to your custom class file.  Split the editor to view the code beside the storyboard and make the IBOutlet connects by holding the control key while you click and drag the connection to your code.
+After this, you can now start to populate the cell with the needed UI objects as needed by dragging them from the library into the cell.  In this example we have added an ImageView and two labels.
 
 ![Collection View](/F2020/assets/img/CollectionView_12.png)
 
+Now you are ready to connect these UI objects to your custom class file.  Split the editor to view the code beside the storyboard and make the IBOutlet connects by holding the control key while you click and drag the connection to your code.
+
+![Collection View](/F2020/assets/img/CollectionView_13.png)
+
 :::warning NOTE
-You will need to add constraints to the cell's UI objects in order to make them fit correctly in the cell as it changes size for different devices depending on your layout.
+You will need to add constraints to the cell's UI objects in order to make them fit correctly in the cell as it changes size for different devices depending on your layout.  You will also want to set the **Autoshrink** option to "Minimum Font Scale" for the two cell labels in the Attributes inspector.
 :::
 
 ## Coding the Collection View Controller Class
@@ -128,7 +134,7 @@ When you cast the cell to your custom CollectionViewCell class it produces an op
 
 The following image shows all of these modifications made to the custom CollectionViewController file:
 
-![Collection View](/F2020/assets/img/CollectionView_13.png)
+![Collection View](/F2020/assets/img/CollectionView_14.png)
 
 :::warning NOTE
 All of the superfluous lines of code have been removed in order to make this fit in a single screenshot.
@@ -137,7 +143,7 @@ All of the superfluous lines of code have been removed in order to make this fit
 ### Clicking on a Cell, and Passing Data to Another ViewController
 Lets assume you have create a second ViewController to pass some UserInfo object to.  Assuming this view has an image and two labels to display the contents of the UserInfo, and a button to unwind the segue, the associated ViewController class might look like this:
 
-![Collection View](/F2020/assets/img/CollectionView_14.png)
+![Collection View](/F2020/assets/img/CollectionView_15.png)
 
 :::tip NOTE
 In this example the segue will be connected directly from the CollectionViewCell to the next ViewController, and the segue Identifier will be called "ShowSecondView" in the storyboard.
