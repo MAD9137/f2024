@@ -8,27 +8,27 @@ For this example lets assume you have a project with the following outlets creat
 
 ```swift
 // Define outlets for the UI objects in the view
-@IBOutlet weak var nameTextField: UITextField!
-@IBOutlet weak var descriptionTextView: UITextView!
-@IBOutlet weak var durationSlider: UISlider!
-@IBOutlet weak var exerciseDatePicker: UIDatePicker!
+@IBOutlet weak var myTextField: UITextField!
+@IBOutlet weak var myTextView: UITextView!
+@IBOutlet weak var mySlider: UISlider!
+@IBOutlet weak var myDatePicker: UIDatePicker!
 ```
 
 If you needed to take the text strings from the textField and textView, the float from the slider and the date description from the datePicker and convert it to a string of JSON data you will first need to put all of these values into a (Swift) dictionary.  Because there are mixed types of values we will need to start by defining a `[String:Any]` dictionary like so :
 
 ```swift
 // Define a dictionary to hold the UI objects data
-var exerciseDictionary: [String: Any] = [:]
+var eventDictionary: [String: Any] = [:]
 ```
 
 Then you add the values for the keys, in this case trainer, description, duration, date like so:
 
 ```swift
 // Add the UI object's values for the appropriate keys in the dictionary
-exerciseDictionary["trainer"] = myTextField.text
-exerciseDictionary["description"] = myTextView.text
-exerciseDictionary["duration"] = mySlider.value
-exerciseDictionary["date"] = myDatePicker.date.description
+eventDictionary["title"] = myTextField.text
+eventDictionary["description"] = myTextView.text
+eventDictionary["duration"] = mySlider.value
+eventDictionary["date"] = myDatePicker.date.description
 ```
 
 ## Convert the Dictionary
@@ -38,7 +38,7 @@ Now that you have all of your data in one place you need to covert it to JSON se
 ```swift
 // Try to convert the dictionary to JSON data, and the data to a utf8 encoded string
 do {
-    jsonData = try JSONSerialization.data(withJSONObject: exerciseDictionary, options: [])
+    jsonData = try JSONSerialization.data(withJSONObject: eventDictionary, options: [])
     jsonString = String(data: jsonData!, encoding: .utf8)
 }
 catch {
@@ -50,10 +50,14 @@ If this works there will be no errors found the the do-try-catch logic, and the 
 
 ```swift
 // Massage the date value
-exerciseDictionary["date"] = String(myDatePicker.date.description.dropLast(9)) 
+eventDictionary["date"] = String(myDatePicker.date.description.dropLast(9)) 
 ```
 
-This will drop the last 9 characters, turning the the string from "2018-11-28 09:01:45 +0000" to "2018-11-28 09:01".  This make the date the correct format for setting the MySQL date value in the table this data is going to be inserted into.
+:::warning NOTE
+This will replace the the line of code from above, `eventDictionary["date"] = myDatePicker.date.description` in order to convert a date string into the correct format before the dictionary is converted into a JSON string.
+:::
+
+This will drop the last 9 characters, turning the the string from "2018-11-28 09:01:45 +0000" to "2018-11-28 09:01".  This make the date the correct format for setting the MySQL date value in the table that these values are going to be inserted into.
 
 :::warning NOTE
 This is not the best way to convert a date into a string.  You should look back to the lesson on formatting a date string here [The Date Class](/modules/week7/date-class.md)
@@ -66,6 +70,10 @@ After the date value is added in the correct format, the last thing need is to e
 let escapedJSONString = jsonString?.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
 ```
 
-Now this JSON string is ready to be added to the end of a URL so it can be passed to the server through the URLRequest.
+:::warning NOTE
+This this conversion is done after the jsonString is created, resulting in the escapedJSONString that we can now use to send to the server.
+:::
+
+Now this JSON new encoded string (escapedJSONString) is ready to be added to the end of a URL so it can be passed to the server through the URLRequest.
 
 [Back to Week 11](./index.md#during-class)
