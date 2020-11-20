@@ -38,8 +38,8 @@ Now that you have all of your data in one place you need to covert it to JSON se
 ```swift
 // Try to convert the dictionary to JSON data, and the data to a utf8 encoded string
 do {
-    jsonData = try JSONSerialization.data(withJSONObject: eventDictionary, options: [])
-    jsonString = String(data: jsonData!, encoding: .utf8)
+    let jsonData = try JSONSerialization.data(withJSONObject: eventDictionary, options: [])
+    let jsonString = String(data: jsonData!, encoding: .utf8)
 }
 catch {
     print ("Converted error = \(error.localizedDescription)")
