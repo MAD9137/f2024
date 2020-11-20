@@ -62,7 +62,7 @@ You can also change the shape of the cell by simply selecting the cell, and drag
 
 The size you have set here (180 x 180) is not going to be the final size of the cells, but will be big enough to help you layout the UI objects in the collectionViewCell.  You will be changing the size of the cells in code programmatically so we need to tell the collectionView to not automatically estimate the size the cells for us.
 
-To do this we need to click on the collection itself (**not** the collectionViewController), open the size inspector and then set the Estimate Size value to "None" (from "Automatic").
+To do this we need to click on, and select the CollectionView itself (and **not** the CollectionViewController).  Then open the size inspector and set the **Estimate Size** value to "None" (by default it is set to "Automatic").
 
 ![Collection View](/F2020/assets/img/CollectionView_11.png)
 
