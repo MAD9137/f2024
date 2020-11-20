@@ -76,4 +76,6 @@ This this conversion is done after the jsonString is created, resulting in the e
 
 Now this JSON new encoded string (escapedJSONString) is ready to be added to the end of a URL so it can be passed to the server through the URLRequest.
 
+You can [download the application here](/F2020/assets/downloads/SetupURLRequest.zip) to try it out yourself.  This prints out the jsonString and the escapedJSONString to the console.
+
 [Back to Week 11](./index.md#during-class)
