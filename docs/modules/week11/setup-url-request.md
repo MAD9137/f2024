@@ -12,7 +12,7 @@ As an example, look at this very simple app that has a button that will update a
 
 ![URL Request](/F2020/assets/img/SetupURLRequest_1.png)
 
-When the button is pressed you would get an error message like the one shown at the bottom of the image below:
+When the button is pressed you would get an error message like the one shown at the bottom of the image below.
 
 ![URL Request](/F2020/assets/img/SetupURLRequest_2.png)
 
@@ -32,7 +32,7 @@ To add a new key-value pair to this dictionary you must first expand the empty d
 
 ![URL Request](/F2020/assets/img/SetupURLRequest_6.png)
 
-Then, right-click on the "App Transport Security Settings" key name and you will get the context menu where you will select "Add Row"
+Then, right-click on the "App Transport Security Settings" key name and you will get the context menu where you will select "Add Row".
 
 ![URL Request](/F2020/assets/img/SetupURLRequest_7.png)
 
