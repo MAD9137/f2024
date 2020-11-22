@@ -48,11 +48,11 @@ Set the value of "Allow Arbitrary Loads" equal to "YES" and that is it.  Save yo
 
 ![URL Request](/F2020/assets/img/SetupURLRequest_9.png)
 
-::: tip
+:::tip NOTE
 Make sure to save your changes to your info.plist file before testing your application.
 :::
 
-This will allow your application connect to insecure network addresses, but you would never want to keep this in a product you intended to release as this is unsafe, and will be rejected from the app approval process.
+This will allow your application connect to insecure network addresses, but you would never want to keep this in a product you intended to release as this is unsafe.  If you have this feature enabled in your plist your application will be rejected from the app approval process.
 
 You can [download the application here](/F2020/assets/downloads/SetupURLRequest.zip), and is already setup to access the school server.  [You can also download the server script here](/F2020/assets/downloads/SetupURLRequestServer.zip) if you want to setup the server script on your own system.  If you do, you will need to copy the server code into your htdocs (or www in WAMP) folder, and change the URL in the Xcode project to match the folder structure on your local server.
 
