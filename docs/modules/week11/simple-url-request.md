@@ -2,15 +2,15 @@
 
 ## Overview
 
-Many changes have been made to the iOS development API over the years. One technology that has been created in this process is how you make HTTP requests to a server. The current process requires that you make an URLRequest using a class called **URLSession**.
+Many changes have been made to the iOS development API over the years. One technology that has been created in this process is how you make URL requests to a server. The current process requires that you make an URLRequest using a class called **URLSession**.
 
 For a simple example of how to make a URL request, we have a textLabel and a button. When the button is pressed, this application will make a request to the server and then take the response and output it in the textLabel.
 
-![Simple HTTP Request](/F2020/assets/img/SimpleHTTPRequest_1.png)
+![Simple URL Request](/F2020/assets/img/SimpleURLRequest_1.png)
 
 The code in the viewController does nothing in the viewDidLoad function. The button is connected to the loadButton action function.
 
-![Simple HTTP Request](/F2020/assets/img/SimpleHTTPRequest_2.png)
+![Simple URL Request](/F2020/assets/img/SimpleURLRequest_2.png)
 
 ## Make a URL Request
 
@@ -38,6 +38,6 @@ You will then notice that we can not directly modify the textLabel within this f
 The callback function is launched on a background thread, so you *must* run any code that will update your UI on the main thread.
 :::
 
-Here you can  [download an example project](/F2020/assets/downloads/SimpleURLRequest.zip)  ([or the legacy version here](/F2020/assets/downloads/legacySimpleURLRequest.zip) ) that uses a URLRequest to the server.  It receives the JSON data as a response back from the server, processes it, and display it in a label.  Here you can  [download the php server script](/F2020/assets/downloads/SimpleURLRequestServer.zip)   used with this example.
+Here you can  [download an example project](/F2020/assets/downloads/SimpleURLRequest.zip) that uses a URLRequest to the server.  It receives the JSON data as a response back from the server, processes it, and display the text from the server in a label.  Here you can  [download the php server script](/F2020/assets/downloads/SimpleURLRequestServer.zip)   used with this example.
 
 [Back to Week 11](./index.md#during-class)
