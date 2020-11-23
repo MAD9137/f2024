@@ -24,7 +24,7 @@ The next function is the requestTask that you must define with three optional pa
 
 Within this function, you must check if the error object was set: if it was set, then an error occurred and you must call the callback function passing in an empty string as the response data and the server error as the second parameter. If the error is set to nil, then the request has succeeded in getting a response. If there is no error, you must call the callback function passing in the response data and nil as the server error. This callback function will be run on a background thread while it is processing the server's response.
 
-::: tip
+:::tip NOTE
 You can choose to write all of your callback functionality write in your requestTask, or write a separate callback function that gets called in your requestTask.
 :::
 
@@ -34,7 +34,7 @@ The last function is the callback function that takes two strings as its paramet
 
 You will then notice that we can not directly modify the textLabel within this function. Because the callback function is launched on a background thread, you *must* run any code that will update your UI on the main thread.  This is done by calling the **DispatchQueue.main.async()** method. Within this function you can execute code to update the UI in your view.
 
-::: tip
+:::tip NOTE
 The callback function is launched on a background thread, so you *must* run any code that will update your UI on the main thread.
 :::
 
