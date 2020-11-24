@@ -40,6 +40,6 @@ This conversion requires you to cast the return value as the exact same type as 
 
 The end of the callBack function will update the UI on the main thread as long as the jsonDictionary object is populated with variables.  If the dictionary is still nil then something went wrong, and a debug message is printed to the console.
 
-You can [download a copy of this project here](/F2020/assets/downloads/URLRequestParsingJSON.zip).  You can [download a copy of the php server script here](/F2020/assets/downloads/URLRequestParsingJSONServer.zip).
+You can [download a copy of this project here](/F2020/assets/downloads/URLRequestParsingJSON.zip), and you can [download a copy of the php server script here](/F2020/assets/downloads/URLRequestParsingJSONServer.zip).
 
 [Back to Week 11](./index.md#during-class)

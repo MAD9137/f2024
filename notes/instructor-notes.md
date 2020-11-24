@@ -45,3 +45,5 @@ Inside the .vuepress/config.js there is a base option. If this is set with the b
    │               Run npm install -g npm to update!                │
    │                                                                │
    ╰────────────────────────────────────────────────────────────────╯
+   need to use:
+   sudo npm install -g npm

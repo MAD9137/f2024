@@ -10,16 +10,16 @@ The tableView will also have a navigation controller embedded in it, with a sing
 
 When this URLRequest queries the server, the server script will return a string of JSON data that defines an array of dictionaries, which will look like this:
 
-```php
+```swift
 [
-  ["eventTitle" => "First Day Of Class", "eventDate" => "2018/09/05"],
-  ["eventTitle" => "Submit Assignment 1", "eventDate" => "2018/10/01"],
-  ["eventTitle" => "Submit Assignment 2", "eventDate" => "2018/10/15"],
-  ["eventTitle" => "Submit Midterm Project", "eventDate" => "2018/10/29"],
-  ["eventTitle" => "Submit Assignment 3", "eventDate" => "2018/11/12"],
-  ["eventTitle" => "Submit Assignment 4", "eventDate" => "2018/11/26"],
-  ["eventTitle" => "Submit Final Project", "eventDate" => "2018/12/13"],
-  ["eventTitle" => "End Of Semester", "eventDate" => "2018/12/14"]
+  {"eventTitle":"First Day Of Class","eventDate":"2018\/09\/05"},
+  {"eventTitle":"Submit Assignment 1","eventDate":"2018\/10\/01"},
+  {"eventTitle":"Submit Assignment 2","eventDate":"2018\/10\/15"},
+  {"eventTitle":"Submit Midterm Project","eventDate":"2018\/10\/29"},
+  {"eventTitle":"Submit Assignment 3","eventDate":"2018\/11\/12"},
+  {"eventTitle":"Submit Assignment 4","eventDate":"2018\/11\/26"},
+  {"eventTitle":"Submit Final Project","eventDate":"2018\/12\/13"},
+  {"eventTitle":"End Of Semester","eventDate":"2018\/12\/14"}
 ]
 ```
 
