@@ -20,13 +20,13 @@ var jsonObject: [String:Any]?
 This will need to be defined as an optional variable to allow for the chance that the conversion will fail. 
 :::
 
-This dictionary must have a structure that mirrors the server's JSON data response.  We can check what the string of data the server is sending by printing out the `result` variable just after line 50.  The text sent from the server looks like this `{"name":"Jon Doe","email":"jdoe@gmail.com"}`, a JSON object that represents two key-value pairs.  In this case they keys are strings, and so are the values, so line 60 could define a dictionary with **String:String** but it also works to get the values as **Any** as well.
+This dictionary must have a structure that mirrors the server's JSON data response.  We can check what the string of data the server is sending by printing out the `result` variable just after line 50.  The text sent from the server looks like this `{"name":"Jon Doe","email":"jdoe@gmail.com"}`, a JSON object that represents two key-value pairs.  In this case the keys are strings, and so are the values, so line 60 could define a dictionary with **String:String**, but it also works to get the values as **String:Any** as well.
 
 :::warning NOTE
 This object will need to be defined in a unique shape that matches the shape of the JSON data. If you are unsure what the server's JSON data looks like you can always print out the result of converting the serverData to a string.
 :::
 
-Next, you can see where the string is converted back into a Data object on line 69 of the code:
+Next, you will see where the String is converted back into a Data object on line 69 of the code:
 
 ![Request Parsing](/F2020/assets/img/URLRequestParsingJSON_2.png)
 

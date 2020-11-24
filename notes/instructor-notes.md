@@ -40,8 +40,8 @@ Inside the .vuepress/config.js there is a base option. If this is set with the b
 
    ╭────────────────────────────────────────────────────────────────╮
    │                                                                │
-   │      New patch version of npm available! 6.14.6 → 6.14.8       │
-   │   Changelog: https://github.com/npm/cli/releases/tag/v6.14.8   │
+   │      New patch version of npm available! a.bb.c → x.yy.z       │
+   │   Changelog: https://github.com/npm/cli/releases/tag/vx.yy.z   │
    │               Run npm install -g npm to update!                │
    │                                                                │
    ╰────────────────────────────────────────────────────────────────╯
