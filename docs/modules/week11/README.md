@@ -6,8 +6,7 @@ By the end of this week, students will:
 
 - Process and display JSON data
 - Make URL requests and handle the response
-- Use authentication to make a URL request
-- Make a URL request using a RESTful IPA
+- Process JSON returned from a URL request
 
 ## Assessments Assigned
 
