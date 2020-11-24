@@ -50,7 +50,7 @@ var jsonObject: [String:[[String:Any]]]?
 ```
 
 ::: tip
- This will need to be defined as an optional variable, likely at the top of your class so it can be set later.  
+This will need to be defined as an optional variable, likely at the top of your class so it can be set later.  
 :::
 
 This object will need to be defined in a unique shape that matches the shape of the JSON data. This example starts with a single key-value pair using a **String** as the key ("students") with the value of an array `"students" : [...]`.  Each of the 4 array elements in this case is a dictionary with the keys being **String**, and the values being different types (in Swift terms the values are of type **Any**).
