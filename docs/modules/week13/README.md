@@ -4,9 +4,10 @@
 
 By the end of this week, students will:
 
-- Setup and customize Collection Views, and Alert Controllers
 - Display maps with MapKit
-- Create looping functionality with Timers
+- Getting the device's location and using Core Location
+- Setup and customize Alert Controllers
+- Persist variables wit UserDefaults
 
 ## Assessments Assigned
 

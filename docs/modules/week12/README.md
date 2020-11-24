@@ -4,9 +4,9 @@
 
 By the end of this week, students will:
 
-- Setup and customize Collection Views, and Alert Controllers
-- Display maps with MapKit
-- Create looping functionality with Timers
+- Use authentication to make a URL request
+- Make a URL request using a RESTful IPA
+- Delay code execution and create looping functionality with Timers
 
 ## Assessments Assigned
 
