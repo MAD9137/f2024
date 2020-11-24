@@ -101,7 +101,7 @@ You will need to use the DispatchQueue.main.async {} in a callback function to u
 
 ### Project (5pt)
 
-- Use a CollectionViewController with a custom CollectionViewCell with proper constraints instead of a TableViewController (15pt)
+- Use a CollectionViewController with a custom CollectionViewCell with proper constraints **instead of** a TableViewController (15pt)
 - Code is clear and well-commented (10pt)
 - Application runs without errors (5pt)
 
