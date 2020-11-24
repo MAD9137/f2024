@@ -2,7 +2,7 @@
 
 ## Instructions
 
-In this assignment, you will be creating a single table view application that will make a request to a specific URL https://lenczes.edumedia.ca/mad9137/a4/respond.php. If you want to see the server script, you can download the php file here.
+In this assignment, you will be creating a single table view application that will make a request to a specific URL [https://lenczes.edumedia.ca/mad9137/a4/respond.php](https://lenczes.edumedia.ca/mad9137/a4/respond.php). If you want to see the server script, you can [download the php file](/F2020/assets/downloads/A4Server.zip) here.
 
 Your project will display the information from the JSON data returned from the URLRequest. Each cell in the table will display the eventTitle, and eventDate strings in its label. There are no additional views or segues in this application.
 
