@@ -164,7 +164,7 @@ Submit a .zip file of your assignment through Brightspace.
 
 Use the following naming convention for submissions:
 
-`username_assignment-title.zip` for example - `lenc0001_assignment-1.zip`
+`username_assignment-title.zip` for example - `lenc0001_assignment-3.zip`
 
 Due by: Nov. 20, 11:59pm
 

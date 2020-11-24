@@ -1,14 +1,22 @@
 # Assignment 4
 
-## Instructions
+## Description
 
-In this assignment, you will be creating a single table view application that will make a request to a specific URL [https://lenczes.edumedia.ca/mad9137/a4/respond.php](https://lenczes.edumedia.ca/mad9137/a4/respond.php). If you want to see the server script, you can [download the php file](/F2020/assets/downloads/A4Server.zip) here.
+In this assignment, you will be creating a single TableViewController application that will make a request to a specific URL [https://lenczes.edumedia.ca/mad9137/a4/respond.php](https://lenczes.edumedia.ca/mad9137/a4/respond.php). If you want to see the server script, you can [download the php file here](/F2020/assets/downloads/A4Server.zip).  It will make the URLRequest when a button is pressed, and it will display the contents of the server data in the cells of the table.
 
-Your project will display the information from the JSON data returned from the URLRequest. Each cell in the table will display the eventTitle, and eventDate strings in its label. There are no additional views or segues in this application.
+:::warning NOTE
+You will need to use a CollectionViewController with a custom CollectionViewCell **instead of** a TableViewController in order to get full marks on this assignment.
+:::
 
-The tableView will also have a navigation controller embedded in it, with a single barButtonItem added to the right side of the bar. This button will be labeled "Load", and will have an action that will be used to make the URL request.
+## Requirements
 
-When this URLRequest queries the server, the server script will return a string of JSON data that defines an array of dictionaries, which will look like this:
+The tableView will have a navigation controller embedded in it, with a single barButtonItem added to the right side of the bar. This button will be labeled "Load", and will have an action that will be used to make the URL request.
+
+Your TableViewController will display the information from the JSON data returned from the URLRequest. Each cell in the table will display the eventTitle, and eventDate strings in it's labels. There are no additional views or segues in this application.
+
+You TableViewController class will need an array or dictionary objects in the correct format to hold the data returned from the server.  The URLRequest will need to call a completion handler which will pass the data to a callback function to process the string of JSON and covert it to an array of objects.
+
+When this URLRequest queries the server, the server script will return a string of JSON data that defines the array of dictionaries, which will look like this:
 
 ```swift
 [
@@ -23,23 +31,27 @@ When this URLRequest queries the server, the server script will return a string 
 ]
 ```
 
-When you capture the response data in your callback function and serialize the JSON, it will need to be stored in an array of dictionaries. Your table view needs a class property to store it that looks like this:
+When you capture the response data in your callback function and serialize the JSON, it will converted to an array of dictionaries. This means your TableViewController class will need a property to store it that looks like this:
 
 ```swift
 var jsonArray: [[String:String]]?
 ```
 
+:::warning NOTE
+Pay special attention to the shape of this array.  This will help you understand how to access each dictionary within it using the indexPath.row value.
+:::
+
 In your `tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{}` method, you will use optional binding to return the .count of the jsonArray.count and, if it is still nil, you return '0'.
 
 In your `override tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{}` method, again you will use optional binding on the jsonArray to access it only if the data was created properly. You will need to access the dictionary of values in the array using the indexPath.row passed to the tableView function.
 
-You will then take the "eventTitle" and "eventDate" string values from your dictionary and set that cell's textLabel with this information.
+You will then take the "eventTitle" and "eventDate" string values from your dictionary and set that cell's labels with this information.
 
-::: tip
+:::tip NOTE
 You will need to use the DispatchQueue.main.async {} in a callback function to update the UI, like when you call the reloadData() method on your tableView.
 :::
 
-## Assignment 4 - URLRequest with JSON (50pt total)
+## Marks Rubric
 
 ### Create Layout: (4pt total)
 
@@ -87,9 +99,13 @@ You will need to use the DispatchQueue.main.async {} in a callback function to u
 - Use optional binding to get the jsonData object if it exists, and get the current dictionary by using the indexPath.row (3pt)
 - Set each tableViewCell's textLabel with the 'eventTitle' and 'eventDate' values in the current json dictionary from the jsonData array (2pt)
 
-Code is clear and well-commented (3pt)
+### Project (5pt)
 
-Application runs without errors (2pt)
+- Use a CollectionViewController with a custom CollectionViewCell with proper constraints instead of a TableViewController (15pt)
+- Code is clear and well-commented (10pt)
+- Application runs without errors (5pt)
+
+### Total: 75pt
 
 ## Submission
 
@@ -97,7 +113,7 @@ Submit a .zip file of your assignment through Brightspace.
 
 Use the following naming convention for submissions:
 
-`username_assignment-title.zip` for example - `lenc0001_assignment-1.zip`
+`username_assignment-title.zip` for example - `lenc0001_assignment-4.zip`
 
 [Section 300](https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folders_list.d2l?ou=196083&isprv=0)
 
