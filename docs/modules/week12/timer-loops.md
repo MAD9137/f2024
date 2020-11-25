@@ -110,4 +110,4 @@ The major difference between the two timers is the performance.  The CADisplayLi
 
 You can download an example project here showing how to implement both types of timers.
 
-[Back to Week 9](./index.md#during-class)
+[Back to Week 12](./index.md#during-class)

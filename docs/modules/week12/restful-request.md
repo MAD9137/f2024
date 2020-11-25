@@ -44,3 +44,5 @@ The planetID value is taken from the value for the "id" key stored in the JSON o
 :::
 
 You can [download a copy of this project](/F2020/assets/downloads/URLRequestToRESTfulAPI.zip) to see how this application works, and how the URIs are created to request the JSON data from the RESTful API.
+
+[Back to Week 12](./index.md#during-class)
