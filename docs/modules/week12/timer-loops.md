@@ -108,6 +108,6 @@ As mentioned above, this function is where you would increment a value, display 
 
 The major difference between the two timers is the performance.  The CADisplayLink timer will fire with extremely precise regularity making any visual updates execute as smoothly as possible.  The Timer object runs in the main thread and will seem to be less consistent whenever there is a lot being processed.
 
-You can download an example project here showing how to implement both types of timers.
+You can [download an example project here](/F2020/assets/downloads/TimerLoops.zip) showing how to implement both types of timers.
 
 [Back to Week 12](./index.md#during-class)
