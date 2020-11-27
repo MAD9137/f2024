@@ -33,7 +33,7 @@ Clicking on any of the cells in table will transition the user to a second view 
 * Create an optional Event property in this class to hold the data passed from the tableView. **(1pt)**
 * In the viewDidLoad() function set the title and date labels, and the description textView to the data stored within the optional Event object. **(3pt)**
 
-### Project (5pt)
+### Quality Control (5pt)
 * Clear and descriptive naming of variable, functions and identifiers **(2pt)**
 * Well commented code describing all main functionality **(2pt)**
 * Project compiles and runs without errors **(1pt)**

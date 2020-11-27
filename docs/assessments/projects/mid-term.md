@@ -155,7 +155,7 @@ The EventInfoViewController needs an optional Event object that will be set in t
 * If the segue is going to the NewEventViewController, get a copy of the next viewController and set its delegate to the tableViewController class **(3pt)**
 * If the segue is going to the EventInfoViewController, get a copy of the next viewController. Safely get a reference to the selected UITableViewCell, and the indexPath for the current cell. If the cell and indexPath references are successfully referenced, set the EventInfoViewController’s Event object to the selected event in your Schedule’s array **(6pt)**
 
-### **QUALITY CONTROL (35pt)**
+### Quality Control (35pt)**
 * Proper Constraints on UI objects **(10pt)**
 * Code is well written with clear commenting **(20pt)**
 * Application runs without errors **(5pt)** 

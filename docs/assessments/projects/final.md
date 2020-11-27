@@ -62,7 +62,7 @@ This viewController needs a dictionary object to hold the selected object’s ti
 
 ## Marks Rubric
 
-### Layout – (21 pt)
+### Layout (21 pt)
 * create a tableViewController, a tableViewController class file, and assign the class to the tableView in the storyboard **(3pt)**
 * embed a NavigationController in the tableView **(1pt)**
 * give your prototype cell a reuse identifier **(1 pt)**
@@ -71,7 +71,7 @@ This viewController needs a dictionary object to hold the selected object’s ti
 * after connecting your segues (see below), add a barButtonItem to the top-right of the navigationItem in your AddViewController, and add a textField, a textView, and two datePickers **(5 pt)**
 * add a textView to the InfoViewController **(1 pt)**
 
-### Actions, Outlets and Segues – (13 pt)
+### Actions, Outlets and Segues (13 pt)
 * create a segue from the SplashViewController to the NavigationController and give it an appropriate identifier **(2 pt)**
 * create a segue from the prototype cell in the tableViewController to the InfoViewController and give the segue an appropriate identifier **(2 pt)**
 * create a segue from the tableViewController to the AddViewController and give the segue an appropriate identifier **(2 pt)**
@@ -80,10 +80,10 @@ This viewController needs a dictionary object to hold the selected object’s ti
 * connect your textField textView and both datePicker objects to outlets in your AddViewController **(4 pt)**
 * connect your "Save" barButtonItem to an action in your AddViewController **(1 pt)**
 
-### SplashViewController class - (3 pt)
+### SplashViewController class (3 pt)
 * when this viewController loads, it will wait 3 seconds and then call the performSegue(withIdentifier, sender) to segue to the tableView **(3 pt)**
 
-### PassportTableView class - (60 pt)
+### PassportTableView class (60 pt)
 * create an appropriate JSON object to hold the data returned from https://lenczes.edumedia.ca/mad9137/final_api/passport/read/ **(3 pt)**
 * in the viewWillAppear(_ animated:Bool) function, make a URLRequest to https://lenczes.edumedia.ca/mad9137/final_api/passport/read/ calling a requestTask upon completion **(5 pt)**
 * within your URLRequest, you must add value to the URL’s header for the key “my-authentication”, and pass in the first 8 characters of your school’s email address (e.g. lenc0001) as the value **(3 pt)**
@@ -98,14 +98,14 @@ This viewController needs a dictionary object to hold the selected object’s ti
 * when the user clicks a cell in the table, the prepare( for Segue, sender) must pass the correct dictionary when segueing to the InfoViewController **(4 pt)**
 * the “Add” barButtonItem action must call the `performSegue(withIdentifier, sender)` function to segue to the AddViewController **(2 pt)**
 
-### InfoViewController class - (25 pt)
+### InfoViewController class (25 pt)
 * create a dictionary that will hold the location’s JSON object passed from the PassportTableViewController **(2 pt)**
 * in the viewDidLoad() function, call the URL https://lenczes.edumedia.ca/mad9137/final_api/passport/read/?id=, passing the location’s id to the end of the query **(5 pt)**
 * within your URLRequest, you must add value to the URL’s header for the key “my-authentication”, and pass in the first 8 characters of your school’s email address (e.g. lenc0001) as the value **(3 pt)**
 * write a requestTask to process the server data and any errors that are received by the server, and send it to your callback function **(5 pt)**
 * write a callback function that will process any errors if they exist and, if they don’t, process the response string from the server and serialize the JSON response in to your JSON object, then output the title, id, description, latitude, longitude, arrival, and departure to the textView **(10 pt)**
 
-### AddViewController class - (29 pt)
+### AddViewController class (29 pt)
 * import CoreLocation framework, and create a CLLocationManager object **(2 pt)**
 * in the touchesBegan function, hide the keyboards **(2 pt)**
 * “Save” barButtonItem action must hide the keyboards **(1 pt)**
@@ -113,7 +113,7 @@ This viewController needs a dictionary object to hold the selected object’s ti
 * write an addRequestTask to process the server data and any errors that are received by the server, and send it to the addCallback function **(5 pt)**
 * write an addCallback function that will process any errors if they exist and, if they don’t, tell the navigationController to popToRootViewController **(4 pt)**
 
-### Additional Requirements - (29 pt)
+### Quality Control (29 pt)
 * add appropriate constraints to all UI objects in the regular viewControllers **(10 pt)**
 * application runs without errors **(10 pt)**
 * code is well-written and commented thoroughly **(9 pt)**

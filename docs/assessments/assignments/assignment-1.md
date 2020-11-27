@@ -56,28 +56,28 @@ Testing the classes in the viewController.swift file
 
 ## Marks Rubric
 
-### CREATE EVENT CLASS (15pt)
+### Create Event Class (15pt)
 * Define event class **(1pt)**
 * Add 2 Strings and 1 Date property **(3pt)**
 * Create init that takes 3 Strings **(5pt)** (2 for definition, 3 for setting values)
 * Copy setDate function provided **(1pt)**
 * Create getInfo function **(5pt)** (must return info as a formatted String with all 3 event properties used)
 
-### CREATE SCHEDULE CLASS (15pt)
+### Create Schedule Class (15pt)
 * Define schedule class **(1pt)**
 * Add empty Event array: eventArray **(1pt)**
 * Create get-only property: eventCount **(4pt)** (1 for definition, 2 for guard else return 0, 1 for returning count)
 * Create addNewEvent function **(4pt)**
 * Create outputAllEvents function **(5pt)** (1 for definition, 2 for guard else print and return, 1 for for-loop, 1 for printing each)
 
-### TEST (7pt)
+### Test (7pt)
 * Create instance of Schedule class **(1pt)**
 * Print message with eventCount (at 0) **(1pt)**
 * Create 3 events using addNewEvent **(3pt)**
 * Print message with eventCount (at 3) **(1pt)**
 * Call outputAllEvents function **(1pt)**
 
-### PROJECT (8pt)
+### Quality Control (8pt)
 * Clear and comprehensible commenting **(4pt)**
 * Code runs with no errors **(4pt)**
 

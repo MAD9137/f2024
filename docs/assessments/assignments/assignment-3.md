@@ -150,7 +150,7 @@ The last part of the marks come from making unique content for this application.
 ### Restart Button (1pt)
 * The button action within the 3rd view must call the popToRootViewController function to return to the first view **(1pt)**
 
-### Customize your application (34pt)
+### Quality Control (34pt)
 * application runs without errors **(3pt)**
 * code is well commented with clear details **(15pt)**
 * add constraints to all UI elements **(6pt)**
