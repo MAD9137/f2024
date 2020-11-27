@@ -102,7 +102,7 @@ Due by: Oct. 02, 11:59pm
     Things to change:
     -make event Title a non-optional variable, it must always be set
     -rename Event's description variable to about
-    -change GetInfo function to output info using a calculated property for theß description value from CostomStringConvertable protocol
+    -change GetInfo function to output info using a calculated property for the description value from CustomStringConvertible protocol (See Swift video with Simon Allardice on Pluralsight)
 
     Things to add:
     -make Event inherit from CostomStringConvertable protocol
