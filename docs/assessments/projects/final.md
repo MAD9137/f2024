@@ -128,7 +128,11 @@ Use the following naming convention for submissions:
 
 `username_assignment-title.zip` or for example  `lenc0001_mid-term.zip`
 
-Due by: Nov. 06, 11:59pm
+Due by: Dec. 18, 11:59pm
+
+:::danger
+NO LATE SUBMISSIONS ACCEPTED!
+:::
 
 [Section 300](https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folders_list.d2l?ou=196083&isprv=0)
 
