@@ -51,7 +51,7 @@ This viewController will need a textField for the title, a textView for the desc
 This button will be connected to an action. This action will only run if there is text entered in to the textField. When this action runs, you will create a dictionary to hold values for the following keys: title, id, description, latitude, longitude, arrival, and departure. You will use CoreLocation to get your current location’s latitude and longitude. You will then make a URLRequest to the following URL https://lenczes.edumedia.ca/mad9137/final_api/passport/create/?data=, adding your JSON string after the equals sign.
 
 :::tip NOTE
-You need to add the data from the textField, textView, datePickers and the latitude and longitude into a Swift dictionary, convert it to data and convert that to a JSON string.
+You need to add the data from the textField, textView, datePickers and the latitude and longitude into a Swift dictionary, convert it to a Data object and then convert that to a JSON string.
 :::
 
 If your URLRequest successfully adds a new location to the database, your callback method should tell the NavigationController to popToRootViewController.
@@ -81,10 +81,10 @@ This viewController needs a dictionary object to hold the selected object’s ti
 * connect your "Save" barButtonItem to an action in your AddViewController **(1 pt)**
 
 ### SplashViewController class (3 pt)
-* when this viewController loads, it will wait 3 seconds and then call the performSegue(withIdentifier, sender) to segue to the tableView **(3 pt)**
+* when this viewController loads, it will wait 3 seconds and then call the `performSegue(withIdentifier, sender)` function to segue to the tableView **(3 pt)**
 
 ### PassportTableView class (60 pt)
-* create an appropriate JSON object to hold the data returned from https://lenczes.edumedia.ca/mad9137/final_api/passport/read/ **(3 pt)**
+* create an appropriate JSON object to hold the JSON data returned from https://lenczes.edumedia.ca/mad9137/final_api/passport/read/ **(3 pt)**
 * in the viewWillAppear(_ animated:Bool) function, make a URLRequest to https://lenczes.edumedia.ca/mad9137/final_api/passport/read/ calling a requestTask upon completion **(5 pt)**
 * within your URLRequest, you must add value to the URL’s header for the key “my-authentication”, and pass in the first 8 characters of your school’s email address (e.g. lenc0001) as the value **(3 pt)**
 * write a requestTask to process the server data and any errors that are received by the server, and send it to your callback function **(5 pt)**

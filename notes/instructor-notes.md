@@ -6,9 +6,17 @@ Notes about changes to be made in the future to the course.
 
 A collection of notes about changes to be made to the deliverables for next year.
 
-- Assignment 1 : Make Title and Description non-optional (ie they are required and thus the base init method takes these 2 parameters)
+### Assignment 1 
+- Make Title and Description non-optional (ie they are required and thus the base init method takes these 2 parameters)
+- Add makes for Event base init method!!?
 
-- Assignment 1 : Add makes for Event base init method!!?
+### Midterm
+- Add requirements and marks for making EventInfo view textView uneditable.
+- Check if the delete cell function no longer needs a reloadData called within it.
+- In the Coding prepareForSegue function I don't think we need to get a ref for the cell any more.
+- Need marks for numberOf sections function... should be there.
+- Marks for setting cell reuse identifier ???.
+- Marks for setting up 2nd label in cell prototype.
 
 ## Quiz Notes
 

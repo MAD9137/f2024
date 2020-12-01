@@ -122,8 +122,8 @@ The EventInfoViewController needs an optional Event object that will be set in t
 
 ### **SWIFT CODING (57pt)**
 ### Coding in Protocol, Event, Schedule swift files (10pt)
-* Write a protocol that defines a function takes an Event object as a parameter **(2pt)**
-* In the Event class add a new base init, and the 2 convenience init methods **(6pt)**
+* Write a protocol that defines a function which takes an Event object as a parameter **(2pt)**
+* In the Event class add a new convenience init method in addition to the existing base and convenience init methods **(6pt)**
 * in the Schedule class add an overloaded addNewEvent function with an Event parameter **(2pt)**
 
 ### Coding in EventInfoViewController (5pt)
@@ -148,7 +148,7 @@ The EventInfoViewController needs an optional Event object that will be set in t
 * Override the tableView’s **cellForRowAt indexPath** function **(1pt)**
 * In the **numberOfRowsInSection** function return the event count from your Schedule object **(1pt)**
 * In the **cellForRowAt indexPath** function dequeue a tableViewCell using the prototype cell’s identifier, accessing your Schedule’s array at the current indexPath, and displaying the event’s title and date in the cell’s Label before returning it **(5pt)**
-* Use the tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath){} function to delete the array element corresponding to the current indexPath when a cell is deleted from the table **(2pt)**
+* Use the tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath){} function to **delete** the array element corresponding to the current indexPath when a cell is deleted from the table **(2pt)**
 
 ### Coding prepareForSegue function in ScheduleTableViewController (10pt)
 * Override the viewController’s prepareForSegue function **(1pt)**
