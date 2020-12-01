@@ -70,7 +70,7 @@ module.exports = {
           '/modules/week9/',
           '/modules/week10/',
           '/modules/week11/',
-          // '/modules/week12/',
+          '/modules/week12/',
           // '/modules/week13/',
           // '/modules/week14/',
         ],
@@ -92,6 +92,8 @@ module.exports = {
           '/assessments/participation/discussion-3.md',
           '/assessments/assignments/assignment-4.md',
           '/assessments/participation/quiz-3.md',
+          '/assessments/projects/mid-term.md',
+          '/assessments/projects/final.md',
           
         ],
       },
