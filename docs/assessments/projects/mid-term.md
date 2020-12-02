@@ -123,7 +123,7 @@ The EventInfoViewController needs an optional Event object that will be set in t
 ### **SWIFT CODING (57pt)**
 ### Coding in Protocol, Event, Schedule swift files (10pt)
 * Write a protocol that defines a function which takes an Event object as a parameter **(2pt)**
-* In the Event class add a new convenience init method in addition to the existing base and convenience init methods **(6pt)**
+* In the Event class add a new convenience init method **(6pt)**
 * in the Schedule class add an overloaded addNewEvent function with an Event parameter **(2pt)**
 
 ### Coding in EventInfoViewController (5pt)
