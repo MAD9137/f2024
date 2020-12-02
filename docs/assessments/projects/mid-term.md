@@ -52,7 +52,7 @@ The navigationController will automatically generate a back button that leads ba
 
 ### Third View
 
-Clicking on a TableViewCell within the table will pass the correct Event object to the third view before segueing to the third view of the application. The third view will be a basic ViewController that will have and optional Event object that will be set from the first view, and will have Labels to display that event’s information.
+Clicking on a TableViewCell within the table will pass the correct Event object to the third view before segueing to the third view of the application. The third view will be a basic ViewController that will have and optional Event object that will be set from the first view, and will have labels and a textView to display that event’s information.
 
 The navigationController will automatically generate the back button that leads back to the main TableViewController from the third view.
 
@@ -118,7 +118,7 @@ The EventInfoViewController needs an optional Event object that will be set in t
 * Connect ‘Create’ buttons to an action in the NewEventViewController **(1pt)**
 
 #### Third View
-* Connect textFields and textView to outlets in the EventInfoViewController **(3pt)**
+* Connect labels and textView to outlets in the EventInfoViewController **(3pt)**
 
 ### **SWIFT CODING (57pt)**
 ### Coding in Protocol, Event, Schedule swift files (10pt)

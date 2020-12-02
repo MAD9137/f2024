@@ -93,7 +93,6 @@ module.exports = {
           '/assessments/assignments/assignment-4.md',
           '/assessments/participation/quiz-3.md',
           '/assessments/projects/final.md',
-          
         ],
       },
     ],
