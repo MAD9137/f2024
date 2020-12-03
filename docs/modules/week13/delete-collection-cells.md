@@ -1,4 +1,4 @@
-# Highlighting and Deleting a CollectionView Cell
+# Highlighting and Deleting a CollectionViewCell
 
 One of the major differences between a CollectionView and a TableView is the method for deleting cells.  As you know the TableView has a built in system for deleting cells, but you must take a more manual approach for deleting a cell from  CollectionView.
 
@@ -30,7 +30,7 @@ cell.contentView.backgroundColor = cellColour
 ```
 
 :::tip NOTE
-This setup will be used to change the colour of the background of a cell that has been tapped on signaling when it has been selected.  You can use any method you would like to signal this selection of a cell other than changing the background.
+This setup will be used to change the colour of the background of a cell that has been tapped on signaling when it has been selected.  You can use any method you would like to signal when a cell becomes selected other than changing the background.
 :::
 
 ## Change Colour When Selected, and Change it Back When Unselected
