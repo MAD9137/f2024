@@ -3,7 +3,7 @@
 ## Objective
 For your final project, you will be making a “passport” application in iOS using Swift.  The purpose of this application is to allow a user to geotag locations that they are currently visiting.  The user will define the location’s title, their arrival and departure dates, and a description of their trip.  This application will store all of the location’s information (including the geotag) on a server, which you will access using the Final_API found here [https://lenczes.edumedia.ca/mad9137/final_api/](https://lenczes.edumedia.ca/mad9137/final_api/).
 
-:::warning OTE
+:::warning NOTE
 All of your URLRequests must have a modified header field add that contain a value of your user username from your school email (eg. lenc0001) for the key "my-authentication".  The value string must **not** have the @algonquinlive.com, and will be plain text (no conversion done to the value string).
 :::
 
