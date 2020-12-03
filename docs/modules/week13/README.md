@@ -24,6 +24,8 @@ By the end of this week, students will:
 
 ## During Class
 
+- Modifying CollectionViews
+    - [Highlighting and Deleting a CollectionView Cell](./delete-collectionl-cells.md)
 - Locations and Maps
     - [Embedding a Map with MapKit](./embedding-mapkit.md)
     - [Get the Devices Current Location](./current-location.md)
