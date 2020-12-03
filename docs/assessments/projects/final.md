@@ -20,7 +20,7 @@ When the application first displays, and when it returns to the PassportTableVie
 
 An example of the application's layout that will incorporate four views and a navigation controller can be seen below.
 
-![Mid-term Project Structure and Layout](/F2020/assets/img/Final_1.png)
+![FinalProject Structure and Layout](/F2020/assets/img/Final_1.png)
 
 ## Application Details
 
@@ -117,12 +117,13 @@ This viewController needs a dictionary object to hold the selected object’s ti
 * write an addRequestTask to process the server data and any errors that are received by the server, and send it to the addCallback function **(5 pt)**
 * write an addCallback function that will process any errors if they exist and, if they don’t, tell the navigationController to popToRootViewController **(4 pt)**
 
-### Quality Control (29 pt)
+### Quality Control (49 pt)
+* use a custom collectionView design instead of using a tableView **(9 pt)**
 * add appropriate constraints to all UI objects in the regular viewControllers **(10 pt)**
 * application runs without errors **(10 pt)**
-* code is well-written and commented thoroughly **(9 pt)**
+* code is well-written and commented thoroughly **(20 pt)**
 
-### Total: 180 pt
+### Total: 200 pt
 
 ## Submission
 
