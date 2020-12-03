@@ -58,14 +58,16 @@ There is no built-in functionality to delete a cell from a collection view like 
 ```swift
 @IBAction func deleteButtonAction(_ sender: Any) {
     if let indexPaths = collectionView.indexPathsForSelectedItems {
-        namesArray.remove(at: indexPaths[0].row)
-        collectionView.deleteItems(at: [indexPaths[0]])
-        collectionView.reloadData()
+        if indexPaths.count > 0 {
+            namesArray.remove(at: indexPaths[0].row)
+            collectionView.deleteItems(at: [indexPaths[0]])
+            collectionView.reloadData()
+        }
     }
 }
 ```
 
-This gets the indexPath value for the selected row.  Then the indexPath is used to determine which array item, and CollectionView cell to delete.  After deleting the cell from the CollectionView, you must call the reloadData function to refresh the collection's list of cells.
+This gets the current array of indexPaths, and checks if there is at least one indexPath selected.  If there is at least one indexPath selected it is used to determine which array item, and CollectionView cell to delete.  After deleting the cell from the CollectionView, you must call the reloadData function to refresh the collection's list of cells.
 
 The image below shows this within the context of a CollectionViewController class.
 
