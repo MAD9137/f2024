@@ -35,6 +35,8 @@ By the end of this week, students will:
     - [AlertController Pop-Ups](./alert-controller.md)
 - Using UserDefaults to persist application and user data
     - [Persistent Data with UserDefaults](./persistent-data.md)
+- Using different types of segues
+    - [Different Types of Segues](./segue-types.md)
 
 ## Following Class
 
