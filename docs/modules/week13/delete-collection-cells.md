@@ -4,7 +4,7 @@ One of the major differences between a CollectionView and a TableView is the met
 
 Assume we have a simple collection project setup like the one illustrated in the following image.
 
-![User defaults](/mad9137/assets/img/CollectionViewDeletingCells_1.png)
+![Deleting a CollectionViewCell](/F2020/assets/img/CollectionViewDeletingCells_1.png)
 
 The steps that must be take to allow the user to delete a cell are as follows:
 1. Selecting and setting the colour of the cell's background.
@@ -71,7 +71,7 @@ This gets the current array of indexPaths, and checks if there is at least one i
 
 The image below shows this within the context of a CollectionViewController class.
 
-![User defaults](/mad9137/assets/img/CollectionViewDeletingCells_2.png)
+![Deleting a CollectionViewCell](/F2020/assets/img/CollectionViewDeletingCells_2.png)
 
 :::warning NOTE
 You will need to setup up a slightly more complicated solution if you want a segue to be triggered when the user taps on a cell in the CollectionView.  One idea would be to create an "Edit" button that would change the functionality of tapping on a CollectionViewCell from triggering the segue to simply selecting the cell so it can be deleted.
