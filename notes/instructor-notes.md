@@ -18,6 +18,19 @@ A collection of notes about changes to be made to the deliverables for next year
 - Marks for setting cell reuse identifier ???.
 - Marks for setting up 2nd label in cell prototype.
 
+### Assignment 3 
+- Require textViews to be non-editable, non-selectable and with no highlighted text of any kind.
+- Make constraints work on different sized screens.
+- Rewrite the Customize your application section.
+- The "Update each view’s GUI in the viewWillAppear function for that view" section should award marks that make sense.  Is this 1 mark for each button on Page A and on Page B?
+- Add marks for unwrapping optionals
+- add outlets and actions to the 2 Bar Buttons, and an outlet for the text-view in the 1st viewController (3pt) should be out of 5, no?  (2 actions, 3 outlets total)??
+- Layout the GUI section needs marks for outlets for navItems for 3 page titles, but no more do you need to add navItems to top of viewControllers (worth 2 pts)
+-- Add info about using navBar.leftBarButtonItem.title and navBar.rightBarButtonItem.title to set button text
+
+### Final
+- (DONE) Make final marks include 20 points for using a CollectionView instead of a TableView.
+
 ## Quiz Notes
 
 A collection of notes about changes to make to any quiz questions for next year.
