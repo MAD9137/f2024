@@ -30,6 +30,7 @@ A collection of notes about changes to be made to the deliverables for next year
 
 ### Final
 - (DONE) Make final marks include 20 points for using a CollectionView instead of a TableView.
+- Make the create request use POST and rewrite the server to use POST
 
 ## Quiz Notes
 
@@ -42,9 +43,10 @@ A collection of notes about changes to make to the graded discussions for next y
 ## Content Notes
 
 A collection of notes about changes to make to the curriculum for next year.
-- Move lesson from Week 6 to Week 5 about Copying Files into Project
-- In Week 5 or 6 add a lesson on using a Tab Bar Controller
-- Week 10 is missing the lesson on adding constraints in code
+- Move lesson from Week 6 to Week 5 about Copying Files into Project.
+- In Week 5 or 6 add a lesson on using a Tab Bar Controller.
+- Week 10 is missing the lesson on adding constraints in code.
+- Add URLRequest example for sending with GET and POST.
 
 ## Classroom Notes
 
