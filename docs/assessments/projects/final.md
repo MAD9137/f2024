@@ -60,6 +60,10 @@ You need to add the data from the textField, textView, datePickers and the latit
 
 If your URLRequest successfully adds a new location to the database, your callback method should tell the NavigationController to popToRootViewController.
 
+:::tip NOTE
+You must convert the date objets into a date-string with the exact format like this **"2020-12-24 11:11"**.
+:::
+
 ### The InfoViewController
 
 This viewController needs a dictionary object to hold the selected object’s **title** and **id**. It will then run a URLRequest to read all of the location’s information, using the location’s id in your query. The URI for getting a single location's information is **https://lenczes.edumedia.ca/mad9137/final_api/passport/read/?id=** where you add the id number at the end of the URI.  Once loaded, a textView will display the following information for the selected location: title, description, latitude, longitude, arrival, and departure.
