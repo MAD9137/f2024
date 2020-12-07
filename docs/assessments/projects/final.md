@@ -1,22 +1,22 @@
 # Final Project - Passport Application
 
 ## Objective
-For your final project, you will be making a “passport” application in iOS using Swift.  The purpose of this application is to allow a user to geotag locations that they are currently visiting.  The user will define the location’s title, their arrival and departure dates, and a description of their trip.  This application will store all of the location’s information (including the geotag) on a server, which you will access using the Final_API found here [https://lenczes.edumedia.ca/mad9137/final_api/](https://lenczes.edumedia.ca/mad9137/final_api/).
+For your final project, you will be making a “passport” application in iOS using Swift.  The purpose of this application is to allow a user to geo-tag locations that they are currently visiting.  The user will define the location’s title, their arrival and departure dates, and a description of their trip.  This application will store all of the location’s information (including the geo-tag) on a server, which you will access using the Final_API found here [https://lenczes.edumedia.ca/mad9137/final_api/](https://lenczes.edumedia.ca/mad9137/final_api/).
 
 :::warning NOTE
-All of your URLRequests must have a modified header field add that contain a value of your user username from your school email (eg. lenc0001) for the key "my-authentication".  The value string must **not** have the @algonquinlive.com, and will be plain text (no conversion done to the value string).
+All of your URLRequests must add a modified header field that contains a value of your user username from your school email (eg. lenc0001) for the key "my-authentication".  The value string must **not** have the @algonquinlive.com, and will be plain text (no conversion done to the value string).
 :::
 
 ## Overview
-When the user launches this application they will see the SplashViewController that will display the name of the application for a small amount of time, and then transition to the main view of the application; a TableView.  The PassportTableViewController will have a NavigationController embedded in it with a title that shows "Passport", and will have a button in it labeled "Add".  
+When the user launches this application, they will see the SplashViewController that will display the name of the application for a small amount of time, and then transition to the main view of the application: a TableView.  The PassportTableViewController will have a NavigationController embedded in it with a title that shows "Passport", and will have a button in it labeled "Add".  
 
-Each cell of the TableView vill display one of the names of a location retrieved from the server.  Tapping on a cell will transition the user to the InfoViewController that will query the server to retrieve the full details of the selected location, and display that information in a textView.
+Each cell of the TableView will display one of the names of a location retrieved from the server.  Tapping on a cell will transition the user to the InfoViewController that will query the server to retrieve the full details of the selected location, and display that information in a textView.
 
 Clicking the Add button within the TableView will transition the application to the AddViewController.  This view will display a textField, textView and two datePicker objects.
 
 This view will also have a button added to the right side of the NavigationController labeled "Save".  This button will send the information the user has input, as well as the geo-location of the device to the server before unwinding the segue back to the TableView **only if** a title has been entered.
 
-When the application first displays, and when it returns to the PassportTableViewController it will automatically connect to the server to retrieve the full list of locations, and display them.
+When the application first displays, and when it returns to the PassportTableViewController, it will automatically connect to the server to retrieve the full list of locations, and display them.
 
 An example of the application's layout that will incorporate four views and a navigation controller can be seen below.
 
@@ -25,13 +25,13 @@ An example of the application's layout that will incorporate four views and a na
 ## Application Details
 
 ### The SplashViewController
-When the application launches it will initially display a splash screen (a view called SplashViewController) announcing the title of the application. This viewController will start a timer that counts to 3 seconds, and then will transition to a tableView (called PassportTableViewController) through the navigationController.
+When the application launches, it will initially display a splash screen (a view called SplashViewController) announcing the title of the application. This viewController will start a timer that counts to 3 seconds, and then will transition to a tableView (called PassportTableViewController) through the navigationController.
 
 ### The PassportTableViewController
 
-As mentioned, the navigationController will be embedded in the PassportTableViewController. There will be a navigationItem added to the top of the tableView, and a barButtonItem added to the right side of the navigationItem named “Add”.
+As mentioned, the navigationController will be embedded in the PassportTableViewController. There will be a navigationItem at the top of the tableView, and you will add a barButtonItem to the right side of the navigationItem and label it “Add”.
 
-The tableView’s viewWillAppear(_ animated:Bool) method will use a URLRequest to load the JSON information for the “passport” locations stored in the RESTful API server https://lenczes.edumedia.ca/mad9137/final_api/passport/read/. This URLRequest returns json containing all of the “title” and “id” information for each location. It will store the JSON information in an appropriate object. Each cell in your tableView will display the title of a location stored in the passport application (i.e. on the server).
+The `tableView’s viewWillAppear(_ animated:Bool)` method will use a URLRequest to load the JSON information for the “passport” locations stored in the RESTful API server **https://lenczes.edumedia.ca/mad9137/final_api/passport/read/**. This URLRequest returns a JSON string containing all of the **title** and **id** values for each location added to your application.  You will need to store the JSON information in an appropriate object. Each cell in your tableView will display the title of a location stored in your object.
 
 :::warning NOTE
 You will need to analyze the server JSON data to determine the correct object type.
@@ -39,20 +39,20 @@ You will need to analyze the server JSON data to determine the correct object ty
 
 The PassportTableViewController will be connected to two more viewControllers via segues: the first segue will be triggered when the user clicks the “Add” button; the second segue will be triggered when the user clicks on a tableViewCell (connected from the prototype cell to the view).
 
-When the user clicks on a cell in the PassportTableViewController, it will segue to the InfoViewController, passing the JSON dictionary object for the specific id (corresponding to the location title displayed in the cell) within the prepare(for segue, sender) method.
+When the user clicks on a cell in the PassportTableViewController, it will segue to the InfoViewController, passing the JSON dictionary object for the specific location id (corresponding to the location title displayed in the cell) within the prepare(for segue, sender) method.
 
 When the user selects the “Add” button from the PassportTableView, it will segue to the AddViewController.
 
-You will have to override the function tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) to allow the user to delete a location out of the table. Within this method, you will need to make a separate URLRequest to the following URL https://lenczes.edumedia.ca/mad9137/final_api/passport/delete/?id=, passing the location’s id to the end of the delete query.
+You will have to override the function `tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath)` to allow the user to delete a location out of the table. Within this method, you will need to make a separate URLRequest to the following URI **https://lenczes.edumedia.ca/mad9137/final_api/passport/delete/?id=**, concatenating the location’s id to the end of the delete query.
 
 :::tip NOTE
-The id comes from your JSON data, and not from the indexPath of your tableViewCell.
+The id value that you will concatenate to the end of the URL comes from the **id** value of your JSON data, and not from the indexPath of your tableViewCell.
 :::
 
 ### The AddViewController
 This viewController will need a textField for the title, a textView for the description, and two datePickers for arrival and departure dates. Clicking on the background of this view will hide the keyboard. There will be a navigationItem added to the top of this view, with a barButtonItem called “Save” on the right-hand side.
 
-This button will be connected to an action. This action will only run if there is text entered in to the textField. When this action runs, you will create a dictionary to hold values for the following keys: title, id, description, latitude, longitude, arrival, and departure. You will use CoreLocation to get your current location’s latitude and longitude. You will then make a URLRequest to the following URL https://lenczes.edumedia.ca/mad9137/final_api/passport/create/?data=, adding your JSON string after the equals sign.
+This button will be connected to an action. This action will only run if there is text entered in to the textField. When this action runs, you will create a dictionary to hold values for the following keys: **title**, **id**, **description**, **latitude**, **longitude**, **arrival**, and **departure**. You will use CoreLocation to get your current location’s latitude and longitude. After converting your dictionary into a string of JSON data, you will then make a URLRequest to the following URI **https://lenczes.edumedia.ca/mad9137/final_api/passport/create/?data=**, adding your JSON string after the equals sign.
 
 :::tip NOTE
 You need to add the data from the textField, textView, datePickers and the latitude and longitude into a Swift dictionary, convert it to a Data object and then convert that to a JSON string.
@@ -62,7 +62,11 @@ If your URLRequest successfully adds a new location to the database, your callba
 
 ### The InfoViewController
 
-This viewController needs a dictionary object to hold the selected object’s title and id. It will then run a URLRequest to read all of the location’s information, using the location’s id in your query. The URI for getting a single locations information is https://lenczes.edumedia.ca/mad9137/final_api/passport/read/?id= where you add the id number at the end of the url.  Once loaded, a textView will display the following information for the selected location: title, description, latitude, longitude, arrival, and departure.
+This viewController needs a dictionary object to hold the selected object’s **title** and **id**. It will then run a URLRequest to read all of the location’s information, using the location’s id in your query. The URI for getting a single location's information is **https://lenczes.edumedia.ca/mad9137/final_api/passport/read/?id=** where you add the id number at the end of the URI.  Once loaded, a textView will display the following information for the selected location: title, description, latitude, longitude, arrival, and departure.
+
+:::tip NOTE
+The exact spelling of the keys used in this server API are **title**, **id**, **description**, **latitude**, **longitude**, **arrival**, and **departure**.  Your requests will fail if these are not spelled correctly (and are case sensitive).
+:::
 
 ## Marks Rubric
 
