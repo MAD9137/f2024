@@ -27,16 +27,16 @@ By the end of this week, students will:
 
 - Modifying CollectionViews
     - [Highlighting and Deleting a CollectionView Cell](./delete-collection-cells.md)
+- Using different types of segues
+    - [Different Types of Segues](./segue-types.md)
+- Alerting the user
+    - [AlertController Pop-Ups](./alert-controller.md)
 - Locations and Maps
     <!-- - [Get the Devices Current Location](./current-location.md) -->
     - [Using CoreLocation Manager](./core-location-manager.md)
-    - [Embedding a Map with MapKit](./embedding-mapkit.md)
-- Alerting the user
-    - [AlertController Pop-Ups](./alert-controller.md)
+    <!-- - [Embedding a Map with MapKit](./embedding-mapkit.md) -->
 - Using UserDefaults to persist application and user data
     - [Persistent Data with UserDefaults](./persistent-data.md)
-- Using different types of segues
-    - [Different Types of Segues](./segue-types.md)
 
 ## Following Class
 
