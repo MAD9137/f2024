@@ -12,6 +12,6 @@ This example also disables the clear button when there is no UserDefault value s
 
 ![Persistent Data with UserDefaults](/F2020/assets/img/UserDefaults_2.png)
 
-The example from this lesson can be [download here](/mad9137/assets/downloads/UserDefaults.zip).
+The example from this lesson can be [download here](/F2020/assets/downloads/UserDefaults.zip).
 
-A more complex example of saving a string and an image to UserDefaults can be [download here](/mad9137/assets/downloads/UserDefaultsWithImage.zip).
+A more complex example of saving a string and an image to UserDefaults can be [download here](/F2020/assets/downloads/UserDefaultsWithImage.zip).
