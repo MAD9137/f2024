@@ -28,9 +28,9 @@ By the end of this week, students will:
 - Modifying CollectionViews
     - [Highlighting and Deleting a CollectionView Cell](./delete-collection-cells.md)
 - Locations and Maps
-    - [Embedding a Map with MapKit](./embedding-mapkit.md)
-    - [Get the Devices Current Location](./current-location.md)
+    <!-- - [Get the Devices Current Location](./current-location.md) -->
     - [Using CoreLocation Manager](./core-location-manager.md)
+    - [Embedding a Map with MapKit](./embedding-mapkit.md)
 - Alerting the user
     - [AlertController Pop-Ups](./alert-controller.md)
 - Using UserDefaults to persist application and user data
