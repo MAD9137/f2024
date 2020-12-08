@@ -19,8 +19,11 @@ Additional steps when using the simulator to test:
 First you must add some settings (keys with values) to the Info.plist in your project.  These settings will be used to request permission for your application to access the devices location from the user.  The following keys can be used to request permission from the user, and the values you add for these keys will be the message that the user is asked.
 
 Privacy - Location Usage Description
+
 Privacy - Location Always Usage Description
+
 Privacy - Location When In Use Usage Description
+
 Privacy - Location Always and When In Use Usage Description
 
 :::tip NOTE

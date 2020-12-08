@@ -1,12 +1,9 @@
 # AlertController pop-ups
 
 ## Overview
-
 In iOS, if you would like a simple message to pop-up on the screen you can use the UIAlertController class.  The message is displayed in a small window with a button to close it.  The AlertController is not the type of UI object that you can added to your storyboard in the interface builder - it must be created and presented in code.
-
  
 ## Basic Alert
-
 In this example, an IBAction is connected to a regular button in the view that the user can click on to make the alert pop-up. The code that is needed to create and display the alert would look like this:
 
 ```swift
