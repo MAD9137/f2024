@@ -59,7 +59,7 @@ var myLocationManager = CLLocationManager()
 ```
 
 ## Set Delegate and Request Authorization
-This object contains the methods needed to request authorization from the user to access the location and request the current location.  You will most often request authorization in the viewDidLoad method of your viewController class.  But before you can do this, you must set it's delegate equal to the viewController you are coding in like so:
+This object contains the methods needed to request authorization from the user to access the location and request the current location.  You will most often request authorization in the `viewDidLoad()` method of your viewController class.  But before you can do this, you must set it's delegate equal to the viewController you are coding in like so:
 
 ```swift
 // Set the locationManager delegate

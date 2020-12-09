@@ -58,24 +58,21 @@ func alertCloseAction( a: UIAlertAction) {
 You can add more than one button to an alert, each one having their own closing action.  The following code adds multiple buttons to the alert each with their own closing function:
 
 ```swift
-// AlertController with many buttons letting the user select different actions
-@IBAction func alertWithOptionsButton(_ sender: Any) {
-    // Create a new UIAlertController object with a custom title and message
-    let myOptionsAlert:UIAlertController = UIAlertController(title: "Alert with options", message: "This is an alert with multiple buttons that perform different actions.", preferredStyle: UIAlertController.Style.alert)
-    
-    // Create a 'Accept' Button to close the alert that calls an action function when triggered
-    let acceptAction:UIAlertAction = UIAlertAction(title: "Accept", style: UIAlertAction.Style.default, handler: alertAcceptAction)
-    
-    // Create a 'Cancel' Button to close the alert that calls an action function when triggered
-    let cancelAction:UIAlertAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: alertCancelAction)
-    
-    // Add the Buttons to the Alert
-    myOptionsAlert.addAction(acceptAction)
-    myOptionsAlert.addAction(cancelAction)
-    
-    // Add the Alert to the view that calls a clompletion functionwhen the Alert is first opened
-    self.present(myOptionsAlert, animated: true, completion: nil)
-}
+// Create a new UIAlertController object with a custom title and message
+let myOptionsAlert:UIAlertController = UIAlertController(title: "Alert with options", message: "This is an alert with multiple buttons that perform different actions.", preferredStyle: UIAlertController.Style.alert)
+
+// Create a 'Accept' Button to close the alert that calls an action function when triggered
+let acceptAction:UIAlertAction = UIAlertAction(title: "Accept", style: UIAlertAction.Style.default, handler: alertAcceptAction)
+
+// Create a 'Cancel' Button to close the alert that calls an action function when triggered
+let cancelAction:UIAlertAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: alertCancelAction)
+
+// Add the Buttons to the Alert
+myOptionsAlert.addAction(acceptAction)
+myOptionsAlert.addAction(cancelAction)
+
+// Add the Alert to the view that calls a clompletion functionwhen the Alert is first opened
+self.present(myOptionsAlert, animated: true, completion: nil)
 ```
 
 And here are the actions for the buttons added to the AlertController in this example:

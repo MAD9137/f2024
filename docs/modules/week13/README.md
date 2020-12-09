@@ -34,7 +34,7 @@ By the end of this week, students will:
 - Locations and Maps
     <!-- - [Get the Devices Current Location](./current-location.md) -->
     - [Using CoreLocation Manager](./core-location-manager.md)
-    <!-- - [Embedding a Map with MapKit](./embedding-mapkit.md) -->
+    - [Embedding a Map with MapKit](./embedding-mapkit.md)
 - Using UserDefaults to persist application and user data
     - [Persistent Data with UserDefaults](./persistent-data.md)
 
