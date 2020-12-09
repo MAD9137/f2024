@@ -64,7 +64,7 @@ Then, to make the timer start, you will need to schedule it to run in the curren
 
 ```swift
 // Add the timer to the current run-loop, and set it to run in the default run mode
-RunLoop.current.add(timer!, forMode: .defaultRunLoopMode)
+RunLoop.current.add(timer!, forMode: RunLoop.Mode.default)
 ```
 
 The last bit of code needed to make this example work is the selector function, which would look like this:
