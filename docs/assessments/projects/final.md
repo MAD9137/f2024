@@ -52,7 +52,9 @@ The id value that you will concatenate to the end of the URL comes from the **id
 ### The AddViewController
 This viewController will need a textField for the title, a textView for the description, and two datePickers for arrival and departure dates. Clicking on the background of this view will hide the keyboard. There will be a navigationItem added to the top of this view, with a barButtonItem called “Save” on the right-hand side.
 
-This button will be connected to an action. This action will only run if there is text entered in to the textField. When this action runs, you will create a dictionary to hold values for the following keys: **title**, **id**, **description**, **latitude**, **longitude**, **arrival**, and **departure**. You will use CoreLocation to get your current location’s latitude and longitude. After converting your dictionary into a string of JSON data, you will then make a URLRequest to the following URI **https://lenczes.edumedia.ca/mad9137/final_api/passport/create/?data=**, adding your JSON string after the equals sign.
+This button will be connected to an action. This action will only run if there is text entered in to the textField. When this action runs, you will create a dictionary to hold values for the following keys: **title**, **description**, **latitude**, **longitude**, **arrival**, and **departure**. Your requests will fail if these are not spelled correctly (and are case sensitive).
+
+You will use CoreLocation to get your current location’s latitude and longitude. After converting your dictionary into a string of JSON data, you will then make a URLRequest to the following URI **https://lenczes.edumedia.ca/mad9137/final_api/passport/create/?data=**, adding your JSON string after the equals sign.
 
 :::tip NOTE
 You need to add the data from the textField, textView, datePickers and the latitude and longitude into a Swift dictionary, convert it to a Data object and then convert that to a JSON string.
@@ -69,7 +71,7 @@ You must convert the date objets into a date-string with the exact format like t
 This viewController needs a dictionary object to hold the selected object’s **title** and **id**. It will then run a URLRequest to read all of the location’s information, using the location’s id in your query. The URI for getting a single location's information is **https://lenczes.edumedia.ca/mad9137/final_api/passport/read/?id=** where you add the id number at the end of the URI.  Once loaded, a textView will display the following information for the selected location: title, description, latitude, longitude, arrival, and departure.
 
 :::tip NOTE
-The exact spelling of the keys used in this server API are **title**, **id**, **description**, **latitude**, **longitude**, **arrival**, and **departure**.  Your requests will fail if these are not spelled correctly (and are case sensitive).
+The exact spelling of the keys returned from this server API call are **title**, **id**, **description**, **latitude**, **longitude**, **arrival**, and **departure**.  You will need to to use exact spelling to access these values from your dictionary after converting the JSON data received from the server.
 :::
 
 ## Marks Rubric
