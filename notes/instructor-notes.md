@@ -9,6 +9,7 @@ A collection of notes about changes to be made to the deliverables for next year
 ### Assignment 1 
 - Make Title and Description non-optional (ie they are required and thus the base init method takes these 2 parameters)
 - Add makes for Event base init method!!?
+- textViewOutput should be set to same name
 
 ### Midterm
 - Add requirements and marks for making EventInfo view textView uneditable.
@@ -46,7 +47,14 @@ A collection of notes about changes to make to the curriculum for next year.
 - Move lesson from Week 6 to Week 5 about Copying Files into Project.
 - In Week 5 or 6 add a lesson on using a Tab Bar Controller.
 - Week 10 is missing the lesson on adding constraints in code.
-- Add URLRequest example for sending with GET and POST.
+- *Add URLRequest example for sending with GET and POST.
+- Add Optional chaining info to optional notes
+- Move alertControllers earlier
+- week3 Add more description&examples to Closures
+- week3 Add Extension description&examples to Class lesson (as seen in Swift with Simon)
+- week4 Adding second view lesson put Tip of open library icon above image??
+- Make lesson on adding an icon to app, all sizes + 1024x1024 App Store icon
+
 
 ## Classroom Notes
 

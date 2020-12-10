@@ -82,7 +82,7 @@ You will also include some code that gives the user the ability to delete cells,
 
 The **ScheduleTableViewController** class will need to inherit from your new **EventPassingDelegate** protocol, and will set itself to be the delegate of the NewEventViewController class when it prepares to segue to the second view.  
 
-The **ScheduleTableViewController** class will also need to declare the event passing delegate function as defined in your protocol that passes the Event parameter to the Schedule,s `addNewEvent` function. This delegate function must also update the tableView after a new event is added by calling the main tableView’s `reloadData()` method.
+The **ScheduleTableViewController** class will also need to declare the event passing delegate function as defined in your protocol that passes the Event parameter to the Schedule's `addNewEvent` function. This delegate function must also update the tableView after a new event is added by calling the main tableView’s `reloadData()` method.
 
 The **NewEventViewController** will need a variable called **delegate** that is an optional **EventPassingDelegate** type.  Once an Event object is successfully created in this view, it will be passed back to the delegate's function to be be passed back to the first view before unwinding the segue. 
 
