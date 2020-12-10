@@ -20,7 +20,9 @@ By the end of this week, students will:
 
 ## During Class
 
-- Continue working on [Final Project](/assessments/projects/final.md) 
+- Advanced URL Requests
+    - [URLRequest Sending Data With POST](./post-url-request.md)
+- Continue working on [Final Project](/assessments/projects/final.md)
 
 ## Following Class
 
