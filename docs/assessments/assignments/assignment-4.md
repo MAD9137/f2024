@@ -92,7 +92,7 @@ You will need to use the DispatchQueue.main.async {} in a callback function to u
 - Use optional binding to get the jsonData object if it exists, and get the current dictionary by using the indexPath.row **(3pt)**
 - Set each tableViewCell's textLabel with the 'eventTitle' and 'eventDate' values in the current json dictionary from the jsonData array **(2pt)**
 
-### Quality Control (5pt)
+### Quality Control (30pt)
 - Use a CollectionViewController with a custom CollectionViewCell with proper constraints **instead of** a TableViewController **(15pt)**
 - Code is clear and well-commented **(10pt)**
 - Application runs without errors **(5pt)**

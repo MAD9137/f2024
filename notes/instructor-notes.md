@@ -29,6 +29,9 @@ A collection of notes about changes to be made to the deliverables for next year
 - Layout the GUI section needs marks for outlets for navItems for 3 page titles, but no more do you need to add navItems to top of viewControllers (worth 2 pts)
 -- Add info about using navBar.leftBarButtonItem.title and navBar.rightBarButtonItem.title to set button text
 
+### Assignment 4
+- remove double marks for creating a button action.
+
 ### Final
 - (DONE) Make final marks include 20 points for using a CollectionView instead of a TableView.
 - Make the create request use POST and rewrite the server to use POST
