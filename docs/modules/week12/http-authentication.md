@@ -17,49 +17,54 @@ This example is **very** basic, and only shows how to add content to the URLRequ
 The following code is an example of making, and sending, a simple request to a server; similar to what you have seen in previous lessons.
 
 ```swift
-// Create the URLSession object that will be used to make the requests
-let mySession: URLSession = URLSession.shared
-
 // Create a url set to the desired server address
-let myUrl: URL = URL(string: "https://lenczes.edumedia.ca/mad9137/httpAuthentication/authRespond.php")!
+if let myUrl: URL = URL(string: "https://lenczes.edumedia.ca/mad9137/httpAuthentication/authRespond.php") {
 
-// Create the request object passing it the url object
-var myURLRequest: URLRequest = URLRequest(url: myUrl)
- 
-// Create a task from the session by passing in your request, and the callback handler
-let myTask = mySession.dataTask(with: myURLRequest, completionHandler: requestTask )
+    // Create the request object passing it the url object
+    var myURLRequest: URLRequest = URLRequest(url: myUrl)
+    
+    // Create the URLSession object that will be used to make the requests
+    let mySession: URLSession = URLSession.shared
+
+    // Create a task from the session by passing in your request, and the callback handler
+    let myTask = mySession.dataTask(with: myURLRequest, completionHandler: requestTask )
 
 // Tell the task to run
 myTask.resume()
+}
 ```
 
 This pattern of code showed how to request a resource from some URL without authentication.  But in this case, this server script will return an error message due to the missing information i the URLRequest' header.  So, it is here in this code you need to add the custom information into the header to the URLRequest object.  The block of code below shows where, and how, to add a custom field into the header of the URLRequest object.
 
 ```swift
-// Create the URLSession object that will be used to make the requests
-let mySession: URLSession = URLSession.shared 
-
 // Create a url set to the desired server address 
-let myUrl: URL = URL(string: "https://lenczes.edumedia.ca/mad9137/httpAuthentication/authRespond.php")! 
+if let myUrl: URL = URL(string: "https://lenczes.edumedia.ca/mad9137/httpAuthentication/authRespond.php") {
 
-// Create the request object passing it the url object 
-var myURLRequest: URLRequest = URLRequest(url: myUrl) 
+    // Create the request object passing it the url object 
+    var myURLRequest: URLRequest = URLRequest(url: myUrl) 
 
-// Create authentication credentials as a string converted to utf8 encoded data 
-let authString = "seb:myPassword" 
-let utf8String = authString.data(using: String.Encoding.utf8) 
+    // Create authentication credentials as a string converted to utf8 encoded data 
+    let authString = "seb:myPassword" 
+    
+    if let utf8String = authString.data(using: String.Encoding.utf8) {
+        
+        // Convert the unicode data to base 64 bit encoded string
+        let base64String = utf8String.base64EncodedString(options: .init(rawValue: 0))
+        
+        // Add the header key "Authorization" with the value of "Basic:" added before our converted data
+        myURLRequest.addValue("Basic_" +  base64String, forHTTPHeaderField: "my-authentication")
 
-// Convert the unicode data to base 64 bit encoded string 
-if let base64String = utf8String?.base64EncodedString(options: .init(rawValue: 0)) { 
-    // Add the header key "my-authentication" with the value of "Basic_" added before our converted data 
-    myURLRequest.addValue("Basic_" +  base64String, forHTTPHeaderField: "my-authentication") 
-} 
+    }
 
-// Create a task from the session by passing in your request, and the callback handler 
-let myTask = mySession.dataTask(with: myURLRequest, completionHandler: requestTask ) 
+    // Create the URLSession object that will be used to make the requests
+    let mySession: URLSession = URLSession.shared 
 
-// Tell the task to run 
-myTask.resume() 
+    // Create a task from the session by passing in your request, and the callback handler 
+    let myTask = mySession.dataTask(with: myURLRequest, completionHandler: requestTask ) 
+
+    // Tell the task to run 
+    myTask.resume() 
+}
 ```
 
 Any text can be used for the field name and the value; it is the server developer's choice of what header field names and values to check for.  Your application must send the URLRequest with the required header field and value added to it in order for the server to send the correct response data back to your code.
