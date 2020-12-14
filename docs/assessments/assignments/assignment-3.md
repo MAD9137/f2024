@@ -133,17 +133,17 @@ The last part of the marks come from making unique content for this application.
 ### Layout the GUI (18pt)
 * add a TextView to each view **(3pt)**
 * add a Nav Item to the top of the 2nd and 3rd view **(2pt)**
-* add 2 Bar Button Items to the Nav Bar in the 1st and 2nd view, and 1 to the upper left of the Nav Bar in the 3rd view **(5pt)**
-* add outlets and actions to the 2 Bar Buttons, and an outlet for the text-view in the 1st viewController **(3pt)**
-* add outlets and actions to the 2 Bar Buttons, and an outlet for the text-view in the 2nd viewController **(3pt)**
-* add an action to the Bar Button, and an outlet to the textView in the 3rd viewController **(2pt)**
+* add 2 barButtonItem to the navigationController in the 1st and 2nd view, and 1 to the upper left of the navigationControllers in the 3rd view **(5pt)**
+* add outlets and actions to the 2 barButtonItem, and an outlet for the textView in the 1st viewController **(3pt)**
+* add outlets and actions to the 2 barButtonItem, and an outlet for the textView in the 2nd viewController **(3pt)**
+* add an action to the barButtonItem, and an outlet to the textView in the 3rd viewController **(2pt)**
 
 ### Update each view’s GUI in the **viewWillAppear** function for that view (10pt)
 * display the current pageNumber value in the navItem’s title for each view **(3pt)**
 * display the pageText in the textView for each view **(3pt)**
 * display the pageNumber for the pageChoiceA and pageChoiceB in the barButtonItem’s title text **(4pt)**
 
-### Pass the Appropriate Page Object to the Next View(12pt)
+### Pass the Appropriate Page Object to the Next View (12pt)
 * call the appropriate segue, and pass a ‘sender’ value indicating which button was pressed within the **performSegue** function in each button action **(8pt)**
 * check the 'sender' value you pass to check which button was pressed, and pass the correct Page object to the next view within the `prepare(for Segue, sender)` function in the 1st and 2nd view **(4pt)**
 
