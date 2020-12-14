@@ -59,7 +59,7 @@ The following diagram shows a visual representation of how the page objects will
 
 ![Assignment 3](/F2020/assets/img/A3_03_pageobjects.png)
 
-Start in your viewController.swift file and make 8 Page objects in your viewController class. Called the first 7 ‘page1’ to ‘page7’, initialized like this `var page1: Page? = Page()`. Call the 8th object ‘currentPage’ and initialize it the same way as the other 7.
+Start in your viewController.swift file and make 8 Page objects in your viewController class. Called the first 7 ‘page1’ to ‘page7’, initialized like this `var page1: Page? = Page()`. Call the 8th object ‘currentPage’ and leave it uninitialize for now.
 
 Next, in your viewDidLoad function you will need to set the values of the 7 page objects like `page1?.pageNumber = 1` and `page1?.pageText = “the text on the first page of the story”`. This will be repeated for all seven pages.
 
@@ -133,9 +133,9 @@ The last part of the marks come from making unique content for this application.
 ### Layout the GUI (18pt)
 * add a TextView to each view **(3pt)**
 * add a Nav Item to the top of the 2nd and 3rd view **(2pt)**
-* add 2 barButtonItem to the navigationController in the 1st and 2nd view, and 1 to the upper left of the navigationControllers in the 3rd view **(5pt)**
-* add outlets and actions to the 2 barButtonItem, and an outlet for the textView in the 1st viewController **(3pt)**
-* add outlets and actions to the 2 barButtonItem, and an outlet for the textView in the 2nd viewController **(3pt)**
+* add 2 barButtonItems to the navigationController in the 1st and 2nd view, and 1 to the upper left of the navigationControllers in the 3rd view **(5pt)**
+* add outlets and actions to the 2 barButtonItems, and an outlet for the textView in the 1st viewController **(3pt)**
+* add outlets and actions to the 2 barButtonItems, and an outlet for the textView in the 2nd viewController **(3pt)**
 * add an action to the barButtonItem, and an outlet to the textView in the 3rd viewController **(2pt)**
 
 ### Update each view’s GUI in the **viewWillAppear** function for that view (10pt)
