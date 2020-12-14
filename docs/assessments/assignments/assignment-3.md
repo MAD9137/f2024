@@ -128,7 +128,7 @@ The last part of the marks come from making unique content for this application.
 
 ### Add navigation controller to first view, and connect the views with segue (5pt)
 * adding Nav Controller on to first view **(1pt)**
-* connect the three views with 2 ‘push’ type segues, and give the segues identifier names **(4pt)**
+* connect the three views with 2 ‘Show’ type segues, and give the segues identifier names **(4pt)**
 
 ### Layout the GUI (18pt)
 * add a TextView to each view **(3pt)**
