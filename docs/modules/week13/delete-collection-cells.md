@@ -38,8 +38,9 @@ The cell's background colour will need to be changed to the selected colour when
 
 ```swift
 override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-    let selectedCell = collectionView.cellForItem(at: indexPath)
-    selectedCell!.contentView.backgroundColor = selectedCellColour
+    if let selectedCell = collectionView.cellForItem(at: indexPath) {
+        selectedCell.contentView.backgroundColor = selectedCellColour
+    }
 }
 ```
 
@@ -47,8 +48,9 @@ There is also a function you can use to change the colour back to the unselected
 
 ```swift
 override func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
-    let selectedCell = collectionView.cellForItem(at: indexPath)
-    selectedCell!.contentView.backgroundColor = cellColour
+    if let selectedCell = collectionView.cellForItem(at: indexPath) {
+        selectedCell.contentView.backgroundColor = cellColour
+    }
 }
 ```
 

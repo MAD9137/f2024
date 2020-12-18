@@ -77,7 +77,7 @@ You will need to use the DispatchQueue.main.async {} in a callback function to u
 
 ### Callback function: (12pt)
 - Output the error if it's not nil using the print method **(1pt)**
-- If there is no error, print the json data **(1pt)**
+- If there is no error, print the json information to the console **(1pt)**
 - Convert json string to data **(2pt)**
 - Attempt to convert the data to a json object stored in the jsonData object **(3pt)**
 - Catch and print out any errors in jsonData conversion **(2pt)**
