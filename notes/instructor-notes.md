@@ -38,6 +38,8 @@ A collection of notes about changes to be made to the deliverables for next year
 ### Final
 - (DONE) Make final marks include 20 points for using a CollectionView instead of a TableView.
 - Make the create request use POST and rewrite the server to use POST
+- Add points in layout for label on splash screen
+- AddView needs marks for up-to-date process for getting location with all extra steps
 
 ## Quiz Notes
 
