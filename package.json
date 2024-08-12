@@ -1,0 +1,15 @@
+{
+  "name": "content",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AlgonquinCollegeMAD/MAD9137.git",
+  "author": "“Vladimir <vladimircezar@icloud.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  },
+  "scripts": {
+    "docs:dev": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
+    "docs:build": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
+  }
+}
