@@ -1,14 +1,72 @@
-# 📱 MAD9137 - iOS App Development
+# 🚀 MAD9137 - iOS App Development
 
-Students use the Swift language within the standard macOS development environment to create native applications for the iPhone and iPad. Working together in teams, students build and test applications. User interface requirements and building for a better user experience is stressed.
+Students use the Swift language within the *standard macOS development environment* to create native applications for the iPhone and iPad. Working solo and together in teams, students will build and test applications. User interface requirements and building for a better user experience will be stressed.
+
+## Content
+
+<mermaid>
+gantt
+    title September
+    dateFormat  YYYY-MM-DD
+    axisFormat  %d
+    Course introduction            :active, 2024-09-03, 1d
+    Swift Basics                   :active, 2024-09-06, 1d
+    Strings and Collections        :active, 2024-09-10, 1d
+    Flow control and Loops         :active, 2024-09-13, 1d
+    Optionals                      :active, 2024-09-17, 1d
+    Functions and Closures         :active, 2024-09-20, 1d
+    Classes and Structs            :active, 2024-09-24, 1d
+    Enums and Generics             :active, 2024-09-27, 1d
+</mermaid>
+
+<mermaid>
+gantt
+    title October
+    dateFormat  YYYY-MM-DD
+    axisFormat  %d
+    Git refresh                    :active, 2024-10-01, 1d
+    SwiftUI Basics                 :active, 2024-10-04, 1d
+    Views, Modifiers and more      :active, 2024-10-08, 1d
+    Stacks and Frames              :active, 2024-10-11, 1d
+    SwiftUI Controls I             :active, 2024-10-15, 1d
+    SwiftUI Controls II            :active, 2024-10-18, 1d
+    Reading week - No class        :crit, 2024-10-22, 3d
+</mermaid>
+
+<mermaid>
+gantt
+    title November
+    dateFormat  YYYY-MM-DD
+    axisFormat  %d
+    Callback strategies            :active, 2024-10-29, 1d
+    Async Await and API call       :active, 2024-11-01, 1d
+    Rest API                       :active, 2024-11-05, 1d
+    Data Binding                   :active, 2024-11-08, 1d
+    MapKit                         :active, 2024-11-12, 1d
+    Core Location                  :active, 2024-11-15, 1d
+    Animation                      :active, 2024-11-19, 1d
+    MVVM                           :active, 2024-11-22, 1d
+    Firebase Auth                  :active, 2024-11-25, 1d
+</mermaid>
+
+<mermaid>
+gantt
+    title December
+    dateFormat  YYYY-MM-DD
+    axisFormat  %d
+    Firebase Storage               :active, 2024-12-03, 1d
+    Localization and Testing       :active, 2024-12-06, 1d
+    Q&A                            :active, 2024-12-10, 1d
+    Final remarks                  :active, 2024-12-13, 1d
+</mermaid>
 
 ## Slack Channel
 
 Slack is a communication tool used by developers all over the world to stay in touch with their development team.
 
-We will be using Slack to keep all our Faculty, Students, and Program Assistants in communication.
+We will be using Slack to keep all our communication.
 
-[Follow this link to join our group](https://join.slack.com/t/madd2022start/shared_invite/zt-22rdkrqiq-SutC0442~rWOCn2X8_c3Fg)
+[Follow this link to join our group](https://app.slack.com/client/T053NKZ6JDQ/C079E41KHP1)
 
 ## Student workload expectations
 
@@ -17,35 +75,27 @@ We will be using Slack to keep all our Faculty, Students, and Program Assistants
 
 ## Schedule
 
-|  Week                   | Day           |
-|:-----------------------:|:-------------:|
-| Week 1                  | 6, 8 Sep      |
-| Week 2                  | 13, 15 Sep    |
-| Week 3                  | 20, 22 Sep    |
-| Week 4                  | 27, 29 Sep    |
-| Week 5                  | 4, 6 Oct      |
-| Week 6                  | 11, 13 Oct    |
-| Week 7                  | 18, 20 Oct    |
-| Week 8 (Reading Week)   | No classes    |
-| Week 9                  | 1, 3  Nov     |
-| Week 10                 | 8, 10 Nov     |
-| Week 11                 | 15, 17 Nov    |
-| Week 12                 | 22, 24 Nov    |
-| Week 13                 | 29 Nov, 1 Dec |
-| Week 14                 | 6, 8 Dec      |
-| Week 15                 | 13, 15 Dec    |
+| Week   | Day              | Week        | Day          | Week        | Day             |
+|:------:|:----------------:|:-----------:|:------------:|:-----------:|:---------------:|
+| **Week 1** | *3, 6 Sep*   | **Week 8**  | *No classes* | **Week 9**  | *29 Oct, 1 Nov* |
+| **Week 2** | *10, 13 Sep* |             |              | **Week 10** | *5, 8 Nov*      |
+| **Week 3** | *17, 20 Sep* |             |              | **Week 11** | *12, 15 Nov*    |
+| **Week 4** | *24, 27 Sep* |             |              | **Week 12** | *19, 22 Nov*    |
+| **Week 5** | *1, 4 Oct*   |             |              | **Week 13** | *26, 29 Nov*    |
+| **Week 6** | *8, 11 Oct*  |             |              | **Week 14** | *3, 6 Dec*      |
+| **Week 7** | *15, 18 Oct* |             |              | **Week 15** | *10, 13 Dec*    |
 
 ## Class times
 
 ### Session 310z
 
-- Mondays: 4pm
-- Fridays: 1pm
+- Tuesday: 7pm
+- Fridays: 11am
 
 ### Session 300z
 
 - Wednesdays: 7pm
-- Fridays: 3pm
+- Fridays: 5pm
 
 ## Tools
 
@@ -54,24 +104,23 @@ We will be using Slack to keep all our Faculty, Students, and Program Assistants
 
 ## Brightspace
 
-The official course Learning Management System is Brightspace.
+The official course *Learning Management System* is **Brightspace**.
 
-Course communications, quizzes, discussions, deliverable submissions and grading will occur in Brightspace.
+- Quizzes, deliverable submissions and grading will occur in Brightspace.
+- Course communications and discussions will occur both in Brightspace and Slack.
+- Code reviews will occur on GItHub.
 
 ## Late policy
 
-30% initial penalty for submissions that are one day late. Each additional day late will incur a 10% per day penalty.
+- 30% initial penalty for submissions that are late. 
+- Each additional day late will incur a 10% per day penalty.
 
-|Days Late|Penalty|Accumulated Penalty|
-|:-------:|:-----:|:-----------------:|
-| 1       | 30%   | 30%               |
-| 2       | 10%   | 40%               |
-| 3       | 10%   | 50%               |
-| 4       | 10%   | 60%               |
-| 5       | 10%   | 70%               |
-| 6       | 10%   | 80%               |
-| 7       | 10%   | 90%               |
-| 8       | 10%   | 100%              |
+| Days Late    | Penalty|Accumulated Penalty | Days Late | Penalty| Accumulated Penalty  |
+|:------------:|:------:|:------------------:|:---------:|:------:|:--------------------:|
+| **up to 1**  | 30%    | 30%                | **5**     | 10%    | 70%                  |
+| **2**        | 10%    | 40%                | **6**     | 10%    | 80%                  |
+| **3**        | 10%    | 50%                | **7**     | 10%    | 90%                  |
+| **4**        | 10%    | 60%                | **8**     | 10%    | 100%                 |
 
 ## Plagiarism policy
 
@@ -86,7 +135,7 @@ Plagiarism, whether done deliberately or accidentally, is not allowed. The facil
 
 <ContactCard
   name="Vladimir Cezar"
-  img-url="/MAD9137-notes/vladimir-cezar.jpg"
+  img-url="/f2024/vladimir-cezar.jpg"
   bio="Instructor of the Mobile Application Design & Development program at Algonquin College"
   :details="[
       { label: 'email', value: 'cezarv@algonquincollege.com' },
@@ -94,17 +143,7 @@ Plagiarism, whether done deliberately or accidentally, is not allowed. The facil
     ]"
 />
 
-<ContactCard
-  name="Adesh Shah"
-  img-url="/MAD9137-notes/adesh-shah.png"
-  bio="Co-Coordinator & Professor of the Mobile Application Design & Development program at Algonquin College"
-  :details="[
-      { label: 'email', value: 'shaha@algonquincollege.com' },
-      { label: 'github', value: 'shah0150' },
-    ]"
-/>
-
 ::: danger Note
 No office hours  
-Please contact by email and I will endeavour to respond within 24hrs
+Please contact by email and I will endeavour to respond as soon as possible.
 :::

@@ -2,11 +2,14 @@
   "name": "content",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:AlgonquinCollegeMAD/MAD9137.git",
-  "author": "“Vladimir <vladimircezar@icloud.com>",
+  "repository": "git@github.com:MAD9137/f2024.git",
+  "author": "“Vladimir Cezar<vladimircezar@icloud.com>",
   "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^1.9.10"
+  "dependencies": {
+    "@vuepress/shared-utils": "^1.7.1",
+    "mermaid": "^8.8.2",
+    "vue-template-compiler": "2.6.x",
+    "workbox-cli": "^5.1.4"
   },
   "scripts": {
     "docs:dev": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",

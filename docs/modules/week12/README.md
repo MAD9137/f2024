@@ -1,1 +1,4 @@
-# ⭐️ Learning Outcomes
+# 🏆 Learning goals
+
+- Animations
+- MVVM
