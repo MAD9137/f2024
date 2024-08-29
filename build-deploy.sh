@@ -1,7 +1,10 @@
 # Dev Build
 echo "### BUILDING FOR DEPLOY... ###"
 
+cp -f ./docs/.vuepress/config-deploy.js ./docs/.vuepress/config.js
+
 yarn docs:build
+
 cd docs/.vuepress/dist
 git init
 git add .

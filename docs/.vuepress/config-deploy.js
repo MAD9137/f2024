@@ -37,7 +37,7 @@ module.exports = {
       },
       {
         text: 'Modules',
-        link: '/modules/week1/1-course-introduction.md',
+        link: '/modules/week1/lecture1.md',
       },
       // {
       //   text: 'Assignments',

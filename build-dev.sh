@@ -1,3 +1,4 @@
+cp -f ./docs/.vuepress/config-dev.js ./docs/.vuepress/config.js
 # abort on errors
 set -e
 

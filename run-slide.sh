@@ -16,10 +16,10 @@ if ! [[ "$WEEK_NUMBER" =~ ^[0-9]+$ ]] || ! [[ "$SLIDE_NUMBER" =~ ^[0-9]+$ ]]; th
 fi
 
 # Define the path to the slides directory
-SLIDES_DIR="./docs/modules"
+SLIDES_DIR="./resources/slides"
 
 # Construct the path to the Markdown file
-FILE_PATH="${SLIDES_DIR}/week${WEEK_NUMBER}/slides/${SLIDE_NUMBER}.md"
+FILE_PATH="${SLIDES_DIR}/week${WEEK_NUMBER}/deck_${SLIDE_NUMBER}.md"
 
 # Check if the file exists
 if [ ! -f "$FILE_PATH" ]; then
