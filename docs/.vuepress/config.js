@@ -184,7 +184,7 @@ module.exports = {
         children: [
           '/modules/week13/1-firebase-auth.md',
           '/modules/week13/2-firebase-database.md',
-          // '/modules/week13/exercises.md'
+          '/modules/week13/exercises.md'
         ],
       },
       {
@@ -195,7 +195,7 @@ module.exports = {
         children: [
           '/modules/week14/1-firebase-storage.md',
           '/modules/week14/2-localization-testing.md',
-          // '/modules/week14/exercises.md'
+          '/modules/week14/exercises.md'
         ],
       },
       {

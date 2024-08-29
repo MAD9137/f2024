@@ -2,7 +2,7 @@
 
 Here are five progressively more complex code questions based on your lecture content:
 
-## Exercise 1 
+## Exercise 1
 
 How do you create a basic button in SwiftUI that prints "Button tapped!" when pressed and has a blue background with rounded corners?
 

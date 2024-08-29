@@ -151,23 +151,29 @@ Here, `implicitlyUnwrappedString` is treated as a non-optional `String` after it
 Here's a more practical example:
 
 ```swift
-class ViewController: UIViewController {
-    var label: UILabel!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        label = UILabel()
-        label.text = "Hello, World!"
-        view.addSubview(label)
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        Text("Hello, World!")
+            .padding()
+    }
+}
+
+@main
+struct MyApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
     }
 }
 
 ```
 
-In this example, `label` is an implicitly unwrapped optional. It's initially `nil`, but it's guaranteed to be assigned a value before it's used in the `viewDidLoad` method.
+In this example, labelText is a @State property. It's initially set to "Hello, World!" but can be updated later. SwiftUI automatically manages updates to the view when the state changes, ensuring the UI reflects the current state.
 
-Implicitly unwrapped optionals are often used in situations where a property cannot be initialized at the time of object creation but will be set before it's ever accessed.
+In SwiftUI, properties like @State are implicitly unwrapped in the sense that they are guaranteed to have a value before being used, similar to how implicitly unwrapped optionals work in UIKit. However, SwiftUI’s state management approach ensures that these properties are always correctly initialized and updated through its declarative syntax.
 
 ## 🛠️ Optional Chaining
 

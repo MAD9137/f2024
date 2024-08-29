@@ -61,21 +61,36 @@ To use the localized strings in your Swift code, use the `NSLocalizedString` fun
 **Example: Using Localized Strings in Swift**
 
 ```swift
-import UIKit
+import SwiftUI
 
-class ViewController: UIViewController {
+struct ContentView: View {
     
-    @IBOutlet weak var welcomeLabel: UILabel!
-    @IBOutlet weak var loginButton: UIButton!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // Use localized strings
-        welcomeLabel.text = NSLocalizedString("welcome_message", comment: "Welcome message on the home screen")
-        loginButton.setTitle(NSLocalizedString("login_button", comment: "Login button title"), for: .normal)
+    var body: some View {
+        VStack {
+            Text(NSLocalizedString("welcome_message", comment: "Welcome message on the home screen"))
+                .font(.largeTitle)
+                .padding()
+            
+            Button(action: {
+                // Action for login button
+            }) {
+                Text(NSLocalizedString("login_button", comment: "Login button title"))
+                    .font(.title)
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(8)
+            }
+        }
     }
 }
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
 ```
 
 ### Localizing Strings Directly in Interface Builder
