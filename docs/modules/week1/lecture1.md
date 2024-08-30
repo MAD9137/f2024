@@ -227,7 +227,7 @@ Swift Playgrounds is a fantastic tool for learning and experimenting with Swift.
 
 To kick off your journey, please complete the following tasks before our first class:
 
-1. **Install macOS 14.5**.
+1. **Install macOS 14.6.1**.
 2. **Download and Install Xcode**.
 3. **Create a Swift Playgrounds file**.
 4. **Set up your Apple Developer Account**.
