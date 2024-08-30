@@ -151,15 +151,15 @@ gantt
 
 # Late policy
 
-30% initial penalty for submissions that are late.
-Each additional day late will incur a 10% per day penalty.
+| Days Late    | Penalty | Days Late    | Penalty |
+|:------------:|:-------:|:------------:|:-------:|
+| **up to 1**  | 10%     | **up to 6**  | 30%     |
+| **up to 2**  | 20%     | **up to 7**  | 30%     |
+| **up to 3**  | 30%     | **up to 8**  | 30%     |
+| **up to 4**  | 30%     | **up to 9**  | 30%     |
+| **up to 5**  | 30%     | **up to 10** | 30%     |
 
-| Days Late    | Penalty|Accumulated Penalty | Days Late | Penalty| Accumulated Penalty |
-|:------------:|:------:|:------------------:|:---------:|:-------:|:------------------:|
-| **up to 1**  | 30%    | 30%                | **5**     | 10%    | 70%                 |
-| **2**        | 10%    | 40%                | **6**     | 10%    | 80%                 |
-| **3**        | 10%    | 50%                | **7**     | 10%    | 90%                 |
-| **4**        | 10%    | 60%                | **8**     | 10%    | 100%                |
+**After 10 days a 100% penalty will be aplied and the assignment will be graded 0.**
 
 ---
 
