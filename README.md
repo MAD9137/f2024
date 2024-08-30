@@ -10,6 +10,14 @@ on the root of the project run `./build-dev.sh`
 
 on the root of the project run `./build-deploy.sh`
 
-### Observations
 
 `./build-deploy.sh` and `./build-dev.sh` list what is going to be displayed on the website. The former deals with the public website and the latter the dev. This is specially useful when you don't want to publish all classes at once or are still working in uncompleted topics.
+
+## To run the slides
+
+on the root of the project run `./run-slide.sh week-number deck-number`
+
+i.e.: `./run-slide.sh week-number 5 2` will display the second deck for the fifth week.
+
+**To view the slides you need to install MARP** 
+On your mac run `brew install marp-cli`
