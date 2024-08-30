@@ -55,8 +55,8 @@ module.exports = {
         sidebarDepth: 1,
         path: '/modules/week1/',
         children: [
-          '/modules/week1/1-course-introduction.md',
-          '/modules/week1/2-swift-basics.md',
+          '/modules/week1/lecture1.md',
+          '/modules/week1/lecture2.md',
           '/modules/week1/exercises.md'
         ],
       },
@@ -66,8 +66,8 @@ module.exports = {
         sidebarDepth: 1,
         path: '/modules/week2/',
         children: [
-          '/modules/week2/1-strings-collections.md',
-          '/modules/week2/2-flow-control-and-loops.md',
+          '/modules/week2/lecture1.md',
+          '/modules/week2/lecture2.md',
           '/modules/week2/exercises.md'
         ]
       },
@@ -77,30 +77,30 @@ module.exports = {
         sidebarDepth: 1,
         path: '/modules/week3/',
         children: [
-          '/modules/week3/1-optionals.md',
-          '/modules/week3/2-functions-closures.md',
+          '/modules/week3/lecture1.md',
+          '/modules/week3/lecture2.md',
           '/modules/week3/exercises.md'
         ],
       },
-      // {
-      //   title: 'Week 4',
-      //   collapsable: true,
-      //   sidebarDepth: 1,
-      //   path: '/modules/week4/',
-      //   children: [
-      //     '/modules/week4/1-classes-structs.md',
-      //     '/modules/week4/2-enums-generics.md',
-      //     '/modules/week4/exercises.md'
-      //   ],
-      // },
+      {
+        title: 'Week 4',
+        collapsable: true,
+        sidebarDepth: 1,
+        path: '/modules/week4/',
+        children: [
+          '/modules/week4/lecture1.md',
+          '/modules/week4/lecture2.md',
+          '/modules/week4/exercises.md'
+        ],
+      },
       {
         title: 'Week 5',
         collapsable: true,
         sidebarDepth: 1,
         path: '/modules/week5/',
         children: [
-          '/modules/week5/1-git-refresh.md',
-          '/modules/week5/2-swiftUI-basics.md',
+          '/modules/week5/lecture1.md',
+          '/modules/week5/lecture2.md',
           '/modules/week5/exercises.md'
         ],
       },
@@ -108,10 +108,10 @@ module.exports = {
         title: 'Week 6',
         collapsable: true,
         sidebarDepth: 1,
-        path: '/modules/week6/',
+        path: '/modules/week5/',
         children: [
-          '/modules/week6/1-views-modifiers-text-colors-icons.md',
-          '/modules/week6/2-stacks-and-frames.md',
+          '/modules/week6/lecture1.md',
+          '/modules/week6/lecture2.md',
           '/modules/week6/exercises.md'
         ],
       },
@@ -121,8 +121,8 @@ module.exports = {
         sidebarDepth: 1,
         path: '/modules/week7/',
         children: [
-          '/modules/week7/1-swiftUI-controls.md',
-          '/modules/week7/2-swiftUI-controls.md',
+          '/modules/week7/lecture1.md',
+          '/modules/week7/lecture2.md',
           '/modules/week7/exercises.md'
         ],
       },
@@ -138,8 +138,8 @@ module.exports = {
         sidebarDepth: 1,
         path: '/modules/week9/',
         children: [
-          '/modules/week9/1-callback-strategies.md',
-          '/modules/week9/2-async-await-api.md',
+          '/modules/week9/lecture1.md',
+          '/modules/week9/lecture2.md',
           '/modules/week9/exercises.md'
         ],
       },
@@ -149,8 +149,8 @@ module.exports = {
         sidebarDepth: 1,
         path: '/modules/week10/',
         children: [
-          '/modules/week10/1-rest-API',
-          '/modules/week10/2-data-binding.md',
+          '/modules/week10/lecture1.md',
+          '/modules/week10/lecture2.md',
           '/modules/week10/exercises.md'
         ],
       },
@@ -160,8 +160,8 @@ module.exports = {
         sidebarDepth: 1,
         path: '/modules/week11/',
         children: [
-          '/modules/week11/1-mapkit.md',
-          '/modules/week11/2-corelocation.md',
+          '/modules/week11/lecture1.md',
+          '/modules/week11/lecture2.md',
           '/modules/week11/exercises.md'
         ],
       },
@@ -171,8 +171,8 @@ module.exports = {
         sidebarDepth: 1,
         path: '/modules/week12/',
         children: [
-          '/modules/week12/1-animation.md',
-          '/modules/week12/2-mvvm.md',
+          '/modules/week12/lecture1.md',
+          '/modules/week12/lecture2.md',
           '/modules/week12/exercises.md'
         ],
       },
@@ -182,8 +182,8 @@ module.exports = {
         sidebarDepth: 1,
         path: '/modules/week13/',
         children: [
-          '/modules/week13/1-firebase-auth.md',
-          '/modules/week13/2-firebase-database.md',
+          '/modules/week13/lecture1.md',
+          '/modules/week13/lecture2.md',
           '/modules/week13/exercises.md'
         ],
       },
@@ -193,8 +193,8 @@ module.exports = {
         sidebarDepth: 1,
         path: '/modules/week14/',
         children: [
-          '/modules/week14/1-firebase-storage.md',
-          '/modules/week14/2-localization-testing.md',
+          '/modules/week14/lecture1.md',
+          '/modules/week14/lecture2.md',
           '/modules/week14/exercises.md'
         ],
       },
