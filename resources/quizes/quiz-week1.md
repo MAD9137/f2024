@@ -6,7 +6,7 @@ What is the minimum macOS version required to ensure compatibility with the late
 
 - A) macOS 13.0
 - B) macOS 14.0
-- C) macOS 14.5
+- C) macOS 14.6.1
 - D) macOS 15.0
 - E) macOS 12.5
 
