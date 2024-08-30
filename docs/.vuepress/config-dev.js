@@ -39,14 +39,10 @@ module.exports = {
         text: 'Modules',
         link: '/modules/week1/1-course-introduction.md',
       },
-      // {
-      //   text: 'Assignments',
-      //   link: '/deliverables/assignments/',
-      // },
-      // {
-      //   text: 'Hybrids',
-      //   link: '/deliverables/hybrids/',
-      // },
+      {
+        text: 'Assessments',
+        link: '/assessment/',
+      },
     ],
     sidebar: [
       {

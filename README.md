@@ -15,9 +15,13 @@ on the root of the project run `./build-deploy.sh`
 
 ## To run the slides
 
-on the root of the project run `./run-slide.sh week-number deck-number`
+Slides can be found at `./resources/slides/`  
 
-i.e.: `./run-slide.sh week-number 5 2` will display the second deck for the fifth week.
+On the root of the project run `./run-slide.sh week-number deck-number` to display the slides.
 
-**To view the slides you need to install MARP** 
-On your mac run `brew install marp-cli`
+E.g.: `./run-slide.sh week-number 5 2` will display the second deck for the fifth week.
+
+**To view the slides you need to install MARP**
+On your mac run
+
+`brew install marp-cli`

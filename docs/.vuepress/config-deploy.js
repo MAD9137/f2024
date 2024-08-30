@@ -37,16 +37,12 @@ module.exports = {
       },
       {
         text: 'Modules',
-        link: '/modules/week1/lecture1.md',
+        link: '/modules/week1/1-course-introduction.md',
       },
-      // {
-      //   text: 'Assignments',
-      //   link: '/deliverables/assignments/',
-      // },
-      // {
-      //   text: 'Hybrids',
-      //   link: '/deliverables/hybrids/',
-      // },
+      {
+        text: 'Assessments',
+        link: '/assessment/',
+      },
     ],
     sidebar: [
       {
@@ -58,6 +54,28 @@ module.exports = {
           '/modules/week1/lecture1.md',
           '/modules/week1/lecture2.md',
           '/modules/week1/exercises.md'
+        ],
+      },
+      {
+        title: 'Week 2',
+        collapsable: true,
+        sidebarDepth: 1,
+        path: '/modules/week2/',
+        children: [
+          '/modules/week2/lecture1.md',
+          '/modules/week2/lecture2.md',
+          '/modules/week2/exercises.md'
+        ]
+      },
+      {
+        title: 'Week 3',
+        collapsable: true,
+        sidebarDepth: 1,
+        path: '/modules/week3/',
+        children: [
+          '/modules/week3/lecture1.md',
+          '/modules/week3/lecture2.md',
+          '/modules/week3/exercises.md'
         ],
       },
     ],
