@@ -217,6 +217,16 @@ Plagiarism, whether done deliberately or accidentally, is not allowed. The facil
     ]"
 />
 
+<ContactCard
+  name="Mohamed El-Halawani"
+  img-url="/f2024/mohamed-halawani.jpg"
+  bio="Instructor of the Mobile Application Design & Development program at Algonquin College"
+  :details="[
+      { label: 'email', value: 'elhalam@algonquincollege.com' },
+      { label: 'github', value: 'mgelhalawani' },
+    ]"
+/>
+
 ::: danger Note
 No office hours  
 Please contact by email and I will endeavour to respond as soon as possible.
