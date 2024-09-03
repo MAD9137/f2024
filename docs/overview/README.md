@@ -4,6 +4,8 @@ Students use the Swift language within the *standard macOS development environme
 
 ## Content
 
+### Session 310z
+
 <mermaid>
 gantt
     title September
@@ -46,7 +48,7 @@ gantt
     Core Location                  :active, 2024-11-15, 1d
     Animation                      :active, 2024-11-19, 1d
     MVVM                           :active, 2024-11-22, 1d
-    Firebase Auth                  :active, 2024-11-25, 1d
+    Firebase Auth                  :active, 2024-11-26, 1d
 </mermaid>
 
 <mermaid>
@@ -57,6 +59,64 @@ gantt
     Firebase Storage               :active, 2024-12-03, 1d
     Localization and Testing       :active, 2024-12-06, 1d
     Q&A                            :active, 2024-12-10, 1d
+    Final remarks                  :active, 2024-12-13, 1d
+</mermaid>
+
+### Session 300z
+
+<mermaid>
+gantt
+    title September
+    dateFormat  YYYY-MM-DD
+    axisFormat  %d
+    Course introduction            :active, 2024-09-04, 1d
+    Swift Basics                   :active, 2024-09-06, 1d
+    Strings and Collections        :active, 2024-09-11, 1d
+    Flow control and Loops         :active, 2024-09-13, 1d
+    Optionals                      :active, 2024-09-18, 1d
+    Functions and Closures         :active, 2024-09-20, 1d
+    Classes and Structs            :active, 2024-09-25, 1d
+    Enums and Generics             :active, 2024-09-27, 1d
+</mermaid>
+
+<mermaid>
+gantt
+    title October
+    dateFormat  YYYY-MM-DD
+    axisFormat  %d
+    Git refresh                    :active, 2024-10-02, 1d
+    SwiftUI Basics                 :active, 2024-10-04, 1d
+    Views, Modifiers and more      :active, 2024-10-09, 1d
+    Stacks and Frames              :active, 2024-10-11, 1d
+    SwiftUI Controls I             :active, 2024-10-16, 1d
+    SwiftUI Controls II            :active, 2024-10-18, 1d
+    Reading week - No class        :crit, 2024-10-23, 3d
+</mermaid>
+
+<mermaid>
+gantt
+    title November
+    dateFormat  YYYY-MM-DD
+    axisFormat  %d
+    Callback strategies            :active, 2024-10-30, 1d
+    Async Await and API call       :active, 2024-11-01, 1d
+    Rest API                       :active, 2024-11-06, 1d
+    Data Binding                   :active, 2024-11-08, 1d
+    MapKit                         :active, 2024-11-13, 1d
+    Core Location                  :active, 2024-11-15, 1d
+    Animation                      :active, 2024-11-20, 1d
+    MVVM                           :active, 2024-11-22, 1d
+    Firebase Auth                  :active, 2024-11-27, 1d
+</mermaid>
+
+<mermaid>
+gantt
+    title December
+    dateFormat  YYYY-MM-DD
+    axisFormat  %d
+    Firebase Storage               :active, 2024-12-04, 1d
+    Localization and Testing       :active, 2024-12-06, 1d
+    Q&A                            :active, 2024-12-11, 1d
     Final remarks                  :active, 2024-12-13, 1d
 </mermaid>
 
@@ -75,6 +135,8 @@ We will be using Slack to keep all our communication.
 
 ## Schedule
 
+### Session 310z
+
 | Week   | Day              | Week        | Day          | Week        | Day             |
 |:------:|:----------------:|:-----------:|:------------:|:-----------:|:---------------:|
 | **Week 1** | *3, 6 Sep*   | **Week 8**  | *No classes* | **Week 9**  | *29 Oct, 1 Nov* |
@@ -84,6 +146,18 @@ We will be using Slack to keep all our communication.
 | **Week 5** | *1, 4 Oct*   |             |              | **Week 13** | *26, 29 Nov*    |
 | **Week 6** | *8, 11 Oct*  |             |              | **Week 14** | *3, 6 Dec*      |
 | **Week 7** | *15, 18 Oct* |             |              | **Week 15** | *10, 13 Dec*    |
+
+### Session 300z
+
+| Week   | Day              | Week        | Day          | Week        | Day             |
+|:------:|:----------------:|:-----------:|:------------:|:-----------:|:---------------:|
+| **Week 1** | *4, 6 Sep*   | **Week 8**  | *No classes* | **Week 9**  | *30 Oct, 1 Nov* |
+| **Week 2** | *11, 13 Sep* |             |              | **Week 10** | *6, 8 Nov*      |
+| **Week 3** | *18, 20 Sep* |             |              | **Week 11** | *13, 15 Nov*    |
+| **Week 4** | *25, 27 Sep* |             |              | **Week 12** | *20, 22 Nov*    |
+| **Week 5** | *2, 4 Oct*   |             |              | **Week 13** | *27, 29 Nov*    |
+| **Week 6** | *9, 11 Oct*  |             |              | **Week 14** | *4, 6 Dec*      |
+| **Week 7** | *16, 18 Oct* |             |              | **Week 15** | *11, 13 Dec*    |
 
 ## Class times
 
