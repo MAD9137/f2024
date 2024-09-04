@@ -525,3 +525,14 @@ Here's an example of using rebasing to update a feature branch:
 Rebasing is a valuable tool for maintaining a clean and linear commit history. By understanding and applying rebasing techniques, you can streamline your workflows, integrate changes efficiently, and keep your project history organized.
 
 Git and GitHub are essential tools for managing code changes and collaborating on projects.
+
+### This is Git
+
+￼![Git](./images/git.png)
+
+### Bookmarks
+
+- [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
+- [Here are all the Git commands I used last week, and what they do](https://www.freecodecamp.org/news/git-cheat-sheet-and-best-practices-c6ce5321f52/)
+- [On undoing, fixing, or removing commits in git](https://sethrobertson.github.io/GitFixUm/fixup.html)
+- [The life-changing magic of git rebase -i](https://opensource.com/article/20/4/git-rebase-i)
