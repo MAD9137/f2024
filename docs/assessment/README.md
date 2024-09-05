@@ -21,7 +21,7 @@
 ## Quizzes
 
 - A typical quiz is a set of questions about topics discussed in the previous week
-- We plan to have 10 quizzes at the end of each Friday's classes starting on week 2.
+- We plan to have 10 quizzes at the end of each Friday's (310) or Wednesdays(300) classes starting on week 2.
 
 ## Final project
 
