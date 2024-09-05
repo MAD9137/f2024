@@ -6,6 +6,22 @@
 ## It is overwritten on each deploy
 docs/.vuepress/config.js
 
+resources/slides/week1/*.html
+resources/slides/week2/*.html
+resources/slides/week3/*.html
+resources/slides/week4/*.html
+resources/slides/week5/*.html
+resources/slides/week6/*.html
+resources/slides/week7/*.html
+resources/slides/week8/*.html
+resources/slides/week9/*.html
+resources/slides/week10/*.html
+resources/slides/week11/*.html
+resources/slides/week12/*.html
+resources/slides/week13/*.html
+resources/slides/week14/*.html
+resources/slides/week15/*.html
+
 ### macOS ###
 # General
 .DS_Store
