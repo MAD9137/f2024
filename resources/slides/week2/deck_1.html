@@ -264,9 +264,221 @@ info[<span class="hljs-string">&quot;age&quot;</span>] <span class="hljs-operato
 <span class="hljs-keyword">let</span> <span class="hljs-keyword">set</span> <span class="hljs-operator">=</span> <span class="hljs-type">Set</span>(array)
 <span class="hljs-keyword">let</span> dict <span class="hljs-operator">=</span> [<span class="hljs-string">&quot;a&quot;</span>: <span class="hljs-number">1</span>, <span class="hljs-string">&quot;b&quot;</span>: <span class="hljs-number">2</span>]
 </code></pre>
-<hr />
 </li>
 </ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="%F0%9F%9B%A0%EF%B8%8F-higher-order-functions-in-swift"><img class="emoji" draggable="false" alt="🛠️" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f6e0.svg" data-marp-twemoji=""/> Higher-Order Functions in Swift</h1>
+<p>Higher-order functions allow you to operate on collections using a functional programming style. They enable concise, expressive, and efficient code by applying closures or functions to elements in a collection.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="22" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="map"><code>map</code></h1>
+<h3 id="transforming-strings">Transforming Strings</h3>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> languages <span class="hljs-operator">=</span> [<span class="hljs-string">&quot;Swift&quot;</span>, <span class="hljs-string">&quot;Python&quot;</span>, <span class="hljs-string">&quot;JavaScript&quot;</span>].map { <span class="hljs-variable">$0</span>.uppercased() }
+<span class="hljs-built_in">print</span>(languages) <span class="hljs-comment">// Output: [&quot;SWIFT&quot;, &quot;PYTHON&quot;, &quot;JAVASCRIPT&quot;]</span>
+</code></pre>
+<ul>
+<li>Converts each string in the array to uppercase.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="23" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="map-1"><code>map</code></h1>
+<h3 id="transforming-numbers">Transforming Numbers</h3>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> numbers <span class="hljs-operator">=</span> [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>]
+<span class="hljs-keyword">let</span> squares <span class="hljs-operator">=</span> numbers.map { <span class="hljs-variable">$0</span> <span class="hljs-operator">*</span> <span class="hljs-variable">$0</span> }
+<span class="hljs-built_in">print</span>(squares) <span class="hljs-comment">// Output: [1, 4, 9, 16, 25]</span>
+</code></pre>
+<ul>
+<li>Calculates the square of each number in the array.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="24" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="filter"><code>filter</code></h1>
+<h3 id="filtering-even-numbers">Filtering Even Numbers</h3>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> numbers <span class="hljs-operator">=</span> [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>]
+<span class="hljs-keyword">let</span> evenNumbers <span class="hljs-operator">=</span> numbers.filter { <span class="hljs-variable">$0</span> <span class="hljs-operator">%</span> <span class="hljs-number">2</span> <span class="hljs-operator">==</span> <span class="hljs-number">0</span> }
+<span class="hljs-built_in">print</span>(evenNumbers) <span class="hljs-comment">// Output: [2, 4, 6]</span>
+</code></pre>
+<ul>
+<li>Returns a new array containing only the even numbers.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="25" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="filter-1"><code>filter</code></h1>
+<h3 id="filtering-strings-by-length">Filtering Strings by Length</h3>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> words <span class="hljs-operator">=</span> [<span class="hljs-string">&quot;Swift&quot;</span>, <span class="hljs-string">&quot;is&quot;</span>, <span class="hljs-string">&quot;awesome&quot;</span>]
+<span class="hljs-keyword">let</span> longWords <span class="hljs-operator">=</span> words.filter { <span class="hljs-variable">$0</span>.count <span class="hljs-operator">&gt;</span> <span class="hljs-number">3</span> }
+<span class="hljs-built_in">print</span>(longWords) <span class="hljs-comment">// Output: [&quot;Swift&quot;, &quot;awesome&quot;]</span>
+</code></pre>
+<ul>
+<li>Returns words with more than three characters.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="26" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="reduce"><code>reduce</code></h1>
+<h3 id="summing-numbers">Summing Numbers</h3>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> numbers <span class="hljs-operator">=</span> [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>]
+<span class="hljs-keyword">let</span> sum <span class="hljs-operator">=</span> numbers.reduce(<span class="hljs-number">0</span>) { <span class="hljs-variable">$0</span> <span class="hljs-operator">+</span> <span class="hljs-variable">$1</span> }
+<span class="hljs-built_in">print</span>(sum) <span class="hljs-comment">// Output: 15</span>
+</code></pre>
+<ul>
+<li>Combines all elements into a single value, starting with <code>0</code>.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="27" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="reduce-1"><code>reduce</code></h1>
+<h3 id="concatenating-strings-1">Concatenating Strings</h3>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> words <span class="hljs-operator">=</span> [<span class="hljs-string">&quot;Swift&quot;</span>, <span class="hljs-string">&quot;is&quot;</span>, <span class="hljs-string">&quot;awesome&quot;</span>]
+<span class="hljs-keyword">let</span> sentence <span class="hljs-operator">=</span> words.reduce(<span class="hljs-string">&quot;&quot;</span>) { <span class="hljs-variable">$0</span> <span class="hljs-operator">+</span> <span class="hljs-string">&quot; &quot;</span> <span class="hljs-operator">+</span> <span class="hljs-variable">$1</span> }
+<span class="hljs-built_in">print</span>(sentence) <span class="hljs-comment">// Output: &quot; Swift is awesome&quot;</span>
+</code></pre>
+<ul>
+<li>Concatenates strings into a single sentence.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="28" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="flatmap"><code>flatMap</code></h1>
+<h3 id="flattening-and-transforming-arrays">Flattening and Transforming Arrays</h3>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> nestedArrays <span class="hljs-operator">=</span> [[<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>], [<span class="hljs-number">4</span>, <span class="hljs-number">5</span>], [<span class="hljs-number">6</span>, <span class="hljs-number">7</span>, <span class="hljs-number">8</span>]]
+<span class="hljs-keyword">let</span> flattenedArray <span class="hljs-operator">=</span> nestedArrays.flatMap { <span class="hljs-variable">$0</span>.map { <span class="hljs-variable">$0</span> <span class="hljs-operator">*</span> <span class="hljs-number">2</span> } }
+<span class="hljs-built_in">print</span>(flattenedArray) <span class="hljs-comment">// Output: [2, 4, 6, 8, 10, 12, 14, 16]</span>
+</code></pre>
+<ul>
+<li>Flattens and transforms the elements in the nested arrays.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="29" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="flatmap-1"><code>flatMap</code></h1>
+<h3 id="filtering-and-flattening-optionals">Filtering and Flattening Optionals</h3>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> optionalNumbers: [<span class="hljs-type">Int</span>?] <span class="hljs-operator">=</span> [<span class="hljs-number">1</span>, <span class="hljs-literal">nil</span>, <span class="hljs-number">3</span>, <span class="hljs-literal">nil</span>, <span class="hljs-number">5</span>]
+<span class="hljs-keyword">let</span> nonNilNumbers <span class="hljs-operator">=</span> optionalNumbers.flatMap { <span class="hljs-variable">$0</span> }
+<span class="hljs-built_in">print</span>(nonNilNumbers) <span class="hljs-comment">// Output: [1, 3, 5]</span>
+</code></pre>
+<ul>
+<li>Removes <code>nil</code> values and returns non-optional elements.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="30" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="compactmap"><code>compactMap</code></h1>
+<h3 id="removing-nil-values">Removing Nil Values</h3>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> optionalNumbers: [<span class="hljs-type">Int</span>?] <span class="hljs-operator">=</span> [<span class="hljs-number">1</span>, <span class="hljs-literal">nil</span>, <span class="hljs-number">3</span>, <span class="hljs-literal">nil</span>, <span class="hljs-number">5</span>]
+<span class="hljs-keyword">let</span> nonNilNumbers <span class="hljs-operator">=</span> optionalNumbers.compactMap { <span class="hljs-variable">$0</span> }
+<span class="hljs-built_in">print</span>(nonNilNumbers) <span class="hljs-comment">// Output: [1, 3, 5]</span>
+</code></pre>
+<ul>
+<li>Similar to <code>flatMap</code>, but specifically for removing <code>nil</code>.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="31" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="compactmap-1"><code>compactMap</code></h1>
+<h3 id="converting-strings-to-ints">Converting Strings to Ints</h3>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> strings <span class="hljs-operator">=</span> [<span class="hljs-string">&quot;1&quot;</span>, <span class="hljs-string">&quot;a&quot;</span>, <span class="hljs-string">&quot;3&quot;</span>, <span class="hljs-string">&quot;b&quot;</span>, <span class="hljs-string">&quot;5&quot;</span>]
+<span class="hljs-keyword">let</span> validNumbers <span class="hljs-operator">=</span> strings.compactMap { <span class="hljs-type">Int</span>(<span class="hljs-variable">$0</span>) }
+<span class="hljs-built_in">print</span>(validNumbers) <span class="hljs-comment">// Output: [1, 3, 5]</span>
+</code></pre>
+<ul>
+<li>Converts strings to integers, omitting invalid conversions.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="32" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="sorted"><code>sorted</code></h1>
+<h3 id="sorting-numbers-in-ascending-order">Sorting Numbers in Ascending Order</h3>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> numbers <span class="hljs-operator">=</span> [<span class="hljs-number">5</span>, <span class="hljs-number">2</span>, <span class="hljs-number">9</span>, <span class="hljs-number">1</span>, <span class="hljs-number">7</span>]
+<span class="hljs-keyword">let</span> sortedNumbers <span class="hljs-operator">=</span> numbers.sorted()
+<span class="hljs-built_in">print</span>(sortedNumbers) <span class="hljs-comment">// Output: [1, 2, 5, 7, 9]</span>
+</code></pre>
+<ul>
+<li>Sorts the array in ascending order.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="33" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="sorted-1"><code>sorted</code></h1>
+<h3 id="sorting-strings-by-length">Sorting Strings by Length</h3>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> words <span class="hljs-operator">=</span> [<span class="hljs-string">&quot;Swift&quot;</span>, <span class="hljs-string">&quot;is&quot;</span>, <span class="hljs-string">&quot;awesome&quot;</span>]
+<span class="hljs-keyword">let</span> sortedWords <span class="hljs-operator">=</span> words.sorted { <span class="hljs-variable">$0</span>.count <span class="hljs-operator">&lt;</span> <span class="hljs-variable">$1</span>.count }
+<span class="hljs-built_in">print</span>(sortedWords) <span class="hljs-comment">// Output: [&quot;is&quot;, &quot;Swift&quot;, &quot;awesome&quot;]</span>
+</code></pre>
+<ul>
+<li>Sorts words by length in ascending order.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="34" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="foreach"><code>forEach</code></h1>
+<h3 id="printing-elements">Printing Elements</h3>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> names <span class="hljs-operator">=</span> [<span class="hljs-string">&quot;Alice&quot;</span>, <span class="hljs-string">&quot;Bob&quot;</span>, <span class="hljs-string">&quot;Charlie&quot;</span>]
+names.forEach { <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Hello, <span class="hljs-subst">\(<span class="hljs-variable">$0</span>)</span>!&quot;</span>) }
+</code></pre>
+<ul>
+<li>Iterates over each element and prints a greeting.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="35" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="foreach-1"><code>forEach</code></h1>
+<h3 id="multiplying-elements">Multiplying Elements</h3>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> numbers <span class="hljs-operator">=</span> [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>]
+<span class="hljs-keyword">var</span> product <span class="hljs-operator">=</span> <span class="hljs-number">1</span>
+numbers.forEach { product <span class="hljs-operator">*=</span> <span class="hljs-variable">$0</span> }
+<span class="hljs-built_in">print</span>(product) <span class="hljs-comment">// Output: 6</span>
+</code></pre>
+<ul>
+<li>Multiplies each number, accumulating the product.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="36" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="%F0%9F%9B%A0%EF%B8%8F-chaining-multiple-higher-order-functions"><img class="emoji" draggable="false" alt="🛠️" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f6e0.svg" data-marp-twemoji=""/> Chaining Multiple Higher-Order Functions</h1>
+<p>You can chain higher-order functions for complex operations in a concise way.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="37" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="example-filter-map-reduce">Example: Filter, Map, Reduce</h1>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> sentences <span class="hljs-operator">=</span> [<span class="hljs-string">&quot;hello world&quot;</span>, <span class="hljs-string">&quot;swift programming&quot;</span>, <span class="hljs-string">&quot;functional style&quot;</span>]
+<span class="hljs-keyword">let</span> result <span class="hljs-operator">=</span> sentences
+    .filter { <span class="hljs-variable">$0</span>.count <span class="hljs-operator">&gt;</span> <span class="hljs-number">10</span> }
+    .map { <span class="hljs-variable">$0</span>.uppercased() }
+    .reduce(<span class="hljs-string">&quot;&quot;</span>, { <span class="hljs-variable">$0</span> <span class="hljs-operator">+</span> <span class="hljs-string">&quot; &quot;</span> <span class="hljs-operator">+</span> <span class="hljs-variable">$1</span> })
+<span class="hljs-built_in">print</span>(result) <span class="hljs-comment">// Output: &quot;SWIFT PROGRAMMING FUNCTIONAL STYLE&quot;</span>
+</code></pre>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="38" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="example-sort-map-filter">Example: Sort, Map, Filter</h1>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> numbers <span class="hljs-operator">=</span> [<span class="hljs-number">5</span>, <span class="hljs-number">1</span>, <span class="hljs-number">9</span>, <span class="hljs-number">3</span>, <span class="hljs-number">8</span>]
+<span class="hljs-keyword">let</span> result <span class="hljs-operator">=</span> numbers
+    .sorted()
+    .map { <span class="hljs-variable">$0</span> <span class="hljs-operator">*</span> <span class="hljs-number">2</span> }
+    .filter { <span class="hljs-variable">$0</span> <span class="hljs-operator">&gt;</span> <span class="hljs-number">10</span> }
+<span class="hljs-built_in">print</span>(result) <span class="hljs-comment">// Output: [12, 16, 18]</span>
+</code></pre>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="39" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="example-compact-map-reduce">Example: Compact, Map, Reduce</h1>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> optionalNumbers: [<span class="hljs-type">Int</span>?] <span class="hljs-operator">=</span> [<span class="hljs-number">2</span>, <span class="hljs-literal">nil</span>, <span class="hljs-number">4</span>, <span class="hljs-literal">nil</span>, <span class="hljs-number">6</span>]
+<span class="hljs-keyword">let</span> result <span class="hljs-operator">=</span> optionalNumbers
+    .compactMap { <span class="hljs-variable">$0</span> }
+    .map { <span class="hljs-variable">$0</span> <span class="hljs-operator">*</span> <span class="hljs-variable">$0</span> }
+    .reduce(<span class="hljs-number">0</span>, <span class="hljs-operator">+</span>)
+<span class="hljs-built_in">print</span>(result) <span class="hljs-comment">// Output: 56</span>
+</code></pre>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="40" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="example-flatten-sort-map">Example: Flatten, Sort, Map</h1>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> nestedArrays <span class="hljs-operator">=</span> [[<span class="hljs-number">3</span>, <span class="hljs-number">1</span>, <span class="hljs-number">4</span>], [<span class="hljs-number">1</span>, <span class="hljs-number">5</span>, <span class="hljs-number">9</span>], [<span class="hljs-number">2</span>, <span class="hljs-number">6</span>, <span class="hljs-number">5</span>]]
+<span class="hljs-keyword">let</span> result <span class="hljs-operator">=</span> nestedArrays
+    .flatMap { <span class="hljs-variable">$0</span> }
+    .sorted()
+    .map { <span class="hljs-variable">$0</span> <span class="hljs-operator">*</span> <span class="hljs-number">2</span> }
+<span class="hljs-built_in">print</span>(result) <span class="hljs-comment">// Output: [2, 2, 4, 6, 8, 10, 10, 18]</span>
+</code></pre>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="41" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
+<h1 id="example-filter-map-sort">Example: Filter, Map, Sort</h1>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-swift"><span class="hljs-keyword">let</span> words <span class="hljs-operator">=</span> [<span class="hljs-string">&quot;swift&quot;</span>, <span class="hljs-string">&quot;objective-c&quot;</span>, <span class="hljs-string">&quot;kotlin&quot;</span>, <span class="hljs-string">&quot;java&quot;</span>, <span class="hljs-string">&quot;python&quot;</span>]
+<span class="hljs-keyword">let</span> result <span class="hljs-operator">=</span> words
+    .filter { <span class="hljs-variable">$0</span>.count <span class="hljs-operator">&gt;</span> <span class="hljs-number">5</span> }
+    .map { <span class="hljs-variable">$0</span>.uppercased() }
+    .sorted()
+<span class="hljs-built_in">print</span>(result) <span class="hljs-comment">// Output: [&quot;OBJECTIVE-C&quot;, &quot;PYTHON&quot;, &quot;KOTLIN&quot;]</span>
+</code></pre>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="42" data-class="invert" data-theme="default" lang="en-CA" class="invert" style="--class:invert;--theme:default;">
 <h1 id="questions">Questions?</h1>
 </section>
 <script>!function(){"use strict";const t={h1:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"1"},style:"display: block; font-size: 2em; margin-block-start: 0.67em; margin-block-end: 0.67em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h2:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"2"},style:"display: block; font-size: 1.5em; margin-block-start: 0.83em; margin-block-end: 0.83em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h3:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"3"},style:"display: block; font-size: 1.17em; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h4:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"4"},style:"display: block; margin-block-start: 1.33em; margin-block-end: 1.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h5:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"5"},style:"display: block; font-size: 0.83em; margin-block-start: 1.67em; margin-block-end: 1.67em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h6:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"6"},style:"display: block; font-size: 0.67em; margin-block-start: 2.33em; margin-block-end: 2.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},span:{proto:()=>HTMLSpanElement},pre:{proto:()=>HTMLElement,style:"display: block; font-family: monospace; white-space: pre; margin: 1em 0; --marp-auto-scaling-white-space: pre;"}},e="data-marp-auto-scaling-wrapper",i="data-marp-auto-scaling-svg",n="data-marp-auto-scaling-container";class s extends HTMLElement{constructor(){super(),this.svgPreserveAspectRatio="xMinYMid meet";const t=t=>([e])=>{const{width:i,height:n}=e.contentRect;this[t]={width:i,height:n},this.updateSVGRect()};this.attachShadow({mode:"open"}),this.containerObserver=new ResizeObserver(t("containerSize")),this.wrapperObserver=new ResizeObserver(((...e)=>{t("wrapperSize")(...e),this.flushSvgDisplay()}))}static get observedAttributes(){return["data-downscale-only"]}connectedCallback(){var t,s,o,r,a;this.shadowRoot.innerHTML=`\n<style>\n  svg[${i}] { display: block; width: 100%; height: auto; vertical-align: top; }\n  span[${n}] { display: table; white-space: var(--marp-auto-scaling-white-space, nowrap); width: max-content; }\n</style>\n<div ${e}>\n  <svg part="svg" ${i}>\n    <foreignObject><span ${n}><slot></slot></span></foreignObject>\n  </svg>\n</div>\n    `.split(/\n\s*/).join(""),this.wrapper=null!==(t=this.shadowRoot.querySelector(`div[${e}]`))&&void 0!==t?t:void 0;const l=this.svg;this.svg=null!==(o=null===(s=this.wrapper)||void 0===s?void 0:s.querySelector(`svg[${i}]`))&&void 0!==o?o:void 0,this.svg!==l&&(this.svgComputedStyle=this.svg?window.getComputedStyle(this.svg):void 0),this.container=null!==(a=null===(r=this.svg)||void 0===r?void 0:r.querySelector(`span[${n}]`))&&void 0!==a?a:void 0,this.observe()}disconnectedCallback(){this.svg=void 0,this.svgComputedStyle=void 0,this.wrapper=void 0,this.container=void 0,this.observe()}attributeChangedCallback(){this.observe()}flushSvgDisplay(){const{svg:t}=this;t&&(t.style.display="inline",requestAnimationFrame((()=>{t.style.display=""})))}observe(){this.containerObserver.disconnect(),this.wrapperObserver.disconnect(),this.wrapper&&this.wrapperObserver.observe(this.wrapper),this.container&&this.containerObserver.observe(this.container),this.svgComputedStyle&&this.observeSVGStyle(this.svgComputedStyle)}observeSVGStyle(t){const e=()=>{const i=(()=>{const e=t.getPropertyValue("--preserve-aspect-ratio");if(e)return e.trim();return`x${(({textAlign:t,direction:e})=>{if(t.endsWith("left"))return"Min";if(t.endsWith("right"))return"Max";if("start"===t||"end"===t){let i="rtl"===e;return"end"===t&&(i=!i),i?"Max":"Min"}return"Mid"})(t)}YMid meet`})();i!==this.svgPreserveAspectRatio&&(this.svgPreserveAspectRatio=i,this.updateSVGRect()),t===this.svgComputedStyle&&requestAnimationFrame(e)};e()}updateSVGRect(){var t,e,i,n,s,o,r;let a=Math.ceil(null!==(e=null===(t=this.containerSize)||void 0===t?void 0:t.width)&&void 0!==e?e:0);const l=Math.ceil(null!==(n=null===(i=this.containerSize)||void 0===i?void 0:i.height)&&void 0!==n?n:0);void 0!==this.dataset.downscaleOnly&&(a=Math.max(a,null!==(o=null===(s=this.wrapperSize)||void 0===s?void 0:s.width)&&void 0!==o?o:0));const c=null===(r=this.svg)||void 0===r?void 0:r.querySelector(":scope > foreignObject");if(null==c||c.setAttribute("width",`${a}`),null==c||c.setAttribute("height",`${l}`),this.svg&&(this.svg.setAttribute("viewBox",`0 0 ${a} ${l}`),this.svg.setAttribute("preserveAspectRatio",this.svgPreserveAspectRatio),this.svg.style.height=a<=0||l<=0?"0":""),this.container){const t=this.svgPreserveAspectRatio.toLowerCase();this.container.style.marginLeft=t.startsWith("xmid")||t.startsWith("xmax")?"auto":"0",this.container.style.marginRight=t.startsWith("xmi")?"auto":"0"}}}const o=(t,{attrs:e={},style:i})=>class extends t{constructor(...t){super(...t);for(const[t,i]of Object.entries(e))this.hasAttribute(t)||this.setAttribute(t,i);this.attachShadow({mode:"open"})}static get observedAttributes(){return["data-auto-scaling"]}connectedCallback(){this._update()}attributeChangedCallback(){this._update()}_update(){const t=i?`<style>:host { ${i} }</style>`:"";let e="<slot></slot>";const{autoScaling:n}=this.dataset;if(void 0!==n){e=`<marp-auto-scaling exportparts="svg:auto-scaling" ${"downscale-only"===n?"data-downscale-only":""}>${e}</marp-auto-scaling>`}this.shadowRoot.innerHTML=t+e}};let r;const a=Symbol();let l;const c="marpitSVGPolyfill:setZoomFactor,",d=Symbol(),g=Symbol();const h=()=>{const t="Apple Computer, Inc."===navigator.vendor,e=t?[u]:[],i={then:e=>(t?(async()=>{if(void 0===l){const t=document.createElement("canvas");t.width=10,t.height=10;const e=t.getContext("2d"),i=new Image(10,10),n=new Promise((t=>{i.addEventListener("load",(()=>t()))}));i.crossOrigin="anonymous",i.src="data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2210%22%20height%3D%2210%22%20viewBox%3D%220%200%201%201%22%3E%3CforeignObject%20width%3D%221%22%20height%3D%221%22%20requiredExtensions%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%3E%3Cdiv%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%20style%3D%22width%3A%201px%3B%20height%3A%201px%3B%20background%3A%20red%3B%20position%3A%20relative%22%3E%3C%2Fdiv%3E%3C%2FforeignObject%3E%3C%2Fsvg%3E",await n,e.drawImage(i,0,0),l=e.getImageData(5,5,1,1).data[3]<128}return l})().then((t=>{null==e||e(t?[u]:[])})):null==e||e([]),i)};return Object.assign(e,i)};let p,m;function u(t){const e="object"==typeof t&&t.target||document,i="object"==typeof t?t.zoom:t;window[g]||(Object.defineProperty(window,g,{configurable:!0,value:!0}),document.body.style.zoom=1.0001,document.body.offsetHeight,document.body.style.zoom=1,window.addEventListener("message",(({data:t,origin:e})=>{if(e===window.origin)try{if(t&&"string"==typeof t&&t.startsWith(c)){const[,e]=t.split(","),i=Number.parseFloat(e);Number.isNaN(i)||(m=i)}}catch(t){console.error(t)}})));let n=!1;Array.from(e.querySelectorAll("svg[data-marpit-svg]"),(t=>{var e,s,o,r;t.style.transform||(t.style.transform="translateZ(0)");const a=i||m||t.currentScale||1;p!==a&&(p=a,n=a);const l=t.getBoundingClientRect(),{length:c}=t.children;for(let i=0;i<c;i+=1){const n=t.children[i];if(n.getScreenCTM){const t=n.getScreenCTM();if(t){const i=null!==(s=null===(e=n.x)||void 0===e?void 0:e.baseVal.value)&&void 0!==s?s:0,c=null!==(r=null===(o=n.y)||void 0===o?void 0:o.baseVal.value)&&void 0!==r?r:0,d=n.children.length;for(let e=0;e<d;e+=1){const s=n.children[e];if("SECTION"===s.tagName){const{style:e}=s;e.transformOrigin||(e.transformOrigin=`${-i}px ${-c}px`),e.transform=`scale(${a}) matrix(${t.a}, ${t.b}, ${t.c}, ${t.d}, ${t.e-l.left}, ${t.f-l.top}) translateZ(0.0001px)`;break}}}}}})),!1!==n&&Array.from(e.querySelectorAll("iframe"),(({contentWindow:t})=>{null==t||t.postMessage(`${c}${n}`,"null"===window.origin?"*":window.origin)}))}function v({once:t=!1,target:e=document}={}){const i=function(t=document){if(t[d])return t[d];let e=!0;const i=()=>{e=!1,delete t[d]};Object.defineProperty(t,d,{configurable:!0,value:i});let n=[],s=!1;(async()=>{try{n=await h()}finally{s=!0}})();const o=()=>{for(const e of n)e({target:t});s&&0===n.length||e&&window.requestAnimationFrame(o)};return o(),i}(e);return t?(i(),()=>{}):i}p=1,m=void 0;const b=Symbol(),w=(e=document)=>{if("undefined"==typeof window)throw new Error("Marp Core's browser script is valid only in browser context.");if(((e=document)=>{const i=window[a];i||customElements.define("marp-auto-scaling",s);for(const n of Object.keys(t)){const s=`marp-${n}`,a=t[n].proto();null!=r||(r=!!document.createElement("div",{is:"marp-auto-scaling"}).outerHTML.startsWith("<div is")),r&&a!==HTMLElement?i||customElements.define(s,o(a,{style:t[n].style}),{extends:n}):(i||customElements.define(s,o(HTMLElement,t[n])),e.querySelectorAll(`${n}[is="${s}"]`).forEach((t=>{t.outerHTML=t.outerHTML.replace(new RegExp(`^<${n}`,"i"),`<${s}`).replace(new RegExp(`</${n}>$`,"i"),`</${s}>`)})))}window[a]=!0})(e),e[b])return e[b];const i=v({target:e}),n=()=>{i(),delete e[b]},l=Object.assign(n,{cleanup:n,update:()=>w(e)});return Object.defineProperty(e,b,{configurable:!0,value:l}),l},y=document.currentScript;w(y?y.getRootNode():document)}();

@@ -660,6 +660,7 @@ print(keyValueArray)  // Outputs: [("a", 1), ("b", 2), ("c", 3)] (order may vary
 ```
 
 In these examples:
+
 - `dictionary.keys` returns a collection of keys, which is then converted to an array.
 - `dictionary.values` returns a collection of values, which is also converted to an array.
 - `Array(dictionary)` converts the entire dictionary to an array of tuples, where each tuple contains a key-value pair.
@@ -667,3 +668,273 @@ In these examples:
 ---
 
 By converting between arrays, sets, and dictionaries, you can take advantage of the unique properties of each collection type to manage your data more effectively. Whether you need the uniqueness of a set, the ordered nature of an array, or the key-value pairing of a dictionary, Swift provides simple and efficient ways to transition between these collection types.
+
+## 🛠️ Higher-Order Functions
+
+Higher-order functions are powerful tools in Swift that allow you to operate on collections in a functional programming style. They enable you to write concise, expressive, and efficient code by applying closures or functions to elements in a collection. The most commonly used higher-order functions in Swift are `map`, `filter`, `reduce`, `flatMap`, `compactMap`, `sorted`, and `forEach`.
+
+### **`map`**
+
+The `map` function transforms each element in a collection based on a closure you provide. It creates a new collection by applying the closure to each element in the original collection.
+
+#### **Example 1: Transforming Strings**
+
+```swift
+let languages = ["Swift", "Python", "JavaScript"].map { $0.uppercased() }
+
+print(languages) // Output: ["SWIFT", "PYTHON", "JAVASCRIPT"]
+```
+
+**Explanation:**
+- The `map` function converts each string in the `languages` array to uppercase using the `uppercased()` method.
+- The result is a new array containing the transformed strings.
+
+#### **Example 2: Transforming Numbers**
+
+```swift
+let numbers = [1, 2, 3, 4, 5]
+let squares = numbers.map { $0 * $0 }
+
+print(squares) // Output: [1, 4, 9, 16, 25]
+```
+
+**Explanation:**
+- The `map` function calculates the square of each number in the `numbers` array.
+- The result is a new array containing the squared values.
+
+### **`filter`**
+
+The `filter` function creates a new collection containing only the elements that satisfy a condition specified in the closure.
+
+#### **Example 1: Filtering Even Numbers**
+
+```swift
+let numbers = [1, 2, 3, 4, 5, 6]
+let evenNumbers = numbers.filter { $0 % 2 == 0 }
+
+print(evenNumbers) // Output: [2, 4, 6]
+```
+
+**Explanation:**
+- The `filter` function returns a new array containing only the even numbers from the original `numbers` array.
+
+#### **Example 2: Filtering Strings by Length**
+
+```swift
+let words = ["Swift", "is", "awesome"]
+let longWords = words.filter { $0.count > 3 }
+
+print(longWords) // Output: ["Swift", "awesome"]
+```
+
+**Explanation:**
+- The `filter` function returns a new array containing only the words that have more than three characters.
+
+### **`reduce`**
+
+The `reduce` function combines all elements in a collection into a single value, using a closure that specifies how to combine the elements.
+
+#### **Example 1: Summing Numbers**
+
+```swift
+let numbers = [1, 2, 3, 4, 5]
+let sum = numbers.reduce(0) { $0 + $1 }
+
+print(sum) // Output: 15
+```
+
+**Explanation:**
+- The `reduce` function starts with an initial value of `0` and then adds each number in the `numbers` array to this initial value, resulting in the sum of all numbers.
+
+#### **Example 2: Concatenating Strings**
+
+```swift
+let words = ["Swift", "is", "awesome"]
+let sentence = words.reduce("") { $0 + " " + $1 }
+
+print(sentence) // Output: " Swift is awesome"
+```
+
+**Explanation:**
+- The `reduce` function concatenates all the strings in the `words` array into a single string, separated by spaces.
+
+### **`flatMap`**
+
+The `flatMap` function is used to flatten a collection of collections and then map the elements using a closure.
+
+#### **Example 1: Flattening and Transforming Arrays**
+
+```swift
+let nestedArrays = [[1, 2, 3], [4, 5], [6, 7, 8]]
+let flattenedArray = nestedArrays.flatMap { $0.map { $0 * 2 } }
+
+print(flattenedArray) // Output: [2, 4, 6, 8, 10, 12, 14, 16]
+```
+
+**Explanation:**
+- The `flatMap` function first flattens the nested arrays into a single array and then doubles each element.
+
+#### **Example 2: Filtering and Flattening Optionals**
+
+```swift
+let optionalNumbers: [Int?] = [1, nil, 3, nil, 5]
+let nonNilNumbers = optionalNumbers.flatMap { $0 }
+
+print(nonNilNumbers) // Output: [1, 3, 5]
+```
+
+**Explanation:**
+- The `flatMap` function removes all `nil` values and returns an array containing only non-optional values.
+
+### **`compactMap`**
+
+The `compactMap` function is similar to `flatMap`, but it specifically removes `nil` values from a collection of optionals.
+
+#### **Example 1: Removing Nil Values**
+
+```swift
+let optionalNumbers: [Int?] = [1, nil, 3, nil, 5]
+let nonNilNumbers = optionalNumbers.compactMap { $0 }
+
+print(nonNilNumbers) // Output: [1, 3, 5]
+```
+
+**Explanation:**
+- The `compactMap` function returns an array with all `nil` values removed from the original array.
+
+#### **Example 2: Converting Strings to Ints**
+
+```swift
+let strings = ["1", "a", "3", "b", "5"]
+let validNumbers = strings.compactMap { Int($0) }
+
+print(validNumbers) // Output: [1, 3, 5]
+```
+
+**Explanation:**
+- The `compactMap` function attempts to convert each string to an integer. If the conversion fails (resulting in `nil`), the value is omitted from the final array.
+
+### **`sorted`**
+
+The `sorted` function returns a new array with the elements sorted according to a closure that specifies the sorting order.
+
+#### **Example 1: Sorting Numbers in Ascending Order**
+
+```swift
+let numbers = [5, 2, 9, 1, 7]
+let sortedNumbers = numbers.sorted()
+
+print(sortedNumbers) // Output: [1, 2, 5, 7, 9]
+```
+
+**Explanation:**
+- The `sorted` function sorts the numbers in ascending order.
+
+#### **Example 2: Sorting Strings by Length**
+
+```swift
+let words = ["Swift", "is", "awesome"]
+let sortedWords = words.sorted { $0.count < $1.count }
+
+print(sortedWords) // Output: ["is", "Swift", "awesome"]
+```
+
+**Explanation:**
+- The `sorted` function sorts the words in the array by their length in ascending order.
+
+### **`forEach`**
+
+The `forEach` function is used to perform an operation on each element of a collection. It is similar to a `for-in` loop but more functional.
+
+#### **Example 1: Printing Elements**
+
+```swift
+let names = ["Alice", "Bob", "Charlie"]
+names.forEach { print("Hello, \($0)!") }
+```
+
+**Explanation:**
+- The `forEach` function iterates over each element in the `names` array and prints a greeting for each.
+
+#### **Example 2: Multiplying Elements**
+
+```swift
+let numbers = [1, 2, 3]
+var product = 1
+numbers.forEach { product *= $0 }
+
+print(product) // Output: 6
+```
+
+**Explanation:**
+- The `forEach` function multiplies each number in the `numbers` array to the `product` variable.
+
+## 🛠️ Chaining Multiple Higher-Order Functions
+
+Higher-order functions can be chained together to perform complex operations in a concise way.
+
+### Example: Filtering, Mapping, and Reducing Strings
+
+```swift
+let sentences = ["hello world", "swift programming", "functional style"]
+let result = sentences
+    .filter { $0.count > 10 }
+    .map { $0.uppercased() }
+    .reduce("", { $0 + " " + $1 })
+print(result) // Output: "SWIFT PROGRAMMING FUNCTIONAL STYLE"
+```
+
+<!-- This example filters sentences longer than 10 characters, converts them to uppercase, and then concatenates them into a single string. -->
+
+### Example: Sorting, Mapping, and Filtering Numbers
+
+```swift
+let numbers = [5, 1, 9, 3, 8]
+let result = numbers
+    .sorted()
+    .map { $0 * 2 }
+    .filter { $0 > 10 }
+print(result) // Output: [12, 16, 18]
+```
+
+<!-- This example sorts numbers in ascending order, doubles each value, and then filters out values greater than 10. -->
+
+
+### Example: Compacting, Mapping, and Reducing Optionals
+
+```swift
+let optionalNumbers: [Int?] = [2, nil, 4, nil, 6]
+let result = optionalNumbers
+    .compactMap { $0 }
+    .map { $0 * $0 }
+    .reduce(0, +)
+print(result) // Output: 56
+```
+
+<!-- This example removes nil values from an array of optionals, squares each number, and calculates the sum of the squared values. -->
+
+
+### Example: Flattening, Sorting, and Mapping Arrays
+
+```swift
+let nestedArrays = [[3, 1, 4], [1, 5, 9], [2, 6, 5]]
+let result = nestedArrays
+    .flatMap { $0 }
+    .sorted()
+    .map { $0 * 2 }
+print(result) // Output: [2, 2, 4, 6, 8, 10, 10, 18]
+```
+
+<!-- This example flattens a nested array of integers, sorts the values, and then doubles each value. -->
+
+
+### Example: Filtering, Mapping, and Sorting Strings
+
+```swift
+let words = ["swift", "objective-c", "kotlin", "java", "python"]
+let result = words
+    .filter { $0.count > 5 }
+    .map { $0.uppercased() }
+    .sorted()
+print(result) // Output: ["OBJECTIVE-C", "PYTHON", "KOTLIN"]
+```
