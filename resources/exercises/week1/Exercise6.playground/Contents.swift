@@ -14,9 +14,9 @@ let range2 = 2..<5
 
 // Correct code
 
-//let set1 = Set(range1)
-//let set2 = Set(range2)
-//let intersectionSet = set1.intersection(set2)
-//print(intersectionSet)
+let set1 = Set(range1)
+let set2 = Set(range2)
+let intersectionSet = set1.intersection(set2)
+print(intersectionSet)
 
-//intersect is a range that represents the overlap between range1 and range2.
+//intersect is a set that represents the overlap between range1 and range2.

@@ -188,12 +188,13 @@ Correct code to get the intersection:
 let range1 = 1...4
 let range2 = 2..<5
 
-if let intersect = range1.intersection(range2) {
-    print(intersect)
-}
+let set1 = Set(range1)
+let set2 = Set(range2)
+let intersectionSet = set1.intersection(set2)
+print(intersectionSet)
 ```
 
-`intersect` is a range that represents the overlap between `range1` and `range2`.
+`intersect` is a set that represents the overlap between `range1` and `range2`.
 
 :::
 
