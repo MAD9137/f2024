@@ -78,6 +78,17 @@ module.exports = {
           '/modules/week3/exercises.md'
         ],
       },
+      {
+        title: 'Week 4',
+        collapsable: true,
+        sidebarDepth: 1,
+        path: '/modules/week4/',
+        children: [
+          '/modules/week4/lecture1.md',
+          '/modules/week4/lecture2.md',
+          '/modules/week4/exercises.md'
+        ],
+      },
     ],
   },
   plugins: [

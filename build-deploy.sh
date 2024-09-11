@@ -16,5 +16,7 @@ git push --set-upstream --force git@github.com:MAD9137/f2024.git main
 cd ..
 rm -rf dist
 
+rm -rf ./docs/.vuepress/config.js
+
 echo "### DONE! ###"
 echo A brand new site has been generated: https://MAD9137.github.io/f2024/
