@@ -6,6 +6,6 @@
 */
 
 let optionalString: String? = nil
-let unwrappedString: String = optionalString!
+let unwrappedString: String = optionalString
 
 print(unwrappedString.count)

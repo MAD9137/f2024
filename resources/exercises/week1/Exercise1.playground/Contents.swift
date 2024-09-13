@@ -10,10 +10,10 @@ import Foundation
 
 let message = "Hello, Swift!"
 let times = 3
-for _ in 1...times {
-    print(message)
-}
-
-//for a in 1..<times {
-//    print("\(message) \(a)")
+//for _ in 1...times {
+//    print(message)
 //}
+
+for _ in 1..<times {
+    print("\(message)")
+}

@@ -878,7 +878,7 @@ Higher-order functions can be chained together to perform complex operations in 
 ```swift
 let sentences = ["hello world", "swift programming", "functional style"]
 let result = sentences
-    .filter { $0.count > 10 }
+    .filter { $0.count > 12 }
     .map { $0.uppercased() }
     .reduce("", { $0 + " " + $1 })
 print(result) // Output: "SWIFT PROGRAMMING FUNCTIONAL STYLE"
@@ -894,7 +894,7 @@ let result = numbers
     .sorted()
     .map { $0 * 2 }
     .filter { $0 > 10 }
-print(result) // Output: [12, 16, 18]
+print(result) // Output: [16, 18]
 ```
 
 <!-- This example sorts numbers in ascending order, doubles each value, and then filters out values greater than 10. -->
@@ -922,7 +922,7 @@ let result = nestedArrays
     .flatMap { $0 }
     .sorted()
     .map { $0 * 2 }
-print(result) // Output: [2, 2, 4, 6, 8, 10, 10, 18]
+print(result) // Output: [2, 2, 4, 6, 8, 10, 10, 12, 18]
 ```
 
 <!-- This example flattens a nested array of integers, sorts the values, and then doubles each value. -->
@@ -936,5 +936,5 @@ let result = words
     .filter { $0.count > 5 }
     .map { $0.uppercased() }
     .sorted()
-print(result) // Output: ["OBJECTIVE-C", "PYTHON", "KOTLIN"]
+print(result) // Output: ["KOTLIN", "OBJECTIVE-C", "PYTHON"]
 ```
